@@ -1,0 +1,75 @@
+/* ######### Matt Black Strip Main Menu Bar CSS ######### */
+.mattblackmenu {
+	font-family: Tahoma, Geneva, sans-serif;
+	margin-top: 0px;
+	margin-left: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	padding-top: 2px;
+	padding-left: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	position: relative;
+}
+
+.mattblackmenu ul{
+	font-size: 14px;
+	list-style: none;
+	margin-top: 0px;
+	margin-left: 0px;
+	margin-right: 0px;
+	margin-button: 0px;
+	padding-top: 0px;
+	padding-left: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	position: relative;
+	overflow: hidden;
+	width: 100%;
+}
+
+.mattblackmenu li {
+	display: inline;
+	margin-top: 0px;
+	margin-left: 0px;
+	margin-right: 0px;
+	margin-button: 0px;
+	padding-top: 0px;
+	padding-left: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	position: relative;
+}
+
+.mattblackmenu li a {
+	border-right: solid 1px #c08827;
+	color: #535353;
+	float: right;
+	display: block;
+	margin-top: 0px;
+	margin-left: 0px;
+	margin-right: 0px;
+	margin-button: 0px;
+	padding-top: 12px;
+	padding-left: 0px;
+	padding-right: 0px;
+	padding-bottom: 12px;
+	text-align: center;
+	text-decoration: none;
+	width: 159px;
+}
+.mattblackmenu li:first-child a {
+	border-right: none;
+}
+.mattblackmenu li a:visited {
+	color: #535353;
+}
+
+.mattblackmenu li a:hover {
+	color: #535353;
+	cursor: pointer;
+}
+
+.mattblackmenu a.selected {
+	color: #535353;
+}

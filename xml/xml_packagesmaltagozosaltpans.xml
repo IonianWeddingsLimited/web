@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tn2>
+	<gallery>
+		<title>Fixed Dimensions</title>
+		<description>Some Description</description>
+		<file_root>/images/gallery/</file_root>
+		<images>
+<image>
+				<image_src>/159-gozosaltpans1.jpg</image_src>
+				<thumb_src>/thumbnail/159-gozosaltpans1.jpg</thumb_src>
+			</image>
+<image>
+				<image_src>/159-gozosaltpans2.jpg</image_src>
+				<thumb_src>/thumbnail/159-gozosaltpans2.jpg</thumb_src>
+			</image>
+<image>
+				<image_src>/159-gozosaltpans4.jpg</image_src>
+				<thumb_src>/thumbnail/159-gozosaltpans4.jpg</thumb_src>
+			</image>
+<image>
+				<image_src>/159-gozosaltpans3.jpg</image_src>
+				<thumb_src>/thumbnail/159-gozosaltpans3.jpg</thumb_src>
+			</image>
+<image>
+				<image_src>/159-gozosaltpans12.jpg</image_src>
+				<thumb_src>/thumbnail/159-gozosaltpans12.jpg</thumb_src>
+			</image>
+<image>
+				<image_src>/159-gozosaltpans8.jpg</image_src>
+				<thumb_src>/thumbnail/159-gozosaltpans8.jpg</thumb_src>
+			</image>
+<image>
+				<image_src>/159-gozosaltpans5.jpg</image_src>
+				<thumb_src>/thumbnail/159-gozosaltpans5.jpg</thumb_src>
+			</image>
+<image>
+				<image_src>/159-gozosaltpans9.jpg</image_src>
+				<thumb_src>/thumbnail/159-gozosaltpans9.jpg</thumb_src>
+			</image>
+</images>
+	</gallery>
+</tn2>
+

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tn2>
+	<gallery>
+		<title>Fixed Dimensions</title>
+		<description>Some Description</description>
+		<file_root>/images/gallery/</file_root>
+		<images>
+<image>
+				<title></title>
+				<description></description>
+				<image_src>/89-sam1976.jpg</image_src>
+				<thumb_src>/thumbnail/89-sam1976.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				<image_src>/89-sam1979.jpg</image_src>
+				<thumb_src>/thumbnail/89-sam1979.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				<image_src>/89-aca1o06o11chiostro021.jpg</image_src>
+				<thumb_src>/thumbnail/89-aca1o06o11chiostro021.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				<image_src>/89-sam1974.jpg</image_src>
+				<thumb_src>/thumbnail/89-sam1974.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				<image_src>/89-sam1981.jpg</image_src>
+				<thumb_src>/thumbnail/89-sam1981.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				<image_src>/89-sam1977.jpg</image_src>
+				<thumb_src>/thumbnail/89-sam1977.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				<image_src>/89-sorrento18cloisters.jpg</image_src>
+				<thumb_src>/thumbnail/89-sorrento18cloisters.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				<image_src>/89-parrucchiano1.jpg</image_src>
+				<thumb_src>/thumbnail/89-parrucchiano1.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				<image_src>/89-parrucchiano4.jpg</image_src>
+				<thumb_src>/thumbnail/89-parrucchiano4.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				<image_src>/89-oparrucchiano.jpg</image_src>
+				<thumb_src>/thumbnail/89-oparrucchiano.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				<image_src>/89-img4020.jpg</image_src>
+				<thumb_src>/thumbnail/89-img4020.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				<image_src>/89-parrucchiano3.jpg</image_src>
+				<thumb_src>/thumbnail/89-parrucchiano3.jpg</thumb_src>
+			</image>
+</images>
+	</gallery>
+</tn2>
+

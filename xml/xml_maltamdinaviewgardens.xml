@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tn2>
+	<gallery>
+		<title>Fixed Dimensions</title>
+		<description>Some Description</description>
+		<file_root>/images/gallery/</file_root>
+		<images>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/138-thexaralodgephotoselection21.jpg</image_src>
+				<thumb_src>/thumbnail/138-thexaralodgephotoselection21.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/138-thexaralodgephotoselection39.jpg</image_src>
+				<thumb_src>/thumbnail/138-thexaralodgephotoselection39.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/138-thexaralodgephotoselection20.jpg</image_src>
+				<thumb_src>/thumbnail/138-thexaralodgephotoselection20.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/138-thexaralodgephotoselection54.jpg</image_src>
+				<thumb_src>/thumbnail/138-thexaralodgephotoselection54.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/138-txlloungeterracebynight1.jpg</image_src>
+				<thumb_src>/thumbnail/138-txlloungeterracebynight1.jpg</thumb_src>
+			</image>
+</images>
+	</gallery>
+</tn2>
+

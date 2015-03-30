@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tn2>
+	<gallery>
+		<title>Fixed Dimensions</title>
+		<description>Some Description</description>
+		<file_root>/images/gallery/</file_root>
+		<images>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/31-packagecyprus101.jpg</image_src>
+				<thumb_src>/thumbnail/31-packagecyprus101.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/31-packagecyprus104.jpg</image_src>
+				<thumb_src>/thumbnail/31-packagecyprus104.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/31-packagecyprus102.jpg</image_src>
+				<thumb_src>/thumbnail/31-packagecyprus102.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/31-packagecyprus103.jpg</image_src>
+				<thumb_src>/thumbnail/31-packagecyprus103.jpg</thumb_src>
+			</image>
+</images>
+	</gallery>
+</tn2>
+

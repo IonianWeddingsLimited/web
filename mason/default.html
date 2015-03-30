@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<title> - jsFiddle demo by Kurve</title>  
+<script type='text/javascript' src='http://code.jquery.com/jquery-1.8.3.js'></script>
+<script type='text/javascript' src="/mason/js/mason.js"></script>
+<style type='text/css'>
+#gallery {
+	list-style: none;
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+.item {
+    background-color: #222;
+    float: left;
+    position: relative;
+    color: #fff;
+    box-shadow: 0px 0px 1px 1px #fff inset;
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+
+}
+.filler_content {
+	display: none;
+	list-style: none;
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+
+}
+.filler {
+    background-color: #ff0000;
+    color: #fff;
+    box-shadow: 0px 0px 1px 1px #fff inset;
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+
+}
+</style>
+<script type='text/javascript'>//<![CDATA[ 
+var main = {
+	init: function() {
+	   $("#gallery").mason({
+		  itemSelector: ".item",
+		  ratio: 1.1,
+		  sizes: [
+			  [1,1]
+		  ],
+		  filler: {
+			  itemSelector: '.filler',
+			  filler_class: 'custom_filler'
+		  },
+		  promoted: [
+			 // [2,1, 'tile1'],
+//			  [2,2, 'tile2'],
+//			  [3,2, 'tile3x2'],
+//			  [4,1, 'tile4']
+				[1, 2, 'tile1x2'],
+				[2, 1, 'tile2x1'],
+				[2, 2, 'tile2x2'],
+				[2, 3, 'tile2x3'],
+				[3, 2, 'tile3x2'],
+				[2, 4, 'tile2x4'],
+				[4, 2, 'tile4x2']
+		  ],
+		  columns: [
+				[0, 320, 2],
+				[320, 640, 3],
+				[640, 960, 4],
+				[960, 1080, 6],
+				[1080, 1200, 8],
+				[1200, 1520, 10]
+			],
+		  layout: 'fluid'
+	  });
+	}
+};
+
+$(function() {
+	main.init();
+});  
+</script>
+</head>
+<body>
+	<ul id="gallery">
+		<li class="item tile1x1">0</li>
+		<li class="item tile1x2">1</li>
+		<li class="item tile2x1">2</li>
+		<li class="item tile1x1">3</li>
+		<li class="item tile1x1">4</li>
+		<li class="item tile3x2">5</li>
+		<li class="item tile1x1">6</li>
+		<li class="item tile1x1">7</li>
+		<li class="item tile1x1">8</li>
+	</ul>
+	<ul class="filler_content">
+		<li class="filler">1</li>
+		<li class="filler">2</li>
+		<li class="filler">3</li>
+		<li class="filler">4</li>
+	</ul>
+</body>
+</html>

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tn2>
+	<gallery>
+		<title>Fixed Dimensions</title>
+		<description>Some Description</description>
+		<file_root>/images/gallery/</file_root>
+		<images>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/12-emmaianjustweddings-11.jpg</image_src>
+				<thumb_src>/thumbnail/12-emmaianjustweddings-11.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/12-corfuoldfortress.jpg</image_src>
+				<thumb_src>/thumbnail/12-corfuoldfortress.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/12-emmaian6.jpg</image_src>
+				<thumb_src>/thumbnail/12-emmaian6.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/12-kommenochurch.jpg</image_src>
+				<thumb_src>/thumbnail/12-kommenochurch.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/12-marbellawedding1.jpg</image_src>
+				<thumb_src>/thumbnail/12-marbellawedding1.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/12-picture015.jpg</image_src>
+				<thumb_src>/thumbnail/12-picture015.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/12-arrivalofcoupleatcorfuwedding.jpg</image_src>
+				<thumb_src>/thumbnail/12-arrivalofcoupleatcorfuwedding.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/12-vickyandrew1.jpg</image_src>
+				<thumb_src>/thumbnail/12-vickyandrew1.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/12-picture157.jpg</image_src>
+				<thumb_src>/thumbnail/12-picture157.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/12-palacegardens.jpg</image_src>
+				<thumb_src>/thumbnail/12-palacegardens.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/12-36.jpg</image_src>
+				<thumb_src>/thumbnail/12-36.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/12-dsc0148.jpg</image_src>
+				<thumb_src>/thumbnail/12-dsc0148.jpg</thumb_src>
+			</image>
+</images>
+	</gallery>
+</tn2>
+

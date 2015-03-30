@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tn2>
+	<gallery>
+		<title>Fixed Dimensions</title>
+		<description>Some Description</description>
+		<file_root>/images/gallery/</file_root>
+		<images>
+<image>
+				<image_src>/148-suncanihvar0387-topbarterrace.jpg</image_src>
+				<thumb_src>/thumbnail/148-suncanihvar0387-topbarterrace.jpg</thumb_src>
+			</image>
+<image>
+				<image_src>/148-almostreadytogo.jpg</image_src>
+				<thumb_src>/thumbnail/148-almostreadytogo.jpg</thumb_src>
+			</image>
+<image>
+				<image_src>/148-top-setup.jpg</image_src>
+				<thumb_src>/thumbnail/148-top-setup.jpg</thumb_src>
+			</image>
+<image>
+				<image_src>/148-adrianarooftop.jpg</image_src>
+				<thumb_src>/thumbnail/148-adrianarooftop.jpg</thumb_src>
+			</image>
+<image>
+				<image_src>/148-vipterracead.jpg</image_src>
+				<thumb_src>/thumbnail/148-vipterracead.jpg</thumb_src>
+			</image>
+<image>
+				<image_src>/148-suncanihvaradsm.jpg</image_src>
+				<thumb_src>/thumbnail/148-suncanihvaradsm.jpg</thumb_src>
+			</image>
+</images>
+	</gallery>
+</tn2>
+

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tn2>
+	<gallery>
+		<title>Fixed Dimensions</title>
+		<description>Some Description</description>
+		<file_root>/images/gallery/</file_root>
+		<images>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/133-weddingceremony.jpg</image_src>
+				<thumb_src>/thumbnail/133-weddingceremony.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/133-rfc8196.jpg</image_src>
+				<thumb_src>/thumbnail/133-rfc8196.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/133-limestone016.jpg</image_src>
+				<thumb_src>/thumbnail/133-limestone016.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/133-generalphoto.jpg</image_src>
+				<thumb_src>/thumbnail/133-generalphoto.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/133-weddingceremony2.jpg</image_src>
+				<thumb_src>/thumbnail/133-weddingceremony2.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/133-tables.jpg</image_src>
+				<thumb_src>/thumbnail/133-tables.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/133-dinnersetup3.jpg</image_src>
+				<thumb_src>/thumbnail/133-dinnersetup3.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/133-dinnersetup2.jpg</image_src>
+				<thumb_src>/thumbnail/133-dinnersetup2.jpg</thumb_src>
+			</image>
+</images>
+	</gallery>
+</tn2>
+

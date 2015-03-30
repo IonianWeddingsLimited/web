@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tn2>
+	<gallery>
+		<title>Fixed Dimensions</title>
+		<description>Some Description</description>
+		<file_root>/images/gallery/</file_root>
+		<images>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/56-seaviewceremony3.jpg</image_src>
+				<thumb_src>/thumbnail/56-seaviewceremony3.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/56-terrace3.jpg</image_src>
+				<thumb_src>/thumbnail/56-terrace3.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/56-seaviewceremony.jpg</image_src>
+				<thumb_src>/thumbnail/56-seaviewceremony.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/56-terrcae6.jpg</image_src>
+				<thumb_src>/thumbnail/56-terrcae6.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/56-terrcae5.jpg</image_src>
+				<thumb_src>/thumbnail/56-terrcae5.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/56-srahandmattsample21may-5640x427.jpg</image_src>
+				<thumb_src>/thumbnail/56-srahandmattsample21may-5640x427.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/56-srahandmattsample21may-2640x427.jpg</image_src>
+				<thumb_src>/thumbnail/56-srahandmattsample21may-2640x427.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/56-srahandmattsample21may-8640x427.jpg</image_src>
+				<thumb_src>/thumbnail/56-srahandmattsample21may-8640x427.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/56-srahandmattsample21may-6640x427.jpg</image_src>
+				<thumb_src>/thumbnail/56-srahandmattsample21may-6640x427.jpg</thumb_src>
+			</image>
+</images>
+	</gallery>
+</tn2>
+

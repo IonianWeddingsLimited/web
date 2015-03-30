@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tn2>
+	<gallery>
+		<title>Fixed Dimensions</title>
+		<description>Some Description</description>
+		<file_root>/images/gallery/</file_root>
+		<images>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/152-02516x344.jpg</image_src>
+				<thumb_src>/thumbnail/152-02516x344.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/152-04516x344.jpg</image_src>
+				<thumb_src>/thumbnail/152-04516x344.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/152-martinibeachbar516x343.jpg</image_src>
+				<thumb_src>/thumbnail/152-martinibeachbar516x343.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/152-71516x344.jpg</image_src>
+				<thumb_src>/thumbnail/152-71516x344.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/152-82516x344.jpg</image_src>
+				<thumb_src>/thumbnail/152-82516x344.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/152-martinibeachbarentrance.jpg</image_src>
+				<thumb_src>/thumbnail/152-martinibeachbarentrance.jpg</thumb_src>
+			</image>
+</images>
+	</gallery>
+</tn2>
+

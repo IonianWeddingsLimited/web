@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tn2>
+	<gallery>
+		<title>Fixed Dimensions</title>
+		<description>Some Description</description>
+		<file_root>/images/gallery/</file_root>
+		<images>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/65-bernadettenathan1.jpg</image_src>
+				<thumb_src>/thumbnail/65-bernadettenathan1.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/65-bernadettenathan9.jpg</image_src>
+				<thumb_src>/thumbnail/65-bernadettenathan9.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/65-bernadettenathan8.jpg</image_src>
+				<thumb_src>/thumbnail/65-bernadettenathan8.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/65-asosbernadettenathangroup.jpg</image_src>
+				<thumb_src>/thumbnail/65-asosbernadettenathangroup.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/65-bernadettenathan11.jpg</image_src>
+				<thumb_src>/thumbnail/65-bernadettenathan11.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/65-asosbernadettenathanview.jpg</image_src>
+				<thumb_src>/thumbnail/65-asosbernadettenathanview.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/65-asosbernadettenathanchapel.jpg</image_src>
+				<thumb_src>/thumbnail/65-asosbernadettenathanchapel.jpg</thumb_src>
+			</image>
+</images>
+	</gallery>
+</tn2>
+

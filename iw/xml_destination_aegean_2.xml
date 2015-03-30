@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tn2>
+	<gallery>
+		<title>Fixed Dimensions</title>
+		<description>Some Description</description>
+		<file_root>images/page/hero/</file_root>
+		<!--<thumb_src>114x72/1.jpg</thumb_src>-->
+		<images>
+			<image>
+				<title>Crete 1</title>
+				<description>Crete 1 Description</description>
+				<image_src>dt/destination_crete_1.jpg</image_src>
+				<thumb_src>th/destination_crete_1.jpg</thumb_src>
+			</image>
+			<image>
+				<title>Crete 2</title>
+				<description>Crete 2 Description</description>
+				<image_src>dt/destination_crete_2.jpg</image_src>
+				<thumb_src>th/destination_crete_2.jpg</thumb_src>
+			</image>
+			<image>
+				<title>Crete 3</title>
+				<description>Crete 3 Description</description>
+				<image_src>dt/destination_crete_3.jpg</image_src>
+				<thumb_src>th/destination_crete_3.jpg</thumb_src>
+			</image>
+			<image>
+				<title>Crete 4</title>
+				<description>Crete 4 Description</description>
+				<image_src>dt/destination_crete_4.jpg</image_src>
+				<thumb_src>th/destination_crete_4.jpg</thumb_src>
+			</image>
+			<image>
+				<title>Crete 5</title>
+				<description>Crete 5 Description</description>
+				<image_src>dt/destination_crete_5.jpg</image_src>
+				<thumb_src>th/destination_crete_5.jpg</thumb_src>
+			</image>
+			<image>
+				<title>Crete 6</title>
+				<description>Crete 6 Description</description>
+				<image_src>dt/destination_crete_6.jpg</image_src>
+				<thumb_src>th/destination_crete_6.jpg</thumb_src>
+			</image>
+			<image>
+				<title>Crete 7</title>
+				<description>Crete 7 Description</description>
+				<image_src>dt/destination_crete_7.jpg</image_src>
+				<thumb_src>th/destination_crete_7.jpg</thumb_src>
+			</image>
+			<image>
+				<title>Crete 8</title>
+				<description>Crete 8 Description</description>
+				<image_src>dt/destination_crete_8.jpg</image_src>
+				<thumb_src>th/destination_crete_8.jpg</thumb_src>
+			</image>
+			<image>
+				<title>Crete 9</title>
+				<description>Crete 9 Description</description>
+				<image_src>dt/destination_crete_9.jpg</image_src>
+				<thumb_src>th/destination_crete_9.jpg</thumb_src>
+			</image>
+			<image>
+				<title>Crete 10</title>
+				<description>Crete 10 Description</description>
+				<image_src>dt/destination_crete_10.jpg</image_src>
+				<thumb_src>th/destination_crete_10.jpg</thumb_src>
+			</image>
+			<image>
+				<title>Crete 11</title>
+				<description>Crete 11 Description</description>
+				<image_src>dt/destination_crete_11.jpg</image_src>
+				<thumb_src>th/destination_crete_11.jpg</thumb_src>
+			</image>
+		</images>
+	</gallery>
+</tn2>

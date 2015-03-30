@@ -1,0 +1,20 @@
+#grid{
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+.box {
+    background-color: #222;
+    float: left;
+    position: relative;
+    color: #fff;
+    box-shadow: 0px 0px 1px 1px #fff inset;
+}
+.filler_content {
+  display: none;
+}
+.filler {
+    background-color: #ff0000;
+    color: #fff;
+    box-shadow: 0px 0px 1px 1px #fff inset;
+}

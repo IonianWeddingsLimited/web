@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tn2>
+	<gallery>
+		<title>Fixed Dimensions</title>
+		<description>Some Description</description>
+		<file_root>/images/gallery/</file_root>
+		<images>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/47-gracetable.jpg</image_src>
+				<thumb_src>/thumbnail/47-gracetable.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/47-dsc0168.jpg</image_src>
+				<thumb_src>/thumbnail/47-dsc0168.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/47-0011img8560.jpg</image_src>
+				<thumb_src>/thumbnail/47-0011img8560.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/47-cyprusboutique.jpg</image_src>
+				<thumb_src>/thumbnail/47-cyprusboutique.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/47-rhodeskallithea.jpg</image_src>
+				<thumb_src>/thumbnail/47-rhodeskallithea.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/47-kefaloniamountadolmanniki003.jpg</image_src>
+				<thumb_src>/thumbnail/47-kefaloniamountadolmanniki003.jpg</thumb_src>
+			</image>
+</images>
+	</gallery>
+</tn2>
+

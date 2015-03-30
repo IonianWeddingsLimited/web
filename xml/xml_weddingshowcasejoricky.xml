@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tn2>
+	<gallery>
+		<title>Fixed Dimensions</title>
+		<description>Some Description</description>
+		<file_root>/images/gallery/</file_root>
+		<images>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/66-horse-around-mountain.jpg</image_src>
+				<thumb_src>/thumbnail/66-horse-around-mountain.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/66-jo-ricky3.jpg</image_src>
+				<thumb_src>/thumbnail/66-jo-ricky3.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/66-jo-ricky1.jpg</image_src>
+				<thumb_src>/thumbnail/66-jo-ricky1.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/66-j.jpg</image_src>
+				<thumb_src>/thumbnail/66-j.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/66-jo-ricky2.jpg</image_src>
+				<thumb_src>/thumbnail/66-jo-ricky2.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/66-boukasetupbeynonparkin.jpg</image_src>
+				<thumb_src>/thumbnail/66-boukasetupbeynonparkin.jpg</thumb_src>
+			</image>
+</images>
+	</gallery>
+</tn2>
+

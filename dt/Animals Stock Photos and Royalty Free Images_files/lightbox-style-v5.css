@@ -1,0 +1,590 @@
+.lightboxpicbody, .lightboxpicview img, .lightboxpicdownload img, .lightboxpicmail img, .lightboxpicnew img, .lightboxpicbodygol img, .lightboxpicbodygor img, .lightboxpicmin, .lightboxpicmax, .lightboxpicx, .lightboxpicthumbrm img, .lightboxpicdrop, .lightboxpicdrop a, .lightboxaddnewbtn, .lightboxacancelbtn, .lightboxaddnewinput {
+	background: transparent url(../images2012/lightbox-sprite-v3.png) no-repeat left top;
+}
+
+.lightboxpicclear {
+	clear: both !important;
+	height: 0px !important;
+	vizibility: hidden !important;
+	border: 0px !important;
+	padding: 0px !important;
+	background: transparent none !important;
+}
+
+.lightboxpic {
+	font-family: Verdana, Helvetica, Arial;
+	font-size: 8.5pt;
+	z-index: 35;
+	-moz-opacity: 1 !important;
+	opacity: 1 !important;
+	filter:Alpha(Opacity=100) !important;
+	-ms-filter: "progid: DXImageTransform.Microsoft.Alpha(Opacity=100)" !important;
+}
+
+.lightboxpicshadow {
+	-webkit-box-shadow: 0px 0px 4px 2px rgba(0, 0, 0, 0.4);
+	-moz-box-shadow: 0px 0px 4px 2px rgba(0, 0, 0, 0.4);
+	box-shadow: 0px 0px 4px 2px rgba(0, 0, 0, 0.4);
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+}
+
+.lightboxpichead {
+	font-family: Verdana, Helvetica, Arial;
+	font-size: 8.5pt;
+	background-color: #777068;
+	color: #dadad9;
+	height: 30px;
+	-webkit-border-top-left-radius: 3px;
+	-webkit-border-top-right-radius: 3px;
+	-moz-border-radius-topleft: 3px;
+	-moz-border-radius-topright: 3px;
+	border-top-left-radius: 3px;
+	border-top-right-radius: 3px;
+}
+
+.lightboxpichead div {
+	padding: 5px 0px 0px 10px;
+	position: relative;
+}
+
+.lightboxpictitle {
+	color: #dadad9 !important;
+	vertical-align: middle;
+	padding: 2px 0px 0px 0px !important;
+	font-weight: normal;
+	display: inline-block;
+}
+
+.lightboxpictitle img {
+	width: 1px;
+	height: 15px;
+	vertical-align: middle;
+}
+
+.lightboxpictitletxt {
+	display: inline-block;
+	margin-top: 1px;
+}
+
+.lightboxpichead a {
+	text-decoration: none !important;
+	color: #e7e7e7 !important;
+	font-size: 8.5pt;
+	vertical-align: top;
+	display: inline-block;
+	padding: 0px 0px 2px 0px;
+}
+
+.lightboxpichead a:hover {
+	color: #cfcfcf !important;
+	text-decoration: none !important;
+}
+
+.lightboxpiclinks {
+	display: inline-block;
+	padding: 0px !important;
+	vertical-align: middle;
+	margin-top: -1px;
+}
+
+.lightboxpicview img, .lightboxpicdownload img, .lightboxpicmail img, .lightboxpicnew img {
+	vertical-align: top;
+	width: 13px;
+	height: 15px;
+	border: 0px;
+	margin-right: 2px;
+}
+
+.lightboxpicview img {
+	background-position: 0px -3px;
+}
+
+.lightboxpicdownload img {
+	background-position: -12px -3px;
+}
+
+.lightboxpicmail img {
+	background-position: -24px -3px;
+}
+
+.lightboxpicnew img {
+	background-position: -37px -3px;
+}
+
+.lightboxpicview {
+	margin-left: 22px;
+}
+
+.lightboxpicdownload, .lightboxpicmail, .lightboxpicnew {
+	margin-left: 20px;
+}
+
+.lightboxpicdownload {
+	background: #598e18;
+	padding: 1px 8px 2px 3px !important;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	border-right: 1px solid #6a645d;
+	border-bottom: 1px solid #6a645d;
+	margin-top: -1px;
+}
+
+.lightboxpicmin, .lightboxpicmax {
+	display: block;
+	position: absolute;
+	width: 40px;
+	height: 27px;
+	right: 26px;
+	top: 3px;
+}
+
+.lightboxpicx {
+	display: block;
+	position: absolute;
+	width: 19px;
+	height: 19px;
+	right: 6px;
+	top: 8px;
+}
+
+/* Custom dropdown */
+.lightboxpicdrop {
+	width: 161px;
+	height: 20px;
+	background-position: -3px -74px;
+	display: inline-block;
+	padding: 0px !important;
+	position: relative !important;
+	white-space: normal !important;
+	vertical-align: middle;
+	margin-top: -3px;
+}
+
+.lightboxpicdrop span {
+	float: left; 
+	display: block;
+	width: 135px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	color: #0054a6;
+	font-size: 11px;
+	height: 15px;
+	margin: 2px 0px 0px 4px;
+	cursor: default;
+	white-space: nowrap !important;
+}
+
+a.lightboxpicdroparr {
+	float: right; 
+	display: block;
+	width: 18px;
+	height: 18px;
+	background-position: -113px -52px;
+	margin: 1px 1px 0px 0px;
+}
+
+a.lightboxpicdroparr:hover {
+	background-position: -131px -52px;
+}
+
+.lightboxpicdroplist {
+	padding: 0px !important;
+	position: absolute !important;
+	background: #FFFFFF none !important;
+	width: 170px;
+	left: 0px !important;
+	top: 21px;
+	white-space: normal !important;
+	-webkit-border-radius: 2px;
+	-moz-border-radius: 2px;
+	border-radius: 2px;
+	-webkit-box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+	-moz-box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+	box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+	border: 1px solid #DDDDDD;
+	z-index: 35;
+	display: none;
+}
+
+.lightboxpicdroplist a {
+	display: block !important;
+	margin: 1px;
+	padding: 2px;
+	background: #FFFFFF none !important;
+	color: #0054a6 !important;
+	line-height: 11px;
+	text-decoration: none !important;
+}
+
+.lightboxpicdroplist a:hover {
+	background: #3399ff none !important;
+	color: #FFFFFF !important;
+	text-decoration: none !important;
+}
+
+.lightboxpicmin {
+	background-position: -89px -21px;
+}
+
+a.lightboxpicmin:hover {
+	background-position: -132px -21px;
+}
+
+.lightboxpicmax {
+	background-position: -2px -21px;
+}
+
+a.lightboxpicmax:hover {
+	background-position: -45px -21px;
+}
+
+.lightboxpicx {
+	background-position: -130px 0px;
+}
+
+a.lightboxpicx:hover {
+	background-position: -149px 0px;
+}
+
+
+.lightboxpicmin:active, .lightboxpicmin:focus, .lightboxpicmax:active, .lightboxpicmax:focus, .lightboxpicx:active, .lightboxpicx:focus, .lightboxpicdroparr:active, .lightboxpicdroparr:focus, .lightboxpicbodygol:active, .lightboxpicbodygol:focus, .lightboxpicbodygor:active, .lightboxpicbodygor:focus {
+	outline: none;
+	-moz-outline-style: none;
+	ie-dummy: expression(this.hideFocus=true);
+}
+
+.lightboxpicbody {
+	background-color: #2f2d2b;
+	background-position: 0px -118px;
+	background-repeat: repeat-x;
+	position: relative;
+	overflow: hidden;
+	height: 103px;
+}
+
+.lightboxpicbodygol, .lightboxpicbodygor {
+	position: absolute;
+	display: block;
+	height: 103px;
+	width: 28px;
+}
+
+.lightboxpicbodygol img, .lightboxpicbodygor img {
+	width: 13px;
+	height: 19px;
+	border: 0px;
+	margin-top: 40px;
+}
+
+.lightboxpicbodygol img {
+	background-position: -73px -1px;
+	margin-left: 9px;
+}
+
+.lightboxpicbodygor img {
+	background-position: -86px -1px;
+	margin-left: 6px;
+}
+
+a.lightboxpicbodygol:hover img {
+	background-position: -101px -1px;
+}
+
+a.lightboxpicbodygor:hover img {
+	background-position: -114px -1px;
+}
+
+.lightboxpicbodygol {
+	left: 0px;
+}
+
+.lightboxpicbodygor {
+	right: 0px;
+}
+
+.lightboxpicbodyslider {
+	background-color: #181716;
+	height: 7px;
+	padding: 5px;
+	-webkit-border-bottom-left-radius: 3px;
+	-webkit-border-bottom-right-radius: 3px;
+	-moz-border-radius-bottomleft: 3px;
+	-moz-border-radius-bottomright: 3px;
+	border-bottom-left-radius: 3px;
+	border-bottom-right-radius: 3px;
+}
+
+.lightboxpicbodyslider div {
+	background-color: #2f2d2b;
+	height: 7px;
+}
+
+.sliderbar {
+	position: relative;
+	background-color: #777068 !important;
+	-moz-box-shadow: inset 0px 1px #8d867f;
+	-webkit-box-shadow: inset 0px 1px #8d867f;
+	box-shadow: inset 0px 1px #8d867f;
+	-webkit-border-radius: 2px;
+	-moz-border-radius: 2px;
+	border-radius: 2px;
+}
+
+.lightboxpicbodyslide {
+	margin: 0px 32px 9px 32px;
+	padding-top: 10px;
+	overflow: hidden;
+}
+
+.lightboxpicbodyslidethumbs {
+	position: relative;
+}
+
+.lightboxpicthumb {
+	width: 64px;
+	height: 84px;
+	background-color: #FFFFFF;
+	float: left;
+	margin: 0px 18px 0px 0px;
+}
+
+.lightboxpicthumb div {
+	width: 64px;
+	height: 84px;
+	position: relative;
+}
+
+.lightboxpicthumbrm {
+	position: absolute;
+	right: 0px;
+	top: 0px;
+	font-size: 0px !important;
+	padding: 0px 0px 10px 10px;
+}
+
+.lightboxpicthumbrm:hover {
+	padding: 0px 0px 5px 5px;
+}
+
+.lightboxpicthumbrm img {
+	width: 9px;
+	height: 9px;
+	background-position: -53px -6px;
+	border: 0px;
+}
+
+a.lightboxpicthumbrm:hover img {
+	width: 21px;
+	height: 21px;
+	margin: -5px -7px 0px 0px;
+	background-position: -152px -52px;
+}
+
+.lightboxpicthumbim {
+	background-color: #dadad9;
+	height: 69px;
+	width: 64px;
+	display: table-cell;
+	vertical-align: middle;
+	text-align: center;
+}
+
+.lightboxpicthumbim a {
+	color: #DADAD9 !important;
+	display: inline-block;
+	text-align: center;
+}
+
+.lightboxpicthumbim img {
+	border: 0px;
+	vertical-align: middle;
+}
+
+.lightboxpicthumbsku {
+	font-family: Arial, Verdana, Helvetica;
+	color: #3b3d3f !important;
+	text-decoration: none !important;
+	font-size: 10px;
+	padding: 0px 2px 0px 2px;
+	display: block;
+	text-align: center;
+	cursor: default;
+}
+
+a.lightboxpicthumbsku:hover {
+	color: #5e6063 !important;
+}
+
+.lightboxnew {
+	padding: 28px 0px 0px 10px;
+	display: none;
+}
+
+.lightboxaddnewinput {
+	border: 0px none !important;
+	background-position: -3px -73px;
+	width: 155px;
+	height: 21px;
+	vertical-align: middle;
+	margin-right: 9px;
+	font-size: 11px;
+	color: #0054a6;
+	padding-left: 6px;
+}
+
+.lightboxaddnewinput:focus {
+	outline:none;
+}
+
+.lightboxaddnewbtn {
+	background-position: -3px -96px;
+	width: 61px;
+	height: 21px;
+	display: inline-block;
+	margin-right: 9px;
+	vertical-align: middle;
+}
+
+a.lightboxaddnewbtn:hover {
+	background-position: -65px -96px;
+}
+
+.lightboxacancelbtn {
+	background-position: -134px -96px;
+	width: 21px;
+	height: 21px;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+a.lightboxacancelbtn:hover {
+	background-position: -156px -96px;
+}
+
+.lightboxaddnewbtn:active, .lightboxaddnewbtn:focus, .lightboxacancelbtn:active, .lightboxacancelbtn:focus {
+	outline: none;
+	-moz-outline-style: none;
+	ie-dummy: expression(this.hideFocus=true);
+}
+
+.lightboxpicbodyloading {
+	text-align: center;
+	color: #FFFFFF;
+	font-size: 11px;
+	font-family: Arial, Verdana, sans-serif;
+	padding-top: 24px;
+	line-height: 10px;
+	display: none;
+}
+
+.lightboxpicbodyloading  img {
+	margin-bottom: 7px;
+}
+
+/* Minimized */
+.lightboxpicminimized {
+	position: fixed;
+	bottom: 0px;
+	width: 100%;
+}
+
+.lightboxpicminimized .lightboxpicshadow {
+	-webkit-border-radius: 3px;
+	-webkit-border-bottom-right-radius: 0px;
+	-webkit-border-bottom-left-radius: 0px;
+	-moz-border-radius: 3px;
+	-moz-border-radius-bottomright: 0px;
+	-moz-border-radius-bottomleft: 0px;
+	border-radius: 3px;
+	border-bottom-right-radius: 0px;
+	border-bottom-left-radius: 0px;
+	margin: 0px 20px 0px 20px;
+	border-bottom: 0px none !important;
+}
+
+.lightboxpicminimized .lightboxpicbody .lightboxpicbodygol, .lightboxpicminimized .lightboxpicbody .lightboxpicbodygor, .lightboxpicminimized .lightboxpicbody .lightboxpicbodyslide, .lightboxpicminimized .lightboxpicbodyslider {
+	display: none;
+}
+
+.lightboxpicminimized .lightboxpicbody  {
+	height: 7px;
+}
+
+.lightboxpicminimized .lightboxpicdroplist {
+	top: auto !important;
+	bottom: 21px;
+}
+
+.lightboxpicfixed .lightboxpichead, .lightboxpicfixed .lightboxpicbody {
+	cursor: move;
+}
+
+/* Pink Animation */
+
+a.pinkanimated {
+	display: inline-block;
+	margin-top: -4px;
+	padding: 0px !important;
+	cursor: move;
+}
+
+a.pinkanimated span {
+	background: #807870;
+	display: inline-block;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	border-right: 1px solid #6a645d;
+	border-bottom: 1px solid #6a645d;
+}
+
+a.pinkanimated font {
+	color: #FFFFFF;
+	display: inline-block;
+	font-size: 11px;
+	min-width: 12px;
+}
+
+a.pinkanimated:hover font {
+	color: #FFFFFF;
+}
+
+a.pinkanimated1 {padding: 4px 6px 0px 4px !important; height: 22px;}
+a.pinkanimated1 span {height: 17px; padding: 0px 0px 0px 0px !important;}
+a.pinkanimated1 font {padding: 1px 2px 0px 1px;}
+a.pinkanimated2 {padding: 3px 5px 0px 3px !important; height: 23px;}
+a.pinkanimated2 span {height: 18px; padding: 1px 0px 0px 0px !important;}
+a.pinkanimated2 font {padding: 1px 3px 0px 2px;}
+a.pinkanimated3 {padding: 2px 4px 0px 2px !important; height: 24px;}
+a.pinkanimated3 span {height: 19px; padding: 0px 0px 2px 0px !important;}
+a.pinkanimated3 font {padding: 3px 4px 0px 3px;}
+a.pinkanimated4 {padding: 1px 3px 0px 1px !important; height: 25px;}
+a.pinkanimated4 span {height: 22px; padding: 1px 0px 0px 0px !important;}
+a.pinkanimated4 font {padding: 3px 5px 0px 4px;}
+a.pinkanimated5 {padding: 0px 2px 0px 0px !important; height: 26px;}
+a.pinkanimated5 span {height: 23px; padding: 2px 1px 0px 0px !important;}
+a.pinkanimated5 font {padding: 3px 5px 0px 5px;}
+
+
+/*
+ * jQuery UI Resizable 1.8.13
+ *
+ * Copyright 2011, AUTHORS.txt (http://jqueryui.com/about)
+ * Dual licensed under the MIT or GPL Version 2 licenses.
+ * http://jquery.org/license
+ *
+ * http://docs.jquery.com/UI/Resizable#theming
+ */
+.ui-resizable { position: relative;}
+.ui-resizable-handle { position: absolute;font-size: 0.1px;z-index: 99999; display: block;
+/* http://bugs.jqueryui.com/ticket/7233
+ - Resizable: resizable handles fail to work in IE if transparent and content overlaps
+ */
+/* background-image:url(data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=); */
+}
+.ui-resizable-disabled .ui-resizable-handle, .ui-resizable-autohide .ui-resizable-handle { display: none; }
+.ui-resizable-e { cursor: e-resize; width: 7px; right: -5px; top: 0; height: 150px; }
+.ui-resizable-w { cursor: w-resize; width: 7px; left: -5px; top: 0; height: 150px; }

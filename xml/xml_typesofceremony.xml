@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tn2>
+	<gallery>
+		<title>Fixed Dimensions</title>
+		<description>Some Description</description>
+		<file_root>http://83.149.102.2/~ionianwe/images/page/hero/</file_root>
+		<!--<thumb_src>114x72/1.jpg</thumb_src>-->
+		<images>
+			<image>
+				<title>Types Of Ceremony</title>
+				<description>Types Of Ceremony Description</description>
+				<image_src>dt/types_of_ceremony_1.jpg</image_src>
+				<thumb_src>th/types_of_ceremony_1.jpg</thumb_src>
+			</image>
+		</images>
+	</gallery>
+</tn2>

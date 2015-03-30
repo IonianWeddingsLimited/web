@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tn2>
+	<gallery>
+		<title>Fixed Dimensions</title>
+		<description>Some Description</description>
+		<file_root>/images/gallery/</file_root>
+		<images>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/108-vasilikossands9.jpg</image_src>
+				<thumb_src>/thumbnail/108-vasilikossands9.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/108-vasilikossands8.jpg</image_src>
+				<thumb_src>/thumbnail/108-vasilikossands8.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/108-vasilikossands10.jpg</image_src>
+				<thumb_src>/thumbnail/108-vasilikossands10.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/108-vasilikossands7.jpg</image_src>
+				<thumb_src>/thumbnail/108-vasilikossands7.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/108-vasilikossands3.jpg</image_src>
+				<thumb_src>/thumbnail/108-vasilikossands3.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/108-vasilikossands5.jpg</image_src>
+				<thumb_src>/thumbnail/108-vasilikossands5.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/108-vasilikossands2.jpg</image_src>
+				<thumb_src>/thumbnail/108-vasilikossands2.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/108-vasilikossands1.jpg</image_src>
+				<thumb_src>/thumbnail/108-vasilikossands1.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/108-vasilikossands13.jpg</image_src>
+				<thumb_src>/thumbnail/108-vasilikossands13.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/108-vasilikossands12.jpg</image_src>
+				<thumb_src>/thumbnail/108-vasilikossands12.jpg</thumb_src>
+			</image>
+</images>
+	</gallery>
+</tn2>
+

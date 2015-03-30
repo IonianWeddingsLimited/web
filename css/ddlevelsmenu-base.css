@@ -1,0 +1,123 @@
+/* ######### Drop Down DIVs CSS ######### */
+
+.ddsubmenustyle, .ddsubmenustyle div{ /*topmost and sub DIVs, respectively*/
+	font-size: 11px;
+	left: 0px;
+	list-style: none;
+	margin-top: 0px;
+	margin-left: 0px;
+	margin-right: 0px;
+	margin-button: 0px;
+	padding-top: 0px;
+	padding-left: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	position: absolute;
+	top: 0px;
+	visibility: hidden;
+	z-index: 100;
+}
+
+.ddsubmenustyle ul {
+	left: 0px;
+	list-style: none;
+	margin-top: 0px;
+	margin-left: 0px;
+	margin-right: 0px;
+	margin-button: 0px;
+	padding-top: 0px;
+	padding-left: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	position: absolute;
+	top: 0px;
+}
+.ddsubmenustyle ul li {
+	margin-top: 0px;
+	margin-left: 0px;
+	margin-right: 0px;
+	margin-button: 0px;
+	padding-top: 0px;
+	padding-left: 0px;
+	padding-right: 2px;
+	padding-bottom: 1px;
+}
+.ddsubmenustyle li a {
+	background-image: url(/images/interface/bg_mainnavigation_tint.png);
+	background-position: left top;
+	background-repeat: repeat;
+	display: block;
+	color: #ffffff;
+	margin-top: 0px;
+	margin-left: 0px;
+	margin-right: 0px;
+	margin-button: 0px;
+	padding-top: 10px;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-bottom: 10px;
+	text-align: left;
+	text-decoration: none;
+	width: 230px; /*width of menu (not including side paddings)*/
+}
+
+* html .ddsubmenustyle li { /*IE6 CSS hack*/
+	display: inline-block;
+	width: 230px; /*width of menu (include side paddings of LI A*/
+}
+
+.ddsubmenustyle li a:hover {
+	background-color: #000000;
+	cursor: pointer;
+	color: white;
+}
+
+/* ######### Neutral CSS  ######### */
+
+.downarrowpointer { /*CSS for "down" arrow image added to top menu items*/
+	border: 0px;
+	margin-top: 0px;
+	margin-left: 0px;
+	margin-right: 0px;
+	margin-button: 0px;
+	padding-top: 0px;
+	padding-left: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+}
+
+.rightarrowpointer { /*CSS for "right" arrow image added to drop down menu items*/
+	border: 0px;
+	margin-top: 0px;
+	margin-left: 0px;
+	margin-right: 0px;
+	margin-button: 0px;
+	padding-top: 3px;
+	padding-left: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	position: absolute;
+}
+
+#.rightarrowpointer { /*CSS for "right" arrow image added to drop down menu items*/
+	border: 0px;
+	margin-top: 0px;
+	margin-left: 0px;
+	margin-right: 0px;
+	margin-button: 0px;
+	padding-top: 3px;
+	padding-left: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	position: absolute;
+}
+
+.ddiframeshim {
+	background: transparent;
+	border-width: 0px;
+	display: block;
+	height: 0px;
+	position: absolute;
+	width: 0px;
+	z-index: 500;
+}

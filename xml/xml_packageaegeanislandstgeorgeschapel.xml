@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tn2>
+	<gallery>
+		<title>Fixed Dimensions</title>
+		<description>Some Description</description>
+		<file_root>/images/gallery/</file_root>
+		<images>
+<image>
+				<image_src>/168-2622351015037119171350240622n.jpg</image_src>
+				<thumb_src>/thumbnail/168-2622351015037119171350240622n.jpg</thumb_src>
+			</image>
+<image>
+				<image_src>/168-261370101503711904485021471306n.jpg</image_src>
+				<thumb_src>/thumbnail/168-261370101503711904485021471306n.jpg</thumb_src>
+			</image>
+<image>
+				<image_src>/168-351014655418535011225377n.jpg</image_src>
+				<thumb_src>/thumbnail/168-351014655418535011225377n.jpg</thumb_src>
+			</image>
+<image>
+				<image_src>/168-264985101503711928735027673677n.jpg</image_src>
+				<thumb_src>/thumbnail/168-264985101503711928735027673677n.jpg</thumb_src>
+			</image>
+<image>
+				<image_src>/168-vog0083.jpg</image_src>
+				<thumb_src>/thumbnail/168-vog0083.jpg</thumb_src>
+			</image>
+<image>
+				<image_src>/168-stgeorgechapel01.jpg</image_src>
+				<thumb_src>/thumbnail/168-stgeorgechapel01.jpg</thumb_src>
+			</image>
+<image>
+				<image_src>/168-stgeorgechapel03.jpg</image_src>
+				<thumb_src>/thumbnail/168-stgeorgechapel03.jpg</thumb_src>
+			</image>
+<image>
+				<image_src>/168-vog0120.jpg</image_src>
+				<thumb_src>/thumbnail/168-vog0120.jpg</thumb_src>
+			</image>
+<image>
+				<image_src>/168-vog0103.jpg</image_src>
+				<thumb_src>/thumbnail/168-vog0103.jpg</thumb_src>
+			</image>
+<image>
+				<image_src>/168-vog0186.jpg</image_src>
+				<thumb_src>/thumbnail/168-vog0186.jpg</thumb_src>
+			</image>
+<image>
+				<image_src>/168-vog0122.jpg</image_src>
+				<thumb_src>/thumbnail/168-vog0122.jpg</thumb_src>
+			</image>
+<image>
+				<image_src>/168-vog0202.jpg</image_src>
+				<thumb_src>/thumbnail/168-vog0202.jpg</thumb_src>
+			</image>
+</images>
+	</gallery>
+</tn2>
+

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tn2>
+	<gallery>
+		<title>Fixed Dimensions</title>
+		<description>Some Description</description>
+		<file_root>/images/gallery/</file_root>
+		<images>
+<image>
+				<title></title>
+				<description></description>
+				<image_src>/81-jenrich3-.jpg</image_src>
+				<thumb_src>/thumbnail/81-jenrich3-.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				<image_src>/81-jenrich3.jpg</image_src>
+				<thumb_src>/thumbnail/81-jenrich3.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				<image_src>/81-jenrich3-1.jpg</image_src>
+				<thumb_src>/thumbnail/81-jenrich3-1.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				<image_src>/81-wedding.jpg</image_src>
+				<thumb_src>/thumbnail/81-wedding.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				<image_src>/81-weddinglanterns.jpg</image_src>
+				<thumb_src>/thumbnail/81-weddinglanterns.jpg</thumb_src>
+			</image>
+</images>
+	</gallery>
+</tn2>
+

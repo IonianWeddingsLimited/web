@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tn2>
+	<gallery>
+		<title>Fixed Dimensions</title>
+		<description>Some Description</description>
+		<file_root>/images/gallery/</file_root>
+		<images>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/11-bourtzi3.jpg</image_src>
+				<thumb_src>/thumbnail/11-bourtzi3.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/11-bourtzi1.jpg</image_src>
+				<thumb_src>/thumbnail/11-bourtzi1.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/11-skiathosbeach8.jpg</image_src>
+				<thumb_src>/thumbnail/11-skiathosbeach8.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/11-dsc00220.jpg</image_src>
+				<thumb_src>/thumbnail/11-dsc00220.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/11-dsc00206.jpg</image_src>
+				<thumb_src>/thumbnail/11-dsc00206.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/11-koukounariesterrace3.jpg</image_src>
+				<thumb_src>/thumbnail/11-koukounariesterrace3.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/11-21818010152078593180212166320921n.jpg</image_src>
+				<thumb_src>/thumbnail/11-21818010152078593180212166320921n.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/11-atrium2.jpg</image_src>
+				<thumb_src>/thumbnail/11-atrium2.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/11-bourtzi4.jpg</image_src>
+				<thumb_src>/thumbnail/11-bourtzi4.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/11-atrium4.jpg</image_src>
+				<thumb_src>/thumbnail/11-atrium4.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/11-3ceremony.jpg</image_src>
+				<thumb_src>/thumbnail/11-3ceremony.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/11-skiathosbeach12.jpg</image_src>
+				<thumb_src>/thumbnail/11-skiathosbeach12.jpg</thumb_src>
+			</image>
+</images>
+	</gallery>
+</tn2>
+

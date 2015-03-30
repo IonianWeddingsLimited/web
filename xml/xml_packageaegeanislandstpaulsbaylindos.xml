@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tn2>
+	<gallery>
+		<title>Fixed Dimensions</title>
+		<description>Some Description</description>
+		<file_root>/images/gallery/</file_root>
+		<images>
+<image>
+				<title></title>
+				<description></description>
+				<image_src>/33-lucyandgrant4.7.2013.jpg</image_src>
+				<thumb_src>/thumbnail/33-lucyandgrant4.7.2013.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				<image_src>/33-the20ceremony20no2.jpg</image_src>
+				<thumb_src>/thumbnail/33-the20ceremony20no2.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				<image_src>/33-waiting.jpg</image_src>
+				<thumb_src>/thumbnail/33-waiting.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				<image_src>/33-st-paul-lindos2.jpg</image_src>
+				<thumb_src>/thumbnail/33-st-paul-lindos2.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				<image_src>/33-exchanging20vows.jpg</image_src>
+				<thumb_src>/thumbnail/33-exchanging20vows.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				<image_src>/33-310190101504220232135021537565n.jpg</image_src>
+				<thumb_src>/thumbnail/33-310190101504220232135021537565n.jpg</thumb_src>
+			</image>
+</images>
+	</gallery>
+</tn2>
+

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tn2>
+	<gallery>
+		<title>Fixed Dimensions</title>
+		<description>Some Description</description>
+		<file_root>/images/gallery/</file_root>
+		<images>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/26-packagecyprus45.jpg</image_src>
+				<thumb_src>/thumbnail/26-packagecyprus45.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/26-packagecyprus44.jpg</image_src>
+				<thumb_src>/thumbnail/26-packagecyprus44.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/26-packagecyprus43.jpg</image_src>
+				<thumb_src>/thumbnail/26-packagecyprus43.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/26-packagecyprus46.jpg</image_src>
+				<thumb_src>/thumbnail/26-packagecyprus46.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/26-packagecyprus47.jpg</image_src>
+				<thumb_src>/thumbnail/26-packagecyprus47.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/26-packagecyprus49.jpg</image_src>
+				<thumb_src>/thumbnail/26-packagecyprus49.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/26-packagecyprus48.jpg</image_src>
+				<thumb_src>/thumbnail/26-packagecyprus48.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/26-packagecyprus410.jpg</image_src>
+				<thumb_src>/thumbnail/26-packagecyprus410.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/26-packagecyprus411.jpg</image_src>
+				<thumb_src>/thumbnail/26-packagecyprus411.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/26-packagecyprus412.jpg</image_src>
+				<thumb_src>/thumbnail/26-packagecyprus412.jpg</thumb_src>
+			</image>
+</images>
+	</gallery>
+</tn2>
+

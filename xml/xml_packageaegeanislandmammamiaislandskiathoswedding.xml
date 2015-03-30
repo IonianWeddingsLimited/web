@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tn2>
+	<gallery>
+		<title>Fixed Dimensions</title>
+		<description>Some Description</description>
+		<file_root>/images/gallery/</file_root>
+		<images>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/51-bourtzi.jpg</image_src>
+				<thumb_src>/thumbnail/51-bourtzi.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/51-clairedavid4.jpg</image_src>
+				<thumb_src>/thumbnail/51-clairedavid4.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/51-bridesmaidsintownhall.jpg</image_src>
+				<thumb_src>/thumbnail/51-bridesmaidsintownhall.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/51-emmapaul2.jpg</image_src>
+				<thumb_src>/thumbnail/51-emmapaul2.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/51-jenmichael5.jpg</image_src>
+				<thumb_src>/thumbnail/51-jenmichael5.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/51-p1000382.jpg</image_src>
+				<thumb_src>/thumbnail/51-p1000382.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/51-picture046.jpg</image_src>
+				<thumb_src>/thumbnail/51-picture046.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/51-terrace.jpg</image_src>
+				<thumb_src>/thumbnail/51-terrace.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/51-picture047.jpg</image_src>
+				<thumb_src>/thumbnail/51-picture047.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/51-dscf2142.jpg</image_src>
+				<thumb_src>/thumbnail/51-dscf2142.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/51-thebourtzi.jpg</image_src>
+				<thumb_src>/thumbnail/51-thebourtzi.jpg</thumb_src>
+			</image>
+</images>
+	</gallery>
+</tn2>
+

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tn2>
+	<gallery>
+		<title>Fixed Dimensions</title>
+		<description>Some Description</description>
+		<file_root>/images/gallery/</file_root>
+		<images>
+<image>
+				<image_src>/160-0000001g17234472.jpg</image_src>
+				<thumb_src>/thumbnail/160-0000001g17234472.jpg</thumb_src>
+			</image>
+<image>
+				<image_src>/160-mg1485243648.jpg</image_src>
+				<thumb_src>/thumbnail/160-mg1485243648.jpg</thumb_src>
+			</image>
+<image>
+				<image_src>/160-0000001a314911.jpg</image_src>
+				<thumb_src>/thumbnail/160-0000001a314911.jpg</thumb_src>
+			</image>
+<image>
+				<image_src>/160-mg9805356122.jpg</image_src>
+				<thumb_src>/thumbnail/160-mg9805356122.jpg</thumb_src>
+			</image>
+<image>
+				<image_src>/160-57-copia899837.jpg</image_src>
+				<thumb_src>/thumbnail/160-57-copia899837.jpg</thumb_src>
+			</image>
+<image>
+				<image_src>/160-10177696.jpg</image_src>
+				<thumb_src>/thumbnail/160-10177696.jpg</thumb_src>
+			</image>
+<image>
+				<image_src>/160-1332914034104085293614746516o.jpg</image_src>
+				<thumb_src>/thumbnail/160-1332914034104085293614746516o.jpg</thumb_src>
+			</image>
+<image>
+				<image_src>/160-40423500.jpg</image_src>
+				<thumb_src>/thumbnail/160-40423500.jpg</thumb_src>
+			</image>
+<image>
+				<image_src>/160-casacopia.jpg</image_src>
+				<thumb_src>/thumbnail/160-casacopia.jpg</thumb_src>
+			</image>
+<image>
+				<image_src>/160-dsc0019.jpg</image_src>
+				<thumb_src>/thumbnail/160-dsc0019.jpg</thumb_src>
+			</image>
+<image>
+				<image_src>/160-dsc1063.jpg</image_src>
+				<thumb_src>/thumbnail/160-dsc1063.jpg</thumb_src>
+			</image>
+<image>
+				<image_src>/160-dsc0985.jpg</image_src>
+				<thumb_src>/thumbnail/160-dsc0985.jpg</thumb_src>
+			</image>
+<image>
+				<image_src>/160-foto-matrimonio-lucca25336227.jpg</image_src>
+				<thumb_src>/thumbnail/160-foto-matrimonio-lucca25336227.jpg</thumb_src>
+			</image>
+<image>
+				<image_src>/160-24270183.jpg</image_src>
+				<thumb_src>/thumbnail/160-24270183.jpg</thumb_src>
+			</image>
+<image>
+				<image_src>/160-foto-matrimonio-lucca22503907.jpg</image_src>
+				<thumb_src>/thumbnail/160-foto-matrimonio-lucca22503907.jpg</thumb_src>
+			</image>
+<image>
+				<image_src>/160-livello1copia809346.jpg</image_src>
+				<thumb_src>/thumbnail/160-livello1copia809346.jpg</thumb_src>
+			</image>
+<image>
+				<image_src>/160-reportagematrimonio18431480.jpg</image_src>
+				<thumb_src>/thumbnail/160-reportagematrimonio18431480.jpg</thumb_src>
+			</image>
+<image>
+				<image_src>/160-ndpic.jpg</image_src>
+				<thumb_src>/thumbnail/160-ndpic.jpg</thumb_src>
+			</image>
+</images>
+	</gallery>
+</tn2>
+

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tn2>
+	<gallery>
+		<title>Fixed Dimensions</title>
+		<description>Some Description</description>
+		<file_root>/images/gallery/</file_root>
+		<images>
+<image>
+				<title></title>
+				<description></description>
+				<image_src>/100-terrazzaristorante-copy.jpg</image_src>
+				<thumb_src>/thumbnail/100-terrazzaristorante-copy.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				<image_src>/100-relaisterrazzobynight-copy.jpg</image_src>
+				<thumb_src>/thumbnail/100-relaisterrazzobynight-copy.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				<image_src>/100-1243351748839.jpg</image_src>
+				<thumb_src>/thumbnail/100-1243351748839.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				<image_src>/100-dscn5658.jpg</image_src>
+				<thumb_src>/thumbnail/100-dscn5658.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				<image_src>/100-1247143078856.jpg</image_src>
+				<thumb_src>/thumbnail/100-1247143078856.jpg</thumb_src>
+			</image>
+</images>
+	</gallery>
+</tn2>
+

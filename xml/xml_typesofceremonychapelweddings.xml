@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tn2>
+	<gallery>
+		<title>Fixed Dimensions</title>
+		<description>Some Description</description>
+		<file_root>/images/gallery/</file_root>
+		<images>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/40-chapelhires.jpg</image_src>
+				<thumb_src>/thumbnail/40-chapelhires.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/40-nataliepaul5.jpg</image_src>
+				<thumb_src>/thumbnail/40-nataliepaul5.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/40-chapel-path.jpg</image_src>
+				<thumb_src>/thumbnail/40-chapel-path.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/40-lucyndamark3.jpg</image_src>
+				<thumb_src>/thumbnail/40-lucyndamark3.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/40-st-paul-lindos2.jpg</image_src>
+				<thumb_src>/thumbnail/40-st-paul-lindos2.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/40-stchristopherchapelwedding.jpg</image_src>
+				<thumb_src>/thumbnail/40-stchristopherchapelwedding.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/40-tarapaul14.jpg</image_src>
+				<thumb_src>/thumbnail/40-tarapaul14.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/40-sam1974.jpg</image_src>
+				<thumb_src>/thumbnail/40-sam1974.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/40-orthodoxchurchinterior.jpg</image_src>
+				<thumb_src>/thumbnail/40-orthodoxchurchinterior.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/40-ayiakyriakistpauls0045.jpg</image_src>
+				<thumb_src>/thumbnail/40-ayiakyriakistpauls0045.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/40-stgeorgechapel.jpg</image_src>
+				<thumb_src>/thumbnail/40-stgeorgechapel.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/40-trapezaki-church1.jpg</image_src>
+				<thumb_src>/thumbnail/40-trapezaki-church1.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/40-agiasofiachapel14.jpg</image_src>
+				<thumb_src>/thumbnail/40-agiasofiachapel14.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/40-panagiachurch.jpg</image_src>
+				<thumb_src>/thumbnail/40-panagiachurch.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/40-agioiapostoloichapel01.jpg</image_src>
+				<thumb_src>/thumbnail/40-agioiapostoloichapel01.jpg</thumb_src>
+			</image>
+</images>
+	</gallery>
+</tn2>
+

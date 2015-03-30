@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tn2>
+	<gallery>
+		<title>Fixed Dimensions</title>
+		<description>Some Description</description>
+		<file_root>/images/gallery/</file_root>
+		<images>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/124-7.jpg</image_src>
+				<thumb_src>/thumbnail/124-7.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/124-villainsorrento8.jpg</image_src>
+				<thumb_src>/thumbnail/124-villainsorrento8.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/124-tableruo5.jpg</image_src>
+				<thumb_src>/thumbnail/124-tableruo5.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/124-villainsorrento3-copy.jpg</image_src>
+				<thumb_src>/thumbnail/124-villainsorrento3-copy.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/124-img2501-copy.jpg</image_src>
+				<thumb_src>/thumbnail/124-img2501-copy.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/124-img2480.jpg</image_src>
+				<thumb_src>/thumbnail/124-img2480.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/124-villainsorrento7-copy.jpg</image_src>
+				<thumb_src>/thumbnail/124-villainsorrento7-copy.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/124-wedding004.jpg</image_src>
+				<thumb_src>/thumbnail/124-wedding004.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/124-wedding009.jpg</image_src>
+				<thumb_src>/thumbnail/124-wedding009.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/124-4.jpg</image_src>
+				<thumb_src>/thumbnail/124-4.jpg</thumb_src>
+			</image>
+</images>
+	</gallery>
+</tn2>
+

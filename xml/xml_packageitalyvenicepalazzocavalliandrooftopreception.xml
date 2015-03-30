@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tn2>
+	<gallery>
+		<title>Fixed Dimensions</title>
+		<description>Some Description</description>
+		<file_root>/images/gallery/</file_root>
+		<images>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/119-wla1753.jpg</image_src>
+				<thumb_src>/thumbnail/119-wla1753.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/119-sam4512.jpg</image_src>
+				<thumb_src>/thumbnail/119-sam4512.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/119-palazzocavalli.jpg</image_src>
+				<thumb_src>/thumbnail/119-palazzocavalli.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/119-wla0223.jpg</image_src>
+				<thumb_src>/thumbnail/119-wla0223.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/119-8.jpg</image_src>
+				<thumb_src>/thumbnail/119-8.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/119-11.jpg</image_src>
+				<thumb_src>/thumbnail/119-11.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/119-7.jpg</image_src>
+				<thumb_src>/thumbnail/119-7.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/119-4.jpg</image_src>
+				<thumb_src>/thumbnail/119-4.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/119-sam4512.jpg</image_src>
+				<thumb_src>/thumbnail/119-sam4512.jpg</thumb_src>
+			</image>
+</images>
+	</gallery>
+</tn2>
+

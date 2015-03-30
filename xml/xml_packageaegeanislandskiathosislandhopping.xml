@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tn2>
+	<gallery>
+		<title>Fixed Dimensions</title>
+		<description>Some Description</description>
+		<file_root>/images/gallery/</file_root>
+		<images>
+<image>
+				<title></title>
+				<description></description>
+				<image_src>/177-5vowexchange.jpg</image_src>
+				<thumb_src>/thumbnail/177-5vowexchange.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				<image_src>/177-3waitingforthebride.jpg</image_src>
+				<thumb_src>/thumbnail/177-3waitingforthebride.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				<image_src>/177-img2910.jpg</image_src>
+				<thumb_src>/thumbnail/177-img2910.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				<image_src>/177-img2913.jpg</image_src>
+				<thumb_src>/thumbnail/177-img2913.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				<image_src>/177-dsc4984.jpg</image_src>
+				<thumb_src>/thumbnail/177-dsc4984.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				<image_src>/177-dsc4985.jpg</image_src>
+				<thumb_src>/thumbnail/177-dsc4985.jpg</thumb_src>
+			</image>
+</images>
+	</gallery>
+</tn2>
+

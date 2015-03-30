@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tn2>
+	<gallery>
+		<title>Fixed Dimensions</title>
+		<description>Some Description</description>
+		<file_root>/images/gallery/</file_root>
+		<images>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/6-weddingceremony-islandatpool1.jpg</image_src>
+				<thumb_src>/thumbnail/6-weddingceremony-islandatpool1.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/6-nataliewerner08.jpg</image_src>
+				<thumb_src>/thumbnail/6-nataliewerner08.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/6-tarapaul14.jpg</image_src>
+				<thumb_src>/thumbnail/6-tarapaul14.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/6-pic00004.jpg</image_src>
+				<thumb_src>/thumbnail/6-pic00004.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/6-tarapaul1.jpg</image_src>
+				<thumb_src>/thumbnail/6-tarapaul1.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/6-privatebeachview.jpg</image_src>
+				<thumb_src>/thumbnail/6-privatebeachview.jpg</thumb_src>
+			</image>
+</images>
+	</gallery>
+</tn2>
+

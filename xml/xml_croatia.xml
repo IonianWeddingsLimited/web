@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tn2>
+	<gallery>
+		<title>Fixed Dimensions</title>
+		<description>Some Description</description>
+		<file_root>/images/gallery/</file_root>
+		<images>
+<image>
+				<title>Dubrovnik night</title>
+				<description></description>
+				<image_src>/127-dubrovnik1.jpg</image_src>
+				<thumb_src>/thumbnail/127-dubrovnik1.jpg</thumb_src>
+			</image>
+<image>
+				<title>Dubrovnik Terrace</title>
+				<description></description>
+				<image_src>/127-palmterrace3copyrighted.jpg</image_src>
+				<thumb_src>/thumbnail/127-palmterrace3copyrighted.jpg</thumb_src>
+			</image>
+<image>
+				<title>Dubrovnik Palace</title>
+				<description></description>
+				<image_src>/127-sponzapalace1.jpg</image_src>
+				<thumb_src>/thumbnail/127-sponzapalace1.jpg</thumb_src>
+			</image>
+<image>
+				<title>Fish island</title>
+				<description></description>
+				<image_src>/127-gazbrijuni.jpg</image_src>
+				<thumb_src>/thumbnail/127-gazbrijuni.jpg</thumb_src>
+			</image>
+<image>
+				<title>Cave</title>
+				<description></description>
+				<image_src>/127-naturalcave101.jpg</image_src>
+				<thumb_src>/thumbnail/127-naturalcave101.jpg</thumb_src>
+			</image>
+<image>
+				<title>Dubrovnik VIP</title>
+				<description></description>
+				<image_src>/127-loungeterraceevent2a.jpg</image_src>
+				<thumb_src>/thumbnail/127-loungeterraceevent2a.jpg</thumb_src>
+			</image>
+<image>
+				<title>Zlatni Rat sand</title>
+				<description></description>
+				<image_src>/127-zlatni-rat.jpg</image_src>
+				<thumb_src>/thumbnail/127-zlatni-rat.jpg</thumb_src>
+			</image>
+<image>
+				<title>Stari Grad, Hvar</title>
+				<description></description>
+				<image_src>/127-hvargrad.jpg</image_src>
+				<thumb_src>/thumbnail/127-hvargrad.jpg</thumb_src>
+			</image>
+<image>
+				<title>Stari Grad Lounge</title>
+				<description></description>
+				<image_src>/127-vipterraceadsm.jpg</image_src>
+				<thumb_src>/thumbnail/127-vipterraceadsm.jpg</thumb_src>
+			</image>
+<image>
+				<title>Hvar at night</title>
+				<description></description>
+				<image_src>/127-suncanihvaradsm.jpg</image_src>
+				<thumb_src>/thumbnail/127-suncanihvaradsm.jpg</thumb_src>
+			</image>
+<image>
+				<title>Split at night</title>
+				<description></description>
+				<image_src>/127-split.jpg</image_src>
+				<thumb_src>/thumbnail/127-split.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				<image_src>/127-mediteranneoevent1.jpg</image_src>
+				<thumb_src>/thumbnail/127-mediteranneoevent1.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				<image_src>/127-loungeterraceevent2.jpg</image_src>
+				<thumb_src>/thumbnail/127-loungeterraceevent2.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				<image_src>/127-mediterraneoevent3.jpg</image_src>
+				<thumb_src>/thumbnail/127-mediterraneoevent3.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				<image_src>/127-cave.jpg</image_src>
+				<thumb_src>/thumbnail/127-cave.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				<image_src>/127-weddingsandcelebrations1.jpg</image_src>
+				<thumb_src>/thumbnail/127-weddingsandcelebrations1.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				<image_src>/127-orsan17.jpg</image_src>
+				<thumb_src>/thumbnail/127-orsan17.jpg</thumb_src>
+			</image>
+</images>
+	</gallery>
+</tn2>
+

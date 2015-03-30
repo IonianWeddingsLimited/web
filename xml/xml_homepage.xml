@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tn2>
+	<gallery>
+		<title>Fixed Dimensions</title>
+		<description>Some Description</description>
+		<file_root>/images/gallery/</file_root>
+		<images>
+<image>
+				<title>Sara &amp; Jonathan, Capri</title>
+				<description>"Professional, helpful and approachable; I would definitely recommend Ionian Weddings to anyone"</description>
+				
+				<image_src>/3-italiangarden.jpg</image_src>
+				<thumb_src>/thumbnail/3-italiangarden.jpg</thumb_src>
+			</image>
+<image>
+				<title>Hannah &amp; Paul, Skiathos</title>
+				<description>"What an absolutely wonderful wedding we have just come back from in Skiathos, our friends and family are raving about how this has been one of the most magical weddings they have attended"</description>
+				
+				<image_src>/3-hannahpaul1.jpg</image_src>
+				<thumb_src>/thumbnail/3-hannahpaul1.jpg</thumb_src>
+			</image>
+<image>
+				<title>Natalie &amp; Chris, Santorini</title>
+				<description>"We had the most amazing wedding in Santorini, I actually want to have the day all over again just to see all the guests faces. All thanks to the Ionian team.! Natalie &amp; Chris X"</description>
+				
+				<image_src>/3-ionianwebshot5.jpg</image_src>
+				<thumb_src>/thumbnail/3-ionianwebshot5.jpg</thumb_src>
+			</image>
+<image>
+				<title>Naomi and Mike, Santorini</title>
+				<description>"The beach bar is an incredible venue and took our breath away! Thank you so much for everything!"</description>
+				
+				<image_src>/3-dsc5463-1.jpg</image_src>
+				<thumb_src>/thumbnail/3-dsc5463-1.jpg</thumb_src>
+			</image>
+<image>
+				<title>Emma &amp; Ian, Corfu</title>
+				<description>"We truly believe it was the passion of Jane and Andreas that made the difference and the personal touch in taking time to understand us, our personalities and our dream."</description>
+				
+				<image_src>/3-emma-ian.jpg</image_src>
+				<thumb_src>/thumbnail/3-emma-ian.jpg</thumb_src>
+			</image>
+<image>
+				<title>Rachael &amp; David, Zante</title>
+				<description>"Where do we start with what you have done for us?  Your communications and dedication made our wedding day as special as it was and I will highly recommend you to anyone. Thank you so much!"</description>
+				
+				<image_src>/3-rachael-dave.jpg</image_src>
+				<thumb_src>/thumbnail/3-rachael-dave.jpg</thumb_src>
+			</image>
+<image>
+				<title>Nicola &amp; Paul, Kefalonia</title>
+				<description>"We were left with fond memories of an emotional day and a simple, uncomplicated experience"</description>
+				
+				<image_src>/3-paul-nicola.jpg</image_src>
+				<thumb_src>/thumbnail/3-paul-nicola.jpg</thumb_src>
+			</image>
+<image>
+				<title>Angela &amp; Ed, Cyprus</title>
+				<description>"Thank you! We had such a fantastic day, way beyond our dreams! If we could do it all again we wouldnt change a thing!"</description>
+				
+				<image_src>/3-rooftoprestaurant.jpg</image_src>
+				<thumb_src>/thumbnail/3-rooftoprestaurant.jpg</thumb_src>
+			</image>
+<image>
+				<title>Jo &amp; Neil, Santorini</title>
+				<description>"A huge thank you for organising everything to make our big day just the way we imagined"</description>
+				
+				<image_src>/3-homepage1.jpg</image_src>
+				<thumb_src>/thumbnail/3-homepage1.jpg</thumb_src>
+			</image>
+<image>
+				<title>Amy &amp; Matthew, Zante</title>
+				<description>"Turtle Island was amazing, absolutely stunning and exceeded all my expectations, it was the perfect day!"</description>
+				
+				<image_src>/3-amymatthew1.jpg</image_src>
+				<thumb_src>/thumbnail/3-amymatthew1.jpg</thumb_src>
+			</image>
+</images>
+	</gallery>
+</tn2>
+

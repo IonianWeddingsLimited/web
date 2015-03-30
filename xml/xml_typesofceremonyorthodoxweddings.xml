@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tn2>
+	<gallery>
+		<title>Fixed Dimensions</title>
+		<description>Some Description</description>
+		<file_root>/images/gallery/</file_root>
+		<images>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/46-kommenochurch.jpg</image_src>
+				<thumb_src>/thumbnail/46-kommenochurch.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/46-picture004.jpg</image_src>
+				<thumb_src>/thumbnail/46-picture004.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/46-profotiseliaschania1.jpg</image_src>
+				<thumb_src>/thumbnail/46-profotiseliaschania1.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/46-ypapanti.jpg</image_src>
+				<thumb_src>/thumbnail/46-ypapanti.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/46-chapelwedding.jpg</image_src>
+				<thumb_src>/thumbnail/46-chapelwedding.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/46-amiathan9.jpg</image_src>
+				<thumb_src>/thumbnail/46-amiathan9.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/46-orthodoxtrapezaki4.jpg</image_src>
+				<thumb_src>/thumbnail/46-orthodoxtrapezaki4.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/46-orthodoxtrapezaki2.jpg</image_src>
+				<thumb_src>/thumbnail/46-orthodoxtrapezaki2.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/46-agioscharalampis.jpg</image_src>
+				<thumb_src>/thumbnail/46-agioscharalampis.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/46-orthodoxchurchinterior.jpg</image_src>
+				<thumb_src>/thumbnail/46-orthodoxchurchinterior.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/46-anogi-monastery.jpg</image_src>
+				<thumb_src>/thumbnail/46-anogi-monastery.jpg</thumb_src>
+			</image>
+</images>
+	</gallery>
+</tn2>
+

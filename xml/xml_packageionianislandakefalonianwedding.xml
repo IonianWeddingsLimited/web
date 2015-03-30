@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tn2>
+	<gallery>
+		<title>Fixed Dimensions</title>
+		<description>Some Description</description>
+		<file_root>/images/gallery/</file_root>
+		<images>
+<image>
+				<title>Asos chapel</title>
+				<description></description>
+				
+				<image_src>/23-niamhscott3.jpg</image_src>
+				<thumb_src>/thumbnail/23-niamhscott3.jpg</thumb_src>
+			</image>
+<image>
+				<title>Myrtos beach</title>
+				<description></description>
+				
+				<image_src>/23-annekajames4.jpg</image_src>
+				<thumb_src>/thumbnail/23-annekajames4.jpg</thumb_src>
+			</image>
+<image>
+				<title>Villa ceremony</title>
+				<description></description>
+				
+				<image_src>/23-villaceremony3.jpg</image_src>
+				<thumb_src>/thumbnail/23-villaceremony3.jpg</thumb_src>
+			</image>
+<image>
+				<title>Villa wedding and reception</title>
+				<description></description>
+				
+				<image_src>/23-lee-annchristian1.jpg</image_src>
+				<thumb_src>/thumbnail/23-lee-annchristian1.jpg</thumb_src>
+			</image>
+<image>
+				<title>Villa reception</title>
+				<description></description>
+				
+				<image_src>/23-villacatering.jpg</image_src>
+				<thumb_src>/thumbnail/23-villacatering.jpg</thumb_src>
+			</image>
+<image>
+				<title>Robola Winery</title>
+				<description></description>
+				
+				<image_src>/23-robola.jpg</image_src>
+				<thumb_src>/thumbnail/23-robola.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/23-inspirationkefalonia2.jpg</image_src>
+				<thumb_src>/thumbnail/23-inspirationkefalonia2.jpg</thumb_src>
+			</image>
+</images>
+	</gallery>
+</tn2>
+

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tn2>
+	<gallery>
+		<title>Fixed Dimensions</title>
+		<description>Some Description</description>
+		<file_root>/images/gallery/</file_root>
+		<images>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/125-capri.jpg</image_src>
+				<thumb_src>/thumbnail/125-capri.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/125-capripiazza.jpg</image_src>
+				<thumb_src>/thumbnail/125-capripiazza.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/125-sam2248.jpg</image_src>
+				<thumb_src>/thumbnail/125-sam2248.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/125-sam2249.jpg</image_src>
+				<thumb_src>/thumbnail/125-sam2249.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/125-faraglioni5-copy.jpg</image_src>
+				<thumb_src>/thumbnail/125-faraglioni5-copy.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/125-sam2279.jpg</image_src>
+				<thumb_src>/thumbnail/125-sam2279.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/125-geranio344.jpg</image_src>
+				<thumb_src>/thumbnail/125-geranio344.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/125-sam2276.jpg</image_src>
+				<thumb_src>/thumbnail/125-sam2276.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/125-geranio327.jpg</image_src>
+				<thumb_src>/thumbnail/125-geranio327.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/125-sam2277.jpg</image_src>
+				<thumb_src>/thumbnail/125-sam2277.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/125-geranio404.jpg</image_src>
+				<thumb_src>/thumbnail/125-geranio404.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/125-img2005.jpg</image_src>
+				<thumb_src>/thumbnail/125-img2005.jpg</thumb_src>
+			</image>
+</images>
+	</gallery>
+</tn2>
+

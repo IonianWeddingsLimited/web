@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tn2>
+	<gallery>
+		<title>Fixed Dimensions</title>
+		<description>Some Description</description>
+		<file_root>/images/gallery/</file_root>
+		<images>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/171-vog-0008.jpg</image_src>
+				<thumb_src>/thumbnail/171-vog-0008.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/171-vog-0001.jpg</image_src>
+				<thumb_src>/thumbnail/171-vog-0001.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/171-vog-0009.jpg</image_src>
+				<thumb_src>/thumbnail/171-vog-0009.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/171-vog-0018.jpg</image_src>
+				<thumb_src>/thumbnail/171-vog-0018.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/171-alexisoldt5.jpg</image_src>
+				<thumb_src>/thumbnail/171-alexisoldt5.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/171-alexisoldt4.jpg</image_src>
+				<thumb_src>/thumbnail/171-alexisoldt4.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/171-alexisoldt3.jpg</image_src>
+				<thumb_src>/thumbnail/171-alexisoldt3.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/171-alexisoldt1.jpg</image_src>
+				<thumb_src>/thumbnail/171-alexisoldt1.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/171-alexisoldt2.jpg</image_src>
+				<thumb_src>/thumbnail/171-alexisoldt2.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/171-alexisoldt6.jpg</image_src>
+				<thumb_src>/thumbnail/171-alexisoldt6.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/171-vog-0014.jpg</image_src>
+				<thumb_src>/thumbnail/171-vog-0014.jpg</thumb_src>
+			</image>
+</images>
+	</gallery>
+</tn2>
+

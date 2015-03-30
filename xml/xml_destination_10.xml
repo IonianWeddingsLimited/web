@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tn2>
+	<gallery>
+		<title>Fixed Dimensions</title>
+		<description>Some Description</description>
+		<file_root>http://83.149.102.2/~ionianwe/images/page/hero/</file_root>
+		<!--<thumb_src>114x72/1.jpg</thumb_src>-->
+		<images>
+			<image>
+				<title>Rhodes 1</title>
+				<description>Rhodes 1 Description</description>
+				<image_src>dt/destination_rhodes_1.jpg</image_src>
+				<thumb_src>th/destination_rhodes_1.jpg</thumb_src>
+			</image>
+			<image>
+				<title>Rhodes 2</title>
+				<description>Rhodes 2 Description</description>
+				<image_src>dt/destination_rhodes_2.jpg</image_src>
+				<thumb_src>th/destination_rhodes_2.jpg</thumb_src>
+			</image>
+			<image>
+				<title>Rhodes 3</title>
+				<description>Rhodes 3 Description</description>
+				<image_src>dt/destination_rhodes_3.jpg</image_src>
+				<thumb_src>th/destination_rhodes_3.jpg</thumb_src>
+			</image>
+			<image>
+				<title>Rhodes 4</title>
+				<description>Rhodes 4 Description</description>
+				<image_src>dt/destination_rhodes_4.jpg</image_src>
+				<thumb_src>th/destination_rhodes_4.jpg</thumb_src>
+			</image>
+			<image>
+				<title>Rhodes 5</title>
+				<description>Rhodes 5 Description</description>
+				<image_src>dt/destination_rhodes_5.jpg</image_src>
+				<thumb_src>th/destination_rhodes_5.jpg</thumb_src>
+			</image>
+			<image>
+				<title>Rhodes 6</title>
+				<description>Rhodes 6 Description</description>
+				<image_src>dt/destination_rhodes_6.jpg</image_src>
+				<thumb_src>th/destination_rhodes_6.jpg</thumb_src>
+			</image>
+			<image>
+				<title>Rhodes 7</title>
+				<description>Rhodes 7 Description</description>
+				<image_src>dt/destination_rhodes_7.jpg</image_src>
+				<thumb_src>th/destination_rhodes_7.jpg</thumb_src>
+			</image>
+			<image>
+				<title>Rhodes 8</title>
+				<description>Rhodes 8 Description</description>
+				<image_src>dt/destination_rhodes_8.jpg</image_src>
+				<thumb_src>th/destination_rhodes_8.jpg</thumb_src>
+			</image>
+			<image>
+				<title>Rhodes 9</title>
+				<description>Rhodes 9 Description</description>
+				<image_src>dt/destination_rhodes_9.jpg</image_src>
+				<thumb_src>th/destination_rhodes_9.jpg</thumb_src>
+			</image>
+			<image>
+				<title>Rhodes 10</title>
+				<description>Rhodes 10 Description</description>
+				<image_src>dt/destination_rhodes_10.jpg</image_src>
+				<thumb_src>th/destination_rhodes_10.jpg</thumb_src>
+			</image>
+		</images>
+	</gallery>
+</tn2>

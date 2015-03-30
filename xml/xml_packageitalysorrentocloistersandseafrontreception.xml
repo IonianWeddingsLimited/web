@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tn2>
+	<gallery>
+		<title>Fixed Dimensions</title>
+		<description>Some Description</description>
+		<file_root>/images/gallery/</file_root>
+		<images>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/88-sam1972.jpg</image_src>
+				<thumb_src>/thumbnail/88-sam1972.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/88-sam1977.jpg</image_src>
+				<thumb_src>/thumbnail/88-sam1977.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/88-sam1974.jpg</image_src>
+				<thumb_src>/thumbnail/88-sam1974.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/88-aca1o06o11chiostro021.jpg</image_src>
+				<thumb_src>/thumbnail/88-aca1o06o11chiostro021.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/88-sorrento18cloisters.jpg</image_src>
+				<thumb_src>/thumbnail/88-sorrento18cloisters.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/88-sam1981.jpg</image_src>
+				<thumb_src>/thumbnail/88-sam1981.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/88-3.jpg</image_src>
+				<thumb_src>/thumbnail/88-3.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/88-pierrestaurant.jpg</image_src>
+				<thumb_src>/thumbnail/88-pierrestaurant.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/88-sam4475.jpg</image_src>
+				<thumb_src>/thumbnail/88-sam4475.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/88-marameo5.jpg</image_src>
+				<thumb_src>/thumbnail/88-marameo5.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/88-marameo1.jpg</image_src>
+				<thumb_src>/thumbnail/88-marameo1.jpg</thumb_src>
+			</image>
+</images>
+	</gallery>
+</tn2>
+

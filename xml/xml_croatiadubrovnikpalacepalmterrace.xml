@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tn2>
+	<gallery>
+		<title>Fixed Dimensions</title>
+		<description>Some Description</description>
+		<file_root>/images/gallery/</file_root>
+		<images>
+<image>
+				<image_src>/145-sponzapalace1.jpg</image_src>
+				<thumb_src>/thumbnail/145-sponzapalace1.jpg</thumb_src>
+			</image>
+<image>
+				<image_src>/145-sponzapalace3.jpg</image_src>
+				<thumb_src>/thumbnail/145-sponzapalace3.jpg</thumb_src>
+			</image>
+<image>
+				<image_src>/145-dubrovnik.jpg</image_src>
+				<thumb_src>/thumbnail/145-dubrovnik.jpg</thumb_src>
+			</image>
+<image>
+				<image_src>/145-sam5513.jpg</image_src>
+				<thumb_src>/thumbnail/145-sam5513.jpg</thumb_src>
+			</image>
+</images>
+	</gallery>
+</tn2>
+

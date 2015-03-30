@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tn2>
+	<gallery>
+		<title>Fixed Dimensions</title>
+		<description>Some Description</description>
+		<file_root>/images/gallery/</file_root>
+		<images>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/104-gardens4.jpg</image_src>
+				<thumb_src>/thumbnail/104-gardens4.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/104-gardens3.jpg</image_src>
+				<thumb_src>/thumbnail/104-gardens3.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/104-gardens1.jpg</image_src>
+				<thumb_src>/thumbnail/104-gardens1.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/104-sam2101.jpg</image_src>
+				<thumb_src>/thumbnail/104-sam2101.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/104-sam2109.jpg</image_src>
+				<thumb_src>/thumbnail/104-sam2109.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/104-sam2108.jpg</image_src>
+				<thumb_src>/thumbnail/104-sam2108.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/104-sam2110.jpg</image_src>
+				<thumb_src>/thumbnail/104-sam2110.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/104-gardens.jpg</image_src>
+				<thumb_src>/thumbnail/104-gardens.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/104-giugno200963.jpg</image_src>
+				<thumb_src>/thumbnail/104-giugno200963.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/104-giugno200962.jpg</image_src>
+				<thumb_src>/thumbnail/104-giugno200962.jpg</thumb_src>
+			</image>
+</images>
+	</gallery>
+</tn2>
+

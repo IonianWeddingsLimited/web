@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tn2>
+	<gallery>
+		<title>Fixed Dimensions</title>
+		<description>Some Description</description>
+		<file_root>/images/gallery/</file_root>
+		<images>
+<image>
+				<title></title>
+				<description></description>
+				<image_src>/123-corfuvilla.jpg</image_src>
+				<thumb_src>/thumbnail/123-corfuvilla.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				<image_src>/123-corfuvilla1.jpg</image_src>
+				<thumb_src>/thumbnail/123-corfuvilla1.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				<image_src>/123-catering-welcome-drink.jpg</image_src>
+				<thumb_src>/thumbnail/123-catering-welcome-drink.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				<image_src>/123-headtablesetup.jpg</image_src>
+				<thumb_src>/thumbnail/123-headtablesetup.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				<image_src>/123-catering-private-gardens1.jpg</image_src>
+				<thumb_src>/thumbnail/123-catering-private-gardens1.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				<image_src>/123-lee-annchristian10.jpg</image_src>
+				<thumb_src>/thumbnail/123-lee-annchristian10.jpg</thumb_src>
+			</image>
+</images>
+	</gallery>
+</tn2>
+

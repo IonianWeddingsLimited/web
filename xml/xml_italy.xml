@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tn2>
+	<gallery>
+		<title>Fixed Dimensions</title>
+		<description>Some Description</description>
+		<file_root>/images/gallery/</file_root>
+		<images>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/86-amalficoast-copy.jpg</image_src>
+				<thumb_src>/thumbnail/86-amalficoast-copy.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/86-sam2061.jpg</image_src>
+				<thumb_src>/thumbnail/86-sam2061.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/86-locationwedding.jpg</image_src>
+				<thumb_src>/thumbnail/86-locationwedding.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/86-ambasphoenixterraceevening.jpg</image_src>
+				<thumb_src>/thumbnail/86-ambasphoenixterraceevening.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/86-img4020.jpg</image_src>
+				<thumb_src>/thumbnail/86-img4020.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/86-relaisblusorrento.jpg</image_src>
+				<thumb_src>/thumbnail/86-relaisblusorrento.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/86-sorrento18cloisters.jpg</image_src>
+				<thumb_src>/thumbnail/86-sorrento18cloisters.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/86-sam2087.jpg</image_src>
+				<thumb_src>/thumbnail/86-sam2087.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/86-sam2074.jpg</image_src>
+				<thumb_src>/thumbnail/86-sam2074.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/86-sam2088.jpg</image_src>
+				<thumb_src>/thumbnail/86-sam2088.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/86-sam2089.jpg</image_src>
+				<thumb_src>/thumbnail/86-sam2089.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/86-sam2246.jpg</image_src>
+				<thumb_src>/thumbnail/86-sam2246.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/86-sam2149.jpg</image_src>
+				<thumb_src>/thumbnail/86-sam2149.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/86-sam2108.jpg</image_src>
+				<thumb_src>/thumbnail/86-sam2108.jpg</thumb_src>
+			</image>
+</images>
+	</gallery>
+</tn2>
+

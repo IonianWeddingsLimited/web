@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tn2>
+	<gallery>
+		<title>Fixed Dimensions</title>
+		<description>Some Description</description>
+		<file_root>/images/gallery/</file_root>
+		<images>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/20-ststefanosisland.jpg</image_src>
+				<thumb_src>/thumbnail/20-ststefanosisland.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/20-susankevin6.jpg</image_src>
+				<thumb_src>/thumbnail/20-susankevin6.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/20-tarapaul1.jpg</image_src>
+				<thumb_src>/thumbnail/20-tarapaul1.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/20-tarapaul14.jpg</image_src>
+				<thumb_src>/thumbnail/20-tarapaul14.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/20-tarapaul03.jpg</image_src>
+				<thumb_src>/thumbnail/20-tarapaul03.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/20-tarapaul13.jpg</image_src>
+				<thumb_src>/thumbnail/20-tarapaul13.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/20-nataliewerner08.jpg</image_src>
+				<thumb_src>/thumbnail/20-nataliewerner08.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/20-beachbbqguestsarriving.jpg</image_src>
+				<thumb_src>/thumbnail/20-beachbbqguestsarriving.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/20-privatebeachboatview.jpg</image_src>
+				<thumb_src>/thumbnail/20-privatebeachboatview.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/20-beachbbq07.jpg</image_src>
+				<thumb_src>/thumbnail/20-beachbbq07.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/20-beachbbqgrill.jpg</image_src>
+				<thumb_src>/thumbnail/20-beachbbqgrill.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/20-beachbbq13.jpg</image_src>
+				<thumb_src>/thumbnail/20-beachbbq13.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/20-kefalosrestaurantweddingsetup1.jpg</image_src>
+				<thumb_src>/thumbnail/20-kefalosrestaurantweddingsetup1.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/20-kefalostaverna1.jpg</image_src>
+				<thumb_src>/thumbnail/20-kefalostaverna1.jpg</thumb_src>
+			</image>
+</images>
+	</gallery>
+</tn2>
+

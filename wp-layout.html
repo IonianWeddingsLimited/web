@@ -1,0 +1,1382 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<!-- layout.templ $Revision$ -->
+<html lang="en">
+<head>
+<meta http-equiv=Cache-Control CONTENT="no-cache, no-store, must-revalidate, max-age=0">
+<meta http-equiv=Pragma CONTENT="no-cache">
+<meta http-equiv=Expires CONTENT="Mon, 17 Feb 2014 15:56:38 GMT">
+<title>WorldPay card payment</title>
+<style type="text/css">
+body {background-color: #ffffff;  margin: 0px 0px 0px 0px;}
+table.header {background-color: #002469; width: 760px; border: 0px;}
+td.headerlogo1 {background-color: #002469; vertical-align: top; width: 383px; text-align: right;}
+td.headerlogo2 {background-color: #ffffff; vertical-align: top; width: 272px; text-align: center;}
+table.nav { background-image:url('/images/wp/navbar.gif'); background-repeat: repeat-x; width: 760px; border: 0px; height: 21px;}
+table.container { background-color: #565a5f; width: 488px; border: 0px; margin-right: auto; margin-left: auto;}
+td.title {background-color: #565a5f; width: 100%;}
+table.containercell {background-color: #565a5f; width: 100%; border: 0;}
+h1 {font-size: 14pt; font-family: Arial,Geneva,Helvetica,Sans-Serif; color: #c08827; margin: 0px;}
+h2 {font-size: 12pt; font-family: Arial,Geneva,Helvetica,Sans-Serif; color: #ffffff; font-weight: bold; margin: 0px;}
+h3 {font-size: 12pt; font-family: Arial,Geneva,Helvetica,Sans-Serif; color: #000000; font-weight: bold; margin: 0px;}
+A.header:Link {text-decoration: none; color: #002469; font-family: Arial,Geneva,Helvetica,Sans-Serif; font-size: 10pt; font-weight: bold;}
+A.header:Visited {text-decoration: none; color: #002469; font-family: Arial,Geneva,Helvetica,Sans-Serif; font-size: 10pt; font-weight: bold;}
+A.header:Active {text-decoration: none; color: #002469; font-family: Arial,Geneva,Helvetica,Sans-Serif; font-size: 10pt; font-weight: bold;}
+A.header:Hover {text-decoration: underlined; color: #002469; font-family: Arial,Geneva,Helvetica,Sans-Serif; font-size: 10pt; font-weight: bold;}
+hr {color: #c08827; background-color: #c08827; height: 3px;}
+td.footerdivider { background-image: url('/images/wp/dotline.gif');; background-repeat: repeat-x; vertical-align: middle; text-align: center; width:760px; height:1px;}
+td.footer {background-color: #ffffff; vertical-align: middle; text-align: center; width:760px;}
+@media print {
+body {font-size:100%; width: 100%; margin: 0; float: none; font-family:Times New Roman, Serif; color: #000000; background: #ffffff;}
+table.header {display:none; width: 100%;}
+td.headerlogo1 {display:none;}
+td.headerlogo2 {display:none;}
+table.nav {display:none; width: 100%;}
+table.container {background-color: #ffffff; width: 100%;}
+td.title {background-color: #ffffff; color: #000000; width: 100%;}
+table.containercell {background-color: #ffffff; width: 100%;}
+h1 {font-size:130%; color: #000000;}
+h2 {font-size:120%; color: #000000;}
+h3 {font-size:110%; color: #000000;}
+A.header:Link {display:none;}
+A.header:Visited {display:none;}
+A.header:Active {display:none;}
+A.header:Hover {display:none;}
+hr {color: #000000; background-color: #000000; height: 1px;}
+td.footerdivider {display:none; width: 100%;}
+td.footer {display:none; width: 100%;}
+td.brand {display:none;}
+td.two {background-color: #ffffff;}
+td.one {background-color: #ffffff;}
+td.error {background-color: #ffffff;}
+td.three {background-color: #faf1df;}
+.print_buttons {display:none;}
+#print_buttons tr{display:none;}
+div.print_buttons {display:none;}
+img.print_buttons {display:none;}
+}
+
+</style>
+<!-- additional HTML head items -->
+
+<style type="text/css" media="screen">
+td.error {background-color: #565a5f; width: 100%;}
+td.one {background-color: #565a5f; }
+A.one:Link {text-decoration: none; color: #ffffff; font-family: Arial,Geneva,Helvetica,Sans-Serif; font-size: 10pt;}
+A.one:Visited {text-decoration: none; color: #ffffff; font-family: Arial,Geneva,Helvetica,Sans-Serif; font-size: 10pt;}
+A.one:Active {text-decoration: none; color: #ffffff; font-family: Arial,Geneva,Helvetica,Sans-Serif; font-size: 10pt;}
+A.one:Hover {text-decoration: underlined; color: #ffffff; font-family: Arial,Geneva,Helvetica,Sans-Serif; font-size: 10pt;}
+td.width190 {width:190px;}
+td.cardlabel {background-color: #565a5f; }
+td.two {background-color: #ffffff; }
+A.twoinstr:Link {text-decoration: underlined; color: #000000;}
+A.twoinstr:Visited {text-decoration: underlined; color: #000000;}
+A.twoinstr:Active {text-decoration: underlined; color: #000000;}
+A.twoinstr:Hover {text-decoration: underlined; color: #000000;}
+td.three {background-color: #faf1df; width:100%;}
+A.three:Link {text-decoration: none; color: #ffffff; font-family: Arial,Geneva,Helvetica,Sans-Serif; font-size: 10pt;}
+A.three:Visited {text-decoration: none; color: #ffffff; font-family: Arial,Geneva,Helvetica,Sans-Serif; font-size: 10pt;}
+A.three:Active {text-decoration: none; color: #ffffff; font-family: Arial,Geneva,Helvetica,Sans-Serif; font-size: 10pt;}
+A.three:Hover {text-decoration: underlined; color: #ffffff; font-family: Arial,Geneva,Helvetica,Sans-Serif; font-size: 10pt;}
+A.brand:Link {text-decoration: underlined; color: #000000;}
+A.brand:Visited {text-decoration: underlined; color: #000000;}
+A.brand:Active {text-decoration: underlined; color: #000000;}
+A.brand:Hover {text-decoration: underlined; color: #ffffff;}
+td.brand {background-color: #FFFFFF; vertical-align: top; text-align: left;}
+img.printonly {display:none;}
+.hiddenBankDetails { display: none; }
+</style>
+
+</head>
+<style type="text/css">
+html, body {
+	height: 100%;
+	margin-top: 0px;
+	margin-left: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	padding-top: 0px;
+	padding-left: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	width: 100%;
+}
+body {
+	background-color: #ffffff;
+	font-family: Arial, Helvetica, sans-serif;
+	margin-top: 0px;
+	margin-left: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	padding-top: 0px;
+	padding-left: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	text-align: center;
+}
+.site {
+	margin-top: 0px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 0px;
+	text-align: left;
+	width: 965px;
+}
+.selectnav {
+	display: none;
+}
+.header {
+	position: relative;	/*margin-top: 30px;*/
+	margin-top: 0px;
+	margin-left: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	width: 100%;
+}
+.logo {
+	display: inline;
+	float: left;
+	margin-top: 0px;
+	margin-left: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	padding-top: 30px;
+	padding-left: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+}
+.logo h1 {
+	color: #8b6934;
+	font-size: 11px;
+	line-height: 1.2em;
+	margin-top: 0px;
+	margin-left: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	padding-top: 0px;
+	padding-left: 0px;
+	padding-right: 0px;
+	padding-bottom: 5px;
+}
+.logo h2 {
+	color: #8b6934;
+	font-size: 11px;
+	line-height: 1.2em;
+	margin-top: 0px;
+	margin-left: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	padding-top: 0px;
+	padding-left: 0px;
+	padding-right: 0px;
+	padding-bottom: 12px;
+}
+.headervote {
+	bottom: 10px;
+	position: absolute;
+	right: 0px;
+	display: none;
+}
+.headersm {
+	border-left: solid 1px #d9d9d9;
+	display: inline;
+	float: left;
+	height: 50px;
+	margin-top: 30px;
+	margin-left: 20px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	padding-top: 0px;
+	padding-left: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+}
+.headersm ul {
+	list-style: none;
+	margin-top: 23px;
+	margin-left: 12px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	padding-top: 0px;
+	padding-left: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+}
+.headersm ul .headersmitem {
+	display: inline;
+	float: left;
+	margin-top: 0px;
+	margin-left: 0px;
+	margin-right: 7px;
+	margin-bottom: 0px;
+	padding-top: 0px;
+	padding-left: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+}
+.mainnav .selectnav {
+	background-color: #f9f9f9;
+	border: 1px solid #d9d9d9;
+	color: #626363;
+	cursor: pointer;
+	margin: 12px 0px 12px 0px;
+	padding: 10px;
+}
+.headernavigation {
+	display: inline;
+	float: right;
+	margin: 66px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+}
+.headernavigation h1 {
+	color: #8b6934;
+	font-size: 15px;
+	line-height: 1.2em;
+	margin-top: 0px;
+	margin-left: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	padding-top: 0px;
+	padding-left: 0px;
+	padding-right: 0px;
+	padding-bottom: 10px;
+	text-align: right;
+}
+.headernavigation ul {
+	list-style: none;
+	margin-top: 0px;
+	margin-left: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	padding-top: 0px;
+	padding-left: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+}
+.headernavigation ul .headernavigationlink {
+	border-left: solid 1px #d9d9d9;
+	color: #949494;
+	display: inline;
+	font-size: 11px;
+	float: left;
+	line-height: 1.2em;
+	margin-top: 0px;
+	margin-left: 10px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	padding-top: 0px;
+	padding-left: 10px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+}
+.headernavigation ul .headernavigationlink:first-child {
+	border-left: none;
+	margin-top: 0px;
+	margin-left: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	padding-top: 0px;
+	padding-left: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+}
+.headernavigation ul .headernavigationlink a:visited {
+	color: #949494;
+	text-decoration: none;
+}
+.headernavigation ul .headernavigationlink a:link {
+	color: #949494;
+	text-decoration: none;
+}
+.headernavigation ul .headernavigationlink a:hover {
+	color: #d9d9d9;
+	text-decoration: underline;
+}
+.headernavigation ul .headernavigationlink a {
+	color: #949494;
+	text-decoration: none;
+}
+.main {
+	background-color: #f9f9f9;
+	border: solid 1px #d9d9d9;
+	margin-top: 0px;
+	margin-left: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	padding-top: 0px;
+	padding-left: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	width: 963px;
+	margin:0 auto;
+}
+.maincontent {
+	margin-top: 0px;
+	margin-left: 14px;
+	margin-right: 14px;
+	margin-bottom: 0px;
+	padding-top: 0px;
+	padding-left: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+}
+.maincontent .homecontent {
+	padding: 12px 0px 0px 0px;
+	display: none;
+}
+.clear {
+	clear: both;
+	font-size: 0px;
+	line-height: 0px;
+}
+.footer {
+	background-color: #faf1df;
+	margin-top: 10px;
+	margin-left: 0px;
+	margin-right: 0px;
+	margin-bottom: 10px;
+	padding-top: 20px;
+	padding-left: 0px;
+	padding-right: 0px;
+	padding-bottom: 10px;
+	width: 100%;
+}
+.footercontent {
+	display: inline;
+	float: right;
+	margin-top: 0px;
+	margin-left: 0px;
+	margin-right: 18px;
+	margin-bottom: 0px;
+	padding-top: 0px;
+	padding-left: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+}
+.footercontent h1 {
+	color: #c08827;
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 11px;
+	font-weight: normal;
+	line-height: 1.2em;
+	margin-top: 0px;
+	margin-left: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	padding-top: 0px;
+	padding-left: 0px;
+	padding-right: 0px;
+	padding-bottom: 20px;
+}
+.footernavigation {
+	display: inline;
+	float: right;
+	margin-top: 0px;
+	margin-left: 0px;
+	margin-right: 13px;
+	margin-bottom: 0px;
+	padding-top: 0px;
+	padding-left: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+}
+.footernavigation ul {
+	display: inline;
+	float: left;
+	list-style: none;
+	margin-top: 0px;
+	margin-left: 5px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	padding-top: 0px;
+	padding-left: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+}
+.footernavigation ul .footernavigationlink {
+	border-left: solid 1px #878787;
+	color: #878787;
+	display: inline;
+	font-size: 11px;
+	float: left;
+	line-height: 1.2em;
+	margin-top: 0px;
+	margin-left: 0px;
+	margin-right: 5px;
+	margin-bottom: 0px;
+	padding-top: 0px;
+	padding-left: 5px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+}
+.footernavigation ul .footernavigationlink:first-child {
+	border-left: none;
+	margin-top: 0px;
+	margin-left: 0px;
+	margin-right: 5px;
+	margin-bottom: 0px;
+	padding-top: 0px;
+	padding-left: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+}
+.footernavigation ul .footernavigationlink a:visited {
+	color: #878787;
+	text-decoration: none;
+}
+.footernavigation ul .footernavigationlink a:link {
+	color: #878787;
+	text-decoration: none;
+}
+.footernavigation ul .footernavigationlink a:hover {
+	color: #878787;
+	text-decoration: underline;
+}
+.footernavigation ul .footernavigationlink a {
+	color: #878787;
+	text-decoration: none;
+}
+.footericons {
+	display: inline;
+	float: left;
+	margin-top: 0px;
+	margin-left: 12px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	padding-top: 0px;
+	padding-left: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+}
+.footericons ul {
+	list-style: none;
+	margin-top: 0px;
+	margin-left: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	padding-top: 0px;
+	padding-left: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+}
+.footericons ul .footericonslink {
+	display: inline;
+	float: left;
+	margin-top: 0px;
+	margin-left: 0px;
+	margin-right: 20px;
+	margin-bottom: 0px;
+	padding-top: 0px;
+	padding-left: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+}
+.pageform {
+	background-color: #565a5f;
+	margin-top: 12px;
+	margin-left: 20px;
+	margin-right: 20px;
+	margin-bottom: 12px;
+	padding-top: 20px;
+	padding-left: 0px;
+	padding-right: 0px;
+	padding-bottom: 20px;
+}
+.pageform .formheader {
+	margin-top: 0px;
+	margin-left: 30px;
+	margin-right: 30px;
+	margin-bottom: 0px;
+	padding-top: 0px;
+	padding-left: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	width: 61%;
+}
+.pageform .formheader h1 {
+	color: #c08827;
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 16px;
+	line-height: 1.2em;
+	margin-top: 0px;
+	margin-left: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	padding-top: 10px;
+	padding-left: 0px;
+	padding-right: 0px;
+	padding-bottom: 5px;
+}
+.pageform .formheader h2 {
+	color: #cc6633;
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 14px;
+	line-height: 1.2em;
+	margin-top: 0px;
+	margin-left: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	padding-top: 0px;
+	padding-left: 0px;
+	padding-right: 0px;
+	padding-bottom: 5px;
+}
+.pageform .formheader p {
+	color: #ffffff;
+	font-size: 12px;
+	line-height: 1.2em;
+	margin-top: 0px;
+	margin-left: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	padding-top: 0px;
+	padding-left: 0px;
+	padding-right: 0px;
+	padding-bottom: 20px;
+}
+.pageform .formheader ul {
+	list-style-image: url(http://www.ionianweddings.co.uk/images/interface/i_maincopy_ul_li.png);
+	margin-top: 0px;
+	margin-left: 15px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	padding-top: 0px;
+	padding-left: 0px;
+	padding-right: 0px;
+	padding-bottom: 15px;
+}
+.pageform .formheader ul li {
+	color: #ffffff;
+	font-size: 12px;
+	line-height: 1.2em;
+	margin-top: 0px;
+	margin-left: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	padding-top: 0px;
+	padding-left: 0px;
+	padding-right: 0px;
+	padding-bottom: 5px;
+}
+.pageform .formheader ol {
+	margin-top: 0px;
+	margin-left: 22px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	padding-top: 0px;
+	padding-left: 0px;
+	padding-right: 0px;
+	padding-bottom: 15px;
+}
+.pageform .formheader ol li {
+	color: #595959;
+	font-size: 12px;
+	line-height: 1.2em;
+	margin-top: 0px;
+	margin-left: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	padding-top: 0px;
+	padding-left: 0px;
+	padding-right: 0px;
+	padding-bottom: 5px;
+}
+.pageform .formheader a:visited {
+	color: #c08827;
+	text-decoration: none;
+}
+.pageform .formheader a:link {
+	color: #c08827;
+	text-decoration: none;
+}
+.pageform .formheader a:hover {
+	color: #c08827;
+	text-decoration: underline;
+}
+.pageform .formheader a {
+	color: #c08827;
+	text-decoration: none;
+}
+.pageform .formrow {
+	margin-top: 0px;
+	margin-left: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	padding-top: 0px;
+	padding-left: 0px;
+	padding-right: 0px;
+	padding-bottom: 10px;
+}
+.pageform .formlabel {
+	color: #ffffff;
+	display: inline;
+	float: left;
+	font-size: 11px;
+	line-height: 1.2em;
+	margin-top: 0px;
+	margin-left: 30px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	padding-top: 0px;
+	padding-left: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	width: 30%;
+}
+.pageform .formcheckboxlabel {
+	color: #ffffff;
+	display: inline;
+	float: left;
+	font-size: 11px;
+	line-height: 1.2em;
+	margin-top: 0px;
+	margin-left: 30px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	padding-top: 0px;
+	padding-left: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	width: 61%;
+}
+.pageform .formelement {
+	color: #ffffff;
+	display: inline;
+	float: left;
+	font-size: 11px;
+	line-height: 1.2em;
+	margin-top: 0px;
+	margin-left: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	padding-top: 0px;
+	padding-left: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+}
+.pageform .formelementnote {
+	color: #ffffff;
+	font-size: 11px;
+	display: inline;
+	margin: 5px 0px 0px 5px;
+	float: left;
+}
+.pageform .formtextfieldlong {
+	margin-top: 0px;
+	margin-left: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	padding-top: 0px;
+	padding-left: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	width: 300px;
+}
+.pageform .formtextarealong {
+	margin-top: 0px;
+	margin-left: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	padding-top: 0px;
+	padding-left: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	width: 300px;
+}
+.pageform .formselectlong {
+	margin-top: 0px;
+	margin-left: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	padding-top: 0px;
+	padding-left: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	width: 305px;
+}
+.pageform .checkboxblock {
+	margin-top: 0px;
+	margin-left: 30px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	padding-top: 0px;
+	padding-left: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+}
+.pageform .checkboxblock th {
+	color: #cc6633;
+	font-size: 12px;
+	line-height: 1.2em;
+	margin-top: 0px;
+	margin-left: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	padding-top: 0px;
+	padding-left: 0px;
+	padding-right: 0px;
+	padding-bottom: 5px;
+	text-align: left;
+}
+.pageform .checkboxblock td {
+	color: #ffffff;
+	font-size: 11px;
+	line-height: 1.2em;
+	margin-top: 0px;
+	margin-left: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	padding-top: 0px;
+	padding-left: 0px;
+	padding-right: 15px;
+	padding-bottom: 5px;
+	text-align: left;
+}
+/* Media Queries */
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+	.site {
+		width:730px;
+	}
+	.headernavigation {
+		margin: 66px 0px 0px 0px;
+	}
+	.headernavigation ul {
+		display: none;
+	}
+	.main {
+		width: 728px;	
+	}
+	.footercontent, .footernavigation {
+		display: block;
+		float: none;
+		margin: 12px 12px 12px 12px;
+		text-align: left;
+	}
+	.footercontent h1 {
+		padding: 0px 0px 0px 0px;
+	}
+	.footericons {
+		display: block;
+		float: none;
+	}
+}
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+	.site {
+		width: 480px;
+	}
+	.headernavigation {
+		display: block;
+		float: left;
+		margin: 0px 0px 0px 0px;
+		text-align: left;
+	}
+	.headernavigation ul {
+		display: none;
+	}
+	.headernavigation h1 {
+		text-align: left;
+	}
+	.main {
+		width: 478px;	
+	}
+	.pageform {
+		margin: 12px 0px 12px 0px;
+	}
+	.footercontent, .footernavigation {
+		display: block;
+		float: none;
+		margin: 12px 12px 12px 12px;
+		text-align: left;
+	}
+	.footercontent h1 {
+		padding: 0px 0px 0px 0px;
+	}
+	.footericons {
+		display: block;
+		float: none;
+	}
+	.footernavigation ul {
+		display: block;
+		float: none;
+		margin: 0px 0px 10px 0px;
+	}	
+}
+@media only screen and (max-width: 479px) {
+	.site {
+		width: 300px;
+	}
+	.logo {
+		margin: 0px 0px 0px 0px;
+	}
+	.headersm {
+		border: none;
+		margin: 30px 0px 0px 0px;
+		float: right;
+		width: 70px;
+	}
+	.headersm ul {
+		border-left: solid 1px #d9d9d9;
+		margin: 0px 0px 50px 0px;
+	}
+	.headersm ul .headersmitem:nth-child(1), .headersm ul .headersmitem:nth-child(2) {
+		margin: 0px 0px 2px 7px;
+	}
+	.headersm ul .headersmitem {
+		margin: 0px 0px 0px 7px;
+	}
+	.headernavigation {
+		display: block;
+		float: left;
+		margin: 0px 0px 0px 0px;
+		text-align: left;
+	}
+	.headernavigation h1 {
+		font-size: 13px;
+		text-align: left;
+	}
+	.maincontent .homecontent {
+		display: block;
+	}
+	.maincontent .destinationnav {
+		display: block;
+	}
+	.main {
+		width: 298px;	
+	}
+	.pageform {
+		margin: 12px 0px 12px 0px;
+	}
+	.footercontent, .footernavigation {
+		display: block;
+		float: none;
+		margin: 12px 12px 12px 12px;
+		text-align: left;
+	}
+	.footercontent h1 {
+		padding: 0px 0px 0px 0px;
+	}
+	.footericons {
+		display: block;
+		float: none;
+	}
+	.footernavigation ul {
+		display: block;
+		float: none;
+		margin: 0px 0px 0px 0px;
+	}
+	.footernavigation ul .footernavigationlink, .footernavigation ul .footernavigationlink:first-child {
+		border: none;
+		display: block;
+		float: none;
+		margin: 5px 0px 0px 0px;
+		padding: 0px 0px 0px 0px;
+	}
+}
+.containercell table {
+	width: 100%;
+	border: none;
+	border-spacing: 0px;
+    border-collapse: separate;
+}
+.containercell table table td {
+	border-bottom: dotted 1px #c08827;
+	padding: 5px 5px 5px 5px;
+}
+td.three {
+	border-bottom: solid 1px #c08827;
+	padding: 5px 5px 5px 5px;
+}
+nobr input, nobr img, #op-Language {
+	vertical-align: middle;
+}
+</style>
+<div class="site">
+	<div class="header">
+		<div class="logo">
+			<h1><a href="/" target="_self" title=""><img src="http://www.ionianweddings.co.uk/images/interface/i_logo_ionian_weddings.gif" alt="Ionian Weddings" border="0" title="Ionian Weddings" /></a> </h1>
+			<h2><img src="http://www.ionianweddings.co.uk/images/interface/i_exclusively_mediterranean_weddings.gif" alt="Exclusively Mediterranean Weddings" border="0" title="Exclusively Mediterranean Weddings" /></h2>
+		</div>
+		<div class="headersm">
+			<ul>
+				<li class="headersmitem"><a href="https://www.facebook.com/IonianWeddings" target="_blank" title="facebook"><img src="http://www.ionianweddings.co.uk/images/interface/b_header_facebook.gif" alt="facebook" border="0" title="facebook" /></a></li>
+				<li class="headersmitem"><a href="https://twitter.com/#!/ionianweddings" target="_blank" title="twitter"><img src="http://www.ionianweddings.co.uk/images/interface/b_header_twitter.gif" alt="twitter" border="0" title="twitter" /></a></li>
+				<li class="headersmitem"><a href="https://pinterest.com/ionianweddings/" target="_blank" title="Pinterest"><img src="http://www.ionianweddings.co.uk/images/interface/b_header_pinterest.gif" alt="Pinterest" border="0" title="Pinterest" /></a></li>
+				<li class="headersmitem"><a href="http://ionianweddings.tumblr.com/" target="_blank" title="tumblr"><img src="http://www.ionianweddings.co.uk/images/interface/b_header_tumblr.gif" alt="tumblr" border="0" title="tumblr" /></a></li>
+				<div class="clear"></div>
+			</ul>
+		</div>
+		<div class="headernavigation">
+			<h1>Call us today on 020 8894 1991 / 020 8898 9917</h1>
+		</div>
+		<div class="headervote"> <a href="/awards/" target="_self" title="Click to vote for us - British Travel Awards 2013 - www.britishtravelawards.com"><img src="http://www.ionianweddings.co.uk/images/interface/b_vote_2013.gif" alt="Click to vote for us - British Travel Awards 2013 - www.britishtravelawards.com" height="108" border="0" title="Click to vote for us - British Travel Awards 2013 - www.britishtravelawards.com" width="108" /></a> </div>
+		<div class="clear"></div>
+	</div>
+	<div class="main">
+		<div class="maincontent">
+			<div class="maincopy">
+				<div class="pageform">
+
+
+<form action=/wcc/card method=post autocomplete=off>
+<table class="container" cellpadding="0" cellspacing="0" align="center">
+	<tr>
+		<td>
+			<!-- the main content table -->
+			<table class="containercell" cellspacing="0" cellpadding="2">
+				<tr>
+					<td class="title" colspan="2">
+						<!-- page title -->
+						<h1>Secure Payment Page</h1>
+						<!--  end page title -->
+					</td>
+				</tr>
+<!-- end tableHead.html -->	
+
+<!-- cardPage.templ $Revision$ -->
+<INPUT TYPE=hidden NAME=PaymentID VALUE="ukdc2-pz-cen07-dppr-1392652597224" />
+<!--WP start testModeMessage -->
+
+	<tr>
+		<td colspan="2" class="error" align="center"><span style=" font-family: Arial,Geneva,Helvetica,Sans-Serif; font-size: 10pt; color: #cc6633;">TEST MODE - This is not a live transaction.</span></td>
+	</tr>
+
+<!--WP end testModeMessage -->
+
+<!--WP Feedback messages - uses comp.common.error etc. -->
+
+<!--WP end Feedback messages -->
+
+
+<!--WP Description -->
+	<tr>
+		<td colspan="2" class="one">
+			<table width="100%" cellspacing="0" cellpadding="0" border="0">
+
+				<!--WP language select -->
+
+	
+		<tr valign=bottom>
+			<td valign=top align=left>
+				<label for='op-Language'><span style=" font-family: Arial,Geneva,Helvetica,Sans-Serif; font-size: 12pt; color: #ffffff;"><b>Select language</b></span></label>
+			</td>	
+			<td valign=bottom align=left>
+				<!-- selection.comp $Revision$ -->
+<SELECT NAME="Lang">
+<OPTION VALUE="da">Dansk
+<OPTION VALUE="de">Deutsch
+<OPTION VALUE="et">Eesti
+<OPTION VALUE="en" selected=selected>English
+<OPTION VALUE="es">Español
+<OPTION VALUE="el">Eλληνικά
+<OPTION VALUE="fr">Français
+<OPTION VALUE="it">Italiano
+<OPTION VALUE="lv">Latviešu
+<OPTION VALUE="hu">Magyar
+<OPTION VALUE="nl">Nederlands
+<OPTION VALUE="no">Norsk
+<OPTION VALUE="pl">Polski
+<OPTION VALUE="pt">Português
+<OPTION VALUE="ru">Pyccкий
+<OPTION VALUE="ro">Română
+<OPTION VALUE="sk">Slovenčina
+<OPTION VALUE="fi">Suomi
+<OPTION VALUE="sv">Svenska
+<OPTION VALUE="tr">Türkçe
+<OPTION VALUE="cs">Čeština
+<OPTION VALUE="bg">Български
+<OPTION VALUE="ja">日本語
+<OPTION VALUE="ko">한국어
+</SELECT>
+
+				<input name=op-Language id=op-Language type=image src='https://secure-test.worldpay.com/i/307221/iw-proceed.png' alt='Select language' />
+			</td>
+		</tr>
+
+<!--WP language select -->
+
+
+
+				<!--Customer Description -->
+				
+					<tr><td colspan=3 class=one><span style=" font-family: Arial,Geneva,Helvetica,Sans-Serif; font-size: 10pt; color: #ffffff;"><b>Ionian Weddings Ltd</b></span></td></tr>
+				
+				
+				<!--END Customer Description -->
+
+				<!-- display Payment reference to XML merchants -->
+				
+
+				
+				<!--WP Card Type selected -->
+				<tr>
+					<td class="one width190" align="left" valign="top"><span style=" font-family: Arial,Geneva,Helvetica,Sans-Serif; font-size: 10pt; color: #ffffff;">Payment method</span>&nbsp;&nbsp;</td>
+					<td class="one width190" align="left" valign="top"><span style=" font-family: Arial,Geneva,Helvetica,Sans-Serif; font-size: 10pt; color: #ffffff;"><b>Maestro</b></span>&nbsp;</td>
+					<td rowspan="3" class="one" valign="top" align="right"><img src="/images/logos/spa.gif" width="81"  style="border:0px; vertical-align: top;" alt="MasterCard SecureCode" />&nbsp;&nbsp;&nbsp;</td>
+				</tr>
+                
+
+                
+
+                
+				<tr>
+					<td class="one width190" align="left" valign="top"><span style=" font-family: Arial,Geneva,Helvetica,Sans-Serif; font-size: 10pt; color: #ffffff;">Description</span>&nbsp;&nbsp;</td>
+					<td class="one width190" align="left" valign="top">
+                <span style=" font-family: Arial,Geneva,Helvetica,Sans-Serif; font-size: 10pt; color: #ffffff;"><b>Order for Invoice-ID:-124</b></span></td></tr>
+
+                
+
+                
+				<tr>
+					<td class="one width190" align="left" valign="top"><span style=" font-family: Arial,Geneva,Helvetica,Sans-Serif; font-size: 10pt; color: #ffffff;">Amount</span>&nbsp;&nbsp;</td>
+					<td class="one" align="left" valign="top"><span style=" font-family: Arial,Geneva,Helvetica,Sans-Serif; font-size: 10pt; color: #ffffff;"><b>&#163;2,651.69</b></span>&nbsp;</td>
+				</tr>
+		
+<!--WP END Description -->
+
+<!--WP RFP attributes-->
+		
+<!--WP RFP END-->
+
+<!--WP LFP attributes-->
+		
+<!--WP END LFP -->
+		
+<!--WP END FP -->
+			</table>
+		</td>
+	</tr>
+<!--WP end description -->
+
+<!--WP Login -->
+
+<!--WP Login END-->
+
+<!-- start Bibit Order Contents -->
+
+<!-- end Bibit Order Contents -->
+<!--WP spacer row -->
+	<tr>
+		<td colspan="2" class="one" height="5"><img src="/images/wp/magic.gif" style="width:1px; height:5px;" alt="" /></td>
+	</tr>
+<!--WP end spacer row -->
+<!--WP form contents -->
+<!--WP merchant top upload -->
+<!-- paymentTopFields.html $Revision$ -->
+<!-- You can use this file to add your own fields or any HTML into the payment container area. This enables you to collect both additional information on the page (using M_ or C_ parameters, as described in the relevant Integration Guide) or add your own text or graphics.
+
+For an example of the HTML code that this files need to work correctly with your payment page, goto the support site -->
+
+<!--WP merchant top upload END -->
+
+<!--WP start cardDetailsRows -->
+	<tr valign=middle>
+		<td colspan=2 class="one" align="left">
+			<table width="100%" cellpadding="0" cellspacing="0" border="0">
+				<tr valign="top">
+					<td class="three" align="left" valign="middle"><h2>&nbsp;Card details</h2></td>
+					<td class="one" align="right">
+					
+						<a href="/global3/payment/default/help_card_xml_en.html#card" target="_blank" title="Help with your card details - Opens in a new window."><img src="https://secure-test.worldpay.com/i/307221/iw-help.png" alt="Help with your card details - Opens in a new window." style="border:0px;" /></a>
+					
+					
+					</td>
+				</tr>
+				<tr>
+					<td class="two" width="100%">
+						<table cellpadding="0" cellspacing="0" border="0">
+							<tr>
+								<td colspan="2" class="two"><nobr>&nbsp;<span style=" font-family: Arial,Geneva,Helvetica,Sans-Serif; font-size: 8pt; color: #000000;"><em>* Indicates a required field</em></span></nobr></td>
+							</tr>
+<!--WP start card number row -->
+							<tr>
+								<td class="two width190"><label for="cardNoInput"><span style=" font-family: Arial,Geneva,Helvetica,Sans-Serif; font-size: 10pt; color: #000000;">&#42;&nbsp;Card number</span></label></td>
+								<td class="two"><input type="text" id="cardNoInput" name="cardNoInput" tabindex="60" value='' maxlength="20" autocomplete=off />
+								<input type=hidden name=cardNoJS value="" />
+								<input type=hidden name=cardNoHidden value="*hidden*" />
+							       </td>
+							</tr>
+<!--WP end card number row -->
+<!--WP start security code row -->
+						
+							<tr>
+								<td class="two width190"><label for="cardCVV">
+								<span style=" font-family: Arial,Geneva,Helvetica,Sans-Serif; font-size: 10pt; color: #000000;">&nbsp;&nbsp;&nbsp;</span><a href="/global3/payment/default/help_securitycode_en.html" class="twoinstr" target="_blank" title="Security code help - Opens in new window."><span style=" font-family: Arial,Geneva,Helvetica,Sans-Serif; font-size: 10pt; color: #000000;">Security Code</span></a></label></td>
+								<td class="two"><input type="text" id="cardCVV" name="cardCVV" tabindex="70" size="4" maxlength="4" autocomplete=off value="" /></td>
+							</tr>
+						
+<!--WP end security code row -->
+<!--WP start cardIssueNo -->
+						
+<!--WP end cardIssueNo -->
+<!--WP start cardStart -->
+						
+<!--WP end cardStart -->
+<!--WP start card exp date row -->
+							
+							<tr>
+								<td class="two width190"><span style=" font-family: Arial,Geneva,Helvetica,Sans-Serif; font-size: 10pt; color: #000000;">&#42;&nbsp;Expiry date</span></td>
+								<td class="two"><input type="hidden" name="cardExp.day" value="32" /><input type="hidden" name="cardExp.time" value="23:59:59" /><!-- selection.comp $Revision$ -->
+<SELECT NAME="cardExp.month" tabindex=110>
+<OPTION VALUE="" selected=selected>--
+<OPTION VALUE="1">01
+<OPTION VALUE="2">02
+<OPTION VALUE="3">03
+<OPTION VALUE="4">04
+<OPTION VALUE="5">05
+<OPTION VALUE="6">06
+<OPTION VALUE="7">07
+<OPTION VALUE="8">08
+<OPTION VALUE="9">09
+<OPTION VALUE="10">10
+<OPTION VALUE="11">11
+<OPTION VALUE="12">12
+</SELECT>
+<!-- selection.comp $Revision$ -->
+<SELECT NAME="cardExp.year" tabindex=120>
+<OPTION VALUE="" selected=selected>----
+<OPTION VALUE="2014">2014
+<OPTION VALUE="2015">2015
+<OPTION VALUE="2016">2016
+<OPTION VALUE="2017">2017
+<OPTION VALUE="2018">2018
+<OPTION VALUE="2019">2019
+<OPTION VALUE="2020">2020
+<OPTION VALUE="2021">2021
+<OPTION VALUE="2022">2022
+<OPTION VALUE="2023">2023
+<OPTION VALUE="2024">2024
+<OPTION VALUE="2025">2025
+<OPTION VALUE="2026">2026
+<OPTION VALUE="2027">2027
+<OPTION VALUE="2028">2028
+<OPTION VALUE="2029">2029
+<OPTION VALUE="2030">2030
+<OPTION VALUE="2031">2031
+<OPTION VALUE="2032">2032
+<OPTION VALUE="2033">2033
+<OPTION VALUE="2034">2034
+</SELECT>
+
+								</td>
+							</tr>
+							
+							<!-- just to satisfy the mandatory check for the cards that don't display expiry date like AURORE card -->
+							
+<!--WP end card exp date row -->
+<!--WP start Birthdate -->
+						
+<!--WP end Birthdate -->
+<!--WP start card holder name row -->
+							<tr>
+								<td class="two width190"><label for="name"><span style=" font-family: Arial,Geneva,Helvetica,Sans-Serif; font-size: 10pt; color: #000000;">&#42;&nbsp;Cardholder's name</span></label></td>
+								<td class="two"><input type="text" id="name" name="name" tabindex="130" maxlength="40" size="25" value="Miss Gtest2 Gtest2" /></td>
+							</tr>
+<!--WP end card holder name row -->
+						</table>
+					</td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+<!--WP spacer row -->
+	<tr>
+		<td colspan="2" class="one" height="5"><img src="/images/wp/magic.gif" style="width:1px; height:5px;" alt="" /></td>
+	</tr>
+<!--WP end spacer row -->
+<!--WP end cardDetailsRows -->
+<!--WP merchant middle upload -->
+<!-- paymentMiddleFields.html $Revision$ -->
+<!-- You can use this file to add your own fields or any HTML into the payment container area. This enables you to collect both additional information on the page (using M_ or C_ parameters, as described in the relevant Integration Guide) or add your own text or graphics.
+
+For an example of the HTML code that this files need to work correctly with your payment page, see your support site -->
+
+<!--WP merchant middle upload END -->
+
+
+<!--WP start hiddenContact -->
+
+	<input type="hidden" name="address1" value="test1" />
+	<input type="hidden" name="address2" value="test2" />
+	<input type="hidden" name="address3" value="test3" />
+	<input type="hidden" name="town" value="test4" />
+	<input type="hidden" name="region" value="" />
+	<input type="hidden" name="postcode" value="TEST6" />
+	<input type="hidden" name="country" value="GB" />
+
+	<input type="hidden" name="tel" value="01253296007" />
+	<input type="hidden" name="fax" value="" />
+	<input type="hidden" name="email" value="apexofthecurve@hotmail.com" />
+
+<!--WP end hiddenContact -->
+
+
+	<tr valign=top>
+		<td colspan="2" class="one">
+			<table width="100%" cellpadding="0" cellspacing="0" border="0">
+				<tr>
+					<td class="three" align="left"><h2>&nbsp;Cardholder details</h2></td>
+					<td class="one" align="right"><a href="/global3/payment/default/help_card_xml_en.html#contact" target="_blank" title="Help with your contact details - Opens in a new window."><img src="https://secure-test.worldpay.com/i/307221/iw-help.png" style="border:0px;" alt="Help with your contact details - Opens in a new window." /></a></td>
+				</tr>
+				<tr>
+					<td class="one">
+						<table width="100%" cellpadding="2" cellspacing="2" border="0">
+
+							<tr valign=top>
+									<td class="two width190"><label for="address1"><span style=" font-family: Arial,Geneva,Helvetica,Sans-Serif; font-size: 10pt; color: #000000;">&nbsp;&nbsp;&nbsp;Address 1</span></label></td>
+									<td class="two"><label for="address1Value"><span style=" font-family: Arial,Geneva,Helvetica,Sans-Serif; font-size: 10pt; color: #000000;"><b>test1</b></span></td>
+							</tr>
+							<tr valign=top>
+									<td class="two width190"><label for="address2"><span style=" font-family: Arial,Geneva,Helvetica,Sans-Serif; font-size: 10pt; color: #000000;">&nbsp;&nbsp;&nbsp;Address 2</span></label></td>
+									<td class="two"><label for="address2Value"><span style=" font-family: Arial,Geneva,Helvetica,Sans-Serif; font-size: 10pt; color: #000000;"><b>test2</b></span></td>
+							</tr>
+							<tr valign=top>
+									<td class="two width190"><label for="address3"><span style=" font-family: Arial,Geneva,Helvetica,Sans-Serif; font-size: 10pt; color: #000000;">&nbsp;&nbsp;&nbsp;Address 3</span></label></td>
+									<td class="two"><label for="address3Value"><span style=" font-family: Arial,Geneva,Helvetica,Sans-Serif; font-size: 10pt; color: #000000;"><b>test3</b></span></td>
+							</tr>
+
+							<tr valign=top>
+									<td class="two width190"><label for="town"><span style=" font-family: Arial,Geneva,Helvetica,Sans-Serif; font-size: 10pt; color: #000000;">&nbsp;&nbsp;&nbsp;Town/City</span></label></td>
+									<td class="two"><label for="town"><span style=" font-family: Arial,Geneva,Helvetica,Sans-Serif; font-size: 10pt; color: #000000;"><b>test4</b></span></td>
+							</tr>
+					
+							
+							
+							
+								<tr valign=top>
+									<td class="two width190"><label for="region"><span style=" font-family: Arial,Geneva,Helvetica,Sans-Serif; font-size: 10pt; color: #000000;">&nbsp;&nbsp;&nbsp;Region</span></label></td>
+									<td class="two"><label for="region"></td>
+								</tr>
+							
+	
+							
+								<tr valign=top>
+										<td class="two width190"><label for="postcode"><span style=" font-family: Arial,Geneva,Helvetica,Sans-Serif; font-size: 10pt; color: #000000;">&nbsp;&nbsp;&nbsp;Postcode/ZIP code</span></label></td>
+										<td class="two"><label for="postcodeValue"><span style=" font-family: Arial,Geneva,Helvetica,Sans-Serif; font-size: 10pt; color: #000000;"><b>TEST6</b></span></td>
+								</tr>
+							
+		
+							
+						
+							<tr valign=top>
+								<td class="two width190"><span style=" font-family: Arial,Geneva,Helvetica,Sans-Serif; font-size: 10pt; color: #000000;">&nbsp;&nbsp;&nbsp;Country</span></td>
+								<td class="two"><span style=" font-family: Arial,Geneva,Helvetica,Sans-Serif; font-size: 10pt; color: #000000;"><b>United Kingdom</b></span></td>
+							</tr>
+						
+							<tr valign=top>
+								<td class="two width190"><span style=" font-family: Arial,Geneva,Helvetica,Sans-Serif; font-size: 10pt; color: #000000;">&nbsp;&nbsp;&nbsp;Telephone</span></td>
+								<td class="two"><span style=" font-family: Arial,Geneva,Helvetica,Sans-Serif; font-size: 10pt; color: #000000;"><b>01253296007</b></span></td>
+							</tr>
+							<tr valign=top>
+								<td class="two width190"><span style=" font-family: Arial,Geneva,Helvetica,Sans-Serif; font-size: 10pt; color: #000000;">&nbsp;&nbsp;&nbsp;Fax</span></td>
+								<td class="two"></td>
+							</tr>
+							<tr valign=top>
+								<td class="two width190"><span style=" font-family: Arial,Geneva,Helvetica,Sans-Serif; font-size: 10pt; color: #000000;">&nbsp;&nbsp;&nbsp;Email address</span></td>
+								<td class="two"><span style=" font-family: Arial,Geneva,Helvetica,Sans-Serif; font-size: 10pt; color: #000000;"><b>apexofthecurve@hotmail.com</b></span></td>
+							</tr>
+						
+						</table>
+					</td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+<!--WP spacer row -->
+
+	<tr>
+		<td colspan="2" class="one" height="5"><img src="/images/wp/magic.gif" style="width:1px; height:5px;" alt="" /></td>
+	</tr>
+<!--WP end spacer row -->
+<!--WP start hidden mandatory XML shopper country -->
+	<input type="hidden" name="country" value="GB" />
+<!--WP end hidden mandatory XML shopper country -->
+
+
+
+		
+<!--WP start withDelivery editable contact -->		
+
+<!--WP end withDelivery editable contact -->		
+
+<!--WP start withDelivery fixeddeliveryRows  contact -->	
+
+<!--WP end withDelivery fixeddeliveryRows  contact -->	
+
+
+
+
+
+<!-- Special case for bibit migrated merchants for handling Visa Electron payment when
+     AVS is switched off -->
+
+
+
+<!--WP merchant bottom upload -->
+<!-- paymentBottomFields.html $Revision$ -->
+<!-- You can use this file to add your own fields or any HTML into the payment container area. This enables you to collect both additional information on the page (using M_ or C_ parameters, as described in the relevant Integration Guide) or add your own text or graphics.
+
+For an example of the HTML code that this files need to work correctly with your payment page, go to your support site -->
+
+<!--WP merchant bottom upload END -->
+<!--WP end form contents-->
+<!--WP makepayment button -->
+		<!--Show WP start again -->
+		
+
+<!--Hide WP start again -->
+		
+			<tr valign="top">
+				<td class="one" valign="top" align="left">&nbsp;</td>
+		
+<!--WP end start again -->
+				<td class="one" valign="top" rowspan="2" align="right">
+				<label for="op-PMMakePayment">
+					<nobr><span style=" font-family: Arial,Geneva,Helvetica,Sans-Serif; font-size: 12pt; color: #ffffff;"><b>Make payment</b></span><input name="op-PMMakePayment" id="op-PMMakePayment" tabindex="249" type="image" src="https://secure-test.worldpay.com/i/307221/iw-makepayment.png" alt="Make payment" /></nobr>
+				</label>
+				</td>
+			</tr>
+<!--WP cancel button -->
+			<tr valign="top">
+				<td class="one" valign="top" align="left">
+					<nobr><a href="https://secure-test.worldpay.com/wcc/dispatcher?op-DPCancel&PaymentID=ukdc2-pz-cen07-dppr-1392652597224&date=17%2FFeb%2F2014+15%3A56%3A38&Lang=en" tabindex="260" style="text-decoration:none;"><img src="https://secure-test.worldpay.com/i/307221/iw-cancel.png" alt="Cancel" style="border:0px;" /></a>&nbsp;<span style=" font-family: Arial,Geneva,Helvetica,Sans-Serif; font-size: 12pt; color: #ffffff;"><b>Cancel</b></span></nobr>
+				</td>
+			</tr>
+<!--WP end cancelButton -->
+<!--WP end makepayment button -->
+<!--Branding fixed -->
+
+<!--WP end Branding fixed -->
+<!--WP cardPage.templ end -->
+
+
+						</table>
+					</td>
+				</tr>
+			</table>
+
+</form>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="footer">
+		<div class="footericons">
+			<ul>
+				<li class="footericonslink"><a href="http://www.abta.com/home" target="_blank" title="ABTA"><img src="http://www.ionianweddings.co.uk/images/b_abta.png" alt="ABTA" border="0" title="ABTA" /></a></li>
+				<li class="footericonslink"><a href="http://www.visitgreece.gr/" target="_blank" title="Greek National Tourist Information"><img src="http://www.ionianweddings.co.uk/images/b_greek_national_tourist_information.png" alt="Greek National Tourist Information" border="0" title="Greek National Tourist Information" /></a></li>
+				<li class="footericonslink"><a href="http://www.visitmalta.com/" target="_blank" title="Malta Gozo Comino"><img src="http://www.ionianweddings.co.uk/images/b_malta_gozo_comino.png" alt="Malta Gozo Comino" border="0" title="Malta Gozo Comino" /></a></li>				<li class="clear"></li>
+			</ul>
+		</div>
+		<div class="footercontent">
+			<h1>This site is brought to you by Ionian Weddings Limited, the only site you need to make your wedding dreams come true</h1>
+		</div>
+		<div class="footernavigation">
+			<ul>
+				<li class="footernavigationlink">Copyright &copy; 2014. All rights reserved.</li>
+				<li class="clear"></li>
+			</ul>
+		</div>
+		<div class="clear"></div>
+	</div>
+</div>
+
+</html>

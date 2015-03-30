@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tn2>
+	<gallery>
+		<title>Fixed Dimensions</title>
+		<description>Some Description</description>
+		<file_root>/images/gallery/</file_root>
+		<images>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/142-kalamibay.jpg</image_src>
+				<thumb_src>/thumbnail/142-kalamibay.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/142-kalamiseasidetaverna.jpg</image_src>
+				<thumb_src>/thumbnail/142-kalamiseasidetaverna.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/142-kalamitaverna12.jpg</image_src>
+				<thumb_src>/thumbnail/142-kalamitaverna12.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/142-kalami8.jpg</image_src>
+				<thumb_src>/thumbnail/142-kalami8.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/142-kalamitaverna13.jpg</image_src>
+				<thumb_src>/thumbnail/142-kalamitaverna13.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/142-kalami6.jpg</image_src>
+				<thumb_src>/thumbnail/142-kalami6.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/142-kalamitaverna14.jpg</image_src>
+				<thumb_src>/thumbnail/142-kalamitaverna14.jpg</thumb_src>
+			</image>
+</images>
+	</gallery>
+</tn2>
+

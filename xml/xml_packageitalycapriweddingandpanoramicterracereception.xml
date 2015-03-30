@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tn2>
+	<gallery>
+		<title>Fixed Dimensions</title>
+		<description>Some Description</description>
+		<file_root>/images/gallery/</file_root>
+		<images>
+<image>
+				<image_src>/93-54faraglionicapri-copy.jpg</image_src>
+				<thumb_src>/thumbnail/93-54faraglionicapri-copy.jpg</thumb_src>
+			</image>
+<image>
+				<image_src>/93-faraglioni5-copy.jpg</image_src>
+				<thumb_src>/thumbnail/93-faraglioni5-copy.jpg</thumb_src>
+			</image>
+<image>
+				<image_src>/93-sam2248.jpg</image_src>
+				<thumb_src>/thumbnail/93-sam2248.jpg</thumb_src>
+			</image>
+<image>
+				<image_src>/93-capripiazza-copy-copy.jpg</image_src>
+				<thumb_src>/thumbnail/93-capripiazza-copy-copy.jpg</thumb_src>
+			</image>
+<image>
+				<image_src>/93-sam2272-copy.jpg</image_src>
+				<thumb_src>/thumbnail/93-sam2272-copy.jpg</thumb_src>
+			</image>
+<image>
+				<image_src>/93-sam2269.jpg</image_src>
+				<thumb_src>/thumbnail/93-sam2269.jpg</thumb_src>
+			</image>
+</images>
+	</gallery>
+</tn2>
+

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tn2>
+	<gallery>
+		<title>Fixed Dimensions</title>
+		<description>Some Description</description>
+		<file_root>/images/gallery/</file_root>
+		<images>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/61-peyia.jpg</image_src>
+				<thumb_src>/thumbnail/61-peyia.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/61-dsc0122.jpg</image_src>
+				<thumb_src>/thumbnail/61-dsc0122.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/61-dsc0112.jpg</image_src>
+				<thumb_src>/thumbnail/61-dsc0112.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/61-dsc0058.jpg</image_src>
+				<thumb_src>/thumbnail/61-dsc0058.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/61-dsc0168.jpg</image_src>
+				<thumb_src>/thumbnail/61-dsc0168.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/61-dsc0084.jpg</image_src>
+				<thumb_src>/thumbnail/61-dsc0084.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/61-dsc0091.jpg</image_src>
+				<thumb_src>/thumbnail/61-dsc0091.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/61-dsc0202.jpg</image_src>
+				<thumb_src>/thumbnail/61-dsc0202.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/61-dsc0321.jpg</image_src>
+				<thumb_src>/thumbnail/61-dsc0321.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/61-cyprusweddingrecept0094.jpg</image_src>
+				<thumb_src>/thumbnail/61-cyprusweddingrecept0094.jpg</thumb_src>
+			</image>
+</images>
+	</gallery>
+</tn2>
+

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tn2>
+	<gallery>
+		<title>Fixed Dimensions</title>
+		<description>Some Description</description>
+		<file_root>/images/gallery/</file_root>
+		<images>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/72-angelaed6.jpg</image_src>
+				<thumb_src>/thumbnail/72-angelaed6.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/72-angelaed3.jpg</image_src>
+				<thumb_src>/thumbnail/72-angelaed3.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/72-angelaed5.jpg</image_src>
+				<thumb_src>/thumbnail/72-angelaed5.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/72-angelaed4.jpg</image_src>
+				<thumb_src>/thumbnail/72-angelaed4.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/72-angelaed10.jpg</image_src>
+				<thumb_src>/thumbnail/72-angelaed10.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/72-angelaed8.jpg</image_src>
+				<thumb_src>/thumbnail/72-angelaed8.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/72-angelaed1.jpg</image_src>
+				<thumb_src>/thumbnail/72-angelaed1.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/72-angelaed9.jpg</image_src>
+				<thumb_src>/thumbnail/72-angelaed9.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/72-angelaed2.jpg</image_src>
+				<thumb_src>/thumbnail/72-angelaed2.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/72-angelaed7.jpg</image_src>
+				<thumb_src>/thumbnail/72-angelaed7.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/72-angelaed11.jpg</image_src>
+				<thumb_src>/thumbnail/72-angelaed11.jpg</thumb_src>
+			</image>
+</images>
+	</gallery>
+</tn2>
+

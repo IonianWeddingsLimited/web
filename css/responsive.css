@@ -1,0 +1,882 @@
+/* Media Queries */
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+	.js .destinationnav { display: block; }
+	.js .destinationnav .selectnav { display: block; width:700px;}
+	.js .packagesnav { display: block; }
+	.js .packagesnav .selectnav { display: block; width:700px;}
+	.js .mainnav { display: block; }
+	.js .mainnav .selectnav { display: block; width:700px;}
+
+	#destinationnav {
+		display: block;
+	}
+	.destinationnav ul .destinationnavitem {
+		width: 18.4%;
+	}
+	.destinationnav ul .destinationnavitem:nth-child(1), .destinationnav ul .destinationnavitem:nth-child(2) {
+		width: 22%;
+	}
+	.site {
+		width:730px;
+	}
+	.headernavigation {
+		margin: 66px 0px 0px 0px;
+	}
+	.headernavigation ul {
+		display: none;
+	}
+	.main {
+		width: 728px;	
+	}
+	.maincontent .homecontent {
+		display: block;
+	}
+	.maincontent .destinationnav {
+		display: block;
+	}
+	.mattblackmenu {
+		display: none;
+	}
+	.homehero {
+		display: none;
+	}
+	.homefeaturesrow {
+		display: block;
+	}
+	.homefeaturepad {
+		display: none;
+	}
+	.homefeature {
+		display: inline;
+		float: left;
+		min-height: 294px;
+		margin: 0px 7px 12px 0px;
+		width: 164px;
+	}
+	.homefeature2 {
+		display: inline;
+		float: left;
+		margin: 0px 7px 12px 0px;
+		width: 354px;
+	}
+	.homefeature:nth-child(4) {
+		width: 180px;
+	}
+	.homefeature .homefeaturecontent p img {
+		height: auto;
+		width: 100%;
+	}
+	.hometwitter {
+		width: 168px;
+	}
+	.pageform .formlabel {
+		width: 40%;
+	}
+	.pageform .formcheckboxlabel {
+		width: 81%;
+	}
+	.maincopy .mainhero {
+		padding-top: 8px;
+		height: 342px;
+		width: 380px;
+	}
+	.maincopy .mainfeature {
+		width: 380px;
+	}
+	.maincopy .mainfeature .mainfeatureimage {
+		margin: 0px 10px 0px 0px;
+	}
+	.maincopy .mainfeature .mainfeatureimage img {
+		margin: 10px 0px 10px 0px;
+		width: 160px;
+	}
+	.maincopy .mainfeature .mainfeaturecopy {
+		margin: 0px 10px 0px 10px;
+		padding: 10px 0px 8px 0px;
+		width: 186px;
+	}
+	.maincopy .mainfeature .mainfeaturecopy h3 {
+		font-size: 13px;
+	}
+	.maincopy img {
+		max-width: 684px;
+	}
+	.maincopy .apjp {
+		height: auto;
+		width: 270px;
+	}
+	.maincopy h1 img {
+		display: inline;
+		float: right;
+		margin: 0px 0px 20px 20px;
+	}
+	.maincopy .awardstable {
+		width: 684px;
+	}
+	.maincopy .teamtable {
+		width: 664px;
+	}
+	.maincopy .teamtable td img {
+		height: auto;
+		width: 199px;
+	}
+	.maincopy .teamtable td h1 {
+		font-size: 14px;
+	}
+	.maincopy .tdleft {
+		width:  209px;
+	}
+	.maincopy .tdcenter {
+		width: 209px;
+	}
+	.maincopy .tdright {
+		width: 209px;
+	}
+	.maincopy .charityheader img {
+		max-height: 180px;
+		width: auto;
+	}
+	.maincopy .charityfooter img {
+		height: auto;
+		max-width: 150px;
+	}
+	.maincopy .pagesplit {
+	
+	}
+	.maincopy .pagesplit .columnleft {
+		width: 330px;
+	}
+	.maincopy .pagesplit .columnright {
+		width: 330px;
+	}
+	.boxlist .boxlistrow .boxlistright {
+		width: 490px;
+	}
+	.pagelistintro.floatright {
+		float: none;
+		display: block;
+		margin: 0px 0px 0px 0px;
+		width: 100%;
+	}
+	.pagelistrow th {
+		width: 160px;
+	}
+	.pagelistrow td {
+		width: 160px;
+	}
+	.pagelistrow th a img {
+		height: auto;
+		width: 160px;
+	}
+	.sitefeatures.top {
+		display: block;
+	}
+	.sitefeatures.bottom {
+		display: none;
+	}
+	.sitefeatures {
+		padding: 0px 0px 10px 0px;		
+	}
+	.sitefeatures ul {
+		margin: 0px 0px 0px 9px;
+		padding: 0px 0px 0px 0px;
+	}
+	.sitefeatures ul .sitefeaturelink {
+		margin: 10px 0px 0px 11px;
+		padding: 0px 10px 0px 0px;
+		width: 301px;
+	}
+	.sitefeatures ul .sitefeaturelink:nth-child(2), .sitefeatures ul .sitefeaturelink:nth-child(4){
+		border-right: none;
+		margin: 10px 0px 0px 11px;
+		padding: 0px 0px 0px 0px;
+		width: 339px;
+	}
+	.paginationoutdent {
+		width: 730px;
+	}
+	.footercontent, .footernavigation {
+		display: block;
+		float: none;
+		margin: 12px 12px 12px 12px;
+		text-align: left;
+	}
+	.footercontent h1 {
+		padding: 0px 0px 0px 0px;
+	}
+	.footericons {
+		display: block;
+		float: none;
+	}
+}
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+	.js .destinationnav { display: block; }
+	.js .destinationnav .selectnav { display: block; width:450px;}
+	.js .packagesnav { display: block; }
+	.js .packagesnav .selectnav { display: block; width:450px;}
+	.js .mainnav { display: block; }
+	.js .mainnav .selectnav { display: block; width:450px;}
+
+	#destinationnav {
+		display: block;
+	}	
+	.destinationnav ul .destinationnavitem {
+		width: 33.1%;
+	}
+	.destinationnav ul .destinationnavitem:nth-child(1) {
+		width: 225px;
+	}
+	.destinationnav ul .destinationnavitem:nth-child(2) {
+		width: 224px;
+	}
+	.destinationnav ul .destinationnavitem:nth-child(3) {
+		border-left: none;
+		width: 150px;
+	}
+	.destinationnav ul .destinationnavitem {
+		width: 149px;
+	}
+	.site {
+		width: 480px;
+	}
+	.headernavigation {
+		display: block;
+		float: left;
+		margin: 0px 0px 0px 0px;
+		text-align: left;
+	}
+	.headernavigation ul {
+		display: none;
+	}
+	.headernavigation h1 {
+		text-align: left;
+	}
+	.main {
+		width: 478px;	
+	}
+	.maincontent .homecontent {
+		display: block;
+	}
+	.maincontent .destinationnav {
+		display: block;
+	}
+	.mattblackmenu {
+		display: none;
+	}
+	.homehero {
+		display: none;
+	}
+	.homefeaturesrow {
+		display: block;
+	}
+	.homefeaturepad {
+		display: none;
+	}
+	.homefeature {
+		display: inline;
+		float: left;
+		margin: 0px 10px 12px 0px;
+		width: 220px;
+	}
+	.homefeature2 {
+		display: inline;
+		float: left;
+		margin: 0px 10px 12px 0px;
+		width: 454px;
+	}
+	.homefeature .homefeaturecontent p img {
+		width: 196px;
+	}
+	.hometwitter {
+		width: 200px;
+	}
+	.pageform {
+		margin: 0px 0px 12px 0px;
+	}
+	.pageform .formheader {
+		width: 382px;
+	}
+	.pageform .formlabel {
+		display: block;
+		float: none;
+		width: 387px;
+	}
+	.pageform .formelement {
+		margin: 3px 0px 0px 30px;
+	}
+	.pageform .formselectlong {
+		width: 387px;
+	}
+	.pageform .formtextfieldlong {
+		width: 382px;
+	}
+	.pageform .formtextarealong {
+		width: 382px;
+	}
+	.pageform .formcheckboxlabel {
+		width: 75%;
+	}
+	.maincopy .mainhero {
+		display: block;
+		height: 388px;
+		margin: 0px 0px 12px 0px;
+		padding-top: 4px;
+		width: 100%;
+	}
+	.maincopy .mainfeature {
+		margin: 0px 0px 12px 0px;
+		width: 100%;
+	}
+	.maincopy .mainfeature .mainfeatureimage {
+		margin: 0px 10px 0px 0px;
+	}
+	.maincopy .mainfeature .mainfeatureimage img {
+		margin: 10px 0px 10px 0px;
+		width: 160px;
+	}
+	.maincopy .mainfeature .mainfeaturecopy {
+		margin: 0px 10px 0px 10px;
+		padding: 10px 0px 8px 0px;
+		width: 230px;
+	}
+	.maincopy .mainfeature .mainfeaturecopy h3 {
+		font-size: 14px;
+	}
+	.maincopy img {
+		display: block;
+		height: auto;
+		width: 100%;
+	}
+	.maincopy h1 img {
+		margin: 0px 0px 20px 0px;
+	}
+	.maincopy .awardstable {
+		width: 394px;
+	}
+	.maincopy .awardstable tr {
+		clear: both;
+		width: 100%;
+	}
+	.maincopy .awardstable th {
+		border: none;
+		display: block;
+		float: left;
+		width: 394px;
+	}
+	.maincopy .awardstable td {
+		border: none;
+		display: inline-block;
+		float: left;
+		padding: 0px 0px 20px 20px;
+		text-align: center;
+		min-height: 97px;
+		min-width: 197px;
+	}
+	.maincopy .awardstable td img {
+		display: inline;
+		max-width: 180px;
+	}
+	.maincopy .teamtable {
+		width: 434px;
+	}
+	.maincopy .teamtable td img {
+		height: auto;
+		width: 118px;
+	}
+	.maincopy .teamtable td h1 {
+		font-size: 12px;
+	}
+	.maincopy .tdleft {
+		width:  118px;
+	}
+	.maincopy .tdcenter {
+		width: 118px;
+	}
+	.maincopy .tdright {
+		width: 118px;
+	}
+	.maincopy .charityheader img {
+		max-height: 110px;
+		width: auto;
+	}
+	.maincopy .charityfooter img {
+		height: auto;
+		width: 80px;
+	}
+	.maincopy .pagesplit {
+		background-image: none;
+	}
+	.maincopy .pagesplit .columnleft {
+		width: 100%;
+	}
+	.maincopy .pagesplit .columnright {
+		width: 100%;
+	}
+	.accordianheader h1 {
+		width: 250px;
+	}
+	.accordianimage {
+		display: block;
+		margin: 0px 0px 12px 0px;
+	}
+	.accordianimage img {
+		display: block;
+		width: 100%;
+	}
+	.boxlist .boxlistrow .boxlistright {
+		width: 230px;
+	}
+	.pagelistintro.floatright {
+		float: none;
+		display: block;
+		margin: 0px 0px 0px 0px;
+		width: 100%;
+	}
+	.pagelistrow th {
+		width: 100px;
+	}
+	.pagelistrow td {
+		width: 100px;
+	}
+	.pagelistrow th a img {
+		height: auto;
+		width: 100px;
+	}
+	.sitefeatures.top {
+		display: block;
+	}
+	.sitefeatures.bottom {
+		display: none;
+	}
+	.sitefeatures {
+		padding: 0px 0px 10px 0px;		
+	}
+	.sitefeatures ul {
+		margin: 0px 0px 0px 5px;
+		padding: 0px 0px 0px 0px;
+	}
+	.sitefeatures ul .sitefeaturelink {
+		margin: 10px 0px 0px 11px;
+		padding: 0px 10px 0px 0px;
+		width: 143px;
+	}
+	.sitefeatures ul .sitefeaturelink:nth-child(2), .sitefeatures ul .sitefeaturelink:nth-child(4) {
+		border-right: none;
+		width: 255px;
+	}
+	.sitefeatures ul .sitefeaturelink:nth-child(2) h1, .sitefeatures ul .sitefeaturelink:nth-child(4) h1{
+		margin-right: 40px;
+	}
+	.paginationoutdent {
+		width: 480px;
+	}
+	.footercontent, .footernavigation {
+		display: block;
+		float: none;
+		margin: 12px 12px 12px 12px;
+		text-align: left;
+	}
+	.footercontent h1 {
+		padding: 0px 0px 0px 0px;
+	}
+	.footericons {
+		display: block;
+		float: none;
+	}
+	.footernavigation ul {
+		display: block;
+		float: none;
+		margin: 0px 0px 10px 0px;
+	}
+	.show {
+		display: none;
+	}
+	.hide {
+		display: block;
+	}
+	.formlist {
+		margin: 0px 30px 0px 30px;
+	}
+	.cardlogorow ul {
+		margin: 0px 0px 0px 0px;
+	}
+}
+
+@media only screen and (max-width: 479px) {
+	.js .destinationnav { display: block; }
+	.js .destinationnav .selectnav { display: block; width:270px;}
+	.js .packagesnav { display: block; }
+	.js .packagesnav .selectnav { display: block; width:270px;}
+	.js .mainnav { display: block; }
+	.js .mainnav .selectnav { display: block; width:270px;}
+
+	#destinationnav {
+		display: block;
+	}
+	.destinationnav ul .destinationnavitem {
+		width: 89px;
+	}
+	.destinationnav ul .destinationnavitem:nth-child(1){
+		width: 135px;
+	}
+	.destinationnav ul .destinationnavitem:nth-child(2) {
+		width: 134px;
+	}
+	.destinationnav ul .destinationnavitem:nth-child(2) a {
+		padding-right: 20px;
+	}
+	.destinationnav ul .destinationnavitem:nth-child(3) {
+		border-left: none;
+		width: 90px;
+	}
+	.site {
+		width: 300px;
+	}
+	.logo {
+		margin: 0px 0px 0px 0px;
+	}
+	.headersm {
+		border: none;
+		margin: 30px 0px 0px 0px;
+		float: right;
+		width: 70px;
+	}
+	.headersm ul {
+		border-left: solid 1px #d9d9d9;
+		margin: 0px 0px 50px 0px;
+	}
+	.headersm ul .headersmitem:nth-child(1), .headersm ul .headersmitem:nth-child(2) {
+		margin: 0px 0px 2px 7px;
+	}
+	.headersm ul .headersmitem {
+		margin: 0px 0px 0px 7px;
+	}
+	.headernavigation {
+		display: block;
+		float: left;
+		margin: 0px 0px 0px 0px;
+		text-align: left;
+	}
+	.headernavigation ul {
+		display: none;
+	}
+	.headernavigation h1 {
+		font-size: 13px;
+		text-align: left;
+	}
+	.maincontent .homecontent {
+		display: block;
+	}
+	.maincontent .destinationnav {
+		display: block;
+	}
+	.main {
+		width: 298px;	
+	}
+	.mattblackmenu {
+		display: none;
+	}
+	.homehero {
+		display: none;
+	}
+	.homefeaturesrow {
+		display: block;
+	}
+	.homefeaturepad {
+		display: none;
+	}
+	.homefeature {
+		display: inline;
+		float: left;
+		min-height: 100%;
+		margin: 0px 0px 12px 0px;
+		width: 270px;
+	}
+	.homefeature2 {
+		display: inline;
+		float: left;
+		min-height: 100%;
+		margin: 0px 0px 12px 0px;
+		width: 272px;
+	}
+	.homefeature .homefeaturecontent {
+		padding: 0px 0px 12px 0px;
+	}
+	.homefeature .homefeaturecontent p img {
+		width: 246px;
+	}
+	.hometwitter {
+		width: 270px;
+	}
+	.pageform {
+		margin: 0px 0px 12px 0px;
+	}
+	.pageform .formheader {
+		margin: 0px 12px 0px 12px;
+		width: 245px;
+	}
+	.pageform .formlabel {
+		display: block;
+		float: none;
+		margin: 0px 0px 0px 12px;
+		width: 245px;
+	}
+	.pageform .formelement {
+		margin: 3px 0px 0px 12px;
+	}
+	.pageform .formselectlong {
+		width: 250px;
+	}
+	.pageform .formtextfieldlong {
+		width: 245px;
+	}
+	.pageform .formtextarealong {
+		width: 245px;
+	}
+	.pageform .formcheckboxlabel {
+		margin: 0px 0px 0px 12px;
+		width: 78%;
+	}
+	.maincopy .mainhero {
+		display: block;
+		height: 227px;
+		margin: 0px 0px 12px 0px;
+		padding-top: 12px;
+		width: 100%;
+	}
+	.maincopy .mainfeature {
+		margin: 0px 0px 12px 0px;
+		width: 100%;
+	}
+	.maincopy .mainfeature .mainfeatureimage {
+		display: block;
+		margin: 0px 10px 0px 0px;
+	}
+	.maincopy .mainfeature .mainfeatureimage img {
+		margin: 10px 0px 0px 0px;
+		width: 233px;
+	}
+	.maincopy .mainfeature .mainfeaturecopy {
+		margin: 0px 10px 0px 10px;
+		padding: 10px 0px 8px 0px;
+		width: 230px;
+	}
+	.maincopy .mainfeature .mainfeaturecopy h3 {
+		font-size: 13px;
+	}
+	.maincopy img {
+		display: block;
+		height: auto;
+		width: 100%;
+	}
+	.maincopy h1 img {
+		margin: 0px 0px 20px 0px;
+	}
+	.maincopy .awardstable {
+		display: block;
+		width: 100%;
+	}
+	.maincopy .awardstable th {
+		border: none;
+		display: block;
+	}
+	.maincopy .awardstable td {
+		border: none;
+		display: block;
+		padding: 0px 0px 20px 20px;
+		text-align: center;
+	}
+	.maincopy .awardstable td img {
+		display: inline;
+	}
+	.maincopy .teamtable {
+		display: block;
+		width: 100%;
+	}
+	.maincopy .teamtable td {
+		border: none;
+		display: block;
+		padding: 0px 0px 0px 0px;
+		width: 100%;
+	}
+	.maincopy .teamtable td img {
+		height: auto;
+		width: 100%;
+	}
+	.maincopy .charityheader {
+		margin: 0px 0px -12px 0px;
+	}
+	.maincopy .charityheader td {
+		display: block;
+		padding: 0px 0px 12px 0px;
+	}
+	.maincopy .charityheader img {
+		height: auto;
+		width: 100%;
+	}
+	.maincopy .charityfooter td {
+		display: block;
+		padding: 0px 0px 12px 0px;
+	}
+	.maincopy .charityfooter img {
+		height: auto;
+		width: 100%;
+	}
+	.maincopy .pagesplit {
+		background-image: none;
+	}
+	.maincopy .pagesplit .columnleft {
+		width: 100%;
+	}
+	.maincopy .pagesplit .columnright {
+		width: 100%;
+	}
+	.accordianheader h1 {
+		width: 160px;
+	}
+	.accordianheader h2 {
+		width: 180px;
+	}
+	.accordianheader h3 {
+		font-size: 10px;
+	}
+	.accordianimage {
+		display: block;
+		margin: 0px 0px 12px 0px;
+	}
+	.accordianimage img {
+		display: block;
+		width: 100%;
+	}
+	/*.boxlist .boxlistrow .boxlistleft {
+		margin: 0px 0px 12px 0px;
+		width: 100%;
+	}
+	.boxlist .boxlistrow .boxlistleft img {
+		height: auto;
+		width: 100%;
+	}
+	.boxlist .boxlistrow .boxlistright {
+		width: 100%;
+	}*/
+	.boxlist .boxlistrow .boxlistleft {
+		width: 100px;
+	}
+	.boxlist .boxlistrow .boxlistleft img {
+		height: auto;
+		width: 100px;
+	}
+	.boxlist .boxlistrow .boxlistright {
+		width: 140px;
+	}
+	.boxlist .boxlistrow .boxlistright h3 {
+		display: none;
+	}
+	.pagelistintro.floatright {
+		float: none;
+		display: block;
+		margin: 0px 0px 0px 0px;
+		width: 100%;
+	}
+	.pagelistrow {
+		/*width: 242px;*/
+	}
+	.bottomrow {
+		display: block;
+	}
+	.toprow th:nth-child(4), .toprow td:nth-child(4), .toprow th:nth-child(5), .toprow td:nth-child(5), .toprow th:nth-child(6), .toprow td:nth-child(6), .toprow th:nth-child(7), .toprow td:nth-child(7) {
+		display: none;		
+	}
+	.bottomrow th:nth-child(1), .bottomrow td:nth-child(1), .bottomrow th:nth-child(2), .bottomrow td:nth-child(2), .bottomrow th:nth-child(3), .bottomrow td:nth-child(3), .bottomrow th:nth-child(4), .bottomrow td:nth-child(4) {
+		display: none;		
+	}
+	.pagelistrow th {
+		width: 119px;
+	}
+	.pagelistrow td {
+		width: 119px;
+	}
+	
+	.pagelistrow th a img {
+		height: auto;
+		width: 100%;
+	}
+	.mobilelistrow {
+		display: block;
+		width: 100%;
+	}
+	.sitefeatures.top {
+		display: block;
+	}
+	.sitefeatures.bottom {
+		display: none;
+	}
+	.sitefeatures {
+		padding: 0px 0px 10px 0px;		
+	}
+	.sitefeatures ul {
+		margin: 0px 0px 0px 0px;
+		padding: 0px 0px 0px 0px;
+	}
+	.sitefeatures ul .sitefeaturelink, .sitefeatures ul .sitefeaturelink:nth-child(4) {
+		border-right: none;
+		margin: 10px 11px 0px 11px;
+		padding: 0px 0px 0px 0px;
+		width: 248px;
+	}
+	.sitefeatures ul .sitefeaturelink h1 {
+		font-size: 14px;
+	}
+	.paginationoutdent {
+		width: 300px;
+	}
+	.footercontent, .footernavigation {
+		display: block;
+		float: none;
+		margin: 12px 12px 12px 12px;
+		text-align: left;
+	}
+	.footercontent h1 {
+		padding: 0px 0px 0px 0px;
+	}
+	.footericons {
+		display: block;
+		float: none;
+	}
+	.footernavigation ul {
+		display: block;
+		float: none;
+		margin: 0px 0px 0px 0px;
+	}
+	.footernavigation ul .footernavigationlink, .footernavigation ul .footernavigationlink:first-child {
+		border: none;
+		display: block;
+		float: none;
+		margin: 5px 0px 0px 0px;
+		padding: 0px 0px 0px 0px;
+	}
+	.show {
+		display: none;
+	}
+	.hide {
+		display: block;
+	}
+	.cardlogorow ul {
+		margin: 0px 0px 0px 0px;
+	}
+	.cardlogorow ul .cardlogoitem img {
+		height: 16px;
+	}
+	.desktopcart {
+		display: none;
+	}
+	.mobilecart {
+		display: table-row;
+		margin: 0px 0px 5px 0px;
+	}
+	.formlisttrspacer {
+		display: table-row;
+		height: 5px;
+	}
+}

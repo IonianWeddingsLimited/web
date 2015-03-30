@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tn2>
+	<gallery>
+		<title>Fixed Dimensions</title>
+		<description>Some Description</description>
+		<file_root>/images/gallery/</file_root>
+		<images>
+<image>
+				<image_src>/105-sam2236.jpg</image_src>
+				<thumb_src>/thumbnail/105-sam2236.jpg</thumb_src>
+			</image>
+<image>
+				<image_src>/105-sam2061.jpg</image_src>
+				<thumb_src>/thumbnail/105-sam2061.jpg</thumb_src>
+			</image>
+<image>
+				<image_src>/105-palazzomuratweddinginpositano2.jpg</image_src>
+				<thumb_src>/thumbnail/105-palazzomuratweddinginpositano2.jpg</thumb_src>
+			</image>
+<image>
+				<image_src>/105-palazzomuratweddinginpositano15.jpg</image_src>
+				<thumb_src>/thumbnail/105-palazzomuratweddinginpositano15.jpg</thumb_src>
+			</image>
+<image>
+				<image_src>/105-palazzomuratweddinginpositano3.jpg</image_src>
+				<thumb_src>/thumbnail/105-palazzomuratweddinginpositano3.jpg</thumb_src>
+			</image>
+<image>
+				<image_src>/105-palazzomuratweddinginpositano26.jpg</image_src>
+				<thumb_src>/thumbnail/105-palazzomuratweddinginpositano26.jpg</thumb_src>
+			</image>
+</images>
+	</gallery>
+</tn2>
+

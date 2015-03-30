@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tn2>
+	<gallery>
+		<title>Fixed Dimensions</title>
+		<description>Some Description</description>
+		<file_root>/images/gallery/</file_root>
+		<images>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/95-cominoview4.jpg</image_src>
+				<thumb_src>/thumbnail/95-cominoview4.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/95-cominoview2.jpg</image_src>
+				<thumb_src>/thumbnail/95-cominoview2.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/95-cominoview1.jpg</image_src>
+				<thumb_src>/thumbnail/95-cominoview1.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/95-cominoview6.jpg</image_src>
+				<thumb_src>/thumbnail/95-cominoview6.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/95-cominoview7.jpg</image_src>
+				<thumb_src>/thumbnail/95-cominoview7.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/95-cominoview5.jpg</image_src>
+				<thumb_src>/thumbnail/95-cominoview5.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/95-cominoview3.jpg</image_src>
+				<thumb_src>/thumbnail/95-cominoview3.jpg</thumb_src>
+			</image>
+</images>
+	</gallery>
+</tn2>
+

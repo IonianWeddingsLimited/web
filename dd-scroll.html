@@ -1,0 +1,233 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Step 1</title>
+<link rel="stylesheet" type="text/css" href="/css/iw-image-ine.css" />
+<link rel="stylesheet" type="text/css" href="/css/jcarousel.css" />
+<script src="http://code.jquery.com/jquery-1.9.1.js"></script>
+<script src="http://code.jquery.com/ui/1.10.3/jquery-ui.js"></script>
+<script src="/js/jquery.touch-punch.min.js"></script>
+<script src="/js/masonry.pkgd.js"></script>
+<script src="/js/jquery.draganddrop.js"></script>
+<script type="text/javascript" src="/js/jcarousel/jquery.jcarousel.min.js"></script>
+<script type="text/javascript" src="/js/jcarousel/jcarousel.responsive.js"></script>
+<script>
+$(document).ready(function() {
+   //$('#gallery').html(iOrder);
+	var $container = $('#gallery');
+	// initialize
+	$container.masonry({
+		columnWidth: 320,
+		gutter: 0,
+		itemSelector: '.item'
+	});
+	
+	
+	$("#complete").click(function(){
+		var elements = [];
+
+		//iterates through each input field and pushes the name to the array
+		$(".jcarousel li").each(function() {
+		    var masonaryID = $(this).attr("id");
+		    elements.push(masonaryID);
+		});
+		var masonaryID = elements.join(",");
+		  window.location.href = "dd-swatch.html?" + masonaryID;
+	});
+});
+</script>
+</head>
+<body>
+<div class="masthead">
+	<div class="logo">
+		<img src="/images/interface/i-image-ine-logo.png" alt="IMAGE-INE : ture your perfect wedding" botrder="0" title="IMAGE-INE : ture your perfect wedding" />
+	</div>
+</div>
+<div class="header">
+	<ul id="gallery" class="gallery ui-helper-reset ui-helper-clearfix">
+		<li id="1" class="item tile1x1">
+			<div class="box-container">
+				<h1>1</h1>
+				<a href="link/to/trash/script/when/we/have/js/off" title="Love" class="ui-icon ui-icon-trash">Love</a>
+			</div>
+		</li>
+		<li id="2" class="item tile1x1">
+			<div class="box-container">
+				<h1>2</h1>
+				<a href="link/to/trash/script/when/we/have/js/off" title="Love" class="ui-icon ui-icon-trash">Love</a>
+			</div>
+		</li>
+		<li id="3" class="item tile1x1">
+			<div class="box-container">
+				<h1>3</h1>
+				<a href="link/to/trash/script/when/we/have/js/off" title="Love" class="ui-icon ui-icon-trash">Love</a>
+			</div>
+		</li>
+		<li id="4" class="item tile1x1">
+			<div class="box-container">
+				<h1>4</h1>
+				<a href="link/to/trash/script/when/we/have/js/off" title="Love" class="ui-icon ui-icon-trash">Love</a>
+			</div>
+		</li>
+		<li id="5" class="item tile1x1">
+			<div class="box-container">
+				<h1>5</h1>
+				<a href="link/to/trash/script/when/we/have/js/off" title="Love" class="ui-icon ui-icon-trash">Love</a>
+			</div>
+		</li>
+		<li id="6" class="item tile1x1">
+			<div class="box-container">
+				<h1>6</h1>
+				<a href="link/to/trash/script/when/we/have/js/off" title="Love" class="ui-icon ui-icon-trash">Love</a>
+			</div>
+		</li>
+		<li id="7" class="item tile1x1">
+			<div class="box-container">
+				<h1>7</h1>
+				<a href="link/to/trash/script/when/we/have/js/off" title="Love" class="ui-icon ui-icon-trash">Love</a>
+			</div>
+		</li>
+		<li id="8" class="item tile1x1">
+			<div class="box-container">
+				<h1>8</h1>
+				<a href="link/to/trash/script/when/we/have/js/off" title="Love" class="ui-icon ui-icon-trash">Love</a>
+			</div>
+		</li>
+		<li id="9" class="item tile1x1">
+			<div class="box-container">
+				<h1>9</h1>
+				<a href="link/to/trash/script/when/we/have/js/off" title="Love" class="ui-icon ui-icon-trash">Love</a>
+			</div>
+		</li>
+		<li id="10" class="item tile1x1">
+			<div class="box-container">
+				<h1>10</h1>
+				<a href="link/to/trash/script/when/we/have/js/off" title="Love" class="ui-icon ui-icon-trash">Love</a>
+			</div>
+		</li>
+		<li id="11" class="item tile1x1">
+			<div class="box-container">
+				<h1>11</h1>
+				<a href="link/to/trash/script/when/we/have/js/off" title="Love" class="ui-icon ui-icon-trash">Love</a>
+			</div>
+		</li>
+		<li id="12" class="item tile1x1">
+			<div class="box-container">
+				<h1>12</h1>
+				<a href="link/to/trash/script/when/we/have/js/off" title="Love" class="ui-icon ui-icon-trash">Love</a>
+			</div>
+		</li>
+		<li id="13" class="item tile1x1">
+			<div class="box-container">
+				<h1>13</h1>
+				<a href="link/to/trash/script/when/we/have/js/off" title="Love" class="ui-icon ui-icon-trash">Love</a>
+			</div>
+		</li>
+		<li id="14" class="item tile3x2">
+			<div class="box-container">
+				<h1>14</h1>
+				<a href="link/to/trash/script/when/we/have/js/off" title="Love" class="ui-icon ui-icon-trash">Love</a>
+			</div>
+		</li>
+		<li id="15" class="item tile1x1">
+			<div class="box-container">
+				<h1>15</h1>
+				<a href="link/to/trash/script/when/we/have/js/off" title="Love" class="ui-icon ui-icon-trash">Love</a>
+			</div>
+		</li>
+		<li id="16" class="item tile4x2">
+			<div class="box-container">
+				<h1>16</h1>
+				<a href="link/to/trash/script/when/we/have/js/off" title="Love" class="ui-icon ui-icon-trash">Love</a>
+			</div>
+		</li>
+		<li id="17" class="item tile1x1">
+			<div class="box-container">
+				<h1>17</h1>
+				<a href="link/to/trash/script/when/we/have/js/off" title="Love" class="ui-icon ui-icon-trash">Love</a>
+			</div>
+		</li>
+		<li id="18" class="item tile1x1">
+			<div class="box-container">
+				<h1>18</h1>
+				<a href="link/to/trash/script/when/we/have/js/off" title="Love" class="ui-icon ui-icon-trash">Love</a>
+			</div>
+		</li>
+		<li id="19" class="item tile1x1">
+			<div class="box-container">
+				<h1>19</h1>
+				<a href="link/to/trash/script/when/we/have/js/off" title="Love" class="ui-icon ui-icon-trash">Love</a>
+			</div>
+		</li>
+		<li id="20" class="item tile1x1">
+			<div class="box-container">
+				<h1>20</h1>
+				<a href="link/to/trash/script/when/we/have/js/off" title="Love" class="ui-icon ui-icon-trash">Love</a>
+			</div>
+		</li>
+		<li id="21" class="item tile1x1">
+			<div class="box-container">
+				<h1>21</h1>
+				<a href="link/to/trash/script/when/we/have/js/off" title="Love" class="ui-icon ui-icon-trash">Love</a>
+			</div>
+		</li>
+		<li id="22" class="item tile1x1">
+			<div class="box-container">
+				<h1>22</h1>
+				<a href="link/to/trash/script/when/we/have/js/off" title="Love" class="ui-icon ui-icon-trash">Love</a>
+			</div>
+		</li>
+		<li id="23" class="item tile1x1">
+			<div class="box-container">
+				<h1>23</h1>
+				<a href="link/to/trash/script/when/we/have/js/off" title="Love" class="ui-icon ui-icon-trash">Love</a>
+			</div>
+		</li>
+		<li id="24" class="item tile1x1">
+			<div class="box-container">
+				<h1>24</h1>
+				<a href="link/to/trash/script/when/we/have/js/off" title="Love" class="ui-icon ui-icon-trash">Love</a>
+			</div>
+		</li>
+		<li id="25" class="item tile1x1">
+			<div class="box-container">
+				<h1>25</h1>
+				<a href="link/to/trash/script/when/we/have/js/off" title="Love" class="ui-icon ui-icon-trash">Love</a>
+			</div>
+		</li>
+		<li id="26" class="item tile1x1">
+			<div class="box-container">
+				<h1>26</h1>
+				<a href="link/to/trash/script/when/we/have/js/off" title="Love" class="ui-icon ui-icon-trash">Love</a>
+			</div>
+		</li>
+		<li id="27" class="item tile1x1">
+			<div class="box-container">
+				<h1>27</h1>
+				<a href="link/to/trash/script/when/we/have/js/off" title="Love" class="ui-icon ui-icon-trash">Love</a>
+			</div>
+		</li>
+		<li id="28" class="item tile1x1">
+			<div class="box-container">
+				<img alt="" title="" src="images/gallery/47-gracetable.jpg"></img>
+				<a href="link/to/trash/script/when/we/have/js/off" title="Love" class="ui-icon ui-icon-trash">Love</a>
+			</div>
+		</li>
+	</ul>
+</div>
+<div class="wrapper">
+	<div class="jcarousel-wrapper">
+		<div id="basket" class="jcarousel">
+			<ul class="gallery">
+            &nbsp;
+			</ul>
+		</div>
+        <a href="#" class="jcarousel-control-prev">&lsaquo;</a> <a href="#" class="jcarousel-control-next">&rsaquo;</a>
+	<p class="jcarousel-pagination"></p>
+        <div id="complete"><a href="#">Continue with selected images</a></div>
+
+	</div>
+</div>
+</body>
+</html>

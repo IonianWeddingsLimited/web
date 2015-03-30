@@ -1,0 +1,443 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tn2>
+	<gallery>
+		<title>Fixed Dimensions</title>
+		<description>Some Description</description>
+		<file_root>http://83.149.102.2/~ionianwe/images/gallery/</file_root>
+		<images>
+<image>
+				<title>destinationcrete2.jpg</title>
+				<description>destinationcrete2.jpg Description</description>
+				<image_src>/destinationcrete2.jpg</image_src>
+				<thumb_src>/thumbnail/destinationcrete2.jpg</thumb_src>
+			</image>
+<image>
+				<title>destinationcrete4.jpg</title>
+				<description>destinationcrete4.jpg Description</description>
+				<image_src>/destinationcrete4.jpg</image_src>
+				<thumb_src>/thumbnail/destinationcrete4.jpg</thumb_src>
+			</image>
+<image>
+				<title>destinationcrete3.jpg</title>
+				<description>destinationcrete3.jpg Description</description>
+				<image_src>/destinationcrete3.jpg</image_src>
+				<thumb_src>/thumbnail/destinationcrete3.jpg</thumb_src>
+			</image>
+<image>
+				<title>destinationcrete5.jpg</title>
+				<description>destinationcrete5.jpg Description</description>
+				<image_src>/destinationcrete5.jpg</image_src>
+				<thumb_src>/thumbnail/destinationcrete5.jpg</thumb_src>
+			</image>
+<image>
+				<title>destinationcrete6.jpg</title>
+				<description>destinationcrete6.jpg Description</description>
+				<image_src>/destinationcrete6.jpg</image_src>
+				<thumb_src>/thumbnail/destinationcrete6.jpg</thumb_src>
+			</image>
+<image>
+				<title>destinationcrete7.jpg</title>
+				<description>destinationcrete7.jpg Description</description>
+				<image_src>/destinationcrete7.jpg</image_src>
+				<thumb_src>/thumbnail/destinationcrete7.jpg</thumb_src>
+			</image>
+<image>
+				<title>destinationcrete8.jpg</title>
+				<description>destinationcrete8.jpg Description</description>
+				<image_src>/destinationcrete8.jpg</image_src>
+				<thumb_src>/thumbnail/destinationcrete8.jpg</thumb_src>
+			</image>
+<image>
+				<title>destinationcrete9.jpg</title>
+				<description>destinationcrete9.jpg Description</description>
+				<image_src>/destinationcrete9.jpg</image_src>
+				<thumb_src>/thumbnail/destinationcrete9.jpg</thumb_src>
+			</image>
+<image>
+				<title>destinationcrete10.jpg</title>
+				<description>destinationcrete10.jpg Description</description>
+				<image_src>/destinationcrete10.jpg</image_src>
+				<thumb_src>/thumbnail/destinationcrete10.jpg</thumb_src>
+			</image>
+<image>
+				<title>destinationcrete11.jpg</title>
+				<description>destinationcrete11.jpg Description</description>
+				<image_src>/destinationcrete11.jpg</image_src>
+				<thumb_src>/thumbnail/destinationcrete11.jpg</thumb_src>
+			</image>
+<image>
+				<title>destinationcyprus1.jpg</title>
+				<description>destinationcyprus1.jpg Description</description>
+				<image_src>/destinationcyprus1.jpg</image_src>
+				<thumb_src>/thumbnail/destinationcyprus1.jpg</thumb_src>
+			</image>
+<image>
+				<title>destinationcyprus2.jpg</title>
+				<description>destinationcyprus2.jpg Description</description>
+				<image_src>/destinationcyprus2.jpg</image_src>
+				<thumb_src>/thumbnail/destinationcyprus2.jpg</thumb_src>
+			</image>
+<image>
+				<title>destinationcyprus3.jpg</title>
+				<description>destinationcyprus3.jpg Description</description>
+				<image_src>/destinationcyprus3.jpg</image_src>
+				<thumb_src>/thumbnail/destinationcyprus3.jpg</thumb_src>
+			</image>
+<image>
+				<title>destinationcyprus4.jpg</title>
+				<description>destinationcyprus4.jpg Description</description>
+				<image_src>/destinationcyprus4.jpg</image_src>
+				<thumb_src>/thumbnail/destinationcyprus4.jpg</thumb_src>
+			</image>
+<image>
+				<title>destinationcyprus5.jpg</title>
+				<description>destinationcyprus5.jpg Description</description>
+				<image_src>/destinationcyprus5.jpg</image_src>
+				<thumb_src>/thumbnail/destinationcyprus5.jpg</thumb_src>
+			</image>
+<image>
+				<title>destinationcyprus6.jpg</title>
+				<description>destinationcyprus6.jpg Description</description>
+				<image_src>/destinationcyprus6.jpg</image_src>
+				<thumb_src>/thumbnail/destinationcyprus6.jpg</thumb_src>
+			</image>
+<image>
+				<title>destinationcyprus7.jpg</title>
+				<description>destinationcyprus7.jpg Description</description>
+				<image_src>/destinationcyprus7.jpg</image_src>
+				<thumb_src>/thumbnail/destinationcyprus7.jpg</thumb_src>
+			</image>
+<image>
+				<title>destinationcyprus8.jpg</title>
+				<description>destinationcyprus8.jpg Description</description>
+				<image_src>/destinationcyprus8.jpg</image_src>
+				<thumb_src>/thumbnail/destinationcyprus8.jpg</thumb_src>
+			</image>
+<image>
+				<title>destinationcyprus9.jpg</title>
+				<description>destinationcyprus9.jpg Description</description>
+				<image_src>/destinationcyprus9.jpg</image_src>
+				<thumb_src>/thumbnail/destinationcyprus9.jpg</thumb_src>
+			</image>
+<image>
+				<title>destinationcyprus10.jpg</title>
+				<description>destinationcyprus10.jpg Description</description>
+				<image_src>/destinationcyprus10.jpg</image_src>
+				<thumb_src>/thumbnail/destinationcyprus10.jpg</thumb_src>
+			</image>
+<image>
+				<title>destinationcyprus11.jpg</title>
+				<description>destinationcyprus11.jpg Description</description>
+				<image_src>/destinationcyprus11.jpg</image_src>
+				<thumb_src>/thumbnail/destinationcyprus11.jpg</thumb_src>
+			</image>
+<image>
+				<title>destinationcyprus12.jpg</title>
+				<description>destinationcyprus12.jpg Description</description>
+				<image_src>/destinationcyprus12.jpg</image_src>
+				<thumb_src>/thumbnail/destinationcyprus12.jpg</thumb_src>
+			</image>
+<image>
+				<title>destinationcyprus13.jpg</title>
+				<description>destinationcyprus13.jpg Description</description>
+				<image_src>/destinationcyprus13.jpg</image_src>
+				<thumb_src>/thumbnail/destinationcyprus13.jpg</thumb_src>
+			</image>
+<image>
+				<title>destinationcyprus14.jpg</title>
+				<description>destinationcyprus14.jpg Description</description>
+				<image_src>/destinationcyprus14.jpg</image_src>
+				<thumb_src>/thumbnail/destinationcyprus14.jpg</thumb_src>
+			</image>
+<image>
+				<title>destinationcyprus16.jpg</title>
+				<description>destinationcyprus16.jpg Description</description>
+				<image_src>/destinationcyprus16.jpg</image_src>
+				<thumb_src>/thumbnail/destinationcyprus16.jpg</thumb_src>
+			</image>
+<image>
+				<title>destinationcyprus15.jpg</title>
+				<description>destinationcyprus15.jpg Description</description>
+				<image_src>/destinationcyprus15.jpg</image_src>
+				<thumb_src>/thumbnail/destinationcyprus15.jpg</thumb_src>
+			</image>
+<image>
+				<title>destinationcyprus17.jpg</title>
+				<description>destinationcyprus17.jpg Description</description>
+				<image_src>/destinationcyprus17.jpg</image_src>
+				<thumb_src>/thumbnail/destinationcyprus17.jpg</thumb_src>
+			</image>
+<image>
+				<title>destinationcyprus18.jpg</title>
+				<description>destinationcyprus18.jpg Description</description>
+				<image_src>/destinationcyprus18.jpg</image_src>
+				<thumb_src>/thumbnail/destinationcyprus18.jpg</thumb_src>
+			</image>
+<image>
+				<title>destinationcyprus19.jpg</title>
+				<description>destinationcyprus19.jpg Description</description>
+				<image_src>/destinationcyprus19.jpg</image_src>
+				<thumb_src>/thumbnail/destinationcyprus19.jpg</thumb_src>
+			</image>
+<image>
+				<title>destinationcyprus20.jpg</title>
+				<description>destinationcyprus20.jpg Description</description>
+				<image_src>/destinationcyprus20.jpg</image_src>
+				<thumb_src>/thumbnail/destinationcyprus20.jpg</thumb_src>
+			</image>
+<image>
+				<title>destinationcyprus21.jpg</title>
+				<description>destinationcyprus21.jpg Description</description>
+				<image_src>/destinationcyprus21.jpg</image_src>
+				<thumb_src>/thumbnail/destinationcyprus21.jpg</thumb_src>
+			</image>
+<image>
+				<title>destinationcyprus22.jpg</title>
+				<description>destinationcyprus22.jpg Description</description>
+				<image_src>/destinationcyprus22.jpg</image_src>
+				<thumb_src>/thumbnail/destinationcyprus22.jpg</thumb_src>
+			</image>
+<image>
+				<title>destinationcyprus23.jpg</title>
+				<description>destinationcyprus23.jpg Description</description>
+				<image_src>/destinationcyprus23.jpg</image_src>
+				<thumb_src>/thumbnail/destinationcyprus23.jpg</thumb_src>
+			</image>
+<image>
+				<title>destinationcyprus24.jpg</title>
+				<description>destinationcyprus24.jpg Description</description>
+				<image_src>/destinationcyprus24.jpg</image_src>
+				<thumb_src>/thumbnail/destinationcyprus24.jpg</thumb_src>
+			</image>
+<image>
+				<title>destinationcyprus26.jpg</title>
+				<description>destinationcyprus26.jpg Description</description>
+				<image_src>/destinationcyprus26.jpg</image_src>
+				<thumb_src>/thumbnail/destinationcyprus26.jpg</thumb_src>
+			</image>
+<image>
+				<title>destinationcyprus25.jpg</title>
+				<description>destinationcyprus25.jpg Description</description>
+				<image_src>/destinationcyprus25.jpg</image_src>
+				<thumb_src>/thumbnail/destinationcyprus25.jpg</thumb_src>
+			</image>
+<image>
+				<title>destinationcyprus27.jpg</title>
+				<description>destinationcyprus27.jpg Description</description>
+				<image_src>/destinationcyprus27.jpg</image_src>
+				<thumb_src>/thumbnail/destinationcyprus27.jpg</thumb_src>
+			</image>
+<image>
+				<title>destinationcyprus28.jpg</title>
+				<description>destinationcyprus28.jpg Description</description>
+				<image_src>/destinationcyprus28.jpg</image_src>
+				<thumb_src>/thumbnail/destinationcyprus28.jpg</thumb_src>
+			</image>
+<image>
+				<title>destinationcyprus29.jpg</title>
+				<description>destinationcyprus29.jpg Description</description>
+				<image_src>/destinationcyprus29.jpg</image_src>
+				<thumb_src>/thumbnail/destinationcyprus29.jpg</thumb_src>
+			</image>
+<image>
+				<title>destinationgreece1.jpg</title>
+				<description>destinationgreece1.jpg Description</description>
+				<image_src>/destinationgreece1.jpg</image_src>
+				<thumb_src>/thumbnail/destinationgreece1.jpg</thumb_src>
+			</image>
+<image>
+				<title>destinationithaca1.jpg</title>
+				<description>destinationithaca1.jpg Description</description>
+				<image_src>/destinationithaca1.jpg</image_src>
+				<thumb_src>/thumbnail/destinationithaca1.jpg</thumb_src>
+			</image>
+<image>
+				<title>destinationithaca2.jpg</title>
+				<description>destinationithaca2.jpg Description</description>
+				<image_src>/destinationithaca2.jpg</image_src>
+				<thumb_src>/thumbnail/destinationithaca2.jpg</thumb_src>
+			</image>
+<image>
+				<title>destinationkefalonia1.jpg</title>
+				<description>destinationkefalonia1.jpg Description</description>
+				<image_src>/destinationkefalonia1.jpg</image_src>
+				<thumb_src>/thumbnail/destinationkefalonia1.jpg</thumb_src>
+			</image>
+<image>
+				<title>destinationkefalonia2.jpg</title>
+				<description>destinationkefalonia2.jpg Description</description>
+				<image_src>/destinationkefalonia2.jpg</image_src>
+				<thumb_src>/thumbnail/destinationkefalonia2.jpg</thumb_src>
+			</image>
+<image>
+				<title>destinationkefalonia4.jpg</title>
+				<description>destinationkefalonia4.jpg Description</description>
+				<image_src>/destinationkefalonia4.jpg</image_src>
+				<thumb_src>/thumbnail/destinationkefalonia4.jpg</thumb_src>
+			</image>
+<image>
+				<title>destinationkefalonia3.jpg</title>
+				<description>destinationkefalonia3.jpg Description</description>
+				<image_src>/destinationkefalonia3.jpg</image_src>
+				<thumb_src>/thumbnail/destinationkefalonia3.jpg</thumb_src>
+			</image>
+<image>
+				<title>destinationkefalonia5.jpg</title>
+				<description>destinationkefalonia5.jpg Description</description>
+				<image_src>/destinationkefalonia5.jpg</image_src>
+				<thumb_src>/thumbnail/destinationkefalonia5.jpg</thumb_src>
+			</image>
+<image>
+				<title>destinationkos1.jpg</title>
+				<description>destinationkos1.jpg Description</description>
+				<image_src>/destinationkos1.jpg</image_src>
+				<thumb_src>/thumbnail/destinationkos1.jpg</thumb_src>
+			</image>
+<image>
+				<title>destinationkos3.jpg</title>
+				<description>destinationkos3.jpg Description</description>
+				<image_src>/destinationkos3.jpg</image_src>
+				<thumb_src>/thumbnail/destinationkos3.jpg</thumb_src>
+			</image>
+<image>
+				<title>destinationkos2.jpg</title>
+				<description>destinationkos2.jpg Description</description>
+				<image_src>/destinationkos2.jpg</image_src>
+				<thumb_src>/thumbnail/destinationkos2.jpg</thumb_src>
+			</image>
+<image>
+				<title>destinationkos4.jpg</title>
+				<description>destinationkos4.jpg Description</description>
+				<image_src>/destinationkos4.jpg</image_src>
+				<thumb_src>/thumbnail/destinationkos4.jpg</thumb_src>
+			</image>
+<image>
+				<title>destinationlefkas2.jpg</title>
+				<description>destinationlefkas2.jpg Description</description>
+				<image_src>/destinationlefkas2.jpg</image_src>
+				<thumb_src>/thumbnail/destinationlefkas2.jpg</thumb_src>
+			</image>
+<image>
+				<title>destinationlefkas1.jpg</title>
+				<description>destinationlefkas1.jpg Description</description>
+				<image_src>/destinationlefkas1.jpg</image_src>
+				<thumb_src>/thumbnail/destinationlefkas1.jpg</thumb_src>
+			</image>
+<image>
+				<title>destinationlefkas3.jpg</title>
+				<description>destinationlefkas3.jpg Description</description>
+				<image_src>/destinationlefkas3.jpg</image_src>
+				<thumb_src>/thumbnail/destinationlefkas3.jpg</thumb_src>
+			</image>
+<image>
+				<title>destinationlefkas5.jpg</title>
+				<description>destinationlefkas5.jpg Description</description>
+				<image_src>/destinationlefkas5.jpg</image_src>
+				<thumb_src>/thumbnail/destinationlefkas5.jpg</thumb_src>
+			</image>
+<image>
+				<title>destinationlefkas4.jpg</title>
+				<description>destinationlefkas4.jpg Description</description>
+				<image_src>/destinationlefkas4.jpg</image_src>
+				<thumb_src>/thumbnail/destinationlefkas4.jpg</thumb_src>
+			</image>
+<image>
+				<title>destinationlefkas6.jpg</title>
+				<description>destinationlefkas6.jpg Description</description>
+				<image_src>/destinationlefkas6.jpg</image_src>
+				<thumb_src>/thumbnail/destinationlefkas6.jpg</thumb_src>
+			</image>
+<image>
+				<title>destinationmykonos1.jpg</title>
+				<description>destinationmykonos1.jpg Description</description>
+				<image_src>/destinationmykonos1.jpg</image_src>
+				<thumb_src>/thumbnail/destinationmykonos1.jpg</thumb_src>
+			</image>
+<image>
+				<title>destinationmykonos2.jpg</title>
+				<description>destinationmykonos2.jpg Description</description>
+				<image_src>/destinationmykonos2.jpg</image_src>
+				<thumb_src>/thumbnail/destinationmykonos2.jpg</thumb_src>
+			</image>
+<image>
+				<title>destinationmykonos4.jpg</title>
+				<description>destinationmykonos4.jpg Description</description>
+				<image_src>/destinationmykonos4.jpg</image_src>
+				<thumb_src>/thumbnail/destinationmykonos4.jpg</thumb_src>
+			</image>
+<image>
+				<title>destinationmykonos3.jpg</title>
+				<description>destinationmykonos3.jpg Description</description>
+				<image_src>/destinationmykonos3.jpg</image_src>
+				<thumb_src>/thumbnail/destinationmykonos3.jpg</thumb_src>
+			</image>
+<image>
+				<title>destinationrhodes1.jpg</title>
+				<description>destinationrhodes1.jpg Description</description>
+				<image_src>/destinationrhodes1.jpg</image_src>
+				<thumb_src>/thumbnail/destinationrhodes1.jpg</thumb_src>
+			</image>
+<image>
+				<title>destinationmykonos5.jpg</title>
+				<description>destinationmykonos5.jpg Description</description>
+				<image_src>/destinationmykonos5.jpg</image_src>
+				<thumb_src>/thumbnail/destinationmykonos5.jpg</thumb_src>
+			</image>
+<image>
+				<title>destinationrhodes2.jpg</title>
+				<description>destinationrhodes2.jpg Description</description>
+				<image_src>/destinationrhodes2.jpg</image_src>
+				<thumb_src>/thumbnail/destinationrhodes2.jpg</thumb_src>
+			</image>
+<image>
+				<title>destinationrhodes3.jpg</title>
+				<description>destinationrhodes3.jpg Description</description>
+				<image_src>/destinationrhodes3.jpg</image_src>
+				<thumb_src>/thumbnail/destinationrhodes3.jpg</thumb_src>
+			</image>
+<image>
+				<title>destinationrhodes4.jpg</title>
+				<description>destinationrhodes4.jpg Description</description>
+				<image_src>/destinationrhodes4.jpg</image_src>
+				<thumb_src>/thumbnail/destinationrhodes4.jpg</thumb_src>
+			</image>
+<image>
+				<title>destinationrhodes5.jpg</title>
+				<description>destinationrhodes5.jpg Description</description>
+				<image_src>/destinationrhodes5.jpg</image_src>
+				<thumb_src>/thumbnail/destinationrhodes5.jpg</thumb_src>
+			</image>
+<image>
+				<title>destinationrhodes6.jpg</title>
+				<description>destinationrhodes6.jpg Description</description>
+				<image_src>/destinationrhodes6.jpg</image_src>
+				<thumb_src>/thumbnail/destinationrhodes6.jpg</thumb_src>
+			</image>
+<image>
+				<title>destinationrhodes7.jpg</title>
+				<description>destinationrhodes7.jpg Description</description>
+				<image_src>/destinationrhodes7.jpg</image_src>
+				<thumb_src>/thumbnail/destinationrhodes7.jpg</thumb_src>
+			</image>
+<image>
+				<title>destinationrhodes8.jpg</title>
+				<description>destinationrhodes8.jpg Description</description>
+				<image_src>/destinationrhodes8.jpg</image_src>
+				<thumb_src>/thumbnail/destinationrhodes8.jpg</thumb_src>
+			</image>
+<image>
+				<title>destinationrhodes9.jpg</title>
+				<description>destinationrhodes9.jpg Description</description>
+				<image_src>/destinationrhodes9.jpg</image_src>
+				<thumb_src>/thumbnail/destinationrhodes9.jpg</thumb_src>
+			</image>
+<image>
+				<title>destinationrhodes10.jpg</title>
+				<description>destinationrhodes10.jpg Description</description>
+				<image_src>/destinationrhodes10.jpg</image_src>
+				<thumb_src>/thumbnail/destinationrhodes10.jpg</thumb_src>
+			</image>
+</images>
+	</gallery>
+</tn2>
+

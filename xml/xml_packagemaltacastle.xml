@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tn2>
+	<gallery>
+		<title>Fixed Dimensions</title>
+		<description>Some Description</description>
+		<file_root>/images/gallery/</file_root>
+		<images>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/77-castellozammitello04-copy.jpg</image_src>
+				<thumb_src>/thumbnail/77-castellozammitello04-copy.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/77-zammitello01-copy.jpg</image_src>
+				<thumb_src>/thumbnail/77-zammitello01-copy.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/77-zammitello031-copy.jpg</image_src>
+				<thumb_src>/thumbnail/77-zammitello031-copy.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/77-img6576-copy.jpg</image_src>
+				<thumb_src>/thumbnail/77-img6576-copy.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/77-p1000110.jpg</image_src>
+				<thumb_src>/thumbnail/77-p1000110.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/77-reception-copy.jpg</image_src>
+				<thumb_src>/thumbnail/77-reception-copy.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/77-zamittello1.jpg</image_src>
+				<thumb_src>/thumbnail/77-zamittello1.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/77-seatedround-outside-copy.jpg</image_src>
+				<thumb_src>/thumbnail/77-seatedround-outside-copy.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/77-zammitello05-copy.jpg</image_src>
+				<thumb_src>/thumbnail/77-zammitello05-copy.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/77-zammitello013-copy.jpg</image_src>
+				<thumb_src>/thumbnail/77-zammitello013-copy.jpg</thumb_src>
+			</image>
+</images>
+	</gallery>
+</tn2>
+

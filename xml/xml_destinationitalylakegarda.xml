@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tn2>
+	<gallery>
+		<title>Fixed Dimensions</title>
+		<description>Some Description</description>
+		<file_root>/images/gallery/</file_root>
+		<images>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/126-lom0073.jpg</image_src>
+				<thumb_src>/thumbnail/126-lom0073.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/126-pflombardia0125.jpg</image_src>
+				<thumb_src>/thumbnail/126-pflombardia0125.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/126-malcesinecastle.jpg</image_src>
+				<thumb_src>/thumbnail/126-malcesinecastle.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/126-alisonjames939.jpg</image_src>
+				<thumb_src>/thumbnail/126-alisonjames939.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/126-malcesinecastle.jpg</image_src>
+				<thumb_src>/thumbnail/126-malcesinecastle.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/126-sarahmichael870.jpg</image_src>
+				<thumb_src>/thumbnail/126-sarahmichael870.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/126-sam4547.jpg</image_src>
+				<thumb_src>/thumbnail/126-sam4547.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/126-sandrajonathan1201.jpg</image_src>
+				<thumb_src>/thumbnail/126-sandrajonathan1201.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/126-sandrajonathan982.jpg</image_src>
+				<thumb_src>/thumbnail/126-sandrajonathan982.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/126-taa0008.jpg</image_src>
+				<thumb_src>/thumbnail/126-taa0008.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/126-sam4535.jpg</image_src>
+				<thumb_src>/thumbnail/126-sam4535.jpg</thumb_src>
+			</image>
+</images>
+	</gallery>
+</tn2>
+

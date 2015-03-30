@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tn2>
+	<gallery>
+		<title>Fixed Dimensions</title>
+		<description>Some Description</description>
+		<file_root>/images/gallery/</file_root>
+		<images>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/16-0003islandapproach.jpg</image_src>
+				<thumb_src>/thumbnail/16-0003islandapproach.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/16-carolinephil12.jpg</image_src>
+				<thumb_src>/thumbnail/16-carolinephil12.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/16-balcony0002markkerryb.jpg</image_src>
+				<thumb_src>/thumbnail/16-balcony0002markkerryb.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/16-beachfrontterrace1.jpg</image_src>
+				<thumb_src>/thumbnail/16-beachfrontterrace1.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/16-carolinephil3.gif</image_src>
+				<thumb_src>/thumbnail/16-carolinephil3.gif</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/16-dsc01766resize.jpg</image_src>
+				<thumb_src>/thumbnail/16-dsc01766resize.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/16-kypselisetup.jpg</image_src>
+				<thumb_src>/thumbnail/16-kypselisetup.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/16-gemmamike2.gif</image_src>
+				<thumb_src>/thumbnail/16-gemmamike2.gif</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/16-martiniinsidesetupbenyonparkin.jpg</image_src>
+				<thumb_src>/thumbnail/16-martiniinsidesetupbenyonparkin.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/16-poolviewbynightresize.jpg</image_src>
+				<thumb_src>/thumbnail/16-poolviewbynightresize.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/16-martiniterrazzaoutsidesetup.jpg</image_src>
+				<thumb_src>/thumbnail/16-martiniterrazzaoutsidesetup.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/16-sophiematthew.gif</image_src>
+				<thumb_src>/thumbnail/16-sophiematthew.gif</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/16-boukasetupbeynonparkin.jpg</image_src>
+				<thumb_src>/thumbnail/16-boukasetupbeynonparkin.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/16-medbliss3.jpg</image_src>
+				<thumb_src>/thumbnail/16-medbliss3.jpg</thumb_src>
+			</image>
+</images>
+	</gallery>
+</tn2>
+

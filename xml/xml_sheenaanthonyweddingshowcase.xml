@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tn2>
+	<gallery>
+		<title>Fixed Dimensions</title>
+		<description>Some Description</description>
+		<file_root>/images/gallery/</file_root>
+		<images>
+<image>
+				<image_src>/153-1033678210152088359446821335990470354711376n.jpg</image_src>
+				<thumb_src>/thumbnail/153-1033678210152088359446821335990470354711376n.jpg</thumb_src>
+			</image>
+<image>
+				<image_src>/153-1507190101520883702418212794898479091968796n.jpg</image_src>
+				<thumb_src>/thumbnail/153-1507190101520883702418212794898479091968796n.jpg</thumb_src>
+			</image>
+<image>
+				<image_src>/153-10004032101520883535268217578205711756773032n.jpg</image_src>
+				<thumb_src>/thumbnail/153-10004032101520883535268217578205711756773032n.jpg</thumb_src>
+			</image>
+<image>
+				<image_src>/153-10268689101520883637368215748119607085016763n.jpg</image_src>
+				<thumb_src>/thumbnail/153-10268689101520883637368215748119607085016763n.jpg</thumb_src>
+			</image>
+</images>
+	</gallery>
+</tn2>
+

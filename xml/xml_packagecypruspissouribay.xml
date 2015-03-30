@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tn2>
+	<gallery>
+		<title>Fixed Dimensions</title>
+		<description>Some Description</description>
+		<file_root>/images/gallery/</file_root>
+		<images>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/113-chapel21.jpg</image_src>
+				<thumb_src>/thumbnail/113-chapel21.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/113-17.jpg</image_src>
+				<thumb_src>/thumbnail/113-17.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/113-3.jpg</image_src>
+				<thumb_src>/thumbnail/113-3.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/113-dinnersetup1.jpg</image_src>
+				<thumb_src>/thumbnail/113-dinnersetup1.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/113-petalpath1.jpg</image_src>
+				<thumb_src>/thumbnail/113-petalpath1.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/113-aftertheceremony1.jpg</image_src>
+				<thumb_src>/thumbnail/113-aftertheceremony1.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/113-columbia2.jpg</image_src>
+				<thumb_src>/thumbnail/113-columbia2.jpg</thumb_src>
+			</image>
+</images>
+	</gallery>
+</tn2>
+

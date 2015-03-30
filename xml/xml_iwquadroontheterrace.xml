@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tn2>
+	<gallery>
+		<title>Fixed Dimensions</title>
+		<description>Some Description</description>
+		<file_root>/images/gallery/</file_root>
+		<images>
+<image>
+				<title></title>
+				<description></description>
+				<image_src>/162-quadrorestaurantcivilweddingcermony.jpg</image_src>
+				<thumb_src>/thumbnail/162-quadrorestaurantcivilweddingcermony.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				<image_src>/162-quadrorestaurantroyaltable.jpg</image_src>
+				<thumb_src>/thumbnail/162-quadrorestaurantroyaltable.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				<image_src>/162-quadroweddings1.jpg</image_src>
+				<thumb_src>/thumbnail/162-quadroweddings1.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				<image_src>/162-quadraterracesetup.jpg</image_src>
+				<thumb_src>/thumbnail/162-quadraterracesetup.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				<image_src>/162-westinweddingsetup-31252.jpg</image_src>
+				<thumb_src>/thumbnail/162-westinweddingsetup-31252.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				<image_src>/162-quadrorestaurantroyaltable.jpg</image_src>
+				<thumb_src>/thumbnail/162-quadrorestaurantroyaltable.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				<image_src>/162-quadroonthereefroyaltable.jpg</image_src>
+				<thumb_src>/thumbnail/162-quadroonthereefroyaltable.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				<image_src>/162-quadroonthereef2.jpg</image_src>
+				<thumb_src>/thumbnail/162-quadroonthereef2.jpg</thumb_src>
+			</image>
+</images>
+	</gallery>
+</tn2>
+

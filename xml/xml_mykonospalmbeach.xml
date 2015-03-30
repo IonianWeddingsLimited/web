@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tn2>
+	<gallery>
+		<title>Fixed Dimensions</title>
+		<description>Some Description</description>
+		<file_root>/images/gallery/</file_root>
+		<images>
+<image>
+				<title></title>
+				<description></description>
+				<image_src>/92-mykonosbeach.jpg</image_src>
+				<thumb_src>/thumbnail/92-mykonosbeach.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				<image_src>/92-dsc1472.jpg</image_src>
+				<thumb_src>/thumbnail/92-dsc1472.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				<image_src>/92-mykonos-beach2.jpg</image_src>
+				<thumb_src>/thumbnail/92-mykonos-beach2.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				<image_src>/92-mykonos-beach1.jpg</image_src>
+				<thumb_src>/thumbnail/92-mykonos-beach1.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				<image_src>/92-mykonos-beach4.jpg</image_src>
+				<thumb_src>/thumbnail/92-mykonos-beach4.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				<image_src>/92-mykonos-beach3.jpg</image_src>
+				<thumb_src>/thumbnail/92-mykonos-beach3.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				<image_src>/92-mykonos-beach5.jpg</image_src>
+				<thumb_src>/thumbnail/92-mykonos-beach5.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				<image_src>/92-privateboat.jpg</image_src>
+				<thumb_src>/thumbnail/92-privateboat.jpg</thumb_src>
+			</image>
+</images>
+	</gallery>
+</tn2>
+

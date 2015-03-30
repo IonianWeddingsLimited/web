@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tn2>
+	<gallery>
+		<title>Fixed Dimensions</title>
+		<description>Some Description</description>
+		<file_root>/images/gallery/</file_root>
+		<images>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/13-sp2.jpg</image_src>
+				<thumb_src>/thumbnail/13-sp2.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/13-anogi-goats.jpg</image_src>
+				<thumb_src>/thumbnail/13-anogi-goats.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/13-sianphill5.jpg</image_src>
+				<thumb_src>/thumbnail/13-sianphill5.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/13-kionivillaterrace.jpg</image_src>
+				<thumb_src>/thumbnail/13-kionivillaterrace.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/13-vathy-venue-interior.jpg</image_src>
+				<thumb_src>/thumbnail/13-vathy-venue-interior.jpg</thumb_src>
+			</image>
+</images>
+	</gallery>
+</tn2>
+

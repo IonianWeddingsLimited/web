@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tn2>
+	<gallery>
+		<title>Fixed Dimensions</title>
+		<description>Some Description</description>
+		<file_root>/images/gallery/</file_root>
+		<images>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/120-palazzocavalli.jpg</image_src>
+				<thumb_src>/thumbnail/120-palazzocavalli.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/120-wws5757.jpg</image_src>
+				<thumb_src>/thumbnail/120-wws5757.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/120-wla0944.jpg</image_src>
+				<thumb_src>/thumbnail/120-wla0944.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/120-wla2804.jpg</image_src>
+				<thumb_src>/thumbnail/120-wla2804.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/120-425961336588483044431539616683n.jpg</image_src>
+				<thumb_src>/thumbnail/120-425961336588483044431539616683n.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/120-5241234061368794229241725473148n.jpg</image_src>
+				<thumb_src>/thumbnail/120-5241234061368794229241725473148n.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/120-view2.jpg</image_src>
+				<thumb_src>/thumbnail/120-view2.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/120-sam4533.jpg</image_src>
+				<thumb_src>/thumbnail/120-sam4533.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/120-4242143365904930442301411242595n.jpg</image_src>
+				<thumb_src>/thumbnail/120-4242143365904930442301411242595n.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/120-view.jpg</image_src>
+				<thumb_src>/thumbnail/120-view.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/120-wla1805.jpg</image_src>
+				<thumb_src>/thumbnail/120-wla1805.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/120-wla1910.jpg</image_src>
+				<thumb_src>/thumbnail/120-wla1910.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/120-wws5681.jpg</image_src>
+				<thumb_src>/thumbnail/120-wws5681.jpg</thumb_src>
+			</image>
+</images>
+	</gallery>
+</tn2>
+

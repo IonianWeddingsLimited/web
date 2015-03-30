@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tn2>
+	<gallery>
+		<title>Fixed Dimensions</title>
+		<description>Some Description</description>
+		<file_root>/images/gallery/</file_root>
+		<images>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/176-kostasavvaphotography-32.jpg</image_src>
+				<thumb_src>/thumbnail/176-kostasavvaphotography-32.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/176-kostasavvaphotography-56.jpg</image_src>
+				<thumb_src>/thumbnail/176-kostasavvaphotography-56.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/176-perivolos-beach1.jpg</image_src>
+				<thumb_src>/thumbnail/176-perivolos-beach1.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/176-perivolos16.jpg</image_src>
+				<thumb_src>/thumbnail/176-perivolos16.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/176-perivolos4.jpg</image_src>
+				<thumb_src>/thumbnail/176-perivolos4.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/176-perivolos6.jpg</image_src>
+				<thumb_src>/thumbnail/176-perivolos6.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/176-perivolos-bar.jpg</image_src>
+				<thumb_src>/thumbnail/176-perivolos-bar.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/176-perivolos19.jpg</image_src>
+				<thumb_src>/thumbnail/176-perivolos19.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/176-img4317small.jpg</image_src>
+				<thumb_src>/thumbnail/176-img4317small.jpg</thumb_src>
+			</image>
+</images>
+	</gallery>
+</tn2>
+

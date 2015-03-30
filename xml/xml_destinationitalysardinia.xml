@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tn2>
+	<gallery>
+		<title>Fixed Dimensions</title>
+		<description>Some Description</description>
+		<file_root>/images/gallery/</file_root>
+		<images>
+<image>
+				<image_src>/96-hdsardegna0055.jpg</image_src>
+				<thumb_src>/thumbnail/96-hdsardegna0055.jpg</thumb_src>
+			</image>
+<image>
+				<image_src>/96-hdsardegna0027.jpg</image_src>
+				<thumb_src>/thumbnail/96-hdsardegna0027.jpg</thumb_src>
+			</image>
+<image>
+				<image_src>/96-hdsardegna0063.jpg</image_src>
+				<thumb_src>/thumbnail/96-hdsardegna0063.jpg</thumb_src>
+			</image>
+<image>
+				<image_src>/96-hdsardegna0062.jpg</image_src>
+				<thumb_src>/thumbnail/96-hdsardegna0062.jpg</thumb_src>
+			</image>
+<image>
+				<image_src>/96-hdsardegna0069.jpg</image_src>
+				<thumb_src>/thumbnail/96-hdsardegna0069.jpg</thumb_src>
+			</image>
+<image>
+				<image_src>/96-hdsardegna0020.jpg</image_src>
+				<thumb_src>/thumbnail/96-hdsardegna0020.jpg</thumb_src>
+			</image>
+<image>
+				<image_src>/96-hdsardegna0071.jpg</image_src>
+				<thumb_src>/thumbnail/96-hdsardegna0071.jpg</thumb_src>
+			</image>
+<image>
+				<image_src>/96-hdsardegna0070.jpg</image_src>
+				<thumb_src>/thumbnail/96-hdsardegna0070.jpg</thumb_src>
+			</image>
+<image>
+				<image_src>/96-piscina-notte-1.jpg</image_src>
+				<thumb_src>/thumbnail/96-piscina-notte-1.jpg</thumb_src>
+			</image>
+<image>
+				<image_src>/96-mbt7094.jpg</image_src>
+				<thumb_src>/thumbnail/96-mbt7094.jpg</thumb_src>
+			</image>
+<image>
+				<image_src>/96-wed25081113.jpg</image_src>
+				<thumb_src>/thumbnail/96-wed25081113.jpg</thumb_src>
+			</image>
+</images>
+	</gallery>
+</tn2>
+

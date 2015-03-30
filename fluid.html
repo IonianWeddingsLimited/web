@@ -1,0 +1,91 @@
+<html>
+	<head>
+		<title>Mason.js</title>
+		
+		<!-- STYLES -->
+		<style>
+		*{
+			margin:0px;
+		}
+		html,body{
+			height: 100%; 
+			width: 100%;
+			background-image: url(images/mason.jpg);
+			background-position: center;
+			background-size: cover;
+			overflow-x: hidden
+		}
+		#gallery{
+			width: 100%; 
+			position: relative;
+			font-size: 25px;
+			font-family: 'Helvetica';
+			color: #eaeaea;
+		}
+		.block {
+			background-color: #c23822;
+			block-shadow: 0px 0px 1px #222;
+			float: left;
+			position: relative;
+		}
+		#fillers{
+			display: none;
+		}
+		.filler {
+			background-color: #751e11;
+			block-shadow: 0px 0px 1px #222;
+			float: left;
+			position: relative;
+		}
+		</style>
+
+		<!-- SCRIPTS -->
+		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+		<script src='/js/mason.js'></script>
+
+	</head>
+	<body>
+		<div id='grid' class="imageine">
+			<div class='block'>1</div>
+			<div class='block'>2</div>
+			<div class='block'>3</div>
+			<div class='block'>4</div>
+			<div class='block'>5</div>
+			<div class='block'>6</div>
+			<div class='block'>7</div>
+			<div class='block'>8</div>
+		</div>
+		<div id='fillers'>
+			<div class='filler'>1</div>
+			<div class='filler'>2</div>
+			<div class='filler'>3</div>
+			<div class='filler'>4</div>
+			<div class='filler'>5</div>
+		</div>
+		<script>
+		$(function(){
+			$("#grid").mason({
+				itemSelector: ".block",
+				ratio: 1.5,
+				sizes: [
+					[1,1],
+					[1,2],
+					[2,2]
+				],
+				columns: [
+					[0,480,1],
+					[480,780,2],
+					[780,1080,3],
+					[1080,1320,4],
+					[1320,1680,5]
+				],
+				filler: {
+					itemSelector: '.filler',
+					filler_class: 'custom_filler'
+				},
+				layout: 'fluid',
+			});
+		});
+		</script>
+	</body>
+</html>

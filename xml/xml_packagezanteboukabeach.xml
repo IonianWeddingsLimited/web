@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tn2>
+	<gallery>
+		<title>Fixed Dimensions</title>
+		<description>Some Description</description>
+		<file_root>/images/gallery/</file_root>
+		<images>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/122-02516x344.jpg</image_src>
+				<thumb_src>/thumbnail/122-02516x344.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/122-lauraandandrew-1.jpg</image_src>
+				<thumb_src>/thumbnail/122-lauraandandrew-1.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/122-04516x344.jpg</image_src>
+				<thumb_src>/thumbnail/122-04516x344.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/122-yukariandben-256.jpg</image_src>
+				<thumb_src>/thumbnail/122-yukariandben-256.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/122-sianandandrewforslide-14516x343.jpg</image_src>
+				<thumb_src>/thumbnail/122-sianandandrewforslide-14516x343.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/122-yukariandben-286.jpg</image_src>
+				<thumb_src>/thumbnail/122-yukariandben-286.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/122-lauraandandrew-183.jpg</image_src>
+				<thumb_src>/thumbnail/122-lauraandandrew-183.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/122-71516x344.jpg</image_src>
+				<thumb_src>/thumbnail/122-71516x344.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/122-lauraandandrew-212.jpg</image_src>
+				<thumb_src>/thumbnail/122-lauraandandrew-212.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/122-martinibeachbar.jpg</image_src>
+				<thumb_src>/thumbnail/122-martinibeachbar.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/122-martinibeachbarentrance516x343.jpg</image_src>
+				<thumb_src>/thumbnail/122-martinibeachbarentrance516x343.jpg</thumb_src>
+			</image>
+</images>
+	</gallery>
+</tn2>
+

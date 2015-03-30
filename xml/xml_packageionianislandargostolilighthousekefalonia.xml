@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tn2>
+	<gallery>
+		<title>Fixed Dimensions</title>
+		<description>Some Description</description>
+		<file_root>/images/gallery/</file_root>
+		<images>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/83-fanarilighthouse1.jpg</image_src>
+				<thumb_src>/thumbnail/83-fanarilighthouse1.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/83-fanarilighthouse2.jpg</image_src>
+				<thumb_src>/thumbnail/83-fanarilighthouse2.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/83-nicolasteve112of171.jpg</image_src>
+				<thumb_src>/thumbnail/83-nicolasteve112of171.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/83-nicolasteve122of171.jpg</image_src>
+				<thumb_src>/thumbnail/83-nicolasteve122of171.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/83-nicolasteve138of171.jpg</image_src>
+				<thumb_src>/thumbnail/83-nicolasteve138of171.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/83-nicolasteve152of171.jpg</image_src>
+				<thumb_src>/thumbnail/83-nicolasteve152of171.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/83-nicolasteve144of171.jpg</image_src>
+				<thumb_src>/thumbnail/83-nicolasteve144of171.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/83-nicolasteve147of171.jpg</image_src>
+				<thumb_src>/thumbnail/83-nicolasteve147of171.jpg</thumb_src>
+			</image>
+</images>
+	</gallery>
+</tn2>
+

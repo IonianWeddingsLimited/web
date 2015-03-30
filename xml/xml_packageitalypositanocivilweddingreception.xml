@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tn2>
+	<gallery>
+		<title>Fixed Dimensions</title>
+		<description>Some Description</description>
+		<file_root>/images/gallery/</file_root>
+		<images>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/103-copyofsam2061.jpg</image_src>
+				<thumb_src>/thumbnail/103-copyofsam2061.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/103-70.jpg</image_src>
+				<thumb_src>/thumbnail/103-70.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/103-cam0077.jpg</image_src>
+				<thumb_src>/thumbnail/103-cam0077.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/103-comunepositanofotomatrimoni.jpg</image_src>
+				<thumb_src>/thumbnail/103-comunepositanofotomatrimoni.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/103-sam4654.jpg</image_src>
+				<thumb_src>/thumbnail/103-sam4654.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/103-copyofacao6o72o11positanocomune029.jpg</image_src>
+				<thumb_src>/thumbnail/103-copyofacao6o72o11positanocomune029.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/103-terrace1.jpg</image_src>
+				<thumb_src>/thumbnail/103-terrace1.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/103-terrace3.jpg</image_src>
+				<thumb_src>/thumbnail/103-terrace3.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/103-terrace.jpg</image_src>
+				<thumb_src>/thumbnail/103-terrace.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/103-panorama.jpg</image_src>
+				<thumb_src>/thumbnail/103-panorama.jpg</thumb_src>
+			</image>
+</images>
+	</gallery>
+</tn2>
+

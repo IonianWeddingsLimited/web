@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tn2>
+	<gallery>
+		<title>Fixed Dimensions</title>
+		<description>Some Description</description>
+		<file_root>/images/gallery/</file_root>
+		<images>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/24-p1090122.jpg</image_src>
+				<thumb_src>/thumbnail/24-p1090122.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/24-vasiliasnikoklissmall.jpg</image_src>
+				<thumb_src>/thumbnail/24-vasiliasnikoklissmall.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/24-8small.jpg</image_src>
+				<thumb_src>/thumbnail/24-8small.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/24-4.jpg</image_src>
+				<thumb_src>/thumbnail/24-4.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/24-copyofpic10.jpg</image_src>
+				<thumb_src>/thumbnail/24-copyofpic10.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/24-copyofp1090664.jpg</image_src>
+				<thumb_src>/thumbnail/24-copyofp1090664.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/24-p1120173.jpg</image_src>
+				<thumb_src>/thumbnail/24-p1120173.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/24-photo4.jpg</image_src>
+				<thumb_src>/thumbnail/24-photo4.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/24-pic2.jpg</image_src>
+				<thumb_src>/thumbnail/24-pic2.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/24-6.jpg</image_src>
+				<thumb_src>/thumbnail/24-6.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/24-pic3.jpg</image_src>
+				<thumb_src>/thumbnail/24-pic3.jpg</thumb_src>
+			</image>
+</images>
+	</gallery>
+</tn2>
+

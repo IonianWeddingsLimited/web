@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tn2>
+	<gallery>
+		<title>Fixed Dimensions</title>
+		<description>Some Description</description>
+		<file_root>/images/gallery/</file_root>
+		<images>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/57-danavillasweddingsantorini5.jpg</image_src>
+				<thumb_src>/thumbnail/57-danavillasweddingsantorini5.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/57-danavillasweddingsantorini4.jpg</image_src>
+				<thumb_src>/thumbnail/57-danavillasweddingsantorini4.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/57-ourweddingday-43.jpg</image_src>
+				<thumb_src>/thumbnail/57-ourweddingday-43.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/57-ourweddingday-142.jpg</image_src>
+				<thumb_src>/thumbnail/57-ourweddingday-142.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/57-danavillasweddingsantorini8.jpg</image_src>
+				<thumb_src>/thumbnail/57-danavillasweddingsantorini8.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/57-pyrgosrestinsidesetup1.jpg</image_src>
+				<thumb_src>/thumbnail/57-pyrgosrestinsidesetup1.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/57-pyrgosrestoutsidesetup3.jpg</image_src>
+				<thumb_src>/thumbnail/57-pyrgosrestoutsidesetup3.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/57-pyrgos-new-area4.jpg</image_src>
+				<thumb_src>/thumbnail/57-pyrgos-new-area4.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/57-pyrgosrestinsidesetup2.jpg</image_src>
+				<thumb_src>/thumbnail/57-pyrgosrestinsidesetup2.jpg</thumb_src>
+			</image>
+</images>
+	</gallery>
+</tn2>
+

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tn2>
+	<gallery>
+		<title>Fixed Dimensions</title>
+		<description>Some Description</description>
+		<file_root>/images/gallery/</file_root>
+		<images>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/90-ambasphoenixterraceevening.jpg</image_src>
+				<thumb_src>/thumbnail/90-ambasphoenixterraceevening.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/90-ambasbelvedereterraceforaperitif.jpg</image_src>
+				<thumb_src>/thumbnail/90-ambasbelvedereterraceforaperitif.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/90-ambasdionisopoolterraceevening.jpg</image_src>
+				<thumb_src>/thumbnail/90-ambasdionisopoolterraceevening.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/90-museocorreale044.jpg</image_src>
+				<thumb_src>/thumbnail/90-museocorreale044.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/90-museocorreale45.jpg</image_src>
+				<thumb_src>/thumbnail/90-museocorreale45.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/90-sam2357.jpg</image_src>
+				<thumb_src>/thumbnail/90-sam2357.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/90-aca18o613museo072-copy.jpg</image_src>
+				<thumb_src>/thumbnail/90-aca18o613museo072-copy.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/90-aca18o613museo115-copy.jpg</image_src>
+				<thumb_src>/thumbnail/90-aca18o613museo115-copy.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/90-aca18o613museo226-copy.jpg</image_src>
+				<thumb_src>/thumbnail/90-aca18o613museo226-copy.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/90-aca18o613museo233-copy.jpg</image_src>
+				<thumb_src>/thumbnail/90-aca18o613museo233-copy.jpg</thumb_src>
+			</image>
+</images>
+	</gallery>
+</tn2>
+

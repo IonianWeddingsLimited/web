@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tn2>
+	<gallery>
+		<title>Fixed Dimensions</title>
+		<description>Some Description</description>
+		<file_root>/images/gallery/</file_root>
+		<images>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/111-75550842186b823a3573z.jpg</image_src>
+				<thumb_src>/thumbnail/111-75550842186b823a3573z.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/111-75612247344ed438e003z.jpg</image_src>
+				<thumb_src>/thumbnail/111-75612247344ed438e003z.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/111-7313139482d1855cbcd4z.jpg</image_src>
+				<thumb_src>/thumbnail/111-7313139482d1855cbcd4z.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/111-7313139894ed139268caz.jpg</image_src>
+				<thumb_src>/thumbnail/111-7313139894ed139268caz.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/111-731313946434b3d22917z.jpg</image_src>
+				<thumb_src>/thumbnail/111-731313946434b3d22917z.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/111-7608362324c69f160a18z.jpg</image_src>
+				<thumb_src>/thumbnail/111-7608362324c69f160a18z.jpg</thumb_src>
+			</image>
+</images>
+	</gallery>
+</tn2>
+

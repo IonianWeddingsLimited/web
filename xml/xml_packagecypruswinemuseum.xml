@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tn2>
+	<gallery>
+		<title>Fixed Dimensions</title>
+		<description>Some Description</description>
+		<file_root>/images/gallery/</file_root>
+		<images>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/112-wedding12.jpg</image_src>
+				<thumb_src>/thumbnail/112-wedding12.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/112-cypruswinemuseum3.jpg</image_src>
+				<thumb_src>/thumbnail/112-cypruswinemuseum3.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/112-cypruswinemuseum8.jpg</image_src>
+				<thumb_src>/thumbnail/112-cypruswinemuseum8.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/112-1.jpg</image_src>
+				<thumb_src>/thumbnail/112-1.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/112-cypruswinemuseum4.jpg</image_src>
+				<thumb_src>/thumbnail/112-cypruswinemuseum4.jpg</thumb_src>
+			</image>
+</images>
+	</gallery>
+</tn2>
+

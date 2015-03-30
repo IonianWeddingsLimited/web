@@ -1,0 +1,722 @@
+<style type="text/css">
+html, body {
+	height: 100%;
+	margin-top: 0px;
+	margin-left: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	padding-top: 0px;
+	padding-left: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	width: 100%;
+}
+body {
+	background-color: #ffffff;
+	font-family: Arial, Helvetica, sans-serif;
+	margin-top: 0px;
+	margin-left: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	padding-top: 0px;
+	padding-left: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	text-align: center;
+}
+.site {
+	margin-top: 0px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 0px;
+	text-align: left;
+	width: 965px;
+}
+.selectnav {
+	display: none;
+}
+.header {
+	position: relative;	/*margin-top: 30px;*/
+	margin-top: 0px;
+	margin-left: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	width: 100%;
+}
+.logo {
+	display: inline;
+	float: left;
+	margin-top: 0px;
+	margin-left: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	padding-top: 30px;
+	padding-left: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+}
+.logo h1 {
+	color: #8b6934;
+	font-size: 11px;
+	line-height: 1.2em;
+	margin-top: 0px;
+	margin-left: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	padding-top: 0px;
+	padding-left: 0px;
+	padding-right: 0px;
+	padding-bottom: 5px;
+}
+.logo h2 {
+	color: #8b6934;
+	font-size: 11px;
+	line-height: 1.2em;
+	margin-top: 0px;
+	margin-left: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	padding-top: 0px;
+	padding-left: 0px;
+	padding-right: 0px;
+	padding-bottom: 12px;
+}
+.headervote {
+	bottom: 10px;
+	position: absolute;
+	right: 0px;
+	display: none;
+}
+.headersm {
+	border-left: solid 1px #d9d9d9;
+	display: inline;
+	float: left;
+	height: 50px;
+	margin-top: 30px;
+	margin-left: 20px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	padding-top: 0px;
+	padding-left: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+}
+.headersm ul {
+	list-style: none;
+	margin-top: 23px;
+	margin-left: 12px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	padding-top: 0px;
+	padding-left: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+}
+.headersm ul .headersmitem {
+	display: inline;
+	float: left;
+	margin-top: 0px;
+	margin-left: 0px;
+	margin-right: 7px;
+	margin-bottom: 0px;
+	padding-top: 0px;
+	padding-left: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+}
+.mainnav .selectnav {
+	background-color: #f9f9f9;
+	border: 1px solid #d9d9d9;
+	color: #626363;
+	cursor: pointer;
+	margin: 12px 0px 12px 0px;
+	padding: 10px;
+}
+.headernavigation {
+	display: inline;
+	float: right;
+	margin-top: 42px;
+	margin-left: 0px;	/*margin-right: 113px;*/
+	margin-right: 0px;
+	margin-bottom: 0px;
+	padding-top: 0px;
+	padding-left: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+}
+.headernavigation .fblike {
+	right: -18px;
+	position: absolute;
+	top: -20px;
+	overflow: hidden;
+}
+.headernavigation h1 {
+	color: #8b6934;
+	font-size: 15px;
+	line-height: 1.2em;
+	margin-top: 0px;
+	margin-left: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	padding-top: 0px;
+	padding-left: 0px;
+	padding-right: 0px;
+	padding-bottom: 10px;
+	text-align: right;
+}
+.headernavigation ul {
+	list-style: none;
+	margin-top: 0px;
+	margin-left: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	padding-top: 0px;
+	padding-left: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+}
+.headernavigation ul .headernavigationlink {
+	border-left: solid 1px #d9d9d9;
+	color: #949494;
+	display: inline;
+	font-size: 11px;
+	float: left;
+	line-height: 1.2em;
+	margin-top: 0px;
+	margin-left: 10px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	padding-top: 0px;
+	padding-left: 10px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+}
+.headernavigation ul .headernavigationlink:first-child {
+	border-left: none;
+	margin-top: 0px;
+	margin-left: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	padding-top: 0px;
+	padding-left: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+}
+.headernavigation ul .headernavigationlink a:visited {
+	color: #949494;
+	text-decoration: none;
+}
+.headernavigation ul .headernavigationlink a:link {
+	color: #949494;
+	text-decoration: none;
+}
+.headernavigation ul .headernavigationlink a:hover {
+	color: #d9d9d9;
+	text-decoration: underline;
+}
+.headernavigation ul .headernavigationlink a {
+	color: #949494;
+	text-decoration: none;
+}
+.main {
+	background-color: #f9f9f9;
+	border: solid 1px #d9d9d9;
+	margin-top: 0px;
+	margin-left: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	padding-top: 0px;
+	padding-left: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	width: 963px;
+	margin:0 auto;
+}
+.maincontent {
+	margin-top: 0px;
+	margin-left: 14px;
+	margin-right: 14px;
+	margin-bottom: 0px;
+	padding-top: 0px;
+	padding-left: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+}
+.maincontent .homecontent {
+	padding: 12px 0px 0px 0px;
+	display: none;
+}
+.clear {
+	clear: both;
+	font-size: 0px;
+	line-height: 0px;
+}
+.footer {
+	background-color: #faf1df;
+	margin-top: 10px;
+	margin-left: 0px;
+	margin-right: 0px;
+	margin-bottom: 10px;
+	padding-top: 20px;
+	padding-left: 0px;
+	padding-right: 0px;
+	padding-bottom: 10px;
+	width: 100%;
+}
+.footercontent {
+	display: inline;
+	float: right;
+	margin-top: 0px;
+	margin-left: 0px;
+	margin-right: 18px;
+	margin-bottom: 0px;
+	padding-top: 0px;
+	padding-left: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+}
+.footercontent h1 {
+	color: #c08827;
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 11px;
+	font-weight: normal;
+	line-height: 1.2em;
+	margin-top: 0px;
+	margin-left: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	padding-top: 0px;
+	padding-left: 0px;
+	padding-right: 0px;
+	padding-bottom: 20px;
+}
+.footernavigation {
+	display: inline;
+	float: right;
+	margin-top: 0px;
+	margin-left: 0px;
+	margin-right: 13px;
+	margin-bottom: 0px;
+	padding-top: 0px;
+	padding-left: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+}
+.footernavigation ul {
+	display: inline;
+	float: left;
+	list-style: none;
+	margin-top: 0px;
+	margin-left: 5px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	padding-top: 0px;
+	padding-left: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+}
+.footernavigation ul .footernavigationlink {
+	border-left: solid 1px #878787;
+	color: #878787;
+	display: inline;
+	font-size: 11px;
+	float: left;
+	line-height: 1.2em;
+	margin-top: 0px;
+	margin-left: 0px;
+	margin-right: 5px;
+	margin-bottom: 0px;
+	padding-top: 0px;
+	padding-left: 5px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+}
+.footernavigation ul .footernavigationlink:first-child {
+	border-left: none;
+	margin-top: 0px;
+	margin-left: 0px;
+	margin-right: 5px;
+	margin-bottom: 0px;
+	padding-top: 0px;
+	padding-left: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+}
+.footernavigation ul .footernavigationlink a:visited {
+	color: #878787;
+	text-decoration: none;
+}
+.footernavigation ul .footernavigationlink a:link {
+	color: #878787;
+	text-decoration: none;
+}
+.footernavigation ul .footernavigationlink a:hover {
+	color: #878787;
+	text-decoration: underline;
+}
+.footernavigation ul .footernavigationlink a {
+	color: #878787;
+	text-decoration: none;
+}
+.footericons {
+	display: inline;
+	float: left;
+	margin-top: 0px;
+	margin-left: 12px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	padding-top: 0px;
+	padding-left: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+}
+.footericons ul {
+	list-style: none;
+	margin-top: 0px;
+	margin-left: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	padding-top: 0px;
+	padding-left: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+}
+.footericons ul .footericonslink {
+	display: inline;
+	float: left;
+	margin-top: 0px;
+	margin-left: 0px;
+	margin-right: 20px;
+	margin-bottom: 0px;
+	padding-top: 0px;
+	padding-left: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+}
+.pageform {
+	background-color: #565a5f;
+	margin-top: 0px;
+	margin-left: 20px;
+	margin-right: 20px;
+	margin-bottom: 12px;
+	padding-top: 20px;
+	padding-left: 0px;
+	padding-right: 0px;
+	padding-bottom: 20px;
+}
+.pageform .formheader {
+	margin-top: 0px;
+	margin-left: 30px;
+	margin-right: 30px;
+	margin-bottom: 0px;
+	padding-top: 0px;
+	padding-left: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	width: 61%;
+}
+.pageform .formheader h1 {
+	color: #c08827;
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 16px;
+	line-height: 1.2em;
+	margin-top: 0px;
+	margin-left: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	padding-top: 10px;
+	padding-left: 0px;
+	padding-right: 0px;
+	padding-bottom: 5px;
+}
+.pageform .formheader h2 {
+	color: #cc6633;
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 14px;
+	line-height: 1.2em;
+	margin-top: 0px;
+	margin-left: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	padding-top: 0px;
+	padding-left: 0px;
+	padding-right: 0px;
+	padding-bottom: 5px;
+}
+.pageform .formheader p {
+	color: #ffffff;
+	font-size: 12px;
+	line-height: 1.2em;
+	margin-top: 0px;
+	margin-left: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	padding-top: 0px;
+	padding-left: 0px;
+	padding-right: 0px;
+	padding-bottom: 20px;
+}
+.pageform .formheader ul {
+	list-style-image: url(/images/interface/i_maincopy_ul_li.png);
+	margin-top: 0px;
+	margin-left: 15px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	padding-top: 0px;
+	padding-left: 0px;
+	padding-right: 0px;
+	padding-bottom: 15px;
+}
+.pageform .formheader ul li {
+	color: #ffffff;
+	font-size: 12px;
+	line-height: 1.2em;
+	margin-top: 0px;
+	margin-left: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	padding-top: 0px;
+	padding-left: 0px;
+	padding-right: 0px;
+	padding-bottom: 5px;
+}
+.pageform .formheader ol {
+	margin-top: 0px;
+	margin-left: 22px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	padding-top: 0px;
+	padding-left: 0px;
+	padding-right: 0px;
+	padding-bottom: 15px;
+}
+.pageform .formheader ol li {
+	color: #595959;
+	font-size: 12px;
+	line-height: 1.2em;
+	margin-top: 0px;
+	margin-left: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	padding-top: 0px;
+	padding-left: 0px;
+	padding-right: 0px;
+	padding-bottom: 5px;
+}
+.pageform .formheader a:visited {
+	color: #c08827;
+	text-decoration: none;
+}
+.pageform .formheader a:link {
+	color: #c08827;
+	text-decoration: none;
+}
+.pageform .formheader a:hover {
+	color: #c08827;
+	text-decoration: underline;
+}
+.pageform .formheader a {
+	color: #c08827;
+	text-decoration: none;
+}
+.pageform .formrow {
+	margin-top: 0px;
+	margin-left: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	padding-top: 0px;
+	padding-left: 0px;
+	padding-right: 0px;
+	padding-bottom: 10px;
+}
+.pageform .formlabel {
+	color: #ffffff;
+	display: inline;
+	float: left;
+	font-size: 11px;
+	line-height: 1.2em;
+	margin-top: 0px;
+	margin-left: 30px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	padding-top: 0px;
+	padding-left: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	width: 30%;
+}
+.pageform .formcheckboxlabel {
+	color: #ffffff;
+	display: inline;
+	float: left;
+	font-size: 11px;
+	line-height: 1.2em;
+	margin-top: 0px;
+	margin-left: 30px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	padding-top: 0px;
+	padding-left: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	width: 61%;
+}
+.pageform .formelement {
+	color: #ffffff;
+	display: inline;
+	float: left;
+	font-size: 11px;
+	line-height: 1.2em;
+	margin-top: 0px;
+	margin-left: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	padding-top: 0px;
+	padding-left: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+}
+.pageform .formelementnote {
+	color: #ffffff;
+	font-size: 11px;
+	display: inline;
+	margin: 5px 0px 0px 5px;
+	float: left;
+}
+.pageform .formtextfieldlong {
+	margin-top: 0px;
+	margin-left: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	padding-top: 0px;
+	padding-left: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	width: 300px;
+}
+.pageform .formtextarealong {
+	margin-top: 0px;
+	margin-left: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	padding-top: 0px;
+	padding-left: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	width: 300px;
+}
+.pageform .formselectlong {
+	margin-top: 0px;
+	margin-left: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	padding-top: 0px;
+	padding-left: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	width: 305px;
+}
+.pageform .checkboxblock {
+	margin-top: 0px;
+	margin-left: 30px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	padding-top: 0px;
+	padding-left: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+}
+.pageform .checkboxblock th {
+	color: #cc6633;
+	font-size: 12px;
+	line-height: 1.2em;
+	margin-top: 0px;
+	margin-left: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	padding-top: 0px;
+	padding-left: 0px;
+	padding-right: 0px;
+	padding-bottom: 5px;
+	text-align: left;
+}
+.pageform .checkboxblock td {
+	color: #ffffff;
+	font-size: 11px;
+	line-height: 1.2em;
+	margin-top: 0px;
+	margin-left: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	padding-top: 0px;
+	padding-left: 0px;
+	padding-right: 15px;
+	padding-bottom: 5px;
+	text-align: left;
+}
+</style>
+<body>
+<div class="site">
+	<div class="header">
+		<div class="logo">
+			<h1> <a href="http://www.ionianweddings.co.uk/" target="_self" title=""> <img src="http://www.ionianweddings.co.uk/images/interface/i_logo_ionian_weddings.gif" alt="Ionian Weddings" border="0" title="Ionian Weddings" /> </a> </h1>
+			<h2><img src="http://www.ionianweddings.co.uk/images/interface/i_exclusively_mediterranean_weddings.gif" alt="Exclusively Mediterranean Weddings" border="0" title="Exclusively Mediterranean Weddings" /></h2>
+		</div>
+		<div class="headersm">
+			<ul>
+				<li class="headersmitem"><a href="https://www.facebook.com/IonianWeddings" target="_blank" title="facebook"><img src="http://www.ionianweddings.co.uk/images/interface/b_header_facebook.gif" alt="facebook" border="0" title="facebook" /></a></li>
+				<li class="headersmitem"><a href="https://twitter.com/#!/ionianweddings" target="_blank" title="twitter"><img src="http://www.ionianweddings.co.uk/images/interface/b_header_twitter.gif" alt="twitter" border="0" title="twitter" /></a></li>
+				<li class="headersmitem"><a href="https://pinterest.com/ionianweddings/" target="_blank" title="Pinterest"><img src="http://www.ionianweddings.co.uk/images/interface/b_header_pinterest.gif" alt="Pinterest" border="0" title="Pinterest" /></a></li>
+				<li class="headersmitem"><a href="http://www.ionianweddings.co.ukhttp://ionianweddings.tumblr.com/" target="_blank" title="tumblr"><img src="http://www.ionianweddings.co.uk/images/interface/b_header_tumblr.gif" alt="tumblr" border="0" title="tumblr" /></a></li>
+				<div class="clear"></div>
+			</ul>
+		</div>
+		<div class="headernavigation">
+			<h1>Call us today on 020 8894 1991 / 020 8898 9917</h1>
+			<ul>
+				<li class="headernavigationlink"><a href="http://www.ionianweddings.co.uk/planning-advice/" target="_self" title="Planning advice">Planning advice</a></li>
+				<li class="headernavigationlink"><a href="http://www.ionianweddings.co.uk/our-story/" target="_self" title="Our Story">Our Story</a></li>
+				<li class="headernavigationlink"><a href="http://www.ionianweddings.co.uk/awards/" target="_self" title="Awards">Awards</a></li>
+				<li class="headernavigationlink"><a href="http://www.ionianweddings.co.uk/our-team/" target="_self" title="Our Team">Our Team</a></li>
+				<li class="headernavigationlink"><a href="http://www.ionianweddings.co.uk/faqs/" target="_self" title="FAQs">FAQs</a></li>
+				<li class="headernavigationlink"><a href="http://www.ionianweddings.co.uk/contact-us/" target="_self" title="Contact Us">Contact Us</a></li>
+				<li class="headernavigationlink"><a href="http://www.ionianweddings.co.uk/search/" target="_self" title="Search">Search</a></li>
+				<li class="clear"></li>
+			</ul>
+		</div>
+	</div>
+	<div class="clear"></div>
+</div>
+<div class="main">
+<div class="pageform"> 
+	<!-- End of header --> 
+	
+	<!-- Start of footer --> 
+</div>
+<div class="footer">
+<div class="footericons">
+	<ul>
+		<li class="footericonslink"><a href="http://www.abta.com/home" target="_blank" title="ABTA"><img src="http://www.ionianweddings.co.uk/images/b_abta.png" alt="ABTA" border="0" title="ABTA" /></a></li>
+		<li class="footericonslink"><a href="http://www.visitgreece.gr/" target="_blank" title="Greek National Tourist Information"><img src="http://www.ionianweddings.co.uk/images/b_greek_national_tourist_information.png" alt="Greek National Tourist Information" border="0" title="Greek National Tourist Information" /></a></li>
+		<li class="footericonslink"><a href="http://www.visitmalta.com/" target="_blank" title="Malta Gozo Comino"><img src="http://www.ionianweddings.co.uk/images/b_malta_gozo_comino.png" alt="Malta Gozo Comino" border="0" title="Malta Gozo Comino" /></a></li>
+		<li class="clear"></li>
+	</ul>
+</div>
+<div class="footercontent">
+	<h1>This site is brought to you by Ionian Weddings Limited, the only site you need to make your wedding dreams come true</h1>
+</div>
+<div class="footernavigation">
+	<ul>
+		<li class="footernavigationlink">Copyright © 2014. All 2 rights reserved.</li>
+		<li class="clear"></li>
+	</ul>
+	<ul>
+		<li class="footernavigationlink"><a href="http://www.ionianweddings.co.uk/about-us/" target="_self" title="About Us">About Us</a></li>
+		<li class="footernavigationlink"><a href="http://www.ionianweddings.co.uk/charity-work/" target="_self" title="Charity Work">Charity Work</a></li>
+		<li class="footernavigationlink"><a href="http://www.ionianweddings.co.uk/site-map/" target="_self" title="Site map">Site map</a></li>
+		<li class="footernavigationlink"><a href="http://www.ionianweddings.co.uk/terms-and-conditions/" target="_self" title="Terms and Conditions">Terms and Conditions</a></li>
+		<li class="footernavigationlink"><a href="http://www.ionianweddings.co.uk/contact-us/" target="_self" title="Contact Us">Contact Us</a></li>
+		<li class="clear"></li>
+	</ul>
+</div>
+<div class="clear"></div>

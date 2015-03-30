@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tn2>
+	<gallery>
+		<title>Fixed Dimensions</title>
+		<description>Some Description</description>
+		<file_root>/images/gallery/</file_root>
+		<images>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/32-chapel.jpg</image_src>
+				<thumb_src>/thumbnail/32-chapel.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/32-chapel2.jpg</image_src>
+				<thumb_src>/thumbnail/32-chapel2.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/32-eleonas2.jpg</image_src>
+				<thumb_src>/thumbnail/32-eleonas2.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/32-eleonasceremony.jpg</image_src>
+				<thumb_src>/thumbnail/32-eleonasceremony.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/32-eleonassquaretablesetup32.jpg</image_src>
+				<thumb_src>/thumbnail/32-eleonassquaretablesetup32.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/32-packagecyprus126.jpg</image_src>
+				<thumb_src>/thumbnail/32-packagecyprus126.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/32-packagecyprus127.jpg</image_src>
+				<thumb_src>/thumbnail/32-packagecyprus127.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/32-eleonassquaretablesetup22.jpg</image_src>
+				<thumb_src>/thumbnail/32-eleonassquaretablesetup22.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/32-eleonassquaretablesetup.jpg</image_src>
+				<thumb_src>/thumbnail/32-eleonassquaretablesetup.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/32-eleonastable.jpg</image_src>
+				<thumb_src>/thumbnail/32-eleonastable.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/32-golfclubhouse.jpg</image_src>
+				<thumb_src>/thumbnail/32-golfclubhouse.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/32-secretgardenpink1.jpg</image_src>
+				<thumb_src>/thumbnail/32-secretgardenpink1.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/32-packagecyprus123.jpg</image_src>
+				<thumb_src>/thumbnail/32-packagecyprus123.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/32-packagecyprus122.jpg</image_src>
+				<thumb_src>/thumbnail/32-packagecyprus122.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/32-packagecyprus125.jpg</image_src>
+				<thumb_src>/thumbnail/32-packagecyprus125.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/32-packagecyprus124.jpg</image_src>
+				<thumb_src>/thumbnail/32-packagecyprus124.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/32-packagecyprus121.jpg</image_src>
+				<thumb_src>/thumbnail/32-packagecyprus121.jpg</thumb_src>
+			</image>
+</images>
+	</gallery>
+</tn2>
+

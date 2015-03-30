@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tn2>
+	<gallery>
+		<title>Fixed Dimensions</title>
+		<description>Some Description</description>
+		<file_root>/images/gallery/</file_root>
+		<images>
+<image>
+				<image_src>/78-gk.jpg</image_src>
+				<thumb_src>/thumbnail/78-gk.jpg</thumb_src>
+			</image>
+</images>
+	</gallery>
+</tn2>
+

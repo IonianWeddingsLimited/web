@@ -1,0 +1,885 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+  <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta name="msvalidate.01" content="981010E92BCC633C19C312945FA62582" />
+  <title>Invoice Payment</title>
+  <meta name="keywords" content="" />
+  <meta name="description" content="" />
+  <meta name="robots" content="index, follow" />
+  <link href="/css/content.css" rel="stylesheet" type="text/css" />
+  <link href="/css/iw_responsive.css" rel="stylesheet" type="text/css" />
+  <link href="/css/ddlevelsmenu-base.css" rel="stylesheet" type="text/css" />
+  <link href="/css/ddlevelsmenu-topbar.css" rel="stylesheet" type="text/css" />
+  <link href="/skins/tn3/tn3.css" rel="stylesheet" type="text/css" />
+  <link href="/css/responsive.css" rel="stylesheet" type="text/css" />
+  <script type="text/javascript" src="/js/jquery.min.js"></script>
+  <script type="text/javascript" src="/js/jquery.tn3.min_v14.js"></script>
+  <script type="text/javascript" src="/js/jquery.ender.min.js"></script>
+  <script src="/js/ddlevelsmenu.js" type="text/javascript"></script>
+  <script type="text/javascript" src="/js/js_ddaccordion.js"></script>
+  <script type="text/javascript" src="/js/js_ddaccordion_config.js"></script>
+  <script type="text/javascript" src="/js/js_selectnav.js"></script>
+  <script type='text/javascript'>
+//<![CDATA[ 
+//$(window).load(function(){
+//
+////$('.maincontent .pagelist').parent().prependTo('.maincontent .maincopy');
+//$(".pagelist").detach().insertAfter(".maincopy h1:first");
+//
+//});//]]>  
+
+function checkWindowSize() {
+	
+	var iSiteWidth	=	$(".site").width();
+	
+	//alert(iSiteWidth);
+	
+	if (iSiteWidth <= 767) {
+		$(".pagelist").detach().insertAfter(".maincopy h1:first");
+	}
+	if ($('.maincopy .teamtable').length){
+	} else {
+		if ($('.maincopy .mainhero').length){
+			if (iSiteWidth <= 480) {
+				$(".maincopy h1:first").detach().insertBefore(".maincopy .mainhero");
+			} else {
+				$(".maincopy h1:first").detach().insertAfter(".maincopy .mainhero");
+			}
+		}
+	}
+}
+$(document).ready(function() {
+	checkWindowSize();
+	$(window).resize(checkWindowSize);
+	$(window).resize(function() {
+		checkWindowSize();
+		$(window).resize(checkWindowSize);
+	});
+	$('p').filter(function () { return this.innerHTML == "" }).remove();
+	$('.forminput').focus(function() {
+    if (this.value == this.title) {
+        $(this).val("");
+    }
+}).blur(function() {
+    if (this.value == "") {
+        $(this).val(this.title);
+    }
+});
+	
+});
+</script>
+  <meta property="og:title" content="Invoice Payment" />
+  <meta property="og:url" content="http://www.ionianweddings.co.uk/invoice-payment/" />
+  <meta property="og:image" content="http://www.ionianweddings.co.uk/images/interface/i_logo_ionian_weddings.gif" />
+  <meta property="og:type" content="company" />
+  <meta property="og:site_name" content="Ionian Weddings" />
+  <meta property="fb:app_id" content="179394783501" />
+  <link href="/css/datepicker.css" rel="stylesheet" type="text/css"/>
+  <script src="/js/datepicker.js"></script>
+  <script>
+  $(document).ready(function() {
+    $("#datepicker").datepicker({ dateFormat: 'dd/mm/yy' });
+});
+  </script><script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-2321991-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+  <link href="/css/datepicker.css" rel="stylesheet" type="text/css"/>
+  <script src="/js/datepicker.js"></script>
+  <script>
+  $(document).ready(function() {
+    $("#datepicker").datepicker({ dateFormat: 'dd/mm/yy' });
+});
+  </script>
+  </head>
+
+  <body>
+<div class="site">
+	<div class="header">
+		<div class="logo">
+			<h1><a href="/" target="_self" title=""><img src="/images/interface/i_logo_ionian_weddings.gif" alt="Ionian Weddings" border="0" title="Ionian Weddings" /></a> </h1>
+			<h2><img src="/images/interface/i_exclusively_mediterranean_weddings.gif" alt="Exclusively Mediterranean Weddings" border="0" title="Exclusively Mediterranean Weddings" /></h2>
+		</div>
+		<div class="headersm">
+			<ul>
+				<li class="headersmitem"><a href="https://www.facebook.com/IonianWeddings" target="_blank" title="facebook"><img src="/images/interface/b_header_facebook.gif" alt="facebook" border="0" title="facebook" /></a></li>
+				<li class="headersmitem"><a href="https://twitter.com/#!/ionianweddings" target="_blank" title="twitter"><img src="/images/interface/b_header_twitter.gif" alt="twitter" border="0" title="twitter" /></a></li>
+				<li class="headersmitem"><a href="https://pinterest.com/ionianweddings/" target="_blank" title="Pinterest"><img src="/images/interface/b_header_pinterest.gif" alt="Pinterest" border="0" title="Pinterest" /></a></li>
+				<li class="headersmitem"><a href="http://ionianweddings.tumblr.com/" target="_blank" title="tumblr"><img src="/images/interface/b_header_tumblr.gif" alt="tumblr" border="0" title="tumblr" /></a></li>
+				<div class="clear"></div>
+			</ul>
+		</div>
+		<div class="headernavigation">
+			<div class="fblike">
+				<div id="fb-root"></div>
+				<script src="http://connect.facebook.net/en_US/all.js#appId=179394783501&amp;xfbml=1"></script>
+				<fb:like href="http://www.ionianweddings.co.uk/invoice-payment/" send="false" layout="button_count" width="0" show_faces="false" font=""></fb:like>
+			</div>
+			<!--<div style="clear:both; margin-bottom:10px;"></div>-->
+			<h1>Call us today on 020 8894 1991 / 020 8898 9917</h1>
+			<ul>
+				<li class="headernavigationlink"><a href="/planning-advice/" target="_self" title="Planning advice">Planning advice</a></li>
+				<li class="headernavigationlink"><a href="/our-story/" target="_self" title="Our Story">Our Story</a></li>
+				<li class="headernavigationlink"><a href="/awards/" target="_self" title="Awards">Awards</a></li>
+				<li class="headernavigationlink"><a href="/our-team/" target="_self" title="Our Team">Our Team</a></li>
+				<li class="headernavigationlink"><a href="/faqs/" target="_self" title="FAQs">FAQs</a></li>
+				<li class="headernavigationlink"><a href="/contact-us/" target="_self" title="Contact Us">Contact Us</a></li>
+				<li class="headernavigationlink"><a href="/search/" target="_self" title="Search">Search</a></li>
+				<li class="clear"></li>
+			</ul>
+		</div>
+		<div class="headervote"> <a href="/awards/" target="_self" title="Click to vote for us - British Travel Awards 2013 - www.britishtravelawards.com"><img src="/images/interface/b_vote_2013.gif" alt="Click to vote for us - British Travel Awards 2013 - www.britishtravelawards.com" height="108" border="0" title="Click to vote for us - British Travel Awards 2013 - www.britishtravelawards.com" width="108" /></a> </div>
+		<div class="clear"></div>
+	</div>
+	<div class="main">
+		<div id="ddtopmenubar" class="mattblackmenu">
+			<ul>
+				<li><a href="/packages/" rel="ddsubmenu5" target="_self" title="Packages">Packages</a></li>
+				<li><a href="/testimonials/" target="_self" title="Testimonials">Testimonials</a></li>
+				<li><a href="/latest-news/" rel="ddsubmenu4" target="_self" title="News & Press">News & Press</a></li>
+				<li><a href="/types-of-ceremony/" rel="ddsubmenu3" target="_self" title="Types of Ceremony">Types of Ceremony</a></li>
+				<li><a href="/destinations/" rel="ddsubmenu2" target="_self" title="Destinations">Destinations</a></li>
+				<li><a href="/inspiration-ideas/" rel="ddsubmenu1" target="_self" title="Inspiration &amp; Ideas">Inspiration &amp; Ideas</a></li>
+			</ul>
+		</div>
+		<script type="text/javascript">ddlevelsmenu.setup("ddtopmenubar", "topbar") //ddlevelsmenu.setup("mainmenuid", "topbar|sidebar")</script>
+		<ul id="ddsubmenu1" class="ddsubmenustyle">
+			<li><a href="/packages/" target="_self" title="Packages">Packages</a></li>
+			<li><a href="/personal-consultations/" target="_self" title="Personal Consultations">Personal Consultations</a></li>
+			<li><a href="/testimonials/" target="_self" title="Testimonials">Testimonials</a></li>
+			<li><a href="/inspiration-ideas/inside-stories/" target="_self" title="Inside Stories">Inside Stories</a>
+				<ul>
+					<li><a href="/inspiration-ideas/inside-stories/karen-greg-skiathos-september-2012-1/" target="_self" title="Karen & Greg Skiathos September 2012">Karen & Greg Skiathos September 2012</a></li>
+					<li><a href="/inspiration-ideas/inside-stories/hayley-nicolas-santorini-september-2012/" target="_self" title="Hayley & Nicolas Santorini September 2012">Hayley & Nicolas Santorini September 2012</a></li>
+					<li><a href="/inspiration-ideas/inside-stories/lisa-leon-corfu-september-2012-/" target="_self" title="Lisa & Leon Corfu September 2012">Lisa & Leon Corfu September 2012</a></li>
+					<li><a href="/inspiration-ideas/inside-stories/adam-alec-santorini-september-2013/" target="_self" title="Adam & Alec Santorini September 2013">Adam & Alec Santorini September 2013</a></li>
+				</ul>
+				</il>
+			<li><a href="/inspiration-ideas/wedding-showcase/" target="_self" title="Wedding Showcase">Wedding Showcase</a>
+				<ul>
+					<li><a href="/inspiration-ideas/wedding-showcase/victoria-matthew-santorini-caldera/" target="_self" title="Victoria & Matthew, Santorini Caldera">Victoria & Matthew, Santorini Caldera</a></li>
+					<li><a href="/inspiration-ideas/wedding-showcase/tara-paul-st-stefanos-island-kos/" target="_self" title="Tara & Paul, St Stefanos Island Kos">Tara & Paul, St Stefanos Island Kos</a></li>
+					<li><a href="/inspiration-ideas/wedding-showcase/catherine-carl-private-island-zakynthos/" target="_self" title="Catherine & Carl, Private Island Zakynthos">Catherine & Carl, Private Island Zakynthos</a></li>
+					<li><a href="/inspiration-ideas/wedding-showcase/bernadette-nathan-kefalonia-chapel-wedding/" target="_self" title="Bernadette & Nathan, Kefalonia Chapel Wedding">Bernadette & Nathan, Kefalonia Chapel Wedding</a></li>
+					<li><a href="/inspiration-ideas/wedding-showcase/jo-ricky-bouka-beach-wedding-in-zakynthos/" target="_self" title="Jo & Ricky, Bouka Beach Wedding in Zakynthos">Jo & Ricky, Bouka Beach Wedding in Zakynthos</a></li>
+					<li><a href="/inspiration-ideas/wedding-showcase/sally-nick-traditional-wedding-in-samos/" target="_self" title="Sally & Nick, Traditional Wedding in Samos">Sally & Nick, Traditional Wedding in Samos</a></li>
+					<li><a href="/inspiration-ideas/wedding-showcase/shanta-matt-lefkada-wedding/" target="_self" title="Shanta & Matt, Lefkada Wedding">Shanta & Matt, Lefkada Wedding</a></li>
+					<li><a href="/inspiration-ideas/wedding-showcase/rhoda-alec-lakeside-crete-wedding/" target="_self" title="Rhoda & Alec, Lakeside Crete Wedding">Rhoda & Alec, Lakeside Crete Wedding</a></li>
+					<li><a href="/inspiration-ideas/wedding-showcase/angela-eds-pier-wedding-in-cyprus/" target="_self" title="Angela & Ed's Pier Wedding in Cyprus">Angela & Ed's Pier Wedding in Cyprus</a></li>
+					<li><a href="/inspiration-ideas/wedding-showcase/abi-chris-corfu-wedding/" target="_self" title="Abi & Chris, Corfu wedding">Abi & Chris, Corfu wedding</a></li>
+					<li><a href="/inspiration-ideas/wedding-showcase/jen-rich-asos-kefalonia-/" target="_self" title="Jen & Rich, Asos Kefalonia">Jen & Rich, Asos Kefalonia</a></li>
+					<li><a href="/inspiration-ideas/wedding-showcase/katie-wills-amorgos-wedding/" target="_self" title="Katie & Will's Amorgos Wedding">Katie & Will's Amorgos Wedding</a></li>
+					<li><a href="/inspiration-ideas/wedding-showcase/eva-maurice-st-stefanos-kos/" target="_self" title="Eva & Maurice, St Stefanos Kos">Eva & Maurice, St Stefanos Kos</a></li>
+				</ul>
+				</il>
+			<li><a href="/our-story/" target="_self" title="Our Story">Our Story</a></li>
+		</ul>
+		<ul id="ddsubmenu2" class="ddsubmenustyle">
+			<li><a href="/destinations/greek-aegean-islands/" target="_self" title="Greek Aegean Islands">Greek Aegean Islands</a>
+				<ul>
+					<li><a href="/destinations/greek-aegean-islands/amorgos/" target="_self" title="Amorgos">Amorgos</a></li>
+					<li><a href="/destinations/greek-aegean-islands/crete/" target="_self" title="Crete">Crete</a></li>
+					<li><a href="/destinations/greek-aegean-islands/kos/" target="_self" title="Kos">Kos</a></li>
+					<li><a href="/destinations/greek-aegean-islands/mykonos/" target="_self" title="Mykonos">Mykonos</a></li>
+					<li><a href="/destinations/greek-aegean-islands/rhodes/" target="_self" title="Rhodes">Rhodes</a></li>
+					<li><a href="/destinations/greek-aegean-islands/samos/" target="_self" title="Samos">Samos</a></li>
+					<li><a href="/destinations/greek-aegean-islands/santorini/" target="_self" title="Santorini">Santorini</a></li>
+					<li><a href="/destinations/greek-aegean-islands/skiathos/" target="_self" title="Skiathos">Skiathos</a></li>
+					<li><a href="/destinations/greek-aegean-islands/skopelos/" target="_self" title="Skopelos">Skopelos</a></li>
+				</ul>
+				</il>
+			<li><a href="/destinations/greek-ionian-islands/" target="_self" title="Greek Ionian Islands">Greek Ionian Islands</a>
+				<ul>
+					<li><a href="/destinations/greek-ionian-islands/corfu/" target="_self" title="Corfu">Corfu</a></li>
+					<li><a href="/destinations/greek-ionian-islands/ithaca/" target="_self" title="Ithaca">Ithaca</a></li>
+					<li><a href="/destinations/greek-ionian-islands/kefalonia/" target="_self" title="Kefalonia">Kefalonia</a></li>
+					<li><a href="/destinations/greek-ionian-islands/lefkas/" target="_self" title="Lefkas">Lefkas</a></li>
+					<li><a href="/destinations/greek-ionian-islands/paxos/" target="_self" title="Paxos">Paxos</a></li>
+					<li><a href="/destinations/greek-ionian-islands/zante/" target="_self" title="Zante">Zante</a></li>
+				</ul>
+				</il>
+			<li><a href="/destinations/cyprus/" target="_self" title="Cyprus">Cyprus</a></li>
+			<li><a href="/destinations/malta/" target="_self" title="Malta">Malta</a></li>
+			<li><a href="/destinations/italy/" target="_self" title="Italy">Italy</a>
+				<ul>
+					<li><a href="/destinations/italy/amalfi-coast-sorrento/" target="_self" title="Amalfi Coast & Sorrento">Amalfi Coast & Sorrento</a></li>
+					<li><a href="/destinations/italy/capri-island/" target="_self" title="Capri Island">Capri Island</a></li>
+					<li><a href="/destinations/italy/sardinia/" target="_self" title="Sardinia">Sardinia</a></li>
+					<li><a href="/destinations/italy/venice/" target="_self" title="Venice">Venice</a></li>
+					<li><a href="/destinations/italy/lake-garda-weddings/" target="_self" title="Lake Garda Weddings">Lake Garda Weddings</a></li>
+				</ul>
+				</il>
+			<li><a href="/destinations/croatia/" target="_self" title="Croatia">Croatia</a></li>
+		</ul>
+		<ul id="ddsubmenu3" class="ddsubmenustyle">
+			<li><a href="/types-of-ceremony/beach-weddings/" target="_self" title="Beach Weddings">Beach Weddings</a></li>
+			<li><a href="/types-of-ceremony/chapel-weddings/" target="_self" title="Chapel Weddings">Chapel Weddings</a></li>
+			<li><a href="/types-of-ceremony/island-boat-lake-weddings/" target="_self" title="Island, Boat &amp; Lake-weddings">Island, Boat &amp; Lake-weddings</a></li>
+			<li><a href="/types-of-ceremony/garden-winery-weddings/" target="_self" title="Garden &amp; Winery Weddings">Garden &amp; Winery Weddings</a></li>
+			<li><a href="/types-of-ceremony/historic-weddings-venues/" target="_self" title="Historic Weddings Venues">Historic Weddings Venues</a></li>
+			<li><a href="/types-of-ceremony/weddings-with-a-view/" target="_self" title="Weddings with a view...">Weddings with a view...</a></li>
+			<li><a href="/types-of-ceremony/anglican-weddings/" target="_self" title="Anglican Weddings">Anglican Weddings</a></li>
+			<li><a href="/types-of-ceremony/catholic-weddings-in-the-mediterranean/" target="_self" title="Catholic Weddings in the Mediterranean">Catholic Weddings in the Mediterranean</a></li>
+			<li><a href="/types-of-ceremony/orthodox-weddings/" target="_self" title="Orthodox Weddings">Orthodox Weddings</a></li>
+			<li><a href="/types-of-ceremony/renewal-of-vows-blessings/" target="_self" title="Renewal of Vows &amp; Blessings">Renewal of Vows &amp; Blessings</a></li>
+			<li><a href="/types-of-ceremony/gay-weddings/" target="_self" title="Gay Weddings">Gay Weddings</a></li>
+			<li><a href="/types-of-ceremony/private-hire-wedding-venues-in-the-mediterranean/" target="_self" title="Private Hire Wedding Venues in the Mediterranean">Private Hire Wedding Venues in the Mediterranean</a></li>
+		</ul>
+		<ul id="ddsubmenu5" class="ddsubmenustyle">
+			<li><a href="/packages/greek-aegean-island-wedding-packages/" target="_self" title="Greek Aegean Island Wedding Packages">Greek Aegean Island Wedding Packages</a>
+				<ul>
+					<li><a href="/packages/greek-aegean-island-wedding-packages/crete-chapel-wedding/" target="_self" title="Crete Chapel Wedding">Crete Chapel Wedding</a></li>
+					<li><a href="/packages/greek-aegean-island-wedding-packages/santorini-sunset-beach/" target="_self" title="Santorini Sunset Beach">Santorini Sunset Beach</a></li>
+					<li><a href="/packages/greek-aegean-island-wedding-packages/st-irene-chapel-santorini/" target="_self" title="St Irene chapel Santorini">St Irene chapel Santorini</a></li>
+					<li><a href="/packages/greek-aegean-island-wedding-packages/santorini-winery-wedding/" target="_self" title="Santorini Winery Wedding">Santorini Winery Wedding</a></li>
+					<li><a href="/packages/greek-aegean-island-wedding-packages/santorini-sunset-terrace-wedding/" target="_self" title="Santorini Sunset Terrace Wedding">Santorini Sunset Terrace Wedding</a></li>
+					<li><a href="/packages/greek-aegean-island-wedding-packages/st-stefanos-island-kos/" target="_self" title="St Stefanos Island, Kos">St Stefanos Island, Kos</a></li>
+					<li><a href="/packages/greek-aegean-island-wedding-packages/st-pauls-lindos-rhodes/" target="_self" title="St Paul's Lindos Rhodes">St Paul's Lindos Rhodes</a></li>
+					<li><a href="/packages/greek-aegean-island-wedding-packages/skopelos-mama-mia-chapel-wedding-/" target="_self" title="Skopelos Mama Mia Chapel Wedding">Skopelos Mama Mia Chapel Wedding</a></li>
+					<li><a href="/packages/greek-aegean-island-wedding-packages/rhodes-kolymbia-sands-wedding-/" target="_self" title="Rhodes Kolymbia Sands Wedding">Rhodes Kolymbia Sands Wedding</a></li>
+					<li><a href="/packages/greek-aegean-island-wedding-packages/rhodes-lindian-village-wedding/" target="_self" title="Rhodes Lindian Village Wedding">Rhodes Lindian Village Wedding</a></li>
+				</ul>
+				</il>
+			<li><a href="/packages/greek-ionian-island-wedding-packages/" target="_self" title="Greek Ionian Island Wedding Packages">Greek Ionian Island Wedding Packages</a>
+				<ul>
+					<li><a href="/packages/greek-ionian-island-wedding-packages/cameo-island-wedding-/" target="_self" title="Cameo Island Wedding">Cameo Island Wedding</a></li>
+					<li><a href="/packages/greek-ionian-island-wedding-packages/a-kefalonian-wedding-with-private-villa-catering/" target="_self" title="A Kefalonian wedding with private villa catering">A Kefalonian wedding with private villa catering</a></li>
+					<li><a href="/packages/greek-ionian-island-wedding-packages/ocean-view-wedding-zante/" target="_self" title="Ocean View Wedding, Zante">Ocean View Wedding, Zante</a></li>
+					<li><a href="/packages/greek-ionian-island-wedding-packages/argostoli-lighthouse-watermill-reception/" target="_self" title="Argostoli Lighthouse & Watermill Reception">Argostoli Lighthouse & Watermill Reception</a></li>
+					<li><a href="/packages/greek-ionian-island-wedding-packages/sunrise-lounge-wedding/" target="_self" title="Sunrise Lounge Wedding">Sunrise Lounge Wedding</a></li>
+					<li><a href="/packages/greek-ionian-island-wedding-packages/kommeno-cape-villa-wedding-/" target="_self" title="Kommeno Cape Villa Wedding">Kommeno Cape Villa Wedding</a></li>
+				</ul>
+				</il>
+			<li><a href="/packages/cyprus-island-wedding-packages/" target="_self" title="Cyprus Island Wedding Packages">Cyprus Island Wedding Packages</a>
+				<ul>
+					<li><a href="/packages/cyprus-island-wedding-packages/cypriot-village-wedding-and-reception/" target="_self" title="Cypriot Village Wedding and Reception">Cypriot Village Wedding and Reception</a></li>
+					<li><a href="/packages/cyprus-island-wedding-packages/a-unique-cyprus-wedding-at-a-converted-17th-century-monastery-near-paphos/" target="_self" title="A Unique Cyprus Wedding at a Converted 17th Century Monastery near Paphos">A Unique Cyprus Wedding at a Converted 17th Century Monastery near Paphos</a></li>
+					<li><a href="/packages/cyprus-island-wedding-packages/limassol-pier-wedding-package/" target="_self" title="Limassol Pier Wedding Package">Limassol Pier Wedding Package</a></li>
+					<li><a href="/packages/cyprus-island-wedding-packages/pissouri-bay-wedding-reception/" target="_self" title="Pissouri Bay Wedding & Reception">Pissouri Bay Wedding & Reception</a></li>
+					<li><a href="/packages/cyprus-island-wedding-packages/private-sunset-terrace-paphos-wedding/" target="_self" title="Private Sunset Terrace Paphos Wedding">Private Sunset Terrace Paphos Wedding</a></li>
+					<li><a href="/packages/cyprus-island-wedding-packages/cape-greco-protaras-wedding/" target="_self" title="Cape Greco Protaras Wedding">Cape Greco Protaras Wedding</a></li>
+					<li><a href="/packages/cyprus-island-wedding-packages/traditional-cyprus-inn-wedding-near-paphos/" target="_self" title="Traditional Cyprus Inn Wedding near Paphos">Traditional Cyprus Inn Wedding near Paphos</a></li>
+					<li><a href="/packages/cyprus-island-wedding-packages/paphos-castle-wedding-and-harbour-reception/" target="_self" title="Paphos Castle Wedding and Harbour Reception">Paphos Castle Wedding and Harbour Reception</a></li>
+					<li><a href="/packages/cyprus-island-wedding-packages/paphos-traditional-courtyard-wedding-seafront-reception/" target="_self" title="Paphos Traditional Courtyard Wedding & Seafront Reception">Paphos Traditional Courtyard Wedding & Seafront Reception</a></li>
+					<li><a href="/packages/cyprus-island-wedding-packages/church-wedding-and-taverna-reception/" target="_self" title="Church Wedding and Taverna Reception">Church Wedding and Taverna Reception</a></li>
+					<li><a href="/packages/cyprus-island-wedding-packages/paradise-sands-wedding-reception/" target="_self" title="Paradise Sands Wedding & Reception">Paradise Sands Wedding & Reception</a></li>
+					<li><a href="/packages/cyprus-island-wedding-packages/ottoman-baths-wedding-paphos/" target="_self" title="Ottoman Baths Wedding, Paphos">Ottoman Baths Wedding, Paphos</a></li>
+				</ul>
+				</il>
+			<li><a href="/packages/malta-wedding-packages/" target="_self" title="Malta Wedding Packages">Malta Wedding Packages</a>
+				<ul>
+					<li><a href="/packages/malta-wedding-packages/maltese-palace-wedding-reception/" target="_self" title="Maltese Palace Wedding & Reception">Maltese Palace Wedding & Reception</a></li>
+					<li><a href="/packages/malta-wedding-packages/malta-seafront-wedding-olive-tree-reception/" target="_self" title="Malta Seafront Wedding & Olive Tree Reception">Malta Seafront Wedding & Olive Tree Reception</a></li>
+					<li><a href="/packages/malta-wedding-packages/malta-ancient-castle-wedding/" target="_self" title="Malta Ancient Castle Wedding">Malta Ancient Castle Wedding</a></li>
+					<li><a href="/packages/malta-wedding-packages/comino-view-beach-ceremony-reception-/" target="_self" title="Comino View Beach Ceremony & Reception">Comino View Beach Ceremony & Reception</a></li>
+					<li><a href="/packages/malta-wedding-packages/malta-limestone-heritage-wedding/" target="_self" title="Malta Limestone Heritage Wedding">Malta Limestone Heritage Wedding</a></li>
+					<li><a href="/packages/malta-wedding-packages/malta-mdina-view-gardens-wedding-/" target="_self" title="Malta Mdina View Gardens Wedding">Malta Mdina View Gardens Wedding</a></li>
+					<li><a href="/packages/malta-wedding-packages/malta-st-julians-bay-wedding/" target="_self" title="Malta St Julians Bay Wedding">Malta St Julians Bay Wedding</a></li>
+				</ul>
+				</il>
+			<li><a href="/packages/italy-wedding-packages/" target="_self" title="Italy Wedding Packages">Italy Wedding Packages</a>
+				<ul>
+					<li><a href="/packages/italy-wedding-packages/sorrento-boutique-villa-wedding/" target="_self" title="Sorrento Boutique Villa Wedding">Sorrento Boutique Villa Wedding</a></li>
+					<li><a href="/packages/italy-wedding-packages/venice-palazzo-cavalli-wedding-panoramic-rooftop-reception/" target="_self" title="Venice Palazzo Cavalli Wedding & Panoramic Rooftop Reception">Venice Palazzo Cavalli Wedding & Panoramic Rooftop Reception</a></li>
+					<li><a href="/packages/italy-wedding-packages/venice-palazzo-cavalli-wedding-lido-waterfront-reception/" target="_self" title="Venice Palazzo Cavalli Wedding & Lido Waterfront Reception">Venice Palazzo Cavalli Wedding & Lido Waterfront Reception</a></li>
+					<li><a href="/packages/italy-wedding-packages/ravello-garden-wedding/" target="_self" title="Ravello Garden Wedding">Ravello Garden Wedding</a></li>
+					<li><a href="/packages/italy-wedding-packages/capri-town-wedding-and-faraglioni-view-reception/" target="_self" title="Capri Town Wedding and Faraglioni View Reception">Capri Town Wedding and Faraglioni View Reception</a></li>
+					<li><a href="/packages/italy-wedding-packages/sorrento-private-sea-view-villa-wedding-reception/" target="_self" title="Sorrento Private Sea View Villa Wedding & Reception">Sorrento Private Sea View Villa Wedding & Reception</a></li>
+					<li><a href="/packages/italy-wedding-packages/positano-civil-wedding-and-reception/" target="_self" title="Positano Civil Wedding and Reception">Positano Civil Wedding and Reception</a></li>
+					<li><a href="/packages/italy-wedding-packages/sorrento-san-francesco-cloisters-wedding-lemon-garden-reception/" target="_self" title="Sorrento San Francesco Cloisters Wedding & Lemon Garden Reception">Sorrento San Francesco Cloisters Wedding & Lemon Garden Reception</a></li>
+					<li><a href="/packages/italy-wedding-packages/sorrento-museum-panoramic-terrace-wedding/" target="_self" title="Sorrento Museum & Panoramic Terrace Wedding">Sorrento Museum & Panoramic Terrace Wedding</a></li>
+					<li><a href="/packages/italy-wedding-packages/sorrento-san-francesco-cloisters-wedding-seafront-pier-reception/" target="_self" title="Sorrento San Francesco Cloisters Wedding & Seafront Pier Reception">Sorrento San Francesco Cloisters Wedding & Seafront Pier Reception</a></li>
+					<li><a href="/packages/italy-wedding-packages/amalfi-terrace-wedding-reception/" target="_self" title="Amalfi Terrace Wedding & Reception">Amalfi Terrace Wedding & Reception</a></li>
+					<li><a href="/packages/italy-wedding-packages/positano-catholic-wedding-and-reception/" target="_self" title="Positano Catholic Wedding and Reception">Positano Catholic Wedding and Reception</a></li>
+					<li><a href="/packages/italy-wedding-packages/lake-garda-malcesine-castle-wedding-private-lakeside-reception/" target="_self" title="Lake Garda Malcesine Castle Wedding & Private Lakeside Reception">Lake Garda Malcesine Castle Wedding & Private Lakeside Reception</a></li>
+				</ul>
+				</il>
+		</ul>
+		<ul id="ddsubmenu4" class="ddsubmenustyle">
+			<li><a href="/latest-news/" target="_self" title="Latest News">Latest News</a></li>
+			<li><a href="/news-archive/" target="_self" title="News Archive">News Archive</a></li>
+			<li><a href="/ionian-weddings-blog/" target="_self" title="Ionian Weddings Blog">Ionian Weddings Blog</a></li>
+			<li><a href="/in-the-press/" target="_self" title="Ionian Weddings in the Press">Ionian Weddings in the Press</a></li>
+		</ul>
+		<div class="maincontent">
+			<div class="destinationnav">
+				<ul id="destinationnav">
+					<!--<li class="destinationnavitem"><a href="http://www.ionianweddings.co.uk/destinations/" target="_self" title="Destinations">All Destinations</a></li>-->
+					<li class="destinationnavitem"><a href="http://www.ionianweddings.co.uk/destinations/greek-aegean-islands/" target="_self" title="Greek Aegean Islands">Greek Aegean Islands</a></li>
+					<li class="destinationnavitem"><a href="http://www.ionianweddings.co.uk/destinations/greek-ionian-islands/" target="_self" title="Greek Ionian Islands">Greek Ionian Islands</a></li>
+					<li class="destinationnavitem"><a href="http://www.ionianweddings.co.uk/destinations/cyprus/" target="_self" title="Cyprus">Cyprus</a></li>
+					<li class="destinationnavitem"><a href="http://www.ionianweddings.co.uk/destinations/malta/" target="_self" title="Malta">Malta</a></li>
+					<li class="destinationnavitem"><a href="http://www.ionianweddings.co.uk/destinations/italy/" target="_self" title="Italy">Italy</a></li>
+					<li class="clear"></li>
+				</ul>
+			</div>
+			<div class="packagesnav">
+				<ul id="packagesnav">
+					<li class="packagesnavitem"><a href="http://www.ionianweddings.co.uk/packages/" target="_self" title="All Packages">All Packages</a></li>
+					<li class="packagesnavitem"><a href="http://www.ionianweddings.co.uk/packages/greek-aegean-island-wedding-packages/" target="_self" title="Greek Aegean Island Wedding Packages">Greek Aegean Island Wedding Packages</a></li>
+					<li class="packagesnavitem"><a href="http://www.ionianweddings.co.uk/packages/greek-ionian-island-wedding-packages/" target="_self" title="Greek Ionian Island Wedding Packages">Greek Ionian Island Wedding Packages</a></li>
+					<li class="packagesnavitem"><a href="http://www.ionianweddings.co.uk/packages/cyprus-island-wedding-packages/" target="_self" title="Cyprus Island Wedding Packages">Cyprus Island Wedding Packages</a></li>
+					<li class="packagesnavitem"><a href="http://www.ionianweddings.co.uk/packages/malta-wedding-packages/" target="_self" title="Malta Wedding packages">Malta Wedding packages</a></li>
+					<li class="packagesnavitem"><a href="http://www.ionianweddings.co.uk/packages/italy-wedding-packages/" target="_self" title="Italy Wedding packages">Italy Wedding packages</a></li>
+				</ul>
+			</div>
+			<div class="mainnav">
+				<ul id="mainnav">
+					<li class="mainnavitem"><a href="http://www.ionianweddings.co.uk/inspiration-ideas/" target="_self" title="Inspiration &amp; Ideas">Inspiration &amp; Ideas</a></li>
+					<li class="mainnavitem"><a href="http://www.ionianweddings.co.uk/packages/greek-aegean-island-wedding-packages/" target="_self" title="Destinations">Destinations</a></li>
+					<li class="mainnavitem"><a href="http://www.ionianweddings.co.uk/types-of-ceremony/" target="_self" title="Types of Ceremony">Types of Ceremony</a></li>
+					<li class="mainnavitem"><a href="http://www.ionianweddings.co.uk/latest-news/" target="_self" title="Latest News">Latest News</a></li>
+					<li class="mainnavitem"><a href="http://www.ionianweddings.co.uk/news-archive/" target="_self" title="News Archive">News Archive</a></li>
+					<li class="mainnavitem"><a href="http://www.ionianweddings.co.uk/ionian-weddings-blog/" target="_self" title="Ionian Weddings Blog">Ionian Weddings Blog</a></li>
+					<li class="mainnavitem"><a href="http://www.ionianweddings.co.uk/in-the-press/" target="_self" title="Ionian Weddings in the Press">Ionian Weddings in the Press</a></li>
+					<li class="mainnavitem"><a href="http://www.ionianweddings.co.uk/testimonials/" target="_self" title="Testimonials">Testimonials</a></li>
+					<li class="mainnavitem"><a href="http://www.ionianweddings.co.uk/planning-advice/" target="_self" title="Planning Advice">Planning Advice</a></li>
+					<li class="mainnavitem"><a href="http://www.ionianweddings.co.uk/our-story/" target="_self" title="Our Story">Our Story</a></li>
+					<li class="mainnavitem"><a href="http://www.ionianweddings.co.uk/awards/" target="_self" title="Awards">Awards</a></li>
+					<li class="mainnavitem"><a href="http://www.ionianweddings.co.uk/our-team/" target="_self" title="Our Team">Our Team</a></li>
+					<li class="mainnavitem"><a href="http://www.ionianweddings.co.uk/faqs/" target="_self" title="FAQs">FAQs</a></li>
+					<li class="mainnavitem"><a href="http://www.ionianweddings.co.uk/contact-us/" target="_self" title="Contact Us">Contact Us</a></li>
+					<li class="mainnavitem"><a href="http://www.ionianweddings.co.uk/search/" target="_self" title="Search">Search</a></li>
+				</ul>
+			</div>
+			<script type="application/javascript">
+$(function() {
+var payinvcheck = 0;
+var submitenabled = false;
+	$("input[name='payinv[]']").change(function() {
+		payinvcheck = $("input[name='payinv[]']:checked").length;
+		if (payinvcheck>0) {
+			switch(submitenabled) {
+				case true:
+					break;
+				case false:
+					$('input[type="submit"][name="payinvoices"]').removeAttr('disabled');
+					submitenabled=true;
+					break;
+			}
+		}
+		else {
+			$('input[type="submit"][name="payinvoices"]').attr('disabled','disabled');
+			submitenabled=false;
+		}
+	});
+});
+
+function selectToggle(toggle, form) {
+     var myForm = document.forms[form];
+     for( var i=0; i < myForm.length; i++ ) {
+		 if(!myForm.elements[i].disabled) {
+          if(toggle) {
+               myForm.elements[i].checked = "checked";
+          } 
+          else {
+               myForm.elements[i].checked = "";
+          }
+		 }
+     }
+	 if (toggle==true) { $('input[type="submit"][name="payinvoices"]').removeAttr('disabled'); }
+	 else { $('input[type="submit"][name="payinvoices"]').attr('disabled','disabled'); }
+}
+</script>
+			<div class="pageform">
+				<div class='formheader'>
+					<h1>Hello Gtest2 <span class="notme">(<a href="/invoice-payment/unset/" title="exit" nofollow>Not you? click here</a>)</span></h1>
+					<p>You are able to view and pay all your invoices marked as outstanding, if you have a query or an invoice is listed or is not listed below <a href="/contact-us/" title="Contact Us" target="_blank">please contact us.</a></p>
+				</div>
+				<div class="formheader">
+					<h1>Contact details</h1>
+				</div>
+				<div class="formrow">
+					<div class="formlabel">Name:</div>
+					<div class="formelement">Miss Gtest2 Gtest2</div>
+					<div class="clear"></div>
+				</div>
+				<div class="formrow">
+					<div class="formlabel">Address:</div>
+					<div class="formelement"> test1<br />
+						test2<br />
+						test3<br />
+						test4<br />
+					</div>
+					<div class="clear"></div>
+				</div>
+				<div class="formrow">
+					<div class="formlabel">Post code:</div>
+					<div class="formelement">TEST6</div>
+					<div class="clear"></div>
+				</div>
+				<div class="formrow">
+					<div class="formlabel">Wedding Date:</div>
+					<div class="formelement">27/01/2013</div>
+					<div class="clear"></div>
+				</div>
+				<div class="formrow">
+					<div class="formlabel">Telephone:</div>
+					<div class="formelement">01253296007</div>
+					<div class="clear"></div>
+				</div>
+				<div class="formrow">
+					<div class="formlabel">Mobile:</div>
+					<div class="formelement">07968742071</div>
+					<div class="clear"></div>
+				</div>
+				<div class="formrow">
+					<div class="formlabel">Email:</div>
+					<div class="formelement"><a href="mailto:apexofthecurve@hotmail.com" title="apexofthecurve@hotmail.com">apexofthecurve@hotmail.com</a></div>
+					<div class="clear"></div>
+				</div>
+				<!--<form name="paymentToken" method="get" action="https://secure-test.worldpay.com/wcc/purchase">
+					<script>
+$(function() {
+// Assign Variables
+var totalAmount = $('#amount').val();
+var sCard = 0;
+var cardCharge = false;	
+var selectedVal = $("#payType").val();
+var selectedPay = 0;
+var pmsg = "";
+var totalDUE = 0;
+var amountPAY = $('#amount').val();
+var amount2 = Math.round((amountPAY*0.02)*100)/100;
+var amount3 = Math.round((amountPAY*0.03)*100)/100;
+var total2 = Number(amountPAY)+Number(amount2);
+var total3 = Number(amountPAY)+Number(amount3);	
+
+
+function isNumeric(id){
+   var numeric = document.getElementById(id);
+   var regex  = /^\d+(?:\.\d{0,2})$/;
+   if (regex.test(numeric)){
+     return true;
+   }else{
+     return false;
+  }
+}; 
+
+function priceCheck() {	
+	totalDUE = 0;
+	amountPAY = $('#damount').val();
+	
+	$(".totalDUE").text("£ " + totalDUE);
+	$("#etotal").text("£ " + amountPAY);
+	$.ajax({
+		url: "http://www.ionianweddings.co.uk/_includes/paymenttype.php",
+		type: "POST",
+		data:{ defam: totalAmount, ptamount: amountPAY, ptcard: selectedVal, cardch: sCard },
+		dataType: 'json',
+		success:function(result){
+			var signat = result.signat;
+			var inst = result.inst_id;
+			var fcharge = result.fccharge;
+			var fstotal = result.fsamount;
+			var ftotal = result.ftotal;
+			totalDUE = result.tamount;
+			$('#instId').val(inst);
+			$('#signature').val(signat);
+			
+			$("#etotal").text("£ "+fstotal);
+			$("#stotal").html("<strong>£ "+fstotal+"</strong>");			
+			
+			if (cardCharge) {
+				$(".cardC").remove();
+				$('<div class="formlisttr cardC"><div class="formlisttd cardC">&nbsp;</div><div class="formlisttd cardC">&nbsp;</div><div class="formlisttd cardC">&nbsp;</div><div class="formlisttd cardC">'+sCard+'% Card Transaction Surcharge</div><div class="formlisttd cardC"><strong>£ '+fcharge+'</strong></div></div><div class="formlisttr cardC"><div class="formlisttd cardC">&nbsp;</div><div class="formlisttd cardC">&nbsp;</div><div class="formlisttd cardC">&nbsp;</div><div class="formlisttd cardC">Grand Total</div><div class="formlisttd cardC"><strong>£ '+ftotal+'</strong></div></div>').insertAfter($('#ccload'));	
+				}
+			$("#amount").val(totalDUE);
+		}  
+	});	
+	return this;
+};
+
+
+	$('input[type="radio"][name="amountch"]').change(function() {
+			$('#amountrow').toggle();
+			if ($(this).val()=="full") {
+				$("#amount").val(totalAmount);
+			}
+	});
+
+	$("#damount").blur(function() {
+		if ($(this).val()==="") {
+			$("#damount").val(totalAmount);
+		}
+		priceCheck();						
+	});
+	
+	
+	$("#payType").change(function() {
+		var payArray = new Array("VISA", "MSCD", "AMEX", "JCB","DINS","ELV","LASR");
+		selectedVal = $(this).val();
+		selectedPay = $.inArray(selectedVal, payArray);
+		if (selectedPay!=-1) {		
+			switch (selectedPay) {
+				case 0:
+					sCard = 2;
+					break;
+				case 1:
+					sCard = 2;
+					break;
+				case 2:
+					sCard = 3;
+					break;
+				case 3:	
+					sCard = 2;
+					break;
+				case 4:	
+					sCard = 2;
+					break;
+				case 5:
+					sCard = 3;
+					break;
+				case 6:
+					sCard = 3;
+					break;
+			}
+			$("#ptype-msg").hide(); 
+			pmsg = "<span class='bold'>Please note:</span> there will be a "+ sCard +"% charge for the use of this card which will be added to the total below automatically.";
+			$("#ptype-msg").html(pmsg); 
+			$("#ptype-msg").toggle(); 
+			cardCharge = true;
+			priceCheck();	
+			
+			//$(".formlist").append('<div class="formelement1 cardC">N\A</div><div class="formelement2 cardC">'+sCard+'% Card Surcharge</div><div class="formelement3 cardC">'+tDate+'</div><div class="formelement4 cardC">'+cardC+'</div><div class="formelement5 cardC">&nbsp;</div><div class=\"clearleft\"></div>');
+		//$(".formlist").append('<div class="formlisttr cardC"><div class="formlisttd cardC">'+ sCard+'% Card Surcharge</div><div class="formlisttd cardC">£ '+cardC+'</div></div>');
+	
+	}
+	else { 
+		if (cardCharge) { $("#ptype-msg").hide(); $(".cardC").remove(); cardCharge = false; cardCharge = false; sCard=0; }
+		priceCheck(); 
+	}
+}); 
+});
+</script>
+					<div class="formheader">
+						<h1>Payment</h1>
+					</div>
+					<input type="hidden" name="instId" id="instId" value="307221"/>
+					<input type="hidden" name="signature" id="signature" value="3d4e662f89f952f67772942564d20eb7"/>
+					<input type="hidden" name="hideCurrency" value="true"/>
+					<div class="formrow">
+						<label class="formlabel" for="cartid">Sale ID:<span class="required">*</span></label>
+						<div class="formelement">
+							<input class="formtextfieldlong" type="text" name="cartId" readonly="readonly" style="color: #FFFFFF; background:none;border:none;" value="IW-"/>
+						</div>
+						<div class="clear"></div>
+					</div>
+					<div class="formrow">
+						<label class="formlabel" for="paymentType">Payment Method:<span class="required">*</span></label>
+						<div class="formelement">
+							<select class="formtextfieldlong" id="payType" name="paymentType">
+								<option value="" disabled="disabled">--- Debit Cards ---</option>
+								<option value="MAES">Maestro</option>
+								<option value="DMC">Mastercard Debit</option>
+								<option value="VISD">Visa Debit</option>
+								<option value="VIED">Visa Electron</option>
+								<option value="" disabled="disabled">--- Credit Cards ---</option>
+								<option value="VISA">Visa</option>
+								<option value="MSCD">Master Card</option>
+								<option value="JCB">JCB</option>
+							</select>
+						</div>
+						<div class="clear"></div>
+					</div>
+					<div class="formheader">
+						<p id="ptype-msg" style="display:none;">&nbsp;</p>
+					</div>
+					<div class="formrow">
+						<label class="formlabel" for="amount">Payment Amount:<span class="required">*</span></label>
+						<div class="formelement">
+							<input type="radio" name="amountch" value="full" checked/>
+							Pay in full (<span class="totalAmount">£ 2651.69</span>)<br />
+							<input type="radio" name="amountch" value="part" />
+							Part Pay <br />
+							<br />
+						</div>
+						<div class="clear"></div>
+					</div>
+					<div class="formrow" id="amountrow" style="display:none;">
+						<label class="formlabel" for="amount">Please enter the amount you would like to pay:<span class="required">*</span></label>
+						<div class="formelement">
+							<input type="text" name="amount" id="amount" value="2651.69" style="display:none;"/>
+							<input type="text" name="damount" id="damount" value="2651.69" />
+						</div>
+						<div class="clear"></div>
+					</div>
+					<div class="formheader">
+						<h1>Billing Address:</h1>
+					</div>
+					<div class="formrow">
+						<label class="formlabel" for="name">Name:<span class="required">*</span></label>
+						<div class="formelement">
+							<input class="formtextfieldlong" type="text" name="name" value="Miss Gtest2 Gtest2"/>
+						</div>
+						<div class="clear"></div>
+					</div>
+					<div class="formrow">
+						<label class="formlabel" for="address1">Address 1:<span class="required">*</span></label>
+						<div class="formelement">
+							<input class="formtextfieldlong" type="text" name="address1" value="test1"/>
+						</div>
+						<div class="clear"></div>
+					</div>
+					<div class="formrow">
+						<label class="formlabel" for="address2">Address 2:<span class="required">*</span></label>
+						<div class="formelement">
+							<input class="formtextfieldlong" type="text" name="address2" value="test2"/>
+						</div>
+						<div class="clear"></div>
+					</div>
+					<div class="formrow">
+						<label class="formlabel" for="address3">Address 3:<span class="required">*</span></label>
+						<div class="formelement">
+							<input class="formtextfieldlong" type="text" name="address3" value="test3"/>
+						</div>
+						<div class="clear"></div>
+					</div>
+					<div class="formrow">
+						<label class="formlabel" for="town">Town:<span class="required">*</span></label>
+						<div class="formelement">
+							<input class="formtextfieldlong" type="text" name="town" value="test4"/>
+						</div>
+						<div class="clear"></div>
+					</div>
+					<div class="formrow">
+						<label class="formlabel" for="postcode">Postcode:<span class="required">*</span></label>
+						<div class="formelement">
+							<input class="formtextfieldlong" type="text" name="postcode" value="TEST6"/>
+						</div>
+						<div class="clear"></div>
+					</div>
+					<div class="formrow">
+						<label class="formlabel" for="tel">Contact Telephone:<span class="required">*</span></label>
+						<div class="formelement">
+							<input class="formtextfieldlong" type="text" name="tel" value="01253296007"/>
+						</div>
+						<div class="clear"></div>
+					</div>
+					<div class="formrow">
+						<label class="formlabel" for="country">Country:<span class="required">*</span></label>
+						<div class="formelement">
+							<select class="formtextfieldlong" name="country" id="country">
+								<option value="GB" selected>United Kingdom</option>
+								<option value="US">United States</option>
+								<option value="DE">Germany</option>
+								<option value="FR">France</option>
+								<option value="IE">Ireland</option>
+								<option value="AU">Australia</option>
+								<option value="NZ">New Zealand</option>
+								<option value="SG">Singapore</option>
+								<option value="HK">Hong Kong</option>
+								<option value="AD">Andorra</option>
+								<option value="AU">Australia</option>
+								<option value="AT">Austria</option>
+								<option value="BE">Belgium</option>
+								<option value="CY">Cyprus</option>
+								<option value="CZ">Czech Republic</option>
+								<option value="DK">Denmark</option>
+								<option value="FI">Finland</option>
+								<option value="FR">France</option>
+								<option value="DE">Germany</option>
+								<option value="GI">Gibraltar</option>
+								<option value="GR">Greece</option>
+								<option value="HK">Hong Kong</option>
+								<option value="HU">Hungary</option>
+								<option value="IE">Ireland</option>
+								<option value="IL">Israel</option>
+								<option value="IT">Italy</option>
+								<option value="LI">Liechtenstein</option>
+								<option value="LU">Luxembourg</option>
+								<option value="MT">Malta</option>
+								<option value="MC">Monaco</option>
+								<option value="NL">Netherlands</option>
+								<option value="NZ">New Zealand</option>
+								<option value="NO">Norway</option>
+								<option value="PL">Poland</option>
+								<option value="PT">Portugal</option>
+								<option value="SM">San Marino</option>
+								<option value="SG">Singapore</option>
+								<option value="SI">Slovenia</option>
+								<option value="ES">Spain</option>
+								<option value="SE">Sweden</option>
+								<option value="CH">Switzerland</option>
+								<option value="TR">Turkey</option>
+								<option value="GB">United Kingdom</option>
+								<option value="US">United States</option>
+							</select>
+						</div>
+						<div class="clear"></div>
+					</div>
+					<!--<div class="formrow">
+  <label class="formlabel" for="fax">Fax:<span class="required">*</span></label>
+  <div class="formelement">
+    <input class="formtextfieldlong" type="text" name="fax" value=""/>
+  </div>
+  <div class="clear"></div>
+</div>
+					<div class="formrow">
+						<label class="formlabel" for="email">Email:<span class="required">*</span></label>
+						<div class="formelement">
+							<input class="formtextfieldlong" type="text" name="email" value="apexofthecurve@hotmail.com"/>
+						</div>
+						<div class="clear"></div>
+					</div>
+
+					<input type="hidden" name="withDelivery" value="false" />
+					<input type="hidden" name="delvName" value="Delivery Address line 1"/>
+<input type="hidden" name="delvAddress1" value="Delivery Address line 1"/>
+<input type="hidden" name="delvAddress2" value="Delivery Address line 2"/>
+<input type="hidden" name="delvAddress3" value="Delivery Address line 3"/>
+<input type="hidden" name="delvTown" value="Delivery Town"/>
+<input type="hidden" name="delvPostcode" value="Delivery Postcode"/>
+<input type="hidden" name="delvCountry" value="GB"/>
+
+					<input type="hidden" name="fixContact" value="true"/>
+					<input type="hidden" name="hideContact" value="false"/>
+					<input type="hidden" name="tdate" id="tdate" value="17-02-2014" />
+					<input type="hidden" name="currency" value="GBP"/>
+					<input type="hidden" name="testMode" value="100"/>
+					<input type="hidden" name="desc" value="Order for Invoice-ID:-124"/>
+					<input type="hidden" name="authMode" value="A"/>
+					<input type="hidden" name="accId1" value="IONIANWEDDI1"/>
+					<div class="formheader">
+						<h1>Confirm invoices below</h1>
+					</div>
+					<div class="pageform">
+						<div class="formrow">
+							<div class="formlist">
+								<!--<div class="formlisttable">
+									<div class="formlisttr">
+										<div class="formlistth">Invoice ID</div>
+										<div class="formlistth">Type</div>
+										<div class="formlistth">Date</div>
+										<div class="formlistth">View PDF</div>
+										<div class="formlistth">Amount</div>
+									</div>
+									<div class="formlisttr">
+										<div class="formlisttd">124</div>
+										<div class="formlisttd">Order</div>
+										<div class="formlisttd">04-01-2013</div>
+										<div class="formlisttd"> <a href="/client_invoice.php?invoice=124" target="_blank">Click here</a> </div>
+										<div id="etotal" class="formlisttd">£ 2,651.69</div>
+									</div>
+									<div id="ccload" class="formlisttr">
+										<div class="formlisttd">&nbsp;</div>
+										<div class="formlisttd">&nbsp;</div>
+										<div class="formlisttd">&nbsp;</div>
+										<div class="formlisttd">Total:</div>
+										<div id="stotal" class="formlisttd"><strong>£ 2,651.69</strong></div>
+									</div>
+								</div>-->
+								<!--<div class="formlisttable">
+									<div class="formlisttr">
+										<div class="formlisttd">
+											</label>
+											<input class="formsubmit" name="invoice_submit" type="submit" value="Go to WorldPay &raquo;"/>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</form>
+			</div>-->
+		</div>
+		<!--<div class="cardlogorow"> 
+			<!-- Payment Methods Displayed --> 
+			<!--
+<script language="JavaScript" src="https://secure.worldpay.com/wcc/logo?instId=307221"></script><br /><br />
+<script language="JavaScript" src="https://secure.worldpay.com/wcc/logo?instId=314618"></script><br /><br />
+<script language="JavaScript" src="https://secure.worldpay.com/wcc/logo?instId=314618"></script>-->
+			<!--<ul>
+				<!-- Powered by WorldPay logo-->
+				<!--<li class="cardlogoitem floatleft"><a href="http://www.worldpay.com/" target="_blank" title="Payment Processing - WorldPay - Opens in new browser window"><img src="http://www.worldpay.com/images/poweredByWorldPay.gif" border="0" alt="WorldPay Payments Processing"></a></li>
+				<li class="cardlogoitem floatright"><img src="http://www.worldpay.com/images/cardlogos/visa_debit.gif" border="0" alt="VISA Debit payments supported by WorldPay"></li>
+				<li class="cardlogoitem floatright"><img src="http://www.worldpay.com/images/cardlogos/visa_electron.gif" border="0" alt="VISA Electron payments supported by WorldPay"></li>
+				<li class="cardlogoitem floatright"><img src="http://www.worldpay.com/images/cardlogos/maestro.gif" border="0" alt="Maestro payments supported by WorldPay"></li>
+				<li class="cardlogoitem floatright"><img src="http://www.worldpay.com/images/cardlogos/VISA.gif" border="0" alt="Visa Credit payments supported by WorldPay"></li>
+				<li class="cardlogoitem floatright"><img src="http://www.worldpay.com/images/cardlogos/mastercard.gif" border="0" alt="Mastercard payments supported by WorldPay"></li>
+				<li class="cardlogoitem floatright"><img src="http://www.worldpay.com/images/cardlogos/JCB.gif" border="0" alt="JCB payments supported by WorldPay"></li>
+				<li class="cardlogoitem floatright"></li>
+				<li class="clear"></li>
+			</ul>
+		</div>-->
+		<!--<div class="sitefeatures bottom">-->
+		<div class="sitefeatures">
+			<ul>
+				<li class="sitefeaturelink sitefeaturecolor04">
+					<h1><a href="/wedding-questionnaire/" target="_self" title="Start here">What would make your perfect wedding day?</a></h1>
+					<p>
+					<p> Take our 5 minute wedding questionnaire and tell us all!</p>
+					</p>
+					<h2><a href="/wedding-questionnaire/" target="_self" title="Start here">Start here</a></h2>
+				</li>
+				<li class="sitefeaturelink sitefeaturecolor03">
+					<h1><a href="/personal-consultations/" target="_self" title="Reserve a consultation">Imagine having your own personal wedding planner</a></h1>
+					<p>
+					<p> Now you can - call for a chat to arrange a personal consultation.</p>
+					</p>
+					<h2><a href="/personal-consultations/" target="_self" title="Reserve a consultation">Reserve a consultation</a></h2>
+				</li>
+				<li class="sitefeaturelink sitefeaturecolor02">
+					<h1><a href="/destinations/" target="_self" title="Find out more">Choose your dream wedding destination</a></h1>
+					<p>
+					<p> Which is the perfect<br />
+						island for you?</p>
+					</p>
+					<h2><a href="/destinations/" target="_self" title="Find out more">Find out more</a></h2>
+				</li>
+				<li class="sitefeaturelink sitefeaturecolor01">
+					<h1><a href="/book-a-call-back/" target="_self" title="Book a call back">Would you prefer to talk to us rather than browse?</a></h1>
+					<p>
+					<p> Call us now on 020 8894 1991<br />
+						if you would like to chat about your dream wedding.</p>
+					</p>
+					<h2><a href="/book-a-call-back/" target="_self" title="Book a call back">Book a call back</a></h2>
+				</li>
+				<li class="clear"></li>
+			</ul>
+		</div>
+	</div>
+</div>
+<div class="footer">
+	<div class="footericons">
+		<ul>
+			<li class="footericonslink"><a href="http://www.abta.com/home" target="_blank" title="ABTA"><img src="/images/b_abta.png" alt="ABTA" border="0" title="ABTA" /></a></li>
+			<li class="footericonslink"><a href="http://www.visitgreece.gr/" target="_blank" title="Greek National Tourist Information"><img src="/images/b_greek_national_tourist_information.png" alt="Greek National Tourist Information" border="0" title="Greek National Tourist Information" /></a></li>
+			<li class="footericonslink"><a href="http://www.visitmalta.com/" target="_blank" title="Malta Gozo Comino"><img src="/images/b_malta_gozo_comino.png" alt="Malta Gozo Comino" border="0" title="Malta Gozo Comino" /></a></li>
+			<!--<li class="footericonslink"><a href="http://www.facebook.com/pages/Ionian-Weddings/179394783501" target="_blank" title="Facebook"><img src="/images/b_facebook.png" alt="Facebook" border="0" title="Facebook" /></a></li>-->
+			<li class="clear"></li>
+		</ul>
+	</div>
+	<div class="footercontent">
+		<h1>This site is brought to you by Ionian Weddings Limited, the only site you need to make your wedding dreams come true</h1>
+	</div>
+	<div class="footernavigation">
+		<ul>
+			<li class="footernavigationlink">Copyright &copy; 2014. All 2 rights reserved.</li>
+			<li class="clear"></li>
+		</ul>
+		<ul>
+			<li class="footernavigationlink"><a href="/about-us/" target="_self" title="About Us">About Us</a></li>
+			<li class="footernavigationlink"><a href="/charity-work/" target="_self" title="Charity Work">Charity Work</a></li>
+			<li class="footernavigationlink"><a href="/site-map/" target="_self" title="Site map">Site map</a></li>
+			<li class="footernavigationlink"><a href="/terms-and-conditions/" target="_self" title="Terms and Conditions">Terms and Conditions</a></li>
+			<li class="footernavigationlink"><a href="/contact-us/" target="_self" title="Contact Us">Contact Us</a></li>
+			<li class="clear"></li>
+		</ul>
+	</div>
+	<div class="clear"></div>
+</div>
+</div>
+</body>
+</html>

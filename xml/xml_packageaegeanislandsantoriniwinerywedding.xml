@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tn2>
+	<gallery>
+		<title>Fixed Dimensions</title>
+		<description>Some Description</description>
+		<file_root>/images/gallery/</file_root>
+		<images>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/50-ourweddingday-120.jpg</image_src>
+				<thumb_src>/thumbnail/50-ourweddingday-120.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/50-joneil03.jpg</image_src>
+				<thumb_src>/thumbnail/50-joneil03.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/50-joneil05.jpg</image_src>
+				<thumb_src>/thumbnail/50-joneil05.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/50-nataliepaul14.jpg</image_src>
+				<thumb_src>/thumbnail/50-nataliepaul14.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/50-pyrgosnewarea2small.jpg</image_src>
+				<thumb_src>/thumbnail/50-pyrgosnewarea2small.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/50-joneil01.jpg</image_src>
+				<thumb_src>/thumbnail/50-joneil01.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/50-pyrgosrestoutsidesetup2.jpg</image_src>
+				<thumb_src>/thumbnail/50-pyrgosrestoutsidesetup2.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/50-pyrgosrestinsidesetup2.jpg</image_src>
+				<thumb_src>/thumbnail/50-pyrgosrestinsidesetup2.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/50-nataliepaul10.jpg</image_src>
+				<thumb_src>/thumbnail/50-nataliepaul10.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/50-santo2.jpg</image_src>
+				<thumb_src>/thumbnail/50-santo2.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/50-santoarrival2.jpg</image_src>
+				<thumb_src>/thumbnail/50-santoarrival2.jpg</thumb_src>
+			</image>
+</images>
+	</gallery>
+</tn2>
+

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tn2>
+	<gallery>
+		<title>Fixed Dimensions</title>
+		<description>Some Description</description>
+		<file_root>/images/gallery/</file_root>
+		<images>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/59-ourwedding3.jpg</image_src>
+				<thumb_src>/thumbnail/59-ourwedding3.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/59-weddingh.jpg</image_src>
+				<thumb_src>/thumbnail/59-weddingh.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/59-wedding44.jpg</image_src>
+				<thumb_src>/thumbnail/59-wedding44.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/59-ourwedding3a.jpg</image_src>
+				<thumb_src>/thumbnail/59-ourwedding3a.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/59-ourwedding1.jpg</image_src>
+				<thumb_src>/thumbnail/59-ourwedding1.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/59-reception2.jpg</image_src>
+				<thumb_src>/thumbnail/59-reception2.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/59-reception5.jpg</image_src>
+				<thumb_src>/thumbnail/59-reception5.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/59-weddingk.jpg</image_src>
+				<thumb_src>/thumbnail/59-weddingk.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/59-ourwedding11.jpg</image_src>
+				<thumb_src>/thumbnail/59-ourwedding11.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/59-processiononthebeach.jpg</image_src>
+				<thumb_src>/thumbnail/59-processiononthebeach.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/59-dsc0244.jpg</image_src>
+				<thumb_src>/thumbnail/59-dsc0244.jpg</thumb_src>
+			</image>
+</images>
+	</gallery>
+</tn2>
+

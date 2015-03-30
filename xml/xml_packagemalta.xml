@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tn2>
+	<gallery>
+		<title>Fixed Dimensions</title>
+		<description>Some Description</description>
+		<file_root>/images/gallery/</file_root>
+		<images>
+<image>
+				<title></title>
+				<description></description>
+				<image_src>/158-maltaparadisesands1.png</image_src>
+				<thumb_src>/thumbnail/158-maltaparadisesands1.png</thumb_src>
+			</image>
+</images>
+	</gallery>
+</tn2>
+

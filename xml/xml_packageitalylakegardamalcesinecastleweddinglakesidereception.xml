@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tn2>
+	<gallery>
+		<title>Fixed Dimensions</title>
+		<description>Some Description</description>
+		<file_root>/images/gallery/</file_root>
+		<images>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/128-malcesine3.jpg</image_src>
+				<thumb_src>/thumbnail/128-malcesine3.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/128-alisonjames939.jpg</image_src>
+				<thumb_src>/thumbnail/128-alisonjames939.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/128-lisadave255.jpg</image_src>
+				<thumb_src>/thumbnail/128-lisadave255.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/128-tonisimon180.jpg</image_src>
+				<thumb_src>/thumbnail/128-tonisimon180.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/128-lisadave887.jpg</image_src>
+				<thumb_src>/thumbnail/128-lisadave887.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/128-malcesinecastle.jpg</image_src>
+				<thumb_src>/thumbnail/128-malcesinecastle.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/128-terrace.jpg</image_src>
+				<thumb_src>/thumbnail/128-terrace.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/128-views.jpg</image_src>
+				<thumb_src>/thumbnail/128-views.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/128-setup2.jpg</image_src>
+				<thumb_src>/thumbnail/128-setup2.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/128-setup.jpg</image_src>
+				<thumb_src>/thumbnail/128-setup.jpg</thumb_src>
+			</image>
+</images>
+	</gallery>
+</tn2>
+

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tn2>
+	<gallery>
+		<title>Fixed Dimensions</title>
+		<description>Some Description</description>
+		<file_root>/images/gallery/</file_root>
+		<images>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/68-shantamatt8.jpg</image_src>
+				<thumb_src>/thumbnail/68-shantamatt8.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/68-shantamatt4.jpg</image_src>
+				<thumb_src>/thumbnail/68-shantamatt4.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/68-shantamatt10.jpg</image_src>
+				<thumb_src>/thumbnail/68-shantamatt10.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/68-shantamatt11.jpg</image_src>
+				<thumb_src>/thumbnail/68-shantamatt11.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/68-shantamatt13.jpg</image_src>
+				<thumb_src>/thumbnail/68-shantamatt13.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/68-shantamatt12.jpg</image_src>
+				<thumb_src>/thumbnail/68-shantamatt12.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/68-shantamatt14.jpg</image_src>
+				<thumb_src>/thumbnail/68-shantamatt14.jpg</thumb_src>
+			</image>
+</images>
+	</gallery>
+</tn2>
+

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tn2>
+	<gallery>
+		<title>Fixed Dimensions</title>
+		<description>Some Description</description>
+		<file_root>/images/gallery/</file_root>
+		<images>
+<image>
+				<image_src>/107-dsc01018.jpg</image_src>
+				<thumb_src>/thumbnail/107-dsc01018.jpg</thumb_src>
+			</image>
+<image>
+				<image_src>/107-dsc01012.jpg</image_src>
+				<thumb_src>/thumbnail/107-dsc01012.jpg</thumb_src>
+			</image>
+<image>
+				<image_src>/107-dsc01013.jpg</image_src>
+				<thumb_src>/thumbnail/107-dsc01013.jpg</thumb_src>
+			</image>
+<image>
+				<image_src>/107-dsc01019.jpg</image_src>
+				<thumb_src>/thumbnail/107-dsc01019.jpg</thumb_src>
+			</image>
+<image>
+				<image_src>/107-dsc01021.jpg</image_src>
+				<thumb_src>/thumbnail/107-dsc01021.jpg</thumb_src>
+			</image>
+<image>
+				<image_src>/107-dsc01011.jpg</image_src>
+				<thumb_src>/thumbnail/107-dsc01011.jpg</thumb_src>
+			</image>
+<image>
+				<image_src>/107-seaview1.jpg</image_src>
+				<thumb_src>/thumbnail/107-seaview1.jpg</thumb_src>
+			</image>
+<image>
+				<image_src>/107-seaviewterraceareath03062010.jpg</image_src>
+				<thumb_src>/thumbnail/107-seaviewterraceareath03062010.jpg</thumb_src>
+			</image>
+</images>
+	</gallery>
+</tn2>
+

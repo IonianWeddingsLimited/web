@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tn2>
+	<gallery>
+		<title>Fixed Dimensions</title>
+		<description>Some Description</description>
+		<file_root>/images/gallery/</file_root>
+		<images>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/63-tarapaul01.jpg</image_src>
+				<thumb_src>/thumbnail/63-tarapaul01.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/63-tarapaul02.jpg</image_src>
+				<thumb_src>/thumbnail/63-tarapaul02.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/63-tarapaul14.jpg</image_src>
+				<thumb_src>/thumbnail/63-tarapaul14.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/63-tarapaul03.jpg</image_src>
+				<thumb_src>/thumbnail/63-tarapaul03.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/63-tarapaul13.jpg</image_src>
+				<thumb_src>/thumbnail/63-tarapaul13.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/63-tarapaul11.jpg</image_src>
+				<thumb_src>/thumbnail/63-tarapaul11.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/63-beachbbq01.jpg</image_src>
+				<thumb_src>/thumbnail/63-beachbbq01.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/63-beachbbq08.jpg</image_src>
+				<thumb_src>/thumbnail/63-beachbbq08.jpg</thumb_src>
+			</image>
+<image>
+				<title>Dancing on the beach</title>
+				<description></description>
+				
+				<image_src>/63-beachbbq13.jpg</image_src>
+				<thumb_src>/thumbnail/63-beachbbq13.jpg</thumb_src>
+			</image>
+</images>
+	</gallery>
+</tn2>
+

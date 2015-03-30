@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tn2>
+	<gallery>
+		<title>Fixed Dimensions</title>
+		<description>Some Description</description>
+		<file_root>/images/gallery/</file_root>
+		<images>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/41-emmaian12200451.jpg</image_src>
+				<thumb_src>/thumbnail/41-emmaian12200451.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/41-0003islandapproach.jpg</image_src>
+				<thumb_src>/thumbnail/41-0003islandapproach.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/41-spinaloga.jpg</image_src>
+				<thumb_src>/thumbnail/41-spinaloga.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/41-melissani.jpg</image_src>
+				<thumb_src>/thumbnail/41-melissani.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/41-schooner3.jpg</image_src>
+				<thumb_src>/thumbnail/41-schooner3.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/41-catamaran.jpg</image_src>
+				<thumb_src>/thumbnail/41-catamaran.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/41-ststefanosisland1.jpg</image_src>
+				<thumb_src>/thumbnail/41-ststefanosisland1.jpg</thumb_src>
+			</image>
+</images>
+	</gallery>
+</tn2>
+

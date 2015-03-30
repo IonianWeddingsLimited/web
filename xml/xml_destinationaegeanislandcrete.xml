@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tn2>
+	<gallery>
+		<title>Fixed Dimensions</title>
+		<description>Some Description</description>
+		<file_root>/images/gallery/</file_root>
+		<images>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/5-receptionsetup.jpg</image_src>
+				<thumb_src>/thumbnail/5-receptionsetup.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/5-creta1.jpg</image_src>
+				<thumb_src>/thumbnail/5-creta1.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/5-courtyard-rethymno1.jpg</image_src>
+				<thumb_src>/thumbnail/5-courtyard-rethymno1.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/5-claireandy14-7-11agnikgeorgioupolis-pastropiio203.jpg</image_src>
+				<thumb_src>/thumbnail/5-claireandy14-7-11agnikgeorgioupolis-pastropiio203.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/5-alisonmark2.jpg</image_src>
+				<thumb_src>/thumbnail/5-alisonmark2.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/5-gold-lounge-terrace.jpg</image_src>
+				<thumb_src>/thumbnail/5-gold-lounge-terrace.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/5-georgioupolischapelpath.jpg</image_src>
+				<thumb_src>/thumbnail/5-georgioupolischapelpath.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/5-privatebeachrestaurant.jpg</image_src>
+				<thumb_src>/thumbnail/5-privatebeachrestaurant.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/5-rethymnontavernanexttocastle2.jpg</image_src>
+				<thumb_src>/thumbnail/5-rethymnontavernanexttocastle2.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/5-st-lazaros-chapel-wedding4.jpg</image_src>
+				<thumb_src>/thumbnail/5-st-lazaros-chapel-wedding4.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/5-privatebeachvenue.jpg</image_src>
+				<thumb_src>/thumbnail/5-privatebeachvenue.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/5-herakliobeach2.jpg</image_src>
+				<thumb_src>/thumbnail/5-herakliobeach2.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/5-jakubkatarina7-7-11tsexoiagnikgeorgioupolis-pastropiio798.jpg</image_src>
+				<thumb_src>/thumbnail/5-jakubkatarina7-7-11tsexoiagnikgeorgioupolis-pastropiio798.jpg</thumb_src>
+			</image>
+</images>
+	</gallery>
+</tn2>
+

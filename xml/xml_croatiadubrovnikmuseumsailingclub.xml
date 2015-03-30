@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tn2>
+	<gallery>
+		<title>Fixed Dimensions</title>
+		<description>Some Description</description>
+		<file_root>/images/gallery/</file_root>
+		<images>
+<image>
+				<image_src>/146-dubrovniksailingclub13.jpg</image_src>
+				<thumb_src>/thumbnail/146-dubrovniksailingclub13.jpg</thumb_src>
+			</image>
+<image>
+				<image_src>/146-orsan17.jpg</image_src>
+				<thumb_src>/thumbnail/146-orsan17.jpg</thumb_src>
+			</image>
+<image>
+				<image_src>/146-orsan19.jpg</image_src>
+				<thumb_src>/thumbnail/146-orsan19.jpg</thumb_src>
+			</image>
+<image>
+				<image_src>/146-picture074.jpg</image_src>
+				<thumb_src>/thumbnail/146-picture074.jpg</thumb_src>
+			</image>
+<image>
+				<image_src>/146-sam5517.jpg</image_src>
+				<thumb_src>/thumbnail/146-sam5517.jpg</thumb_src>
+			</image>
+<image>
+				<image_src>/146-sam5524.jpg</image_src>
+				<thumb_src>/thumbnail/146-sam5524.jpg</thumb_src>
+			</image>
+</images>
+	</gallery>
+</tn2>
+

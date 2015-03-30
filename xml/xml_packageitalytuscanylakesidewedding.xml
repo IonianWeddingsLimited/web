@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tn2>
+	<gallery>
+		<title>Fixed Dimensions</title>
+		<description>Some Description</description>
+		<file_root>/images/gallery/</file_root>
+		<images>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/165-dsc0002.jpg</image_src>
+				<thumb_src>/thumbnail/165-dsc0002.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/165-dsc0019.jpg</image_src>
+				<thumb_src>/thumbnail/165-dsc0019.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/165-mg9805356122.jpg</image_src>
+				<thumb_src>/thumbnail/165-mg9805356122.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/165-piaggettapanoramica2.jpg</image_src>
+				<thumb_src>/thumbnail/165-piaggettapanoramica2.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/165-mg1485243648.jpg</image_src>
+				<thumb_src>/thumbnail/165-mg1485243648.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/165-piaggettapanoramica1.jpg</image_src>
+				<thumb_src>/thumbnail/165-piaggettapanoramica1.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/165-locationmatrimonio.jpg</image_src>
+				<thumb_src>/thumbnail/165-locationmatrimonio.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/165-dsc0018.jpg</image_src>
+				<thumb_src>/thumbnail/165-dsc0018.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/165-dsc0123.jpg</image_src>
+				<thumb_src>/thumbnail/165-dsc0123.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/165-dsc0068x15.jpg</image_src>
+				<thumb_src>/thumbnail/165-dsc0068x15.jpg</thumb_src>
+			</image>
+</images>
+	</gallery>
+</tn2>
+

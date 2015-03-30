@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tn2>
+	<gallery>
+		<title>Fixed Dimensions</title>
+		<description>Some Description</description>
+		<file_root>/images/gallery/</file_root>
+		<images>
+<image>
+				<image_src>/110-beachbarfromoutside2.jpg</image_src>
+				<thumb_src>/thumbnail/110-beachbarfromoutside2.jpg</thumb_src>
+			</image>
+<image>
+				<image_src>/110-sam2169.jpg</image_src>
+				<thumb_src>/thumbnail/110-sam2169.jpg</thumb_src>
+			</image>
+<image>
+				<image_src>/110-terrazzaristorante-copy.jpg</image_src>
+				<thumb_src>/thumbnail/110-terrazzaristorante-copy.jpg</thumb_src>
+			</image>
+<image>
+				<image_src>/110-p1090122.jpg</image_src>
+				<thumb_src>/thumbnail/110-p1090122.jpg</thumb_src>
+			</image>
+<image>
+				<image_src>/110-ew-008.jpg</image_src>
+				<thumb_src>/thumbnail/110-ew-008.jpg</thumb_src>
+			</image>
+<image>
+				<image_src>/110-cypruswinemuseum3.jpg</image_src>
+				<thumb_src>/thumbnail/110-cypruswinemuseum3.jpg</thumb_src>
+			</image>
+<image>
+				<image_src>/110-castello10.jpg</image_src>
+				<thumb_src>/thumbnail/110-castello10.jpg</thumb_src>
+			</image>
+<image>
+				<image_src>/110-thexarapalacefacadeevening.jpg</image_src>
+				<thumb_src>/thumbnail/110-thexarapalacefacadeevening.jpg</thumb_src>
+			</image>
+<image>
+				<image_src>/110-maltesevilla15.jpg</image_src>
+				<thumb_src>/thumbnail/110-maltesevilla15.jpg</thumb_src>
+			</image>
+<image>
+				<image_src>/110-h14ballroomtablesettingred-copy.jpg</image_src>
+				<thumb_src>/thumbnail/110-h14ballroomtablesettingred-copy.jpg</thumb_src>
+			</image>
+<image>
+				<image_src>/110-0011img8560.jpg</image_src>
+				<thumb_src>/thumbnail/110-0011img8560.jpg</thumb_src>
+			</image>
+<image>
+				<image_src>/110-dsc2726-1s1s.jpg</image_src>
+				<thumb_src>/thumbnail/110-dsc2726-1s1s.jpg</thumb_src>
+			</image>
+</images>
+	</gallery>
+</tn2>
+

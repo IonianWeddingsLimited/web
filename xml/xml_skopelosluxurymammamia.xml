@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tn2>
+	<gallery>
+		<title>Fixed Dimensions</title>
+		<description>Some Description</description>
+		<file_root>/images/gallery/</file_root>
+		<images>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/143-agios-ioannis-church.jpg</image_src>
+				<thumb_src>/thumbnail/143-agios-ioannis-church.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/143-v.maroulisagnantir149.jpg</image_src>
+				<thumb_src>/thumbnail/143-v.maroulisagnantir149.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/143-v.maroulisagnantir23.jpg</image_src>
+				<thumb_src>/thumbnail/143-v.maroulisagnantir23.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/143-v.maroulisagnantir118.jpg</image_src>
+				<thumb_src>/thumbnail/143-v.maroulisagnantir118.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/143-v.maroulisagnantir14.jpg</image_src>
+				<thumb_src>/thumbnail/143-v.maroulisagnantir14.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/143-10047966069246460086981519314486n.png</image_src>
+				<thumb_src>/thumbnail/143-10047966069246460086981519314486n.png</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/143-v.maroulisagnantir155.jpg</image_src>
+				<thumb_src>/thumbnail/143-v.maroulisagnantir155.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/143-mamma-mia-72105.jpg</image_src>
+				<thumb_src>/thumbnail/143-mamma-mia-72105.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/143-img9894.jpg</image_src>
+				<thumb_src>/thumbnail/143-img9894.jpg</thumb_src>
+			</image>
+</images>
+	</gallery>
+</tn2>
+

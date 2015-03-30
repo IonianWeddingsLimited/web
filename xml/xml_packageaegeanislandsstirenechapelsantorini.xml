@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tn2>
+	<gallery>
+		<title>Fixed Dimensions</title>
+		<description>Some Description</description>
+		<file_root>/images/gallery/</file_root>
+		<images>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/49-lucyndamark3.jpg</image_src>
+				<thumb_src>/thumbnail/49-lucyndamark3.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/49-karenjustinceremony2small.jpg</image_src>
+				<thumb_src>/thumbnail/49-karenjustinceremony2small.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/49-karenjjustin1.jpg</image_src>
+				<thumb_src>/thumbnail/49-karenjjustin1.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/49-santairenefromoutside1.jpg</image_src>
+				<thumb_src>/thumbnail/49-santairenefromoutside1.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/49-lucyndamark8.jpg</image_src>
+				<thumb_src>/thumbnail/49-lucyndamark8.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/49-katierossgroup.jpg</image_src>
+				<thumb_src>/thumbnail/49-katierossgroup.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/49-dsc6461-11s.jpg</image_src>
+				<thumb_src>/thumbnail/49-dsc6461-11s.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/49-perivolosfromoutsidenight.jpg</image_src>
+				<thumb_src>/thumbnail/49-perivolosfromoutsidenight.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/49-dsc7005-1grop-s.jpg</image_src>
+				<thumb_src>/thumbnail/49-dsc7005-1grop-s.jpg</thumb_src>
+			</image>
+</images>
+	</gallery>
+</tn2>
+

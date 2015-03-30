@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tn2>
+	<gallery>
+		<title>Fixed Dimensions</title>
+		<description>Some Description</description>
+		<file_root>images/page/hero/</file_root>
+		<!--<thumb_src>114x72/1.jpg</thumb_src>-->
+		<images>
+			<image>
+				<title>Zante 1</title>
+				<description>Zante 1 Description</description>
+				<image_src>dt/destination_zante_1.jpg</image_src>
+				<thumb_src>th/destination_zante_1.jpg</thumb_src>
+			</image>
+			<image>
+				<title>Zante 2</title>
+				<description>Zante 2 Description</description>
+				<image_src>dt/destination_zante_2.jpg</image_src>
+				<thumb_src>th/destination_zante_2.jpg</thumb_src>
+			</image>
+			<image>
+				<title>Zante 3</title>
+				<description>Zante 3 Description</description>
+				<image_src>dt/destination_zante_3.jpg</image_src>
+				<thumb_src>th/destination_zante_3.jpg</thumb_src>
+			</image>
+			<image>
+				<title>Zante 4</title>
+				<description>Zante 4 Description</description>
+				<image_src>dt/destination_zante_4.jpg</image_src>
+				<thumb_src>th/destination_zante_4.jpg</thumb_src>
+			</image>
+			<image>
+				<title>Zante 5</title>
+				<description>Zante 5 Description</description>
+				<image_src>dt/destination_zante_5.jpg</image_src>
+				<thumb_src>th/destination_zante_5.jpg</thumb_src>
+			</image>
+			<image>
+				<title>Zante 6</title>
+				<description>Zante 6 Description</description>
+				<image_src>dt/destination_zante_6.jpg</image_src>
+				<thumb_src>th/destination_zante_6.jpg</thumb_src>
+			</image>
+			<image>
+				<title>Zante 7</title>
+				<description>Zante 7 Description</description>
+				<image_src>dt/destination_zante_7.jpg</image_src>
+				<thumb_src>th/destination_zante_7.jpg</thumb_src>
+			</image>
+			<image>
+				<title>Zante 8</title>
+				<description>Zante 8 Description</description>
+				<image_src>dt/destination_zante_8.jpg</image_src>
+				<thumb_src>th/destination_zante_8.jpg</thumb_src>
+			</image>
+			<image>
+				<title>Zante 9</title>
+				<description>Zante 9 Description</description>
+				<image_src>dt/destination_zante_9.jpg</image_src>
+				<thumb_src>th/destination_zante_9.jpg</thumb_src>
+			</image>
+			<image>
+				<title>Zante 10</title>
+				<description>Zante 10 Description</description>
+				<image_src>dt/destination_zante_10.jpg</image_src>
+				<thumb_src>th/destination_zante_10.jpg</thumb_src>
+			</image>
+			<image>
+				<title>Zante 11</title>
+				<description>Zante 11 Description</description>
+				<image_src>dt/destination_zante_11.jpg</image_src>
+				<thumb_src>th/destination_zante_11.jpg</thumb_src>
+			</image>
+			<image>
+				<title>Zante 12</title>
+				<description>Zante 12 Description</description>
+				<image_src>dt/destination_zante_12.jpg</image_src>
+				<thumb_src>th/destination_zante_12.jpg</thumb_src>
+			</image>
+		</images>
+	</gallery>
+</tn2>

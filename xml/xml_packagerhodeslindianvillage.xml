@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tn2>
+	<gallery>
+		<title>Fixed Dimensions</title>
+		<description>Some Description</description>
+		<file_root>/images/gallery/</file_root>
+		<images>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/132-lindianvillagewedding.jpg</image_src>
+				<thumb_src>/thumbnail/132-lindianvillagewedding.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/132-chapel.jpg</image_src>
+				<thumb_src>/thumbnail/132-chapel.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/132-lindianvillagewedding1.jpg</image_src>
+				<thumb_src>/thumbnail/132-lindianvillagewedding1.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/132-alldayrestaurant.jpg</image_src>
+				<thumb_src>/thumbnail/132-alldayrestaurant.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/132-weddingaisle.jpg</image_src>
+				<thumb_src>/thumbnail/132-weddingaisle.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/132-weddingatthebeach2.jpg</image_src>
+				<thumb_src>/thumbnail/132-weddingatthebeach2.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/132-riverislet4.jpg</image_src>
+				<thumb_src>/thumbnail/132-riverislet4.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/132-riverislet3.jpg</image_src>
+				<thumb_src>/thumbnail/132-riverislet3.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/132-fishoyster3.jpg</image_src>
+				<thumb_src>/thumbnail/132-fishoyster3.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/132-astroscopus3.jpg</image_src>
+				<thumb_src>/thumbnail/132-astroscopus3.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/132-riverpassage2.jpg</image_src>
+				<thumb_src>/thumbnail/132-riverpassage2.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/132-poolbynight.jpg</image_src>
+				<thumb_src>/thumbnail/132-poolbynight.jpg</thumb_src>
+			</image>
+</images>
+	</gallery>
+</tn2>
+

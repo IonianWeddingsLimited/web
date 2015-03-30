@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tn2>
+	<gallery>
+		<title>Fixed Dimensions</title>
+		<description>Some Description</description>
+		<file_root>/images/gallery/</file_root>
+		<images>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/102-akrot-1.jpg</image_src>
+				<thumb_src>/thumbnail/102-akrot-1.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/102-11871716603289606629291162291415n.jpg</image_src>
+				<thumb_src>/thumbnail/102-11871716603289606629291162291415n.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/102-1186112660329237329568786680433n.jpg</image_src>
+				<thumb_src>/thumbnail/102-1186112660329237329568786680433n.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/102-akrotiri-1.jpg</image_src>
+				<thumb_src>/thumbnail/102-akrotiri-1.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/102-578430660329197329572500800860n.jpg</image_src>
+				<thumb_src>/thumbnail/102-578430660329197329572500800860n.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/102-akrot-5.jpg</image_src>
+				<thumb_src>/thumbnail/102-akrot-5.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/102-akrot-4.jpg</image_src>
+				<thumb_src>/thumbnail/102-akrot-4.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/102-akrot-1-2-1.jpg</image_src>
+				<thumb_src>/thumbnail/102-akrot-1-2-1.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/102-akrotiri-5.jpg</image_src>
+				<thumb_src>/thumbnail/102-akrotiri-5.jpg</thumb_src>
+			</image>
+</images>
+	</gallery>
+</tn2>
+

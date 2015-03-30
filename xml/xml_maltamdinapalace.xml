@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tn2>
+	<gallery>
+		<title>Fixed Dimensions</title>
+		<description>Some Description</description>
+		<file_root>/images/gallery/</file_root>
+		<images>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/137-thexarapalacefacadeevening.jpg</image_src>
+				<thumb_src>/thumbnail/137-thexarapalacefacadeevening.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/137-xara-palace-malta-weddings-2.jpg</image_src>
+				<thumb_src>/thumbnail/137-xara-palace-malta-weddings-2.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/137-ceremony.jpg</image_src>
+				<thumb_src>/thumbnail/137-ceremony.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/137-demondionterrace.jpg</image_src>
+				<thumb_src>/thumbnail/137-demondionterrace.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/137-demondionterracebynight.jpg</image_src>
+				<thumb_src>/thumbnail/137-demondionterracebynight.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/137-mdinapalace11.jpg</image_src>
+				<thumb_src>/thumbnail/137-mdinapalace11.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/137-mdinapalace3.jpg</image_src>
+				<thumb_src>/thumbnail/137-mdinapalace3.jpg</thumb_src>
+			</image>
+</images>
+	</gallery>
+</tn2>
+

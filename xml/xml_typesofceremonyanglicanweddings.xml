@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tn2>
+	<gallery>
+		<title>Fixed Dimensions</title>
+		<description>Some Description</description>
+		<file_root>/images/gallery/</file_root>
+		<images>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/38-stgeorgeinterior3.jpg</image_src>
+				<thumb_src>/thumbnail/38-stgeorgeinterior3.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/38-chapelhires.jpg</image_src>
+				<thumb_src>/thumbnail/38-chapelhires.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/38-stgeorgeexterior.jpg</image_src>
+				<thumb_src>/thumbnail/38-stgeorgeexterior.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/38-ayiakyriakistpaulspillar.jpg</image_src>
+				<thumb_src>/thumbnail/38-ayiakyriakistpaulspillar.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/38-stcatherineschapelterrace.jpg</image_src>
+				<thumb_src>/thumbnail/38-stcatherineschapelterrace.jpg</thumb_src>
+			</image>
+</images>
+	</gallery>
+</tn2>
+

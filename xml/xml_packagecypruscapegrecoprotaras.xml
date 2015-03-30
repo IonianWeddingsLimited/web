@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tn2>
+	<gallery>
+		<title>Fixed Dimensions</title>
+		<description>Some Description</description>
+		<file_root>/images/gallery/</file_root>
+		<images>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/25-2.panoramicdeck.jpg</image_src>
+				<thumb_src>/thumbnail/25-2.panoramicdeck.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/25-leenicola-004.jpg</image_src>
+				<thumb_src>/thumbnail/25-leenicola-004.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/25-leenicola-196.jpg</image_src>
+				<thumb_src>/thumbnail/25-leenicola-196.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/25-4panoramicstandardset.jpg</image_src>
+				<thumb_src>/thumbnail/25-4panoramicstandardset.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/25-leenicola-117.jpg</image_src>
+				<thumb_src>/thumbnail/25-leenicola-117.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/25-2.panoramicdeck.jpg</image_src>
+				<thumb_src>/thumbnail/25-2.panoramicdeck.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/25-7.cliffbarnight.jpg</image_src>
+				<thumb_src>/thumbnail/25-7.cliffbarnight.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/25-capegreco-pavilion.jpg</image_src>
+				<thumb_src>/thumbnail/25-capegreco-pavilion.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/25-leenicola-200.jpg</image_src>
+				<thumb_src>/thumbnail/25-leenicola-200.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/25-leenicola-201.jpg</image_src>
+				<thumb_src>/thumbnail/25-leenicola-201.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/25-leenicola-225.jpg</image_src>
+				<thumb_src>/thumbnail/25-leenicola-225.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/25-leenicola-247.jpg</image_src>
+				<thumb_src>/thumbnail/25-leenicola-247.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/25-25.standardseaviewroom.jpg</image_src>
+				<thumb_src>/thumbnail/25-25.standardseaviewroom.jpg</thumb_src>
+			</image>
+</images>
+	</gallery>
+</tn2>
+

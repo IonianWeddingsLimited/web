@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tn2>
+	<gallery>
+		<title>Fixed Dimensions</title>
+		<description>Some Description</description>
+		<file_root>/images/gallery/</file_root>
+		<images>
+<image>
+				<image_src>/149-hvargrad.jpg</image_src>
+				<thumb_src>/thumbnail/149-hvargrad.jpg</thumb_src>
+			</image>
+<image>
+				<image_src>/149-suncanihvar0370-pallacelodjapanoramats.jpg</image_src>
+				<thumb_src>/thumbnail/149-suncanihvar0370-pallacelodjapanoramats.jpg</thumb_src>
+			</image>
+<image>
+				<image_src>/149-palaceterrace.jpg</image_src>
+				<thumb_src>/thumbnail/149-palaceterrace.jpg</thumb_src>
+			</image>
+<image>
+				<image_src>/149-palace-weddingsetup.jpg</image_src>
+				<thumb_src>/thumbnail/149-palace-weddingsetup.jpg</thumb_src>
+			</image>
+<image>
+				<image_src>/149-thepalace.jpg</image_src>
+				<thumb_src>/thumbnail/149-thepalace.jpg</thumb_src>
+			</image>
+<image>
+				<image_src>/149-b01260.jpg</image_src>
+				<thumb_src>/thumbnail/149-b01260.jpg</thumb_src>
+			</image>
+<image>
+				<image_src>/149-dsc4539.jpg</image_src>
+				<thumb_src>/thumbnail/149-dsc4539.jpg</thumb_src>
+			</image>
+</images>
+	</gallery>
+</tn2>
+

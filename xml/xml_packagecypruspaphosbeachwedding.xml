@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tn2>
+	<gallery>
+		<title>Fixed Dimensions</title>
+		<description>Some Description</description>
+		<file_root>/images/gallery/</file_root>
+		<images>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/60-blueskyparadise3.jpg</image_src>
+				<thumb_src>/thumbnail/60-blueskyparadise3.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/60-blueskyparadise5.jpg</image_src>
+				<thumb_src>/thumbnail/60-blueskyparadise5.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/60-blueskyparadise2.jpg</image_src>
+				<thumb_src>/thumbnail/60-blueskyparadise2.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/60-beachandarch.jpg</image_src>
+				<thumb_src>/thumbnail/60-beachandarch.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/60-beachandarch3.jpg</image_src>
+				<thumb_src>/thumbnail/60-beachandarch3.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/60-cyprusweddingrecept0090.jpg</image_src>
+				<thumb_src>/thumbnail/60-cyprusweddingrecept0090.jpg</thumb_src>
+			</image>
+</images>
+	</gallery>
+</tn2>
+

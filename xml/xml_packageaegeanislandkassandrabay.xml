@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tn2>
+	<gallery>
+		<title>Fixed Dimensions</title>
+		<description>Some Description</description>
+		<file_root>/images/gallery/</file_root>
+		<images>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/167-tobeusedforwebsite.jpg</image_src>
+				<thumb_src>/thumbnail/167-tobeusedforwebsite.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/167-drz-9318zz929x1024.jpg</image_src>
+				<thumb_src>/thumbnail/167-drz-9318zz929x1024.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/167-drz-90951024x683.jpg</image_src>
+				<thumb_src>/thumbnail/167-drz-90951024x683.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/167-drz-63691024x683.jpg</image_src>
+				<thumb_src>/thumbnail/167-drz-63691024x683.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/167-dji004211024x768.jpg</image_src>
+				<thumb_src>/thumbnail/167-dji004211024x768.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/167-drz-63121024x683.jpg</image_src>
+				<thumb_src>/thumbnail/167-drz-63121024x683.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/167-drz-6302683x1024.jpg</image_src>
+				<thumb_src>/thumbnail/167-drz-6302683x1024.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/167-drz-3530copy1024x683.jpg</image_src>
+				<thumb_src>/thumbnail/167-drz-3530copy1024x683.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/167-tobeused.jpg</image_src>
+				<thumb_src>/thumbnail/167-tobeused.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/167-forwebsite.jpg</image_src>
+				<thumb_src>/thumbnail/167-forwebsite.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/167-webbb.jpg</image_src>
+				<thumb_src>/thumbnail/167-webbb.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/167-drz-99971024x683.jpg</image_src>
+				<thumb_src>/thumbnail/167-drz-99971024x683.jpg</thumb_src>
+			</image>
+</images>
+	</gallery>
+</tn2>
+

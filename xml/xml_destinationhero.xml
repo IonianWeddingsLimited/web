@@ -1,0 +1,315 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tn2>
+	<gallery>
+		<title>Fixed Dimensions</title>
+		<description>Some Description</description>
+		<file_root>http://83.149.102.2/~ionianwe/images/page/hero/</file_root>
+		<!--<thumb_src>114x72/1.jpg</thumb_src>-->
+		<images>
+			<image>
+				<title>Kefalonia 1</title>
+				<description>Kefalonia 1 Description</description>
+				<image_src>dt/kefalonia_1.jpg</image_src>
+				<thumb_src>th/kefalonia_1.jpg</thumb_src>
+			</image>
+			<image>
+				<title>Kefalonia 2</title>
+				<description>Kefalonia 2 Description</description>
+				<image_src>dt/kefalonia_2.jpg</image_src>
+				<thumb_src>th/kefalonia_2.jpg</thumb_src>
+			</image>
+			<image>
+				<title>Kefalonia 3</title>
+				<description>Kefalonia 3 Description</description>
+				<image_src>dt/kefalonia_3.jpg</image_src>
+				<thumb_src>th/kefalonia_3.jpg</thumb_src>
+			</image>
+			<image>
+				<title>Kefalonia 4</title>
+				<description>Kefalonia 4 Description</description>
+				<image_src>dt/kefalonia_4.jpg</image_src>
+				<thumb_src>th/kefalonia_4.jpg</thumb_src>
+			</image>
+			<image>
+				<title>Kefalonia 5</title>
+				<description>Kefalonia 5 Description</description>
+				<image_src>dt/kefalonia_5.jpg</image_src>
+				<thumb_src>th/kefalonia_5.jpg</thumb_src>
+			</image>
+			
+			<image>
+				<title>Kos 1</title>
+				<description>Kos 1 Description</description>
+				<image_src>dt/kos_1.jpg</image_src>
+				<thumb_src>th/kos_1.jpg</thumb_src>
+			</image>
+			<image>
+				<title>Kos 2</title>
+				<description>Kos 2 Description</description>
+				<image_src>dt/kos_2.jpg</image_src>
+				<thumb_src>th/kos_2.jpg</thumb_src>
+			</image>
+			<image>
+				<title>Kos 3</title>
+				<description>Kos 3 Description</description>
+				<image_src>dt/kos_3.jpg</image_src>
+				<thumb_src>th/kos_3.jpg</thumb_src>
+			</image>
+			<image>
+				<title>Kos 4</title>
+				<description>Kos 4 Description</description>
+				<image_src>dt/kos_4.jpg</image_src>
+				<thumb_src>th/kos_4.jpg</thumb_src>
+			</image>
+			<image>
+				<title>Kos 5</title>
+				<description>Kos 5 Description</description>
+				<image_src>dt/kos_5.jpg</image_src>
+				<thumb_src>th/kos_5.jpg</thumb_src>
+			</image>
+			
+			<image>
+				<title>Rhodes 1</title>
+				<description>Rhodes 1 Description</description>
+				<image_src>dt/rhodes_1.jpg</image_src>
+				<thumb_src>th/rhodes_1.jpg</thumb_src>
+			</image>
+			<image>
+				<title>Rhodes 2</title>
+				<description>Rhodes 2 Description</description>
+				<image_src>dt/rhodes_2.jpg</image_src>
+				<thumb_src>th/rhodes_2.jpg</thumb_src>
+			</image>
+			<image>
+				<title>Rhodes 3</title>
+				<description>Rhodes 3 Description</description>
+				<image_src>dt/rhodes_3.jpg</image_src>
+				<thumb_src>th/rhodes_3.jpg</thumb_src>
+			</image>
+			<image>
+				<title>Rhodes 4</title>
+				<description>Rhodes 4 Description</description>
+				<image_src>dt/rhodes_4.jpg</image_src>
+				<thumb_src>th/rhodes_4.jpg</thumb_src>
+			</image>
+			<image>
+				<title>Rhodes 5</title>
+				<description>Rhodes 5 Description</description>
+				<image_src>dt/rhodes_5.jpg</image_src>
+				<thumb_src>th/rhodes_5.jpg</thumb_src>
+			</image>
+			<image>
+				<title>Rhodes 6</title>
+				<description>Rhodes 6 Description</description>
+				<image_src>dt/rhodes_6.jpg</image_src>
+				<thumb_src>th/rhodes_6.jpg</thumb_src>
+			</image>
+			<image>
+				<title>Rhodes 7</title>
+				<description>Rhodes 7 Description</description>
+				<image_src>dt/rhodes_7.jpg</image_src>
+				<thumb_src>th/rhodes_7.jpg</thumb_src>
+			</image>
+			<image>
+				<title>Rhodes 8</title>
+				<description>Rhodes 8 Description</description>
+				<image_src>dt/rhodes_8.jpg</image_src>
+				<thumb_src>th/rhodes_8.jpg</thumb_src>
+			</image>
+			<image>
+				<title>Rhodes 9</title>
+				<description>Rhodes 9 Description</description>
+				<image_src>dt/rhodes_9.jpg</image_src>
+				<thumb_src>th/rhodes_9.jpg</thumb_src>
+			</image>
+			<image>
+				<title>Rhodes 10</title>
+				<description>Rhodes 10 Description</description>
+				<image_src>dt/rhodes_10.jpg</image_src>
+				<thumb_src>th/rhodes_10.jpg</thumb_src>
+			</image>
+			<image>
+				<title>Rhodes 11</title>
+				<description>Rhodes 11 Description</description>
+				<image_src>dt/rhodes_11.jpg</image_src>
+				<thumb_src>th/rhodes_11.jpg</thumb_src>
+			</image>
+			<image>
+				<title>Rhodes 12</title>
+				<description>Rhodes 12 Description</description>
+				<image_src>dt/rhodes_12.jpg</image_src>
+				<thumb_src>th/rhodes_12.jpg</thumb_src>
+			</image>
+			<image>
+				<title>Rhodes 13</title>
+				<description>Rhodes 13 Description</description>
+				<image_src>dt/rhodes_13.jpg</image_src>
+				<thumb_src>th/rhodes_13.jpg</thumb_src>
+			</image>
+			<image>
+				<title>Rhodes 14</title>
+				<description>Rhodes 14 Description</description>
+				<image_src>dt/rhodes_14.jpg</image_src>
+				<thumb_src>th/rhodes_14.jpg</thumb_src>
+			</image>
+			<image>
+				<title>Rhodes 15</title>
+				<description>Rhodes 15 Description</description>
+				<image_src>dt/rhodes_15.jpg</image_src>
+				<thumb_src>th/rhodes_15.jpg</thumb_src>
+			</image>
+			
+			<image>
+				<title>Santorini 1</title>
+				<description>Santorini 1 Description</description>
+				<image_src>dt/santorini_1.jpg</image_src>
+				<thumb_src>th/santorini_1.jpg</thumb_src>
+			</image>
+			<image>
+				<title>Santorini 2</title>
+				<description>Santorini 2 Description</description>
+				<image_src>dt/santorini_2.jpg</image_src>
+				<thumb_src>th/santorini_2.jpg</thumb_src>
+			</image>
+			<image>
+				<title>Santorini 3</title>
+				<description>Santorini 3 Description</description>
+				<image_src>dt/santorini_3.jpg</image_src>
+				<thumb_src>th/santorini_3.jpg</thumb_src>
+			</image>
+			<image>
+				<title>Santorini 4</title>
+				<description>Santorini 4 Description</description>
+				<image_src>dt/santorini_4.jpg</image_src>
+				<thumb_src>th/santorini_4.jpg</thumb_src>
+			</image>
+			<image>
+				<title>Santorini 5</title>
+				<description>Santorini 5 Description</description>
+				<image_src>dt/santorini_5.jpg</image_src>
+				<thumb_src>th/santorini_5.jpg</thumb_src>
+			</image>
+			<image>
+				<title>Santorini 6</title>
+				<description>Santorini 6 Description</description>
+				<image_src>dt/santorini_6.jpg</image_src>
+				<thumb_src>th/santorini_6.jpg</thumb_src>
+			</image>
+			<image>
+				<title>Santorini 7</title>
+				<description>Santorini 7 Description</description>
+				<image_src>dt/santorini_7.jpg</image_src>
+				<thumb_src>th/santorini_7.jpg</thumb_src>
+			</image>
+			<image>
+				<title>Santorini 8</title>
+				<description>Santorini 8 Description</description>
+				<image_src>dt/santorini_8.jpg</image_src>
+				<thumb_src>th/santorini_8.jpg</thumb_src>
+			</image>
+			<image>
+				<title>Santorini 9</title>
+				<description>Santorini 9 Description</description>
+				<image_src>dt/santorini_9.jpg</image_src>
+				<thumb_src>th/santorini_9.jpg</thumb_src>
+			</image>
+			<image>
+				<title>Santorini 10</title>
+				<description>Santorini 10 Description</description>
+				<image_src>dt/santorini_10.jpg</image_src>
+				<thumb_src>th/santorini_10.jpg</thumb_src>
+			</image>
+			<image>
+				<title>Santorini 11</title>
+				<description>Santorini 11 Description</description>
+				<image_src>dt/santorini_11.jpg</image_src>
+				<thumb_src>th/santorini_11.jpg</thumb_src>
+			</image>
+			<image>
+				<title>Santorini 12</title>
+				<description>Santorini 12 Description</description>
+				<image_src>dt/santorini_12.jpg</image_src>
+				<thumb_src>th/santorini_12.jpg</thumb_src>
+			</image>
+			<image>
+				<title>Santorini 13</title>
+				<description>Santorini 13 Description</description>
+				<image_src>dt/santorini_13.jpg</image_src>
+				<thumb_src>th/santorini_13.jpg</thumb_src>
+			</image>
+			<image>
+				<title>Santorini 14</title>
+				<description>Santorini 14 Description</description>
+				<image_src>dt/santorini_14.jpg</image_src>
+				<thumb_src>th/santorini_14.jpg</thumb_src>
+			</image>
+			<image>
+				<title>Santorini 15</title>
+				<description>Santorini 15 Description</description>
+				<image_src>dt/santorini_15.jpg</image_src>
+				<thumb_src>th/santorini_15.jpg</thumb_src>
+			</image>
+			
+			<image>
+				<title>Zante 1</title>
+				<description>Zante 1 Description</description>
+				<image_src>dt/rhodes_1.jpg</image_src>
+				<thumb_src>th/rhodes_1.jpg</thumb_src>
+			</image>
+			<image>
+				<title>Zante 2</title>
+				<description>Zante 2 Description</description>
+				<image_src>dt/rhodes_2.jpg</image_src>
+				<thumb_src>th/rhodes_2.jpg</thumb_src>
+			</image>
+			<image>
+				<title>Zante 3</title>
+				<description>Zante 3 Description</description>
+				<image_src>dt/rhodes_3.jpg</image_src>
+				<thumb_src>th/rhodes_3.jpg</thumb_src>
+			</image>
+			<image>
+				<title>Zante 4</title>
+				<description>Zante 4 Description</description>
+				<image_src>dt/rhodes_4.jpg</image_src>
+				<thumb_src>th/rhodes_4.jpg</thumb_src>
+			</image>
+			<image>
+				<title>Zante 5</title>
+				<description>Zante 5 Description</description>
+				<image_src>dt/rhodes_5.jpg</image_src>
+				<thumb_src>th/rhodes_5.jpg</thumb_src>
+			</image>
+			<image>
+				<title>Zante 6</title>
+				<description>Zante 6 Description</description>
+				<image_src>dt/rhodes_6.jpg</image_src>
+				<thumb_src>th/rhodes_6.jpg</thumb_src>
+			</image>
+			<image>
+				<title>Zante 7</title>
+				<description>Zante 7 Description</description>
+				<image_src>dt/rhodes_7.jpg</image_src>
+				<thumb_src>th/rhodes_7.jpg</thumb_src>
+			</image>
+			<image>
+				<title>Zante 8</title>
+				<description>Zante 8 Description</description>
+				<image_src>dt/rhodes_8.jpg</image_src>
+				<thumb_src>th/rhodes_8.jpg</thumb_src>
+			</image>
+			<image>
+				<title>Zante 9</title>
+				<description>Zante 9 Description</description>
+				<image_src>dt/rhodes_9.jpg</image_src>
+				<thumb_src>th/rhodes_9.jpg</thumb_src>
+			</image>
+			<image>
+				<title>Zante 10</title>
+				<description>Zante 10 Description</description>
+				<image_src>dt/rhodes_10.jpg</image_src>
+				<thumb_src>th/rhodes_10.jpg</thumb_src>
+			</image>
+		</images>
+	</gallery>
+</tn2>

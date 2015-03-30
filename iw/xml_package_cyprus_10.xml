@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tn2>
+	<gallery>
+		<title>Fixed Dimensions</title>
+		<description>Some Description</description>
+		<file_root>images/page/hero/</file_root>
+		<!--<thumb_src>114x72/1.jpg</thumb_src>-->
+		<images>
+			<image>
+				<title>Cyprus 1</title>
+				<description>Cyprus 1 Description</description>
+				<image_src>dt/package_cyprus_10_1.jpg</image_src>
+				<thumb_src>th/package_cyprus_10_1.jpg</thumb_src>
+			</image>
+			<image>
+				<title>Cyprus 2</title>
+				<description>Cyprus 2 Description</description>
+				<image_src>dt/package_cyprus_10_2.jpg</image_src>
+				<thumb_src>th/package_cyprus_10_2.jpg</thumb_src>
+			</image>
+			<image>
+				<title>Cyprus 3</title>
+				<description>Cyprus 3 Description</description>
+				<image_src>dt/package_cyprus_10_3.jpg</image_src>
+				<thumb_src>th/package_cyprus_10_3.jpg</thumb_src>
+			</image>
+			<image>
+				<title>Cyprus 4</title>
+				<description>Cyprus 4 Description</description>
+				<image_src>dt/package_cyprus_10_4.jpg</image_src>
+				<thumb_src>th/package_cyprus_10_4.jpg</thumb_src>
+			</image>
+		</images>
+	</gallery>
+</tn2>

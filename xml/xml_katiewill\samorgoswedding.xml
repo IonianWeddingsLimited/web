@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tn2>
+	<gallery>
+		<title>Fixed Dimensions</title>
+		<description>Some Description</description>
+		<file_root>http://iw.zestwebdemos.net/images/gallery/</file_root>
+		<images>
+<image>
+				<title>weddingh.jpg</title>
+				<description>weddingh.jpg Description</description>
+				<image_src>/59-weddingh.jpg</image_src>
+				<thumb_src>/thumbnail/59-weddingh.jpg</thumb_src>
+			</image>
+<image>
+				<title>weddingt.jpg</title>
+				<description>weddingt.jpg Description</description>
+				<image_src>/59-weddingt.jpg</image_src>
+				<thumb_src>/thumbnail/59-weddingt.jpg</thumb_src>
+			</image>
+<image>
+				<title>wedding25.jpg</title>
+				<description>wedding25.jpg Description</description>
+				<image_src>/59-wedding25.jpg</image_src>
+				<thumb_src>/thumbnail/59-wedding25.jpg</thumb_src>
+			</image>
+<image>
+				<title>wedding44.jpg</title>
+				<description>wedding44.jpg Description</description>
+				<image_src>/59-wedding44.jpg</image_src>
+				<thumb_src>/thumbnail/59-wedding44.jpg</thumb_src>
+			</image>
+<image>
+				<title>weddingk.jpg</title>
+				<description>weddingk.jpg Description</description>
+				<image_src>/59-weddingk.jpg</image_src>
+				<thumb_src>/thumbnail/59-weddingk.jpg</thumb_src>
+			</image>
+<image>
+				<title>weddingc.jpg</title>
+				<description>weddingc.jpg Description</description>
+				<image_src>/59-weddingc.jpg</image_src>
+				<thumb_src>/thumbnail/59-weddingc.jpg</thumb_src>
+			</image>
+<image>
+				<title>reception2.jpg</title>
+				<description>reception2.jpg Description</description>
+				<image_src>/59-reception2.jpg</image_src>
+				<thumb_src>/thumbnail/59-reception2.jpg</thumb_src>
+			</image>
+<image>
+				<title>reception5.jpg</title>
+				<description>reception5.jpg Description</description>
+				<image_src>/59-reception5.jpg</image_src>
+				<thumb_src>/thumbnail/59-reception5.jpg</thumb_src>
+			</image>
+</images>
+	</gallery>
+</tn2>
+

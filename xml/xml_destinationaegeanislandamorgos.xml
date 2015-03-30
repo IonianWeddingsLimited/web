@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tn2>
+	<gallery>
+		<title>Fixed Dimensions</title>
+		<description>Some Description</description>
+		<file_root>/images/gallery/</file_root>
+		<images>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/4-arrivalatweddingondonkey-copy.jpg</image_src>
+				<thumb_src>/thumbnail/4-arrivalatweddingondonkey-copy.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/4-ourwedding3a.jpg</image_src>
+				<thumb_src>/thumbnail/4-ourwedding3a.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/4-weddingingardens.jpg</image_src>
+				<thumb_src>/thumbnail/4-weddingingardens.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/4-ourwedding1.jpg</image_src>
+				<thumb_src>/thumbnail/4-ourwedding1.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/4-wedding44.jpg</image_src>
+				<thumb_src>/thumbnail/4-wedding44.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/4-ourwedding3.jpg</image_src>
+				<thumb_src>/thumbnail/4-ourwedding3.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/4-dscf3516.jpg</image_src>
+				<thumb_src>/thumbnail/4-dscf3516.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/4-agiaanna.jpg</image_src>
+				<thumb_src>/thumbnail/4-agiaanna.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/4-chairstables.jpg</image_src>
+				<thumb_src>/thumbnail/4-chairstables.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/4-aegialisphotos266.jpg</image_src>
+				<thumb_src>/thumbnail/4-aegialisphotos266.jpg</thumb_src>
+			</image>
+</images>
+	</gallery>
+</tn2>
+

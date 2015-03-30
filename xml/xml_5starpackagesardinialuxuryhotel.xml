@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tn2>
+	<gallery>
+		<title>Fixed Dimensions</title>
+		<description>Some Description</description>
+		<file_root>/images/gallery/</file_root>
+		<images>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/94-notturna-hotel.jpg</image_src>
+				<thumb_src>/thumbnail/94-notturna-hotel.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/94-piscina-notte-1.jpg</image_src>
+				<thumb_src>/thumbnail/94-piscina-notte-1.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/94-mbt0093.jpg</image_src>
+				<thumb_src>/thumbnail/94-mbt0093.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/94-wed25081113.jpg</image_src>
+				<thumb_src>/thumbnail/94-wed25081113.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/94-dsc02630.jpg</image_src>
+				<thumb_src>/thumbnail/94-dsc02630.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/94-dsc02641.jpg</image_src>
+				<thumb_src>/thumbnail/94-dsc02641.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/94-wed2508112.jpg</image_src>
+				<thumb_src>/thumbnail/94-wed2508112.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/94-executivesuite.jpg</image_src>
+				<thumb_src>/thumbnail/94-executivesuite.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/94-pqh11n-0500.jpg</image_src>
+				<thumb_src>/thumbnail/94-pqh11n-0500.jpg</thumb_src>
+			</image>
+</images>
+	</gallery>
+</tn2>
+

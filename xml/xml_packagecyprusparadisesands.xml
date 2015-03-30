@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tn2>
+	<gallery>
+		<title>Fixed Dimensions</title>
+		<description>Some Description</description>
+		<file_root>/images/gallery/</file_root>
+		<images>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/115-ayiatheklabeach.jpg</image_src>
+				<thumb_src>/thumbnail/115-ayiatheklabeach.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/115-poseidonbeach.jpg</image_src>
+				<thumb_src>/thumbnail/115-poseidonbeach.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/115-ayiatheklabeach2.jpg</image_src>
+				<thumb_src>/thumbnail/115-ayiatheklabeach2.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/115-dsc2274.jpg</image_src>
+				<thumb_src>/thumbnail/115-dsc2274.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/115-dsc2264.jpg</image_src>
+				<thumb_src>/thumbnail/115-dsc2264.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/115-10121995540796979727901413676268n.jpg</image_src>
+				<thumb_src>/thumbnail/115-10121995540796979727901413676268n.jpg</thumb_src>
+			</image>
+</images>
+	</gallery>
+</tn2>
+

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tn2>
+	<gallery>
+		<title>Fixed Dimensions</title>
+		<description>Some Description</description>
+		<file_root>/images/gallery/</file_root>
+		<images>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/75-maltaseaview17.jpg</image_src>
+				<thumb_src>/thumbnail/75-maltaseaview17.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/75-maltaseaview1.jpg</image_src>
+				<thumb_src>/thumbnail/75-maltaseaview1.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/75-2012-08-25-015.jpg</image_src>
+				<thumb_src>/thumbnail/75-2012-08-25-015.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/75-2012-08-25-026.jpg</image_src>
+				<thumb_src>/thumbnail/75-2012-08-25-026.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/75-29072011108.jpg</image_src>
+				<thumb_src>/thumbnail/75-29072011108.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/75-hotel4.jpg</image_src>
+				<thumb_src>/thumbnail/75-hotel4.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/75-mlahitwoutdoorpool.jpg</image_src>
+				<thumb_src>/thumbnail/75-mlahitwoutdoorpool.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/75-17092011137.jpg</image_src>
+				<thumb_src>/thumbnail/75-17092011137.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/75-27072011106.jpg</image_src>
+				<thumb_src>/thumbnail/75-27072011106.jpg</thumb_src>
+			</image>
+</images>
+	</gallery>
+</tn2>
+

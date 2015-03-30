@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<title>Untitled Document</title>
+</head>
+<script src="/js/js_selectnav.js"></script>
+<script>
+	selectnav('example-nav1');
+</script>
+<style>
+/* default style */
+.selectnav {
+	display: none;
+}
+
+/* small screen */
+@media screen and (max-width: 600px) {
+.js #nav {
+	display: none;
+}
+.js .selectnav {
+	display: block;
+}
+}
+</style>
+<body class="js">
+<ul id="example-nav1">
+	<li><a href="index.html">Welcome</a></li>
+	<li> <a href="active.html" class="act">Active</a>
+		<ul>
+			<li><a href="hidden.html">Hidden</a></li>
+		</ul>
+	</li>
+	<li><a href="http://google.com">External</a></li>
+	<li><a href="#top">Go to top</a></li>
+</ul>
+</body>
+</html>

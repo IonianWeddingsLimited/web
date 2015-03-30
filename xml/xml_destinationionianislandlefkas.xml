@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tn2>
+	<gallery>
+		<title>Fixed Dimensions</title>
+		<description>Some Description</description>
+		<file_root>/images/gallery/</file_root>
+		<images>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/15-meganisi3.jpg</image_src>
+				<thumb_src>/thumbnail/15-meganisi3.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/15-louiseandrewboat.jpg</image_src>
+				<thumb_src>/thumbnail/15-louiseandrewboat.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/15-img1251.jpg</image_src>
+				<thumb_src>/thumbnail/15-img1251.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/15-porokatsiki.jpg</image_src>
+				<thumb_src>/thumbnail/15-porokatsiki.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/15-img1306.jpg</image_src>
+				<thumb_src>/thumbnail/15-img1306.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/15-panagiaisland.jpg</image_src>
+				<thumb_src>/thumbnail/15-panagiaisland.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/15-nydriaerialview.jpg</image_src>
+				<thumb_src>/thumbnail/15-nydriaerialview.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/15-groupspartahori-1.jpg</image_src>
+				<thumb_src>/thumbnail/15-groupspartahori-1.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/15-trineglenn5.jpg</image_src>
+				<thumb_src>/thumbnail/15-trineglenn5.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/15-spartahori.jpg</image_src>
+				<thumb_src>/thumbnail/15-spartahori.jpg</thumb_src>
+			</image>
+</images>
+	</gallery>
+</tn2>
+

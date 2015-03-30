@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tn2>
+	<gallery>
+		<title>Fixed Dimensions</title>
+		<description>Some Description</description>
+		<file_root>/images/gallery/</file_root>
+		<images>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/154-img1374800x533.jpg</image_src>
+				<thumb_src>/thumbnail/154-img1374800x533.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/154-holaweddingcouple2014.jpg</image_src>
+				<thumb_src>/thumbnail/154-holaweddingcouple2014.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/154-holabeach2014weddingseated1.jpg</image_src>
+				<thumb_src>/thumbnail/154-holabeach2014weddingseated1.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/154-dsc0011.jpg</image_src>
+				<thumb_src>/thumbnail/154-dsc0011.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/154-holabeach2014.jpg</image_src>
+				<thumb_src>/thumbnail/154-holabeach2014.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/154-img4630533x800.jpg</image_src>
+				<thumb_src>/thumbnail/154-img4630533x800.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/154-hola2014bynight.jpg</image_src>
+				<thumb_src>/thumbnail/154-hola2014bynight.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/154-holabeach.jpg</image_src>
+				<thumb_src>/thumbnail/154-holabeach.jpg</thumb_src>
+			</image>
+</images>
+	</gallery>
+</tn2>
+

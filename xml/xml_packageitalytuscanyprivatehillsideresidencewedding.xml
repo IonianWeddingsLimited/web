@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tn2>
+	<gallery>
+		<title>Fixed Dimensions</title>
+		<description>Some Description</description>
+		<file_root>/images/gallery/</file_root>
+		<images>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/163-ingresso.jpg</image_src>
+				<thumb_src>/thumbnail/163-ingresso.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/163-casacopia.jpg</image_src>
+				<thumb_src>/thumbnail/163-casacopia.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/163-piscinacopia.jpg</image_src>
+				<thumb_src>/thumbnail/163-piscinacopia.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/163-esterno.jpg</image_src>
+				<thumb_src>/thumbnail/163-esterno.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/163-piscinalatcopia.jpg</image_src>
+				<thumb_src>/thumbnail/163-piscinalatcopia.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/163-chiostrodisantagostino.jpg</image_src>
+				<thumb_src>/thumbnail/163-chiostrodisantagostino.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/163-soggiornotavoliterr2.jpg</image_src>
+				<thumb_src>/thumbnail/163-soggiornotavoliterr2.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/163-collelettocopia.jpg</image_src>
+				<thumb_src>/thumbnail/163-collelettocopia.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/163-colletto.jpg</image_src>
+				<thumb_src>/thumbnail/163-colletto.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/163-collettodivano.jpg</image_src>
+				<thumb_src>/thumbnail/163-collettodivano.jpg</thumb_src>
+			</image>
+</images>
+	</gallery>
+</tn2>
+

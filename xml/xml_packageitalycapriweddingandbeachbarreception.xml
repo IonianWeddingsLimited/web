@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tn2>
+	<gallery>
+		<title>Fixed Dimensions</title>
+		<description>Some Description</description>
+		<file_root>/images/gallery/</file_root>
+		<images>
+<image>
+				<image_src>/97-weddings11.jpg</image_src>
+				<thumb_src>/thumbnail/97-weddings11.jpg</thumb_src>
+			</image>
+<image>
+				<image_src>/97-capripalacericcio11.jpg</image_src>
+				<thumb_src>/thumbnail/97-capripalacericcio11.jpg</thumb_src>
+			</image>
+<image>
+				<image_src>/97-weddings1.jpg</image_src>
+				<thumb_src>/thumbnail/97-weddings1.jpg</thumb_src>
+			</image>
+<image>
+				<image_src>/97-sam2319.jpg</image_src>
+				<thumb_src>/thumbnail/97-sam2319.jpg</thumb_src>
+			</image>
+<image>
+				<image_src>/97-sam2324.jpg</image_src>
+				<thumb_src>/thumbnail/97-sam2324.jpg</thumb_src>
+			</image>
+<image>
+				<image_src>/97-sam2312.jpg</image_src>
+				<thumb_src>/thumbnail/97-sam2312.jpg</thumb_src>
+			</image>
+<image>
+				<image_src>/97-capripiazza-copy-copy.jpg</image_src>
+				<thumb_src>/thumbnail/97-capripiazza-copy-copy.jpg</thumb_src>
+			</image>
+</images>
+	</gallery>
+</tn2>
+

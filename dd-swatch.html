@@ -1,0 +1,102 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Step 1</title>
+<link rel="stylesheet" type="text/css" href="/css/iw-image-ine.css" />
+<link rel="stylesheet" type="text/css" href="/css/jcarousel.css" />
+<script src="http://code.jquery.com/jquery-1.9.1.js"></script>
+<script src="http://code.jquery.com/ui/1.10.3/jquery-ui.js"></script>
+<script src="/js/masonry.pkgd.js"></script>
+<script>
+$(document).ready(function() {
+   //$('#gallery').html(iOrder);
+	var $container = $('#gallery');
+	// initialize
+	$container.masonry({
+		columnWidth: 150,
+		gutter: 10,
+		itemSelector: '.item'
+	});
+	
+	
+});
+</script>
+<script type="text/javascript">
+
+	//Converts RGB color to HEX (including #)
+	$.cssHooks.backgroundColor = {
+		get: function(elem) {
+			if (elem.currentStyle)
+				var bg = elem.currentStyle["background-color"];
+			else if (window.getComputedStyle)
+				var bg = document.defaultView.getComputedStyle(elem,
+					null).getPropertyValue("background-color");
+			if (bg.search("rgb") == -1)
+				return bg;
+			else {
+				bg = bg.match(/^rgb\((\d+),\s*(\d+),\s*(\d+)\)$/);
+				function hex(x) {
+					return ("0" + parseInt(x).toString(16)).slice(-2);
+				}
+				return "#" + hex(bg[1]) + hex(bg[2]) + hex(bg[3]);
+			}
+		}
+	}
+
+	$(document).ready(function () {
+		
+		var colorclass = '';
+		
+		$('.swatchitem').click(function() {
+			
+			var colorclass = $(this).css('backgroundColor');
+			
+			colorclass	=	colorclass.replace('#', '');
+			
+			$(".box-container img.imageswapitem").fadeOut('slow');
+			//$(".imageswap img.imageswapitem").css('display','none');
+			$(".box-container img.imageswapitem."+colorclass).fadeIn('slow');
+			//$(".imageswap img.imageswapitem."+colorclass).css('display','block');
+			
+		});
+		$('.swatchreset').click(function() {
+			$(".box-container img.imageswapitem").fadeOut('slow');
+		});
+		
+		var SearchString = window.location.search.substring(1);
+	    var VariableArray = SearchString.split(',');
+		var valuearray = VariableArray.length;
+		var newHtml = '';
+		for (var $i=0; $i<valuearray; $i++) {
+		newHtml += "<p id='pic"+ VariableArray[$i] +"' class='item'><h1>" + VariableArray[$i] + "</h1><div class='box-container'><img src='/images/swatch/1.jpg' class='imageswapitem 900000' /><img src='/images/swatch/2.jpg' class='imageswapitem 993300' /><img src='/images/swatch/3.jpg' class='imageswapitem 996600' /><img src='/images/swatch/4.jpg' class='imageswapitem 999900' /><img src='/images/swatch/5.jpg' class='imageswapitem 99cc00' /><img src='/images/swatch/6.jpg' class='imageswapitem 99ff00' /><img src='/images/swatch/0.jpg' /></div></p>";
+		}
+		
+		$('.gallery').append(newHtml);
+
+		
+
+	});
+
+</script>
+</head>
+<body>
+<div class="header">
+	<ul id="gallery" class="gallery ui-helper-reset ui-helper-clearfix">
+	
+	</ul>
+</div>
+<div class="footer">
+	<ul class="swatch">
+		<li class="swatchreset"></li>
+		<li class="swatchitem" style="background-color: #900000;"></li>
+		<li class="swatchitem" style="background-color: #993300;"></li>
+		<li class="swatchitem" style="background-color: #996600;"></li>
+		<li class="swatchitem" style="background-color: #999900;"></li>
+		<li class="swatchitem" style="background-color: #99cc00;"></li>
+		<li class="swatchitem" style="background-color: #99ff00;"></li>
+		<li class="clear"></li>
+	</ul>
+</div>
+</body>
+</html>

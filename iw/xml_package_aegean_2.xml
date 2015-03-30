@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tn2>
+	<gallery>
+		<title>Fixed Dimensions</title>
+		<description>Some Description</description>
+		<file_root>images/page/hero/</file_root>
+		<!--<thumb_src>114x72/1.jpg</thumb_src>-->
+		<images>
+			<image>
+				<title>Santorini 1</title>
+				<description>Santorini 1 Description</description>
+				<image_src>dt/inspiration_santorini_1.jpg</image_src>
+				<thumb_src>th/inspiration_santorini_1.jpg</thumb_src>
+			</image>
+			<image>
+				<title>Santorini 2</title>
+				<description>Santorini 2 Description</description>
+				<image_src>dt/inspiration_santorini_2.jpg</image_src>
+				<thumb_src>th/inspiration_santorini_2.jpg</thumb_src>
+			</image>
+			<image>
+				<title>Santorini 3</title>
+				<description>Santorini 3 Description</description>
+				<image_src>dt/inspiration_santorini_3.jpg</image_src>
+				<thumb_src>th/inspiration_santorini_3.jpg</thumb_src>
+			</image>
+			<image>
+				<title>Santorini 4</title>
+				<description>Santorini 4 Description</description>
+				<image_src>dt/inspiration_santorini_4.jpg</image_src>
+				<thumb_src>th/inspiration_santorini_4.jpg</thumb_src>
+			</image>
+			<image>
+				<title>Santorini 5</title>
+				<description>Santorini 5 Description</description>
+				<image_src>dt/inspiration_santorini_5.jpg</image_src>
+				<thumb_src>th/inspiration_santorini_5.jpg</thumb_src>
+			</image>
+			<image>
+				<title>Santorini 6</title>
+				<description>Santorini 6 Description</description>
+				<image_src>dt/inspiration_santorini_6.jpg</image_src>
+				<thumb_src>th/inspiration_santorini_6.jpg</thumb_src>
+			</image>
+			<image>
+				<title>Santorini 7</title>
+				<description>Santorini 7 Description</description>
+				<image_src>dt/inspiration_santorini_7.jpg</image_src>
+				<thumb_src>th/inspiration_santorini_7.jpg</thumb_src>
+			</image>
+			<image>
+				<title>Santorini 8</title>
+				<description>Santorini 8 Description</description>
+				<image_src>dt/inspiration_santorini_8.jpg</image_src>
+				<thumb_src>th/inspiration_santorini_8.jpg</thumb_src>
+			</image>
+			<image>
+				<title>Santorini 9</title>
+				<description>Santorini 9 Description</description>
+				<image_src>dt/inspiration_santorini_9.jpg</image_src>
+				<thumb_src>th/inspiration_santorini_9.jpg</thumb_src>
+			</image>
+			<image>
+				<title>Santorini 10</title>
+				<description>Santorini 10 Description</description>
+				<image_src>dt/inspiration_santorini_10.jpg</image_src>
+				<thumb_src>th/inspiration_santorini_10.jpg</thumb_src>
+			</image>
+			<image>
+				<title>Santorini 11</title>
+				<description>Santorini 11 Description</description>
+				<image_src>dt/inspiration_santorini_11.jpg</image_src>
+				<thumb_src>th/inspiration_santorini_11.jpg</thumb_src>
+			</image>
+			<image>
+				<title>Santorini 12</title>
+				<description>Santorini 12 Description</description>
+				<image_src>dt/inspiration_santorini_12.jpg</image_src>
+				<thumb_src>th/inspiration_santorini_12.jpg</thumb_src>
+			</image>
+			<image>
+				<title>Santorini 13</title>
+				<description>Santorini 13 Description</description>
+				<image_src>dt/inspiration_santorini_13.jpg</image_src>
+				<thumb_src>th/inspiration_santorini_13.jpg</thumb_src>
+			</image>
+			<image>
+				<title>Santorini 14</title>
+				<description>Santorini 14 Description</description>
+				<image_src>dt/inspiration_santorini_14.jpg</image_src>
+				<thumb_src>th/inspiration_santorini_14.jpg</thumb_src>
+			</image>
+			<image>
+				<title>Santorini 15</title>
+				<description>Santorini 15 Description</description>
+				<image_src>dt/inspiration_santorini_15.jpg</image_src>
+				<thumb_src>th/inspiration_santorini_15.jpg</thumb_src>
+			</image>
+		</images>
+	</gallery>
+</tn2>

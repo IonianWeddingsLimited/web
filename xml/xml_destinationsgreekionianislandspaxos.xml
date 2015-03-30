@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tn2>
+	<gallery>
+		<title>Fixed Dimensions</title>
+		<description>Some Description</description>
+		<file_root>/images/gallery/</file_root>
+		<images>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/53-emmaian12.jpg</image_src>
+				<thumb_src>/thumbnail/53-emmaian12.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/53-emmaian9.jpg</image_src>
+				<thumb_src>/thumbnail/53-emmaian9.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/53-emmaian10.jpg</image_src>
+				<thumb_src>/thumbnail/53-emmaian10.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/53-emmaian13.jpg</image_src>
+				<thumb_src>/thumbnail/53-emmaian13.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/53-emmaian25.jpg</image_src>
+				<thumb_src>/thumbnail/53-emmaian25.jpg</thumb_src>
+			</image>
+</images>
+	</gallery>
+</tn2>
+

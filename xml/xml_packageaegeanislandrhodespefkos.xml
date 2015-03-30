@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tn2>
+	<gallery>
+		<title>Fixed Dimensions</title>
+		<description>Some Description</description>
+		<file_root>/images/gallery/</file_root>
+		<images>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/170-dsc6610.jpeg</image_src>
+				<thumb_src>/thumbnail/170-dsc6610.jpeg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/170-dsc6675.jpeg</image_src>
+				<thumb_src>/thumbnail/170-dsc6675.jpeg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/170-dsc0073.jpeg</image_src>
+				<thumb_src>/thumbnail/170-dsc0073.jpeg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/170-dsc0062.jpeg</image_src>
+				<thumb_src>/thumbnail/170-dsc0062.jpeg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/170-dsc0005.jpeg</image_src>
+				<thumb_src>/thumbnail/170-dsc0005.jpeg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/170-dsc6695.jpeg</image_src>
+				<thumb_src>/thumbnail/170-dsc6695.jpeg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/170-dsc9940.jpeg</image_src>
+				<thumb_src>/thumbnail/170-dsc9940.jpeg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/170-dsc6842.jpeg</image_src>
+				<thumb_src>/thumbnail/170-dsc6842.jpeg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/170-dsc9825.jpeg</image_src>
+				<thumb_src>/thumbnail/170-dsc9825.jpeg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/170-dsc9989.jpeg</image_src>
+				<thumb_src>/thumbnail/170-dsc9989.jpeg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/170-dsc9872.jpeg</image_src>
+				<thumb_src>/thumbnail/170-dsc9872.jpeg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/170-dsc6702.jpeg</image_src>
+				<thumb_src>/thumbnail/170-dsc6702.jpeg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/170-dsc0059.jpeg</image_src>
+				<thumb_src>/thumbnail/170-dsc0059.jpeg</thumb_src>
+			</image>
+</images>
+	</gallery>
+</tn2>
+

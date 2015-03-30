@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tn2>
+	<gallery>
+		<title>Fixed Dimensions</title>
+		<description>Some Description</description>
+		<file_root>/images/gallery/</file_root>
+		<images>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/87-capri.jpg</image_src>
+				<thumb_src>/thumbnail/87-capri.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/87-capripiazza.jpg</image_src>
+				<thumb_src>/thumbnail/87-capripiazza.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/87-faraglioni5.jpg</image_src>
+				<thumb_src>/thumbnail/87-faraglioni5.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/87-img1891-copy.jpg</image_src>
+				<thumb_src>/thumbnail/87-img1891-copy.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/87-img2005.jpg</image_src>
+				<thumb_src>/thumbnail/87-img2005.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/87-geranio344.jpg</image_src>
+				<thumb_src>/thumbnail/87-geranio344.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/87-capripalacericcio11.jpg</image_src>
+				<thumb_src>/thumbnail/87-capripalacericcio11.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/87-capripalaceweddings2.jpg</image_src>
+				<thumb_src>/thumbnail/87-capripalaceweddings2.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/87-capripalaceterrazzabardegliartisti.jpg</image_src>
+				<thumb_src>/thumbnail/87-capripalaceterrazzabardegliartisti.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/87-capripalacebar01.jpg</image_src>
+				<thumb_src>/thumbnail/87-capripalacebar01.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/87-weddings11.jpg</image_src>
+				<thumb_src>/thumbnail/87-weddings11.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/87-img2009.jpg</image_src>
+				<thumb_src>/thumbnail/87-img2009.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/87-sam2277.jpg</image_src>
+				<thumb_src>/thumbnail/87-sam2277.jpg</thumb_src>
+			</image>
+</images>
+	</gallery>
+</tn2>
+

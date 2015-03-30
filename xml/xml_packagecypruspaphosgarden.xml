@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tn2>
+	<gallery>
+		<title>Fixed Dimensions</title>
+		<description>Some Description</description>
+		<file_root>/images/gallery/</file_root>
+		<images>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/84-mattdeb-165.jpg</image_src>
+				<thumb_src>/thumbnail/84-mattdeb-165.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/84-mattdeb-99.jpg</image_src>
+				<thumb_src>/thumbnail/84-mattdeb-99.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/84-mattdeb-103.jpg</image_src>
+				<thumb_src>/thumbnail/84-mattdeb-103.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/84-mattdeb-108.jpg</image_src>
+				<thumb_src>/thumbnail/84-mattdeb-108.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/84-mattdeb-164.jpg</image_src>
+				<thumb_src>/thumbnail/84-mattdeb-164.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/84-mattdeb-130.jpg</image_src>
+				<thumb_src>/thumbnail/84-mattdeb-130.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/84-mattdeb-62.jpg</image_src>
+				<thumb_src>/thumbnail/84-mattdeb-62.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/84-mattdeb-41.jpg</image_src>
+				<thumb_src>/thumbnail/84-mattdeb-41.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/84-mattdeb-111.jpg</image_src>
+				<thumb_src>/thumbnail/84-mattdeb-111.jpg</thumb_src>
+			</image>
+</images>
+	</gallery>
+</tn2>
+

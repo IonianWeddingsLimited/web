@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tn2>
+	<gallery>
+		<title>Fixed Dimensions</title>
+		<description>Some Description</description>
+		<file_root>/images/gallery/</file_root>
+		<images>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/62-vabmaids.jpg</image_src>
+				<thumb_src>/thumbnail/62-vabmaids.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/62-vacerts.jpg</image_src>
+				<thumb_src>/thumbnail/62-vacerts.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/62-vaceremony.jpg</image_src>
+				<thumb_src>/thumbnail/62-vaceremony.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/62-vabmaidsgroom.jpg</image_src>
+				<thumb_src>/thumbnail/62-vabmaidsgroom.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/62-vasunsetclose.jpg</image_src>
+				<thumb_src>/thumbnail/62-vasunsetclose.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/62-vaview.jpg</image_src>
+				<thumb_src>/thumbnail/62-vaview.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/62-vasetting.jpg</image_src>
+				<thumb_src>/thumbnail/62-vasetting.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/62-vasunset.jpg</image_src>
+				<thumb_src>/thumbnail/62-vasunset.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/62-victoriamatthewceremonytable.jpg</image_src>
+				<thumb_src>/thumbnail/62-victoriamatthewceremonytable.jpg</thumb_src>
+			</image>
+</images>
+	</gallery>
+</tn2>
+

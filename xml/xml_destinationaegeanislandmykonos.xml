@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tn2>
+	<gallery>
+		<title>Fixed Dimensions</title>
+		<description>Some Description</description>
+		<file_root>/images/gallery/</file_root>
+		<images>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/7-mykonosbeach.jpg</image_src>
+				<thumb_src>/thumbnail/7-mykonosbeach.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/7-weddingarch.jpg</image_src>
+				<thumb_src>/thumbnail/7-weddingarch.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/7-luciemarek10-copy.jpg</image_src>
+				<thumb_src>/thumbnail/7-luciemarek10-copy.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/7-mykonoslittlevenice.jpg</image_src>
+				<thumb_src>/thumbnail/7-mykonoslittlevenice.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/7-mykonosorthodoxwedding.jpg</image_src>
+				<thumb_src>/thumbnail/7-mykonosorthodoxwedding.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/7-shirleyvalentinerestaurant4.jpg</image_src>
+				<thumb_src>/thumbnail/7-shirleyvalentinerestaurant4.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/7-petros.jpg</image_src>
+				<thumb_src>/thumbnail/7-petros.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/7-mykonoslittlevenice1.jpg</image_src>
+				<thumb_src>/thumbnail/7-mykonoslittlevenice1.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/7-letoharbourview.jpg</image_src>
+				<thumb_src>/thumbnail/7-letoharbourview.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/7-belvedere.jpg</image_src>
+				<thumb_src>/thumbnail/7-belvedere.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/7-orthodoxchurch3.jpg</image_src>
+				<thumb_src>/thumbnail/7-orthodoxchurch3.jpg</thumb_src>
+			</image>
+</images>
+	</gallery>
+</tn2>
+

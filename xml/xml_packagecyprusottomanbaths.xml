@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tn2>
+	<gallery>
+		<title>Fixed Dimensions</title>
+		<description>Some Description</description>
+		<file_root>/images/gallery/</file_root>
+		<images>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/116-mg052789enhancer.jpg</image_src>
+				<thumb_src>/thumbnail/116-mg052789enhancer.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/116-mg05484950enhancer.jpg</image_src>
+				<thumb_src>/thumbnail/116-mg05484950enhancer.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/116-mg03787980enhancer.jpg</image_src>
+				<thumb_src>/thumbnail/116-mg03787980enhancer.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/116-mg041123enhancer.jpg</image_src>
+				<thumb_src>/thumbnail/116-mg041123enhancer.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/116-mg0567.jpg</image_src>
+				<thumb_src>/thumbnail/116-mg0567.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/116-mg04585960enhancer.jpg</image_src>
+				<thumb_src>/thumbnail/116-mg04585960enhancer.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/116-mg0448.jpg</image_src>
+				<thumb_src>/thumbnail/116-mg0448.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/116-seaview1.jpg</image_src>
+				<thumb_src>/thumbnail/116-seaview1.jpg</thumb_src>
+			</image>
+</images>
+	</gallery>
+</tn2>
+

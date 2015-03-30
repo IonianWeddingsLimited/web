@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>PgwModal - Responsive modal / dialog window for jQuery / Zepto / AngularJS</title>
+<meta http-equiv="content-type" content="text/html;charset=utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta name="description" content="PgwModal is a responsive, lightweight and easy-to-use modal / dialog plugin for jQuery, Zepto or AngularJS"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+<meta http-equiv="x-dns-prefetch-control" content="on"/>
+<link rel="dns-prefetch" href="http://s1c.pagawatic.com"/>
+<link rel="stylesheet" type="text/css" href="http://s1c.pagawatic.com/css/pgwmenu-pgwjs-rainbow-v220.css"/>
+<link rel="stylesheet" type="text/css" href="/_pgw/pgwmodal.css"/>
+<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script> 
+<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jqueryui/1.10.4/jquery-ui.min.js"></script>
+<script type="text/javascript" src="/_pgw/pgwmodal.js"></script>
+<script type="text/javascript">
+//$('.openModal2').click(function() {
+$(document).ready(function() {
+$.pgwModal({
+	target: '#modalContent',
+	//title: 'Modal title 2',
+	maxWidth: 965
+	});
+});
+</script>
+<!--[if lt IE 9]>
+<script src="http://s1c.pagawatic.com/js/ie_html5-v220.js"></script>
+<![endif]-->
+<style>
+@font-face {
+ font-family: 'cabinsemibold';
+ src: url('/fonts/cabin-semibold-webfont.eot');
+ src: url('/fonts/cabin-semibold-webfont.eot?#iefix') format('embedded-opentype'),  url('/fonts/cabin-semibold-webfont.woff') format('woff'),  url('/fonts/cabin-semibold-webfont.ttf') format('truetype'),  url('/fonts/cabin-semibold-webfont.svg#cabinsemibold') format('svg');
+ font-weight: normal;
+ font-style: normal;
+}
+html, body {
+	background-color: #35a5c1;
+	height: 100%;
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+	position: relative;
+	width: 100%;
+}
+.imaginepopup {
+	height: 600px;
+	position: relative;
+	width: 100%;
+}
+.imaginepopupbg {
+	bottom: 0px;
+	left: 0px;
+	position: absolute;
+	z-index: 0;
+	overflow: hidden;
+	width: 100%;
+}
+.imaginepopupbg img {
+	display: block;
+}
+.imageinepopupcontent {
+	top: 110px;
+	left: 480px;
+	position: absolute;
+	z-index: 1;
+}
+.imageinepopupheader {
+}
+.imageinepopupheader h2 {
+	color: #ffffff;
+	font-family: 'cabinsemibold', Arial, Helvetica, sans-serif;
+	font-size: 103px;
+	font-weight: normal;
+	letter-spacing: -6px;
+	line-height: 1em;
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 20px 0px;
+}
+.imageinepopupheader h3 {
+	color: #ffffff;
+	font-family: 'cabinsemibold', Arial, Helvetica, sans-serif;
+	font-size: 21px;
+	font-weight: normal;
+	line-height: 1em;
+	margin: 0px 0px -29px 25px;
+	padding: 0px 0px 0px 0px;
+}
+.imageinepopupcopy {
+	margin: 0px 20px 0px 60px;
+	width: 340px;
+}
+.imageinepopupcopy p {
+	color: #ffffff;
+	font-family: 'cabinsemibold', Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	line-height: 1.2em;
+}
+.imageinepopupcopy a {
+	color: #acf8ff;
+	text-decoration: none;
+}
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+	.imaginepopup {
+		height: 650px
+	}
+	.imageinepopupcontent {
+		top: 50px;
+		left: 30px;
+	}
+	.imageinepopupheader {
+		display: inline;
+		float: left;
+	}
+	.imageinepopupheader h2 {
+		color: #ffffff;
+		font-family: 'cabinsemibold', Arial, Helvetica, sans-serif;
+		font-size: 78px;
+		font-weight: normal;
+		letter-spacing: -1px;
+		line-height: 1em;
+		margin: 0px 0px 0px 0px;
+		padding: 0px 0px 20px 0px;
+	}
+	.imageinepopupheader h3 {
+		color: #ffffff;
+		font-family: 'cabinsemibold', Arial, Helvetica, sans-serif;
+		font-size: 16px;
+		font-weight: normal;
+		line-height: 1em;
+		margin: 0px 0px -21px 22px;
+		padding: 0px 0px 0px 0px;
+	}
+	.imageinepopupcopy {
+		display: inline;
+		float: right;
+		margin: 0px 30px 0px 30px;
+		width: 300px;
+	}
+}
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+	.imaginepopup {
+		height: 250px;
+	}
+	.imaginepopupbg img {
+		height: 250px;
+		width: auto;
+	}
+	.imageinepopupcontent {
+		top: 20px;
+		left: 190px;
+	}
+	.imageinepopupheader h2 {
+		color: #ffffff;
+		font-family: 'cabinsemibold', Arial, Helvetica, sans-serif;
+		font-size: 60px;
+		font-weight: normal;
+		letter-spacing: -2px;
+		line-height: 1em;
+		margin: 0px 0px 0px 0px;
+		padding: 0px 0px 5px 0px;
+	}
+	.imageinepopupheader h3 {
+		color: #ffffff;
+		font-family: 'cabinsemibold', Arial, Helvetica, sans-serif;
+		font-size: 12px;
+		font-weight: normal;
+		line-height: 1em;
+		margin: 0px 0px -17px 16px;
+		padding: 0px 0px 0px 0px;
+	}
+	.imageinepopupcopy {
+		margin: 0px 20px 0px 40px;
+		width: 340px;
+	}
+	.imageinepopupcopy p {
+		color: #ffffff;
+		font-family: 'cabinsemibold', Arial, Helvetica, sans-serif;
+		font-size: 14px;
+		line-height: 1.2em;
+	}
+}
+@media only screen and (max-width: 479px) {
+	.imaginepopup {
+		height: 520px;
+	}
+	.imaginepopupbg img {
+		height: 380px;
+		width: auto;
+	}
+	.imageinepopupcontent {
+		top: 20px;
+		left: 45px;
+	}
+	.imageinepopupheader h2 {
+		color: #ffffff;
+		font-family: 'cabinsemibold', Arial, Helvetica, sans-serif;
+		font-size: 60px;
+		font-weight: normal;
+		letter-spacing: -2px;
+		line-height: 1em;
+		margin: 0px 0px 0px 0px;
+		padding: 0px 0px 5px 0px;
+	}
+	.imageinepopupheader h3 {
+		color: #ffffff;
+		font-family: 'cabinsemibold', Arial, Helvetica, sans-serif;
+		font-size: 12px;
+		font-weight: normal;
+		line-height: 1em;
+		margin: 0px 0px -17px 16px;
+		padding: 0px 0px 0px 0px;
+	}
+	.imageinepopupcopy {
+		margin: 0px 0px 0px 0px;
+		width: 250px;
+	}
+	.imageinepopupcopy p {
+		color: #ffffff;
+		font-family: 'cabinsemibold', Arial, Helvetica, sans-serif;
+		font-size: 12px;
+		line-height: 1.2em;
+	}
+}
+.clear {
+	clear: both;
+	font-weight: 0px;
+	line-height: 0em;
+}
+</style>
+</head>
+<body>
+<div id="modalContent" style="display: none">
+	<div class="imaginepopup">
+		<div class="imageinepopupcontent">
+			<div class="imageinepopupheader">
+				<h3>welcome to</h3>
+				<h2>image-ine</h2>
+			</div>
+			<div class="imageinepopupcopy">
+				<p>For over ten years we've been hand picking the very best venues, destinations and partners in the Mediterraneam to offer the ultimate selection of dream wedding locations.</p>
+				<p>Now for the first time you can browse the very best, create your own dream wedding mood board and share it with friends and family. <a href="javascript:void(0)" onclick="$.pgwModal('close');" title="Welcome to Image-ine">Welcome to Image-ine</a>.</p>
+			</div>
+			<div class="clear"></div>
+		</div>
+		<div class="imaginepopupbg"><img src="/images/interface/bg-image-ine.png" alt="Welcome to Image-ine" border="0" title="Welcome to Image-ine" /></div>
+	</div>
+</div>
+</body>
+</html>

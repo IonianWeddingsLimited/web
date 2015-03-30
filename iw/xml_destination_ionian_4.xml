@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tn2>
+	<gallery>
+		<title>Fixed Dimensions</title>
+		<description>Some Description</description>
+		<file_root>images/page/hero/</file_root>
+		<!--<thumb_src>114x72/1.jpg</thumb_src>-->
+		<images>
+			<image>
+				<title>Lefkas 1</title>
+				<description>Lefkas 1 Description</description>
+				<image_src>dt/destination_lefkas_1.jpg</image_src>
+				<thumb_src>th/destination_lefkas_1.jpg</thumb_src>
+			</image>
+			<image>
+				<title>Lefkas 2</title>
+				<description>Lefkas 2 Description</description>
+				<image_src>dt/destination_lefkas_2.jpg</image_src>
+				<thumb_src>th/destination_lefkas_2.jpg</thumb_src>
+			</image>
+			<image>
+				<title>Lefkas 3</title>
+				<description>Lefkas 3 Description</description>
+				<image_src>dt/destination_lefkas_3.jpg</image_src>
+				<thumb_src>th/destination_lefkas_3.jpg</thumb_src>
+			</image>
+			<image>
+				<title>Lefkas 4</title>
+				<description>Lefkas 4 Description</description>
+				<image_src>dt/destination_lefkas_4.jpg</image_src>
+				<thumb_src>th/destination_lefkas_4.jpg</thumb_src>
+			</image>
+			<image>
+				<title>Lefkas 5</title>
+				<description>Lefkas 5 Description</description>
+				<image_src>dt/destination_lefkas_5.jpg</image_src>
+				<thumb_src>th/destination_lefkas_5.jpg</thumb_src>
+			</image>
+			<image>
+				<title>Lefkas 6</title>
+				<description>Lefkas 6 Description</description>
+				<image_src>dt/destination_lefkas_6.jpg</image_src>
+				<thumb_src>th/destination_lefkas_6.jpg</thumb_src>
+			</image>
+		</images>
+	</gallery>
+</tn2>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tn2>
+	<gallery>
+		<title>Fixed Dimensions</title>
+		<description>Some Description</description>
+		<file_root>/images/gallery/</file_root>
+		<images>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/52-agia-paraskevi-chapel.jpg</image_src>
+				<thumb_src>/thumbnail/52-agia-paraskevi-chapel.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/52-hersonissosseaside1.jpg</image_src>
+				<thumb_src>/thumbnail/52-hersonissosseaside1.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/52-agiaparaskeviphotography.jpg</image_src>
+				<thumb_src>/thumbnail/52-agiaparaskeviphotography.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/52-hersonissosseaside2.jpg</image_src>
+				<thumb_src>/thumbnail/52-hersonissosseaside2.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/52-hersonissosseaside1.jpg</image_src>
+				<thumb_src>/thumbnail/52-hersonissosseaside1.jpg</thumb_src>
+			</image>
+<image>
+				<title></title>
+				<description></description>
+				
+				<image_src>/52-benlaura3.jpg</image_src>
+				<thumb_src>/thumbnail/52-benlaura3.jpg</thumb_src>
+			</image>
+</images>
+	</gallery>
+</tn2>
+

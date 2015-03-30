@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tn2>
+	<gallery>
+		<title>Fixed Dimensions</title>
+		<description>Some Description</description>
+		<file_root>images/page/hero/</file_root>
+		<!--<thumb_src>114x72/1.jpg</thumb_src>-->
+		<images>
+			<image>
+				<title>Cypriot Weddings 1</title>
+				<description>Cypriot Weddings 1 Description</description>
+				<image_src>dt/destination_cyprus_1.jpg</image_src>
+				<thumb_src>th/destination_cyprus_1.jpg</thumb_src>
+			</image>
+			<image>
+				<title>Cypriot Weddings 2</title>
+				<description>Cypriot Weddings 2 Description</description>
+				<image_src>dt/destination_cyprus_2.jpg</image_src>
+				<thumb_src>th/destination_cyprus_2.jpg</thumb_src>
+			</image>
+			<image>
+				<title>Cypriot Weddings 3</title>
+				<description>Cypriot Weddings 3 Description</description>
+				<image_src>dt/destination_cyprus_3.jpg</image_src>
+				<thumb_src>th/destination_cyprus_3.jpg</thumb_src>
+			</image>
+			<image>
+				<title>Cypriot Weddings 4</title>
+				<description>Cypriot Weddings 4 Description</description>
+				<image_src>dt/destination_cyprus_4.jpg</image_src>
+				<thumb_src>th/destination_cyprus_4.jpg</thumb_src>
+			</image>
+			<image>
+				<title>Cypriot Weddings 5</title>
+				<description>Cypriot Weddings 5 Description</description>
+				<image_src>dt/destination_cyprus_5.jpg</image_src>
+				<thumb_src>th/destination_cyprus_5.jpg</thumb_src>
+			</image>
+			<image>
+				<title>Cypriot Weddings 6</title>
+				<description>Cypriot Weddings 6 Description</description>
+				<image_src>dt/destination_cyprus_6.jpg</image_src>
+				<thumb_src>th/destination_cyprus_6.jpg</thumb_src>
+			</image>
+			<image>
+				<title>Cypriot Weddings 7</title>
+				<description>Cypriot Weddings 7 Description</description>
+				<image_src>dt/destination_cyprus_7.jpg</image_src>
+				<thumb_src>th/destination_cyprus_7.jpg</thumb_src>
+			</image>
+			<image>
+				<title>Cypriot Weddings 8</title>
+				<description>Cypriot Weddings 8 Description</description>
+				<image_src>dt/destination_cyprus_8.jpg</image_src>
+				<thumb_src>th/destination_cyprus_8.jpg</thumb_src>
+			</image>
+			<image>
+				<title>Cypriot Weddings 9</title>
+				<description>Cypriot Weddings 9 Description</description>
+				<image_src>dt/destination_cyprus_9.jpg</image_src>
+				<thumb_src>th/destination_cyprus_9.jpg</thumb_src>
+			</image>
+			<image>
+				<title>Cypriot Weddings 10</title>
+				<description>Cypriot Weddings 10 Description</description>
+				<image_src>dt/destination_cyprus_10.jpg</image_src>
+				<thumb_src>th/destination_cyprus_10.jpg</thumb_src>
+			</image>
+			<image>
+				<title>Cypriot Weddings 11</title>
+				<description>Cypriot Weddings 11 Description</description>
+				<image_src>dt/destination_cyprus_11.jpg</image_src>
+				<thumb_src>th/destination_cyprus_11.jpg</thumb_src>
+			</image>
+			<image>
+				<title>Cypriot Weddings 12</title>
+				<description>Cypriot Weddings 12 Description</description>
+				<image_src>dt/destination_cyprus_12.jpg</image_src>
+				<thumb_src>th/destination_cyprus_12.jpg</thumb_src>
+			</image>
+			<image>
+				<title>Cypriot Weddings 13</title>
+				<description>Cypriot Weddings 13 Description</description>
+				<image_src>dt/destination_cyprus_13.jpg</image_src>
+				<thumb_src>th/destination_cyprus_13.jpg</thumb_src>
+			</image>
+			<image>
+				<title>Cypriot Weddings 14</title>
+				<description>Cypriot Weddings 14 Description</description>
+				<image_src>dt/destination_cyprus_14.jpg</image_src>
+				<thumb_src>th/destination_cyprus_14.jpg</thumb_src>
+			</image>
+			<image>
+				<title>Cypriot Weddings 15</title>
+				<description>Cypriot Weddings 15 Description</description>
+				<image_src>dt/destination_cyprus_15.jpg</image_src>
+				<thumb_src>th/destination_cyprus_15.jpg</thumb_src>
+			</image>
+			<image>
+				<title>Cypriot Weddings 16</title>
+				<description>Cypriot Weddings 16 Description</description>
+				<image_src>dt/destination_cyprus_16.jpg</image_src>
+				<thumb_src>th/destination_cyprus_16.jpg</thumb_src>
+			</image>
+			<image>
+				<title>Cypriot Weddings 17</title>
+				<description>Cypriot Weddings 17 Description</description>
+				<image_src>dt/destination_cyprus_17.jpg</image_src>
+				<thumb_src>th/destination_cyprus_17.jpg</thumb_src>
+			</image>
+			<image>
+				<title>Cypriot Weddings 18</title>
+				<description>Cypriot Weddings 18 Description</description>
+				<image_src>dt/destination_cyprus_18.jpg</image_src>
+				<thumb_src>th/destination_cyprus_18.jpg</thumb_src>
+			</image>
+			<image>
+				<title>Cypriot Weddings 19</title>
+				<description>Cypriot Weddings 19 Description</description>
+				<image_src>dt/destination_cyprus_19.jpg</image_src>
+				<thumb_src>th/destination_cyprus_19.jpg</thumb_src>
+			</image>
+			<image>
+				<title>Cypriot Weddings 20</title>
+				<description>Cypriot Weddings 20 Description</description>
+				<image_src>dt/destination_cyprus_20.jpg</image_src>
+				<thumb_src>th/destination_cyprus_20.jpg</thumb_src>
+			</image>
+			<image>
+				<title>Cypriot Weddings 21</title>
+				<description>Cypriot Weddings 21 Description</description>
+				<image_src>dt/destination_cyprus_21.jpg</image_src>
+				<thumb_src>th/destination_cyprus_21.jpg</thumb_src>
+			</image>
+			<image>
+				<title>Cypriot Weddings 22</title>
+				<description>Cypriot Weddings 22 Description</description>
+				<image_src>dt/destination_cyprus_22.jpg</image_src>
+				<thumb_src>th/destination_cyprus_22.jpg</thumb_src>
+			</image>
+			<image>
+				<title>Cypriot Weddings 23</title>
+				<description>Cypriot Weddings 23 Description</description>
+				<image_src>dt/destination_cyprus_23.jpg</image_src>
+				<thumb_src>th/destination_cyprus_23.jpg</thumb_src>
+			</image>
+			<image>
+				<title>Cypriot Weddings 24</title>
+				<description>Cypriot Weddings 24 Description</description>
+				<image_src>dt/destination_cyprus_24.jpg</image_src>
+				<thumb_src>th/destination_cyprus_24.jpg</thumb_src>
+			</image>
+			<image>
+				<title>Cypriot Weddings 25</title>
+				<description>Cypriot Weddings 25 Description</description>
+				<image_src>dt/destination_cyprus_25.jpg</image_src>
+				<thumb_src>th/destination_cyprus_25.jpg</thumb_src>
+			</image>
+			<image>
+				<title>Cypriot Weddings 26</title>
+				<description>Cypriot Weddings 26 Description</description>
+				<image_src>dt/destination_cyprus_26.jpg</image_src>
+				<thumb_src>th/destination_cyprus_26.jpg</thumb_src>
+			</image>
+			<image>
+				<title>Cypriot Weddings 27</title>
+				<description>Cypriot Weddings 27 Description</description>
+				<image_src>dt/destination_cyprus_27.jpg</image_src>
+				<thumb_src>th/destination_cyprus_27.jpg</thumb_src>
+			</image>
+			<image>
+				<title>Cypriot Weddings 28</title>
+				<description>Cypriot Weddings 28 Description</description>
+				<image_src>dt/destination_cyprus_28.jpg</image_src>
+				<thumb_src>th/destination_cyprus_28.jpg</thumb_src>
+			</image>
+			<image>
+				<title>Cypriot Weddings 29</title>
+				<description>Cypriot Weddings 29 Description</description>
+				<image_src>dt/destination_cyprus_29.jpg</image_src>
+				<thumb_src>th/destination_cyprus_29.jpg</thumb_src>
+			</image>
+		</images>
+	</gallery>
+</tn2>
