@@ -1,4 +1,4 @@
-<?
+<?php
 
 $per_page = 20;
 
@@ -47,7 +47,7 @@ $image_line = "<div style=\"float:right; background-color:#f9eed8; margin-bottom
 <div style="float:right;background-color:#f9eed8; margin-bottom:10px;"><div class="hero_<?php echo $record[6]; ?>"></div></div>
 <div style="clear:both;"></div>
 </div>
-<?
+<?php
 } else {	
 if($record[3]) { $image_line = "<img title=\"".stripslashes($record[0])."\" src=\"$site_url/images/page/news/".stripslashes($record[3])."\" alt=\"".stripslashes($record[0])."\" border=\"0\" align=\"right\"/>"; } else { $image_line = ""; }
 ?>
@@ -58,7 +58,7 @@ if($record[3]) { $image_line = "<img title=\"".stripslashes($record[0])."\" src=
 <?php echo stripslashes($record[2]); ?>
 <div style="clear:both;"></div>
 </div>
-<?
+<?php
 }
 
 } else {

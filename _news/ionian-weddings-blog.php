@@ -1,4 +1,4 @@
-<?
+<?php
 
 require_once "magpie/rss_fetch.inc";
 $per_page = 20;

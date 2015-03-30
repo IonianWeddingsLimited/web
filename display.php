@@ -12,7 +12,7 @@ $sql_command->connect($database_host,$database_name,$database_username,$database
 $get_template = new main_template();
 
 
-list($blank,$level1_name,$level2_name,$level3_name,$level4_name) = explode("/", $_SERVER["REQUEST_URI"]);
+@list($blank,$level1_name,$level2_name,$level3_name,$level4_name) = explode("/", $_SERVER["REQUEST_URI"]);
 
 if($level1_name == "navigation_header") {
 if($level3_name) { $addlinelink = $level3_name."/"; }
