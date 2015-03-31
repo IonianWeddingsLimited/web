@@ -1,12 +1,27 @@
 <?php
 
 session_start();
+
 date_default_timezone_set("GMT");
 
 $database_host = "localhost";
 $database_username = "ionianwe_couk";
 $database_password = "G*}Eoo%0bKH^";
 $database_name = "ionianwe_couk";
+
+// Override default DB connection settings depending on the
+if ($_SERVER['HTTP_HOST'] == '46.101.34.101') {
+    if (stristri($_SERVER['REQUEST_URI'], '/ionian/live')) {
+        $database_username = "live_ionian";
+        $database_password = "vK3hU6p5uVTDGm7a";
+        $database_name = "live_ionian";
+    }
+    else if (stristri($_SERVER['REQUEST_URI'], '/ionian/test')) {
+        $database_username = "test_ionian";
+        $database_password = "huL9y43Cb9SG5JaU";
+        $database_name = "test_ionian";
+    }
+}
 
 $payLimit = 10000;
 
