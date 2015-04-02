@@ -95,7 +95,6 @@ $result2 = $sql_command->select("$database_order_details,$database_packages,$dat
 							   $database_packages.island_id=$database_navigation.id");
 $record2 = $sql_command->result($result2);
 
-define('FPDF_FONTPATH','/home/ionianwe/public_html/oos/font/');
 require('oos/fpdf.php');
 
 class PDF extends FPDF {
@@ -153,21 +152,21 @@ class PDF extends FPDF {
 		
 			$this->Ln(5); 
 			$this->SetFont('Arial','','8'); 
-			$this->Write(0,"For Euro (€) Payments:");
+			$this->Write(0,"For Euro (â‚¬) Payments:");
 			$this->Ln(3.2); 
 			$this->Write(0,"Account Holder Name - Andreas Palikiras");
 			$this->Ln(3.2); 
-			$this->Write(0,"Bank – National Bank of Greece");
+			$this->Write(0,"Bank â€“ National Bank of Greece");
 			$this->Ln(3.2); 
 			$this->Write(0,"Branch Code - 749");
 			$this->Ln(3.2); 
-			$this->Write(0,"Address – Corfu City Centre, 6 Samara Street, Kerkyra 49100, Greece");
+			$this->Write(0,"Address â€“ Corfu City Centre, 6 Samara Street, Kerkyra 49100, Greece");
 			$this->Ln(3.2); 
 			$this->Write(0,"Swift Code (BIC) - ETHNGRAA");
 			$this->Ln(3.2); 
 			$this->Write(0,"A/C No. - 279/603592-25");
 			$this->Ln(3.2); 
-			$this->Write(0,"IBAN – GR4201102790000027960359225");
+			$this->Write(0,"IBAN â€“ GR4201102790000027960359225");
 			$this->Ln(5);
 		} else {
 			$this->Ln(5); 
@@ -184,7 +183,7 @@ class PDF extends FPDF {
 			$this->Ln(3.2); 
 			$this->Write(0,"Swift (BIC) - CPBK GB 22");
 			$this->Ln(3.2); 
-			$this->Write(0,"IBAN – GB21 CPBK 08925070913224");
+			$this->Write(0,"IBAN â€“ GB21 CPBK 08925070913224");
 			$this->Ln(5);
 		}
 		if($InvoiceCurrency == 'Euro') {
@@ -205,7 +204,7 @@ class PDF extends FPDF {
 	
 		/*$this->Write(0,"Balance payments are not refundable; cheques are no longer accepted due to the abolition of the Cheque Guarantee Scheme. We also accept debit cards and credit cards (there is a");
 		$this->Ln(3.2); 
-		$this->Write(0,"2% transaction fee for credit cards and 3% for international credit cards) – please ask for a form for card payments. If you prefer to pay in Euros, please let us know.");
+		$this->Write(0,"2% transaction fee for credit cards and 3% for international credit cards) â€“ please ask for a form for card payments. If you prefer to pay in Euros, please let us know.");
 		*/
 		$this->Ln(5); 
 		$this->SetTextColor(152,72,6.6);
@@ -217,7 +216,7 @@ class PDF extends FPDF {
 		$this->Image("images/invoice_abta.jpg", 185, $gety + 0.5, 16.93,6.77);
 		$this->SetFont('Arial','','8'); 
 		$this->SetTextColor(151,151,151);  
-		$this->Write(0,"© Copyright Ionian Weddings Ltd. ".date("Y")." – 10 Crane Mews, 32 Gould Road, Twickenham, England, TW2 6RS");
+		$this->Write(0,"Â© Copyright Ionian Weddings Ltd. ".date("Y")." â€“ 10 Crane Mews, 32 Gould Road, Twickenham, England, TW2 6RS");
 		$this->Ln(3.5); 
 		$this->Write(0,"(t) / (f) +44 208 894 1991 - (e) weddings@ionianweddings.co.uk - (w) www.ionianweddings.co.uk");
 		$this->Ln(3.5); 
@@ -548,8 +547,8 @@ if (empty($currency_name)) {
 		$pdf->SetLeftMargin('10');
 		$pdf->SetFont('','',8);;
 		
-		$display_cost = '€ '.number_format($line_iw_euro,2);
-		$display_cost = eregi_replace("€ -","- € ",$display_cost);
+		$display_cost = 'â‚¬ '.number_format($line_iw_euro,2);
+		$display_cost = eregi_replace("â‚¬ -","- â‚¬ ",$display_cost);
 		$pdf->MultiCell(160.05, 3, $paragraph, 'LR', 'L', false);
 		
 		$pdf->SetFont('','',8);;
@@ -766,8 +765,8 @@ if (empty($currency_name)) {
 			$pdf->SetLeftMargin('10');
 			$pdf->SetFont('','',8);;
 			
-			$display_cost = '€ '.number_format($line_iw_euro,2);
-			$display_cost = eregi_replace("€ -","- € ",$display_cost);
+			$display_cost = 'â‚¬ '.number_format($line_iw_euro,2);
+			$display_cost = eregi_replace("â‚¬ -","- â‚¬ ",$display_cost);
 			$pdf->MultiCell(160.05, 3, $paragraph, 'LR', 'L', false);
 			
 			$pdf->SetFont('','',8);;
@@ -977,8 +976,8 @@ if (empty($currency_name)) {
 				$pdf->SetLeftMargin('10');
 				$pdf->SetFont('','',8);;
 				
-				$display_cost = '€ '.number_format($line_iw_euro,2);
-				$display_cost = eregi_replace("€ -","- € ",$display_cost);
+				$display_cost = 'â‚¬ '.number_format($line_iw_euro,2);
+				$display_cost = eregi_replace("â‚¬ -","- â‚¬ ",$display_cost);
 				$pdf->MultiCell(160.05, 3, $paragraph, 'LR', 'L', false);
 				
 				$pdf->SetFont('','',8);;
@@ -1008,8 +1007,8 @@ if (empty($currency_name)) {
 //				$pdf->SetLeftMargin('10');
 //				$pdf->SetFont('','B',8);;
 //				
-//				$display_cost = '€ '.number_format($line_iw_euro,2);
-//				$display_cost = eregi_replace("€ -","- € ",$display_cost);
+//				$display_cost = 'â‚¬ '.number_format($line_iw_euro,2);
+//				$display_cost = eregi_replace("â‚¬ -","- â‚¬ ",$display_cost);
 //				$pdf->MultiCell(160.05, 3, $paragraph, 'LR', 'L', false);
 //				
 //				$pdf->SetFont('','',8);;
@@ -1030,8 +1029,8 @@ if (empty($currency_name)) {
 //				$pdf->SetLeftMargin('10');
 //				$pdf->SetFont('','B',8);;
 //				
-//				$display_cost = '€ '.number_format($line_iw_euro,2);
-//				$display_cost = eregi_replace("€ -","- € ",$display_cost);
+//				$display_cost = 'â‚¬ '.number_format($line_iw_euro,2);
+//				$display_cost = eregi_replace("â‚¬ -","- â‚¬ ",$display_cost);
 //				
 //				$pdf->Cell(160.05,4,$paragraph,'LR',0,'L',true);
 //				$pdf->SetFont('','',8);;
@@ -1055,14 +1054,14 @@ if (empty($currency_name)) {
 	
 	$pdf->Cell(170,5,"Amount in Euros",'LR',0,'L',true);
 	$pdf->SetFont('','',8);;
-	$pdf->Cell(19.95,5,"€ ".number_format($outstanding_euros_before,2),'LR',0,'R',true);
+	$pdf->Cell(19.95,5,"â‚¬ ".number_format($outstanding_euros_before,2),'LR',0,'R',true);
 	$pdf->Ln(5.1);
 	$pdf->Cell(189.95,0,'','T'); 
 	$pdf->Ln(0.1);
 	if($euro_discount != 0) {
 	$pdf->Cell(170,5,"Discount in Euros",'LR',0,'L',true);
 	$pdf->SetFont('','',8);;
-	$pdf->Cell(19.95,5,"€ ".number_format($euro_discount,2),'LR',0,'R',true);
+	$pdf->Cell(19.95,5,"â‚¬ ".number_format($euro_discount,2),'LR',0,'R',true);
 	$pdf->Ln(5.1);
 	$pdf->Cell(189.95,0,'','T'); 
 	$pdf->Ln(0.1);
@@ -1090,7 +1089,7 @@ if (empty($currency_name)) {
 			
 			$pdf->Cell(170,5,$deposit_record[0]." Paid",'LR',0,'L',true);
 			$pdf->SetFont('','',8);;
-			$pdf->Cell(19.95,5,"- € ".number_format($deposit_record[3],2),'LR',0,'R',true);
+			$pdf->Cell(19.95,5,"- â‚¬ ".number_format($deposit_record[3],2),'LR',0,'R',true);
 			$pdf->Ln(5.1);
 			$pdf->Cell(189.95,0,'','T'); 
 			$pdf->Ln(0.1);
@@ -1119,7 +1118,7 @@ if ($minum_deposit>0) {
 		$drespr = $sql_command->result($dresp);
 		$payDates = $drespr[1];
 		$totalpp = $drespr[0];
-		$format_gbp = "£ ".number_format($totalpp,2);
+		$format_gbp = "Â£ ".number_format($totalpp,2);
 }
 else {
 	$resp = $sql_command->select("customer_payments,customer_transactions",
@@ -1132,7 +1131,7 @@ else {
 	$respr = $sql_command->result($resp);
 	$payDates = $respr[1];
 	$totalpp = $respr[0];
-	$format_gbp = "£ ".number_format($totalpp,2);
+	$format_gbp = "Â£ ".number_format($totalpp,2);
 }
 
 // end payments
@@ -1142,7 +1141,7 @@ else {
 	if($minum_deposit2 > 0 or $euro_discount != 0) {
 	$pdf->Cell(170,5,"Total in Euros",'LR',0,'L',true);
 	$pdf->SetFont('','',8);;
-	$pdf->Cell(19.95,5,"€ ".number_format($outstanding_euros_before - $minum_deposit2 - $euro_discount,2),'LR',0,'R',true);
+	$pdf->Cell(19.95,5,"â‚¬ ".number_format($outstanding_euros_before - $minum_deposit2 - $euro_discount,2),'LR',0,'R',true);
 	$pdf->Ln(5.1);
 	$pdf->Cell(189.95,0,'','T'); 
 	$pdf->Ln(0.1);
@@ -1179,7 +1178,7 @@ if ($totalpp>0) {
 		
 		$pdf->Cell(170,5,$PaymentLabel." - ".$payids." (".$paytype." ".$UnixPayDate.")",'LR',0,'L',true);
 		$pdf->SetFont('','',8);;
-		$pdf->Cell(19.95,5,$PaymentSymbol."€ ".$paymentpamount,'LR',0,'R',true);
+		$pdf->Cell(19.95,5,$PaymentSymbol."â‚¬ ".$paymentpamount,'LR',0,'R',true);
 		$pdf->Ln(5.1);
 		$pdf->Cell(189.95,0,'','T'); 
 		$pdf->Ln(0.1);
@@ -1219,7 +1218,7 @@ $outstanding_pounds_before = (empty($currency_name)) ? $outstanding_euros_before
 	if($checktotal > 0) {
 	$pdf->Cell(170,5,"Amount Outstanding in GBP",'LR',0,'L',true);
 	$pdf->SetFont('','',8);;
-	$pdf->Cell(19.95,5,"£ ".number_format($outstanding_pounds - $minum_deposit,2),'LR',0,'R',true);
+	$pdf->Cell(19.95,5,"Â£ ".number_format($outstanding_pounds - $minum_deposit,2),'LR',0,'R',true);
 	$pdf->Ln(5.1);
 	$pdf->Cell(189.95,0,'','T'); 
 	$pdf->Ln(0.1);	
@@ -1358,8 +1357,8 @@ $outstanding_pounds_before = (empty($currency_name)) ? $outstanding_euros_before
 			$pdf->SetLeftMargin('10');
 			$pdf->SetFont('','',8);;
 			
-			$display_cost = '£ '.number_format($line_iw_euro,2);
-			$display_cost = eregi_replace("£ -","- £ ",$display_cost);
+			$display_cost = 'Â£ '.number_format($line_iw_euro,2);
+			$display_cost = eregi_replace("Â£ -","- Â£ ",$display_cost);
 			$pdf->MultiCell(160.05, 3, $paragraph, 'LR', 'L', false);
 			
 			$pdf->SetFont('','',8);;
@@ -1388,7 +1387,7 @@ $outstanding_pounds_before = (empty($currency_name)) ? $outstanding_euros_before
 	
 	$pdf->Cell(170,5,"Additional Amount in GBP",'LR',0,'L',true);
 	$pdf->SetFont('','',8);;
-	$pdf->Cell(19.95,5,"£ ".number_format($total_additional,2),'LR',0,'R',true);
+	$pdf->Cell(19.95,5,"Â£ ".number_format($total_additional,2),'LR',0,'R',true);
 	$pdf->Ln(5.1);
 	$pdf->Cell(189.95,0,'','T'); 
 	$pdf->Ln(0.1);
@@ -1414,7 +1413,7 @@ $outstanding_pounds_before = (empty($currency_name)) ? $outstanding_euros_before
 			
 			$pdf->Cell(170,5,$deposit_record[0]." Paid",'LR',0,'L',true);
 			$pdf->SetFont('','',8);;
-			$pdf->Cell(19.95,5,"- £ ".number_format($deposit_record[3],2),'LR',0,'R',true);
+			$pdf->Cell(19.95,5,"- Â£ ".number_format($deposit_record[3],2),'LR',0,'R',true);
 			$pdf->Ln(5.1);
 			$pdf->Cell(189.95,0,'','T'); 
 			$pdf->Ln(0.1);
@@ -1424,7 +1423,7 @@ $outstanding_pounds_before = (empty($currency_name)) ? $outstanding_euros_before
 
 
 $acro = (empty($currency_name)) ? "GBP" : $currency_i[0];
-$symbol = (empty($currency_name)) ? "£" : $currency_i[1]; 
+$symbol = (empty($currency_name)) ? "Â£" : $currency_i[1]; 
 
 // start payments
 
@@ -1455,7 +1454,7 @@ if (count($recorda)>0) {
 			$drespr = $sql_command->result($dresp);
 			$payDates = $drespr[1];
 			$totalpp = $drespr[0];
-			$format_gbp = "£ ".number_format($totalpp,2);
+			$format_gbp = "Â£ ".number_format($totalpp,2);
 	}
 	else {
 		$resp = $sql_command->select("customer_payments,customer_transactions",
@@ -1468,7 +1467,7 @@ if (count($recorda)>0) {
 		$respr = $sql_command->result($resp);
 		$payDates = $respr[1];
 		$totalpp = $respr[0];
-		$format_gbp = "£ ".number_format($totalpp,2);
+		$format_gbp = "Â£ ".number_format($totalpp,2);
 	}
 	if ($totalpp>0) {
 		$resp = $sql_command->select("customer_payments,customer_transactions",
@@ -1505,7 +1504,7 @@ if (count($recorda)>0) {
 			
 			$pdf->Cell(170,5,$PaymentLabel." - ".$payids." (".$paytype." ".$UnixPayDate.")",'LR',0,'L',true);
 			$pdf->SetFont('','',8);;
-			$pdf->Cell(19.95,5,$PaymentSymbol."£ ".$paymentpamount,'LR',0,'R',true);
+			$pdf->Cell(19.95,5,$PaymentSymbol."Â£ ".$paymentpamount,'LR',0,'R',true);
 			$pdf->Ln(5.1);
 			$pdf->Cell(189.95,0,'','T'); 
 			$pdf->Ln(0.1);
@@ -1524,13 +1523,13 @@ $total_gbp = round(($outstanding_pounds_before + $total_payment_pound_before - $
 
 $pdf->Ln(0.1);
 $pdf->Cell(170,5,"TOTAL in GBP",'LR',0,'L',true);
-$pdf->Cell(19.95,5,"£ ".number_format($total_gbp,2),'LR',0,'R',true);
+$pdf->Cell(19.95,5,"Â£ ".number_format($total_gbp,2),'LR',0,'R',true);
 $pdf->Ln(5.1);
 $pdf->Cell(189.95,0,'','T'); 
 $pdf->Ln(0.1);
 $pdf->Cell(170,5,"Discount in GBP",'LR',0,'L',true);
 $pdf->SetFont('','',8);;
-$pdf->Cell(19.95,5,"£ ".number_format($amount_discount,2),'LR',0,'R',true);
+$pdf->Cell(19.95,5,"Â£ ".number_format($amount_discount,2),'LR',0,'R',true);
 $pdf->Ln(5.1);
 $pdf->Cell(189.95,0,'','T'); 
 $pdf->Ln(0.1);
@@ -1579,7 +1578,7 @@ $pdf->Ln(2);
 		$c_filter = array("<strong>","</strong>","<u>","</u>","<i>","</i>","&nbsp;","<ul>","</ul>");
 		$c_note = str_replace($c_filter,"",$ceremony_record[0]);
 		$c_note = str_replace("<p> ","<p>",$c_note);
-		$c_note = str_replace("<li>","<p>• ",$c_note);
+		$c_note = str_replace("<li>","<p>â€¢ ",$c_note);
 		$c_note = str_replace("</li>","</p>",$c_note);
 		$c_note = preg_replace('~[\r\n]+~', '', $c_note);
 		$c_note = str_replace("&nbsp;", " ", $c_note);
@@ -1622,7 +1621,7 @@ $pdf->Ln(2);
 		$v_filter= array("<strong>","</strong>","<u>","</u>","<i>","</i>","&nbsp;","<ul>","</ul>");
 		$v_note = str_replace($v_filter,"",$venue_record[0]);
 		$v_note = str_replace("<p> ","<p>",$v_note);
-		$v_note = str_replace("<li>","<p>• ",$v_note);
+		$v_note = str_replace("<li>","<p>â€¢ ",$v_note);
 		$v_note = str_replace("</li>","</p>",$v_note);
 		$v_note = preg_replace('~[\r\n]+~', '', $v_note);
 		$v_note = str_replace("&nbsp;", " ", $v_note);
@@ -1664,12 +1663,12 @@ if ($comments_r) {
 	$p_filter= array("<strong>","</strong>","<u>","</u>","<i>","</i>","&nbsp;","<ul>","</ul>");
 	$p_note = str_replace($p_filter,"",$comments_r[0]);
 	$p_note = str_replace("<p> ","<p>",$p_note);
-	$p_note = str_replace("<li>","<p> • ",$p_note);
+	$p_note = str_replace("<li>","<p> â€¢ ",$p_note);
 	$p_note = str_replace("</li>","</p>",$p_note);
 	$p_note = preg_replace('~[\r\n]+~', '', $p_note);
 	$p_note = str_replace("&nbsp;", " ", $p_note);
-	$p_note = str_replace("&pound;", " £", $p_note);
-	$p_note = str_replace("&euro;", " €", $p_note);
+	$p_note = str_replace("&pound;", " Â£", $p_note);
+	$p_note = str_replace("&euro;", " â‚¬", $p_note);
 	$p_note = trim(preg_replace('/\s\s+/', ' ', $p_note));
 	
 	$pdf->SetFont('','',8);;
@@ -1867,8 +1866,8 @@ else {
 		$pdf->SetLeftMargin('10');
 		$pdf->SetFont('','',8);;
 		
-		$display_cost = '€ '.number_format($line_iw_euro,2);
-		$display_cost = eregi_replace("€ -","- € ",$display_cost);
+		$display_cost = 'â‚¬ '.number_format($line_iw_euro,2);
+		$display_cost = eregi_replace("â‚¬ -","- â‚¬ ",$display_cost);
 		$pdf->MultiCell(160.05, 3, $paragraph, 'LR', 'L', false);
 		
 		$pdf->SetFont('','',8);;
@@ -2083,8 +2082,8 @@ $invoice_result = $sql_command->select($database_invoice_history,"name,
 			$pdf->SetLeftMargin('10');
 			$pdf->SetFont('','',8);;
 			
-			$display_cost = '€ '.number_format($line_iw_euro,2);
-			$display_cost = eregi_replace("€ -","- € ",$display_cost);
+			$display_cost = 'â‚¬ '.number_format($line_iw_euro,2);
+			$display_cost = eregi_replace("â‚¬ -","- â‚¬ ",$display_cost);
 			$pdf->MultiCell(160.05, 3, $paragraph, 'LR', 'L', false);
 			
 			$pdf->SetFont('','',8);;
@@ -2120,7 +2119,7 @@ $invoice_result = $sql_command->select($database_invoice_history,"name,
 	
 		$pdf->Cell(170,5,"Amount in Euros",'LR',0,'L',true);
 		$pdf->SetFont('','',8);;
-		$pdf->Cell(19.95,5,"€ ".number_format($outstanding_euros_before,2),'LR',0,'R',true);
+		$pdf->Cell(19.95,5,"â‚¬ ".number_format($outstanding_euros_before,2),'LR',0,'R',true);
 		$pdf->Ln(5.1);
 		$pdf->Cell(189.95,0,'','T'); 
 		$pdf->Ln(0.1);
@@ -2128,7 +2127,7 @@ $invoice_result = $sql_command->select($database_invoice_history,"name,
 		if($euro_discount != 0) {
 			$pdf->Cell(170,5,"Discount in Euros",'LR',0,'L',true);
 			$pdf->SetFont('','',8);;
-			$pdf->Cell(19.95,5,"€ ".number_format($euro_discount,2),'LR',0,'R',true);
+			$pdf->Cell(19.95,5,"â‚¬ ".number_format($euro_discount,2),'LR',0,'R',true);
 			$pdf->Ln(5.1);
 			$pdf->Cell(189.95,0,'','T'); 
 			$pdf->Ln(0.1);
@@ -2154,7 +2153,7 @@ $invoice_result = $sql_command->select($database_invoice_history,"name,
 				
 				$pdf->Cell(170,5,$deposit_record[0]." Paid",'LR',0,'L',true);
 				$pdf->SetFont('','',8);;
-				$pdf->Cell(19.95,5,"- € ".number_format($deposit_record[3],2),'LR',0,'R',true);
+				$pdf->Cell(19.95,5,"- â‚¬ ".number_format($deposit_record[3],2),'LR',0,'R',true);
 				$pdf->Ln(5.1);
 				$pdf->Cell(189.95,0,'','T'); 
 				$pdf->Ln(0.1);
@@ -2168,7 +2167,7 @@ $invoice_result = $sql_command->select($database_invoice_history,"name,
 	if($minum_deposit2 > 0 or $euro_discount != 0) {
 		$pdf->Cell(170,5,"Total in Euros",'LR',0,'L',true);
 		$pdf->SetFont('','',8);;
-		$pdf->Cell(19.95,5,"€ ".number_format($outstanding_euros_before - $minum_deposit2 - $euro_discount,2),'LR',0,'R',true);
+		$pdf->Cell(19.95,5,"â‚¬ ".number_format($outstanding_euros_before - $minum_deposit2 - $euro_discount,2),'LR',0,'R',true);
 		$pdf->Ln(5.1);
 		$pdf->Cell(189.95,0,'','T'); 
 		$pdf->Ln(0.1);
@@ -2193,7 +2192,7 @@ $invoice_result = $sql_command->select($database_invoice_history,"name,
 			$drespr = $sql_command->result($dresp);
 			$payDates = $drespr[1];
 			$totalpp = $drespr[0];
-			$format_gbp = "£ ".number_format($totalpp,2);
+			$format_gbp = "Â£ ".number_format($totalpp,2);
 	}
 	else {
 		$resp = $sql_command->select("customer_payments,customer_transactions",
@@ -2206,7 +2205,7 @@ $invoice_result = $sql_command->select($database_invoice_history,"name,
 		$respr = $sql_command->result($resp);
 		$payDates = $respr[1];
 		$totalpp = $respr[0];
-		$format_gbp = "£ ".number_format($totalpp,2);
+		$format_gbp = "Â£ ".number_format($totalpp,2);
 	}
 	if ($totalpp>0) {
 		$resp = $sql_command->select("customer_payments,customer_transactions",
@@ -2239,7 +2238,7 @@ $invoice_result = $sql_command->select($database_invoice_history,"name,
 			
 			$pdf->Cell(170,5,$PaymentLabel." - ".$payids." (".$paytype." ".$UnixPayDate.")",'LR',0,'L',true);
 			$pdf->SetFont('','',8);;
-			$pdf->Cell(19.95,5,$PaymentSymbol."€ ".$paymentpamount,'LR',0,'R',true);
+			$pdf->Cell(19.95,5,$PaymentSymbol."â‚¬ ".$paymentpamount,'LR',0,'R',true);
 			$pdf->Ln(5.1);
 			$pdf->Cell(189.95,0,'','T'); 
 			$pdf->Ln(0.1);
@@ -2404,8 +2403,8 @@ $invoice_result = $sql_command->select($database_invoice_history,"name,
 		$pdf->SetLeftMargin('10');
 		$pdf->SetFont('','',8);;
 		
-		$display_cost = '€ '.number_format($line_iw_euro,2);
-		$display_cost = eregi_replace("€ -","- € ",$display_cost);
+		$display_cost = 'â‚¬ '.number_format($line_iw_euro,2);
+		$display_cost = eregi_replace("â‚¬ -","- â‚¬ ",$display_cost);
 		$pdf->MultiCell(160.05, 3, $paragraph, 'LR', 'L', false);
 		
 		$pdf->SetFont('','',8);;
@@ -2504,7 +2503,7 @@ $invoice_result = $sql_command->select($database_invoice_history,"name,
 		//if ($outstanding_pounds>0) { 
 			$pdf->Ln(0.1);
 			$pdf->Cell(170,5,"TOTAL Payable in EUR ",'LR',0,'R',true);
-			$pdf->Cell(19.95,5,"€ ".number_format($total_gbp,2),'LR',0,'R',true);
+			$pdf->Cell(19.95,5,"â‚¬ ".number_format($total_gbp,2),'LR',0,'R',true);
 			$pdf->Ln(5.1);
 			$pdf->Cell(189.95,0,'','T'); 
 			$pdf->Ln(0.1);
@@ -2654,8 +2653,8 @@ $invoice_result = $sql_command->select($database_invoice_history,"name,
 			$pdf->SetLeftMargin('10');
 			$pdf->SetFont('','',8);;
 			
-			$display_cost = '€ '.number_format($line_iw_euro,2);
-			$display_cost = eregi_replace("€ -","- € ",$display_cost);
+			$display_cost = 'â‚¬ '.number_format($line_iw_euro,2);
+			$display_cost = eregi_replace("â‚¬ -","- â‚¬ ",$display_cost);
 			$pdf->MultiCell(160.05, 3,$paragraph, 'LR', 'L', false);
 			
 			$pdf->SetFont('','',8);;
@@ -2685,7 +2684,7 @@ $invoice_result = $sql_command->select($database_invoice_history,"name,
 		
 		$pdf->Cell(170,5,"Amount in GBP",'LR',0,'L',true);
 		$pdf->SetFont('','',8);;
-		$pdf->Cell(19.95,5,"£ ".number_format($total_additional,2),'LR',0,'R',true);
+		$pdf->Cell(19.95,5,"Â£ ".number_format($total_additional,2),'LR',0,'R',true);
 		$pdf->Ln(5.1);
 		$pdf->Cell(189.95,0,'','T'); 
 		$pdf->Ln(0.1);
@@ -2711,7 +2710,7 @@ $invoice_result = $sql_command->select($database_invoice_history,"name,
 		
 		$pdf->Cell(170,5,$deposit_record[0]." Paid",'LR',0,'L',true);
 		$pdf->SetFont('','',8);;
-		$pdf->Cell(19.95,5,"- £ ".number_format($deposit_record[3],2),'LR',0,'R',true);
+		$pdf->Cell(19.95,5,"- Â£ ".number_format($deposit_record[3],2),'LR',0,'R',true);
 		$pdf->Ln(5.1);
 		$pdf->Cell(189.95,0,'','T'); 
 		$pdf->Ln(0.1);
@@ -2736,7 +2735,7 @@ if ($minum_deposit>0) {
 		$drespr = $sql_command->result($dresp);
 		$payDates = $drespr[1];
 		$totalpp = $drespr[0];
-		$format_gbp = "£ ".number_format($totalpp,2);
+		$format_gbp = "Â£ ".number_format($totalpp,2);
 } else {
 	$resp = $sql_command->select("customer_payments,customer_transactions",
 						 "sum(customer_payments.p_amount),customer_transactions.timestamp",
@@ -2748,7 +2747,7 @@ if ($minum_deposit>0) {
 	$respr = $sql_command->result($resp);
 	$payDates = $respr[1];
 	$totalpp = $respr[0];
-	$format_gbp = "£ ".number_format($totalpp,2);
+	$format_gbp = "Â£ ".number_format($totalpp,2);
 }
 if ($totalpp>0) {
 	$resp = $sql_command->select("customer_payments,customer_transactions",
@@ -2781,7 +2780,7 @@ if ($totalpp>0) {
 		
 		$pdf->Cell(170,5,$PaymentLabel." - ".$payids." (".$paytype." ".$UnixPayDate.")",'LR',0,'L',true);
 		$pdf->SetFont('','',8);;
-		$pdf->Cell(19.95,5,"- £ ".number_format($pamount,2),'LR',0,'R',true);
+		$pdf->Cell(19.95,5,"- Â£ ".number_format($pamount,2),'LR',0,'R',true);
 		$pdf->Ln(5.1);
 		$pdf->Cell(189.95,0,'','T'); 
 		$pdf->Ln(0.1);
@@ -2799,13 +2798,13 @@ if ($totalpp>0) {
 		
 		$pdf->Ln(0.1);
 		$pdf->Cell(170,5,"TOTAL in GBP",'LR',0,'L',true);
-		$pdf->Cell(19.95,5,"£ ".number_format($total_gbp,2),'LR',0,'R',true);
+		$pdf->Cell(19.95,5,"Â£ ".number_format($total_gbp,2),'LR',0,'R',true);
 		$pdf->Ln(5.1);
 		$pdf->Cell(189.95,0,'','T'); 
 		$pdf->Ln(0.1);
 		$pdf->Cell(170,5,"Discount in GBP",'LR',0,'L',true);
 		$pdf->SetFont('','',8);;
-		$pdf->Cell(19.95,5,"£ ".number_format($amount_discount,2),'LR',0,'R',true);
+		$pdf->Cell(19.95,5,"Â£ ".number_format($amount_discount,2),'LR',0,'R',true);
 		$pdf->Ln(5.1);
 		$pdf->Cell(189.95,0,'','T'); 
 		$pdf->Ln(0.1);
@@ -2825,7 +2824,7 @@ if ($totalpp>0) {
 	if ($outstanding_pounds>0 || $total_payment_pound>0) { 
 		$pdf->Ln(0.1);
 		$pdf->Cell(170,5,"TOTAL Payable in GBP",'LR',0,'R',true);
-		$pdf->Cell(19.95,5,"£ ".number_format($total_gbp,2),'LR',0,'R',true);
+		$pdf->Cell(19.95,5,"Â£ ".number_format($total_gbp,2),'LR',0,'R',true);
 		$pdf->Ln(5.1);
 		$pdf->Cell(189.95,0,'','T'); 
 		$pdf->Ln(0.1);
@@ -2855,7 +2854,7 @@ if ($totalpp>0) {
 		$c_filter = array("<strong>","</strong>","<u>","</u>","<i>","</i>","&nbsp;","<ul>","</ul>");
 		$c_note = str_replace($c_filter,"",$ceremony_record[0]);
 		$c_note = str_replace("<p> ","<p>",$c_note);
-		$c_note = str_replace("<li>","<p>• ",$c_note);
+		$c_note = str_replace("<li>","<p>â€¢ ",$c_note);
 		$c_note = str_replace("</li>","</p>",$c_note);
 		$c_note = preg_replace('~[\r\n]+~', '', $c_note);
 		$c_note = str_replace("&nbsp;", " ", $c_note);
@@ -2898,7 +2897,7 @@ if ($totalpp>0) {
 		$v_filter= array("<strong>","</strong>","<u>","</u>","<i>","</i>","&nbsp;","<ul>","</ul>");
 		$v_note = str_replace($v_filter,"",$venue_record[0]);
 		$v_note = str_replace("<p> ","<p>",$v_note);
-		$v_note = str_replace("<li>","<p>• ",$v_note);
+		$v_note = str_replace("<li>","<p>â€¢ ",$v_note);
 		$v_note = str_replace("</li>","</p>",$v_note);
 		$v_note = preg_replace('~[\r\n]+~', '', $v_note);
 		$v_note = str_replace("&nbsp;", " ", $v_note);
@@ -2941,7 +2940,7 @@ if ($totalpp>0) {
 		$p_filter= array("<strong>","</strong>","<u>","</u>","<i>","</i>","&nbsp;","<ul>","</ul>");
 		$p_note = str_replace($p_filter,"",$comments_r[0]);
 		$p_note = str_replace("<p> ","<p>",$p_note);
-		$p_note = str_replace("<li>","<p>• ",$p_note);
+		$p_note = str_replace("<li>","<p>â€¢ ",$p_note);
 		$p_note = str_replace("</li>","</p>",$p_note);
 		$p_note = preg_replace('~[\r\n]+~', '', $p_note);
 		$p_note = str_replace("&nbsp;", " ", $p_note);

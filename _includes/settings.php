@@ -8,19 +8,29 @@ $database_host = "localhost";
 $database_username = "ionianwe_couk";
 $database_password = "G*}Eoo%0bKH^";
 $database_name = "ionianwe_couk";
-
+$fpdf_fontpath = '/home/ionianwe/public_html/oos/font/';
 
 if ($_SERVER['HTTP_HOST'] == 'happytimes.co.uk' || $_SERVER['HTTP_HOST'] == 'www.happytimes.co.uk') {
     $database_username = "live_ionian";
     $database_password = "vK3hU6p5uVTDGm7a";
     $database_name = "live_ionian";
+
+    $fpdf_fontpath = '/var/www/html/ionian/live/oos/font/';
 }
 
 if ($_SERVER['HTTP_HOST'] == 'test.happytimes.co.uk' || $_SERVER['HTTP_HOST'] == 'www.test.happytimes.co.uk') {
     $database_username = "test_ionian";
     $database_password = "huL9y43Cb9SG5JaU";
     $database_name = "test_ionian";
+
+    $fpdf_fontpath = '/var/www/html/ionian/test/oos/font/';
 }
+
+if ($_SERVER['HTTP_HOST'] == 'ionian.localhost' || $_SERVER['HTTP_HOST'] == 'www.ionian.localhost') {
+    $fpdf_fontpath = '/Users/gabi/workspace/onclouds/ionian/oos/font/';
+}
+
+define('FPDF_FONTPATH', $fpdf_fontpath);
 
 $payLimit = 10000;
 
