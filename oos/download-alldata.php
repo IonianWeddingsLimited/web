@@ -575,22 +575,22 @@ foreach ($testing as $key => $row) {
 		if ($_GET["amounts"]!=0) {
 			switch ($_GET["amounts"]){
 				case "1":
-					$amtext = "£0 to £5k";
+					$amtext = "Â£0 to Â£5k";
 					$amfrom = 0;
 					$amto = 5000;
 					break;
 				case "2":
-					$amtext = "£5 to £10k";
+					$amtext = "Â£5 to Â£10k";
 					$amfrom = 5000;
 					$amto = 10000;
 					break;
 				case "3":
-					$amtext = "£10 to £15k";
+					$amtext = "Â£10 to Â£15k";
 					$amfrom = 10000;
 					$amto = 15000;
 					break;
 				case "4":
-					$amtext = "£15k+";
+					$amtext = "Â£15k+";
 					$amfrom = 15000;
 					$amto = 5000000;
 					break;

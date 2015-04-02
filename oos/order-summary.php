@@ -190,7 +190,7 @@ $pdf->SetLineWidth(0.1);
 
 $pdf->Ln(0.1);
 $pdf->Cell(170,5,"Total",'LR',0,'R',true);
-$pdf->Cell(19.95,5,"€ ".$total_payment_euro,'LR',0,'L',true);
+$pdf->Cell(19.95,5,"â‚¬ ".$total_payment_euro,'LR',0,'L',true);
 $pdf->Ln(5.1);
 $pdf->Cell(189.95,0,'','T'); 
 $pdf->Ln(0.1);
@@ -211,7 +211,7 @@ $deposit_value = $deposit_record[0] * $record[22];
 
 $pdf->Cell(170,5,"Deposit",'LR',0,'R',true);
 $pdf->SetTextColor(248,21,21); 
-$pdf->Cell(19.95,5,"- € ".$deposit_value,'LR',0,'L',true);
+$pdf->Cell(19.95,5,"- â‚¬ ".$deposit_value,'LR',0,'L',true);
 $pdf->Ln(5.1);
 $pdf->Cell(189.95,0,'','T'); 
 $pdf->Ln(0.1);
@@ -220,7 +220,7 @@ $outstanding_euros = $total_payment_euro - $deposit_value;
 
 $pdf->SetTextColor(0,0,0); 
 $pdf->Cell(170,5,"Amount Outstanding in Euros",'LR',0,'L',true);
-$pdf->Cell(19.95,5,"€ ".$outstanding_euros,'LR',0,'L',true);
+$pdf->Cell(19.95,5,"â‚¬ ".$outstanding_euros,'LR',0,'L',true);
 $pdf->Ln(5.1);
 $pdf->Cell(189.95,0,'','T'); 
 $pdf->Ln(0.1);
@@ -231,7 +231,7 @@ $outstanding_pounds = $outstanding_euros / $record[22];
 
 $pdf->SetTextColor(0,0,0); 
 $pdf->Cell(170,5,"Amount Outstanding in GBP",'LR',0,'L',true);
-$pdf->Cell(19.95,5,"£ ".$outstanding_pounds,'LR',0,'L',true);
+$pdf->Cell(19.95,5,"Â£ ".$outstanding_pounds,'LR',0,'L',true);
 $pdf->Ln(5.1);
 $pdf->Cell(189.95,0,'','T'); 
 $pdf->Ln(0.1);
@@ -294,7 +294,7 @@ $pdf->Cell(189.95,0,'','T');
 $pdf->Ln(0.1);
 $pdf->SetTextColor(0,0,0); 
 $pdf->Cell(170,5,"Additional Amount in GBP",'LR',0,'L',true);
-$pdf->Cell(19.95,5,"£ ".$total_payment_pound,'LR',0,'L',true);
+$pdf->Cell(19.95,5,"Â£ ".$total_payment_pound,'LR',0,'L',true);
 $pdf->Ln(5.1);
 $pdf->Cell(189.95,0,'','T'); 
 $pdf->Ln(0.1);
@@ -309,7 +309,7 @@ $total_gbp = $total_payment_euro + $total_payment_pound;
 
 $pdf->Ln(0.1);
 $pdf->Cell(170,5,"TOTAL Payable in GBP",'LR',0,'R',true);
-$pdf->Cell(19.95,5,"£ ".$total_gbp,'LR',0,'L',true);
+$pdf->Cell(19.95,5,"Â£ ".$total_gbp,'LR',0,'L',true);
 $pdf->Ln(5.1);
 $pdf->Cell(189.95,0,'','T'); 
 $pdf->Ln(0.1);
@@ -343,11 +343,11 @@ $pdf->Cell(189.95,5,"Sort Code 08-92-50",'',0,'C',true);
 $pdf->Ln(3.6);
 $pdf->Cell(189.95,5,"Swift (BIC) - CPBK GB 22",'',0,'C',true);
 $pdf->Ln(3.6);
-$pdf->Cell(189.95,5,"IBAN – GB21 CPBK 08925070913224",'',0,'C',true);
+$pdf->Cell(189.95,5,"IBAN â€“ GB21 CPBK 08925070913224",'',0,'C',true);
 $pdf->Ln(5);
 $pdf->Cell(189.95,5,"Balance payments are not refundable; cheques are no longer accepted due to the abolition of the Cheque Guarantee Scheme.",'',0,'C',true);
 $pdf->Ln(3.6);
-$pdf->Cell(189.95,5,"We also accept debit cards and credit cards (there is a 2% transaction fee for credit cards and 3% for international credit cards) – please ask for a form for card payments.",'',0,'C',true);
+$pdf->Cell(189.95,5,"We also accept debit cards and credit cards (there is a 2% transaction fee for credit cards and 3% for international credit cards) â€“ please ask for a form for card payments.",'',0,'C',true);
 $pdf->Ln(5);
 
 $pdf->Cell(189.95,5,"If you prefer to pay in Euros, please let us know.",'',0,'C',true);

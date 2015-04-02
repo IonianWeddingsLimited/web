@@ -176,7 +176,7 @@
 				$gety = $this->GetY(); 
 				$this->Image("../images/invoice_abta.jpg", 185, $gety + 0.5, 16.93,6.77);
 				$this->SetTextColor(151,151,151);  
-				$this->Write(0,"© Copyright Ionian Weddings Ltd. ".date("Y")." – 10 Crane Mews, 32 Gould Road, Twickenham, England, TW2 6RS");
+				$this->Write(0,"Â© Copyright Ionian Weddings Ltd. ".date("Y")." â€“ 10 Crane Mews, 32 Gould Road, Twickenham, England, TW2 6RS");
 				$this->Ln(3.5); 
 				$this->Write(0,"(t) / (f) +44 208 894 1991 - (e) weddings@ionianweddings.co.uk - (w) www.ionianweddings.co.uk");
 				$this->Ln(3.5); 

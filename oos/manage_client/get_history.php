@@ -6,7 +6,7 @@
 		$get_template->bottomHTML();
 		$sql_command->close();
 	}
-	$c_symbol = "£";
+	$c_symbol = "Â£";
 	
 		$result = $sql_command->select("$database_supplier_invoices_main,
 									$database_supplier_details,
@@ -52,7 +52,7 @@
 		
 	if ($ic>0) {
 		switch($p_curreny) {
-			case	"£";
+			case	"Â£";
 				$iPOTotalGBP	+=	$payment_total;
 				$iPOTotalEuro	+=	0;
 			break;
@@ -151,7 +151,7 @@
 								   ORDER BY $database_customer_invoices.timestamp DESC");
 	$row = $sql_command->results($result);
 	
-	$c_symbol = "£";
+	$c_symbol = "Â£";
 	foreach($row as $record) {
 	$currency_name = "";
 	$oldsymbol = $c_symbol;
@@ -524,7 +524,7 @@
 		$payr = $sql_command->select("customer_payments","SUM(customer_payments.p_amount)","WHERE customer_payments.pay_no='".addslashes($record2[0])."'");
 		$payv = $sql_command->result($payr);
 		
-		$p_currency = ($record2[8]) ? $record2[8]: "£";
+		$p_currency = ($record2[8]) ? $record2[8]: "Â£";
 			
 		$alloc = (!$payv[0]) ? 0 : $payv[0];
 		$unall = (($record2[1] - $alloc) !=0) ? false : ($record2[4]=="Paid") ? false : true;

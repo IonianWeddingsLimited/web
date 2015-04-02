@@ -39,7 +39,7 @@ $this->SetXY(0,-15);
 $this->SetLeftMargin('10');
 $this->SetFont('Arial','','6'); 
 $this->SetTextColor(151,151,151);  
-$this->Write(0,"© Copyright Ionian Weddings Ltd. ".date("Y")." – 10 Crane Mews, 32 Gould Road, Twickenham, England, TW2 6RS");
+$this->Write(0,"Â© Copyright Ionian Weddings Ltd. ".date("Y")." â€“ 10 Crane Mews, 32 Gould Road, Twickenham, England, TW2 6RS");
 $this->Ln(3.5); 
 $this->Write(0,"(t) / (f) +44 208 894 1991 - (e) weddings@ionianweddings.co.uk - (w) www.ionianweddings.co.uk");
 $this->Ln(3.5); 
@@ -182,8 +182,8 @@ $pdf->SetFont('','',5);
 $pdf->Cell(129.8,4,$record[21].' - '.$paragraph,'LR',0,'L',true);
 $pdf->SetFont('','',7);
 $pdf->Cell(19.9,4,$record[17],'LR',0,'L',true);
-$pdf->Cell(19.95,4,'€'.number_format($itemvalue,2),'LR',0,'L',true);
-$pdf->Cell(19.75,4,'€'.number_format($payment_total,2),'LR',0,'L',true);
+$pdf->Cell(19.95,4,'â‚¬'.number_format($itemvalue,2),'LR',0,'L',true);
+$pdf->Cell(19.75,4,'â‚¬'.number_format($payment_total,2),'LR',0,'L',true);
 $pdf->Cell(174.4,0,'','T'); 
 $pdf->Ln(15); 
 
@@ -195,7 +195,7 @@ $pdf->SetTextColor(230,134,123);
 $pdf->Write(0,'Net: ');
 $pdf->SetLeftMargin('180');
 $pdf->SetTextColor(88,88,111);
-$pdf->Write(0,'€'.number_format($payment_total,2));
+$pdf->Write(0,'â‚¬'.number_format($payment_total,2));
 $pdf->Ln(5);
 
 // vat amount
@@ -215,7 +215,7 @@ $pdf->SetTextColor(230,134,123);
 $pdf->Write(0,'Total: ');
 $pdf->SetLeftMargin('180');
 $pdf->SetTextColor(88,88,111);
-$pdf->Write(0,'€'.number_format($payment_total,2));
+$pdf->Write(0,'â‚¬'.number_format($payment_total,2));
 $pdf->Ln(5);
 
 

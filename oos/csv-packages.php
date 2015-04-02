@@ -158,9 +158,9 @@ $option_record[3] = str_replace('"',"''",stripslashes($option_record[3]));
 $option_record[4] = str_replace('"',"''",stripslashes($option_record[4]));
 
 if($option_record[5] == "Euro") {
-$type = "€ ";
+$type = "â‚¬ ";
 } elseif($option_record[5] == "Pound") {
-$type = "£ ";
+$type = "Â£ ";
 } else { 
 $type = "";
 }
@@ -216,9 +216,9 @@ $record[1] = ltrim($record[1]);
 $record[1] = trim($record[1]);
 
 if($record[7] == "Euro") {
-$type = "€ ";
+$type = "â‚¬ ";
 } elseif($record[7] == "Pound") {
-$type = "£ ";
+$type = "Â£ ";
 } else { 
 $type = "";
 }

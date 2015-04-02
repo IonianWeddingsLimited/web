@@ -175,30 +175,30 @@ if($_GET["id"]) {
 	$result = $sql_command->select($database_pdf_generator,"*","WHERE id='".addslashes($_GET["id"])."'");
 	$record = $sql_command->result($result);
 
-	$record[0] = str_replace("&euro;","€",$record[0]);
-	$record[0] = str_replace("&pound;","£",$record[0]);
+	$record[0] = str_replace("&euro;","â‚¬",$record[0]);
+	$record[0] = str_replace("&pound;","Â£",$record[0]);
 	
-	$record[1] = str_replace("&euro;","€",$record[1]);
-	$record[1] = str_replace("&pound;","£",$record[1]);
+	$record[1] = str_replace("&euro;","â‚¬",$record[1]);
+	$record[1] = str_replace("&pound;","Â£",$record[1]);
 	
-	$record[2] = str_replace("&euro;","€",$record[2]);
-	$record[2] = str_replace("&pound;","£",$record[2]);
+	$record[2] = str_replace("&euro;","â‚¬",$record[2]);
+	$record[2] = str_replace("&pound;","Â£",$record[2]);
 	
 	
-	$record[7] = str_replace("&euro;","€",$record[7]);
-	$record[7] = str_replace("&pound;","£",$record[7]);
+	$record[7] = str_replace("&euro;","â‚¬",$record[7]);
+	$record[7] = str_replace("&pound;","Â£",$record[7]);
 	
-	$record[8] = str_replace("&euro;","€",$record[8]);
-	$record[8] = str_replace("&pound;","£",$record[8]);
+	$record[8] = str_replace("&euro;","â‚¬",$record[8]);
+	$record[8] = str_replace("&pound;","Â£",$record[8]);
 	
-	$record[9] = str_replace("&euro;","€",$record[9]);
-	$record[9] = str_replace("&pound;","£",$record[9]);
+	$record[9] = str_replace("&euro;","â‚¬",$record[9]);
+	$record[9] = str_replace("&pound;","Â£",$record[9]);
 	
-	$record[10] = str_replace("&euro;","€",$record[10]);
-	$record[10] = str_replace("&pound;","£",$record[10]);
+	$record[10] = str_replace("&euro;","â‚¬",$record[10]);
+	$record[10] = str_replace("&pound;","Â£",$record[10]);
 	
-	$record[31] = str_replace("&euro;","€",$record[31]);
-	$record[31] = str_replace("&pound;","£",$record[31]);
+	$record[31] = str_replace("&euro;","â‚¬",$record[31]);
+	$record[31] = str_replace("&pound;","Â£",$record[31]);
 
 
 	if(!$record[0]) {
@@ -233,7 +233,7 @@ if($_GET["id"]) {
 			$this->SetY($gety+3); 
 			$this->SetLeftMargin('30');
 			$this->SetTextColor(151,151,151);  
-			$this->Write(0,"© Copyright Ionian Weddings Ltd. ".date("Y")." – 10 Crane Mews, 32 Gould Road, Twickenham, England, TW2 6RS");
+			$this->Write(0,"Â© Copyright Ionian Weddings Ltd. ".date("Y")." â€“ 10 Crane Mews, 32 Gould Road, Twickenham, England, TW2 6RS");
 			$this->Ln(3.5); 
 			$this->Write(0,"(t) / (f) +44 208 894 1991 - (e) weddings@ionianweddings.co.uk - (w) www.ionianweddings.co.uk");
 			$this->Ln(3.5); 
@@ -1228,7 +1228,7 @@ $_SESSION["body_content"] = "<p>The package below has been created to include al
 </script>
 	<h3 style="margin-top:10px;">Closing Salutation</h3>
 	<?php if(!$_SESSION["salutation"]) {
-$_SESSION["salutation"] = "<p>The cost of this package is €[enter_cost] for [enter-year]<br>Ionian Weddings arrangement fee is €[enter_agreement_fee]</p>";
+$_SESSION["salutation"] = "<p>The cost of this package is â‚¬[enter_cost] for [enter-year]<br>Ionian Weddings arrangement fee is â‚¬[enter_agreement_fee]</p>";
 } ?>
 	<textarea name="salutation" id="the_editor_min4" class="the_editor_min4"><?php echo $_SESSION["salutation"]; ?></textarea>
 	<script type="text/javascript">

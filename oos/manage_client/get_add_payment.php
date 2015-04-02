@@ -76,13 +76,13 @@ if ($posttype == "add") {
 			elseif ($_POST['currency']=="Pound") { $allocate = $_POST[$p.'-alloc'] / $_POST["exchange_rate"]; }
 			else { $allocate = $_POST[$p.'-alloc'] * $_POST["exchange_rate"]; }
 		
-			$filterv = array("£",",","€"," ");
+			$filterv = array("Â£",",","â‚¬"," ");
 			$allocate = str_replace($filterv,"",$allocate);
 			
 			$invid = $_POST[$p.'-invid'];	
 			$itotals = $_POST[$p.'-total'];
 			
-			$filterv = array("£",",","€"," ");
+			$filterv = array("Â£",",","â‚¬"," ");
 			$itotals = str_replace($filterv,"",$itotals);
 	
 			$itype = $_POST[$p.'-type'];
@@ -99,7 +99,7 @@ if ($posttype == "add") {
 			//if ($allocate>$itotals) { $error .= "Total allocated for Invoice ".$invid." exceeds invoice amount.<br />"; }
 		}
 	}
-	$filterv = array("£",",","€"," ");
+	$filterv = array("Â£",",","â‚¬"," ");
 	$poundcost = str_replace($filterv,"",$poundcost);
 
 	if ($totals>$poundcost) { $error .= "Total allocated exceeds payment amount.<br />"; }
@@ -146,7 +146,7 @@ if ($posttype == "add") {
 		$allocate = $_POST[$p.'-alloc'];
 
 	
-		$filterv = array("£",",","€"," ");
+		$filterv = array("Â£",",","â‚¬"," ");
 		$allocate = str_replace($filterv,"",$allocate);
 		
 		$invid = $_POST[$p.'-invid'];	
@@ -265,7 +265,7 @@ else {
 		elseif ($pay_currency==="Pound") { $allocate = $_POST[$p.'-alloc'] / $_POST["exchange_rate"]; }
 		else { $allocate = $_POST[$p.'-alloc'] * $_POST["exchange_rate"]; }
 
-		$filterv = array("£",",","€"," ");
+		$filterv = array("Â£",",","â‚¬"," ");
 		$allocate = str_replace($filterv,"",$allocate);
 		
 		$invid = $_POST[$p.'-invid'];	
@@ -309,7 +309,7 @@ else {
 		
 		$allocate = $_POST[$p.'-alloc'];
 	
-		$filterv = array("£",",","€"," ");
+		$filterv = array("Â£",",","â‚¬"," ");
 		$allocate = str_replace($filterv,"",$allocate);
 		
 		$invid = $_POST[$p.'-invid'];	

@@ -48,7 +48,7 @@ class PDF extends FPDF {
 		$gety = $this->GetY(); 
 		$this->Image("../images/invoice_abta.jpg", 185, $gety + 0.5, 16.93,6.77);
 		$this->SetTextColor(151,151,151);  
-		$this->Write(0,"© Copyright Ionian Weddings Ltd. ".date("Y")." – 10 Crane Mews, 32 Gould Road, Twickenham, England, TW2 6RS");
+		$this->Write(0,"Â© Copyright Ionian Weddings Ltd. ".date("Y")." â€“ 10 Crane Mews, 32 Gould Road, Twickenham, England, TW2 6RS");
 		$this->Ln(3.5); 
 		$this->Write(0,"(t) / (f) +44 208 894 1991 - (e) weddings@ionianweddings.co.uk - (w) www.ionianweddings.co.uk");
 		$this->Ln(3.5); 
@@ -254,10 +254,10 @@ foreach ($checkin as $c) {
 		$itemvalue = $c[3];
 		$exrate=$c[6];
 		if($c[4] != "Euro") { 
-			$p_curreny = "£"; 
+			$p_curreny = "Â£"; 
 			$payment_total2 = $qties * ($itemvalue/$exrate);		
 		} else {
-			$p_curreny = "€";
+			$p_curreny = "â‚¬";
 			$payment_total2 = $qties * $itemvalue;
 		}
 		$payment_total += $payment_total2;
@@ -343,10 +343,10 @@ foreach($row2 as $record2) {
 		$itemvalue = $record2[3];
 		$exrate=$pocheck[1];
 		if($record2[4] != "Euro") { 
-			$p_curreny = "£"; 
+			$p_curreny = "Â£"; 
 			$payment_total2 = $qties * ($itemvalue/$exrate);		
 		} else {
-			$p_curreny = "€";
+			$p_curreny = "â‚¬";
 			$payment_total2 = $qties * $itemvalue;
 		}
 		$payment_total += $payment_total2;
@@ -390,7 +390,7 @@ foreach($respra as $pids) {
 		$pdf->Cell(160.05,4,"Part Payment IDs - ".$payids." (".$payd.")",'LR',0,'L',true);
 		$pdf->SetFont('','',6);
 		$pdf->Cell(9.95,5,"1",'LR',0,'C',true);
-		$pdf->Cell(19.95,4,€.' '.number_format($payam,2),'LR',0,'R',true);
+		$pdf->Cell(19.95,4,â‚¬.' '.number_format($payam,2),'LR',0,'R',true);
 		$pdf->Ln(4);
 	}
 }
@@ -437,7 +437,7 @@ if ($comments_r) {
 	$p_filter= array("<strong>","</strong>","<u>","</u>","<i>","</i>","&nbsp;","<ul>","</ul>");
 	$p_note = str_replace($p_filter,"",$comments_r[0]);
 	$p_note = str_replace("<p> ","<p>",$p_note);
-	$p_note = str_replace("<li>","<p> • ",$p_note);
+	$p_note = str_replace("<li>","<p> â€¢ ",$p_note);
 	$p_note = str_replace("</li>","</p>",$p_note);
 	$p_note = preg_replace('~[\r\n]+~', '', $p_note);
 	$p_note = str_replace("&nbsp;", " ", $p_note);

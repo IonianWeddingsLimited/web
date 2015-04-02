@@ -51,10 +51,10 @@ foreach ($checkin as $c) {
 		$itemvalue = $c[3];
 		$exrate=$c[6];
 		if($c[4] != "Euro") { 
-			$p_curreny = "£"; 
+			$p_curreny = "Â£"; 
 			$payment_total2 = $qties * ($itemvalue/$exrate);		
 		} else {
-			$p_curreny = "€";
+			$p_curreny = "â‚¬";
 			$payment_total2 = $qties * $itemvalue;
 		}
 		$payment_total += $payment_total2;
@@ -93,11 +93,11 @@ foreach($row2 as $record2) {
 		$itemvalue = $record2[3];
 		$exrate=$pocheck[1];
 		if($record2[4] != "Euro") { 
-			$p_curreny = "£"; 
+			$p_curreny = "Â£"; 
 			//$payment_total2 = $qties * ($itemvalue/$exrate);
 			$payment_total2 = $qties * $itemvalue;		
 		} else {
-			$p_curreny = "€";
+			$p_curreny = "â‚¬";
 			$payment_total2 = $qties * $itemvalue;
 		}
 		$payment_total += $payment_total2;

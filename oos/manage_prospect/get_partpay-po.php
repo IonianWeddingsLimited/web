@@ -152,10 +152,10 @@ foreach($row as $record) {
 	$purchase_order = $record[0];
 	include("./purchase-order_calc.php");
 
-	$filterva = array(" ",",","€","£","$","-");
+	$filterva = array(" ",",","â‚¬","Â£","$","-");
 
 	$new_total_gbp = number_format($payment_total,2);
-	$filterva = array(" ",",","€","£","$","-");
+	$filterva = array(" ",",","â‚¬","Â£","$","-");
 	$totalin = str_replace($filterva,"",number_format($payment_total,2));
 
 	$list .= "

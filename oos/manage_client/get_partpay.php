@@ -150,7 +150,7 @@ if ($type=="add") {
 		*/
 $invoiceno = $record[0];
 $currency_name="";
-$c_symbol ="£";
+$c_symbol ="Â£";
 
 	$num_rows = $sql_command->count_nrow("clients_options","id","client_id='".addslashes($invoiceno)."' and client_option='continental' and option_value='Yes'");
 	
@@ -609,7 +609,7 @@ $currency_q = $sql_command->select("$database_order_history
 													$db_currency_conversion.currency_symbol",
 												   "WHERE invoice_id='".addslashes($invoiceno)."'");
 			$invoice_rowr = $sql_command->result($invoicer_result);
-			$c_symbol = "£";
+			$c_symbol = "Â£";
 			$p_id = $record[0];
 			if ($record[4]=="Deposit") {
 				$currency_name = $invoice_rowr[0];

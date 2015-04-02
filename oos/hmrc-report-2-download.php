@@ -31,7 +31,7 @@ $gety = $this->GetY();
 $this->Image("../images/invoice_abta.jpg", 185, $gety + 0.5, 16.93,6.77);
 
 $this->SetTextColor(151,151,151);  
-$this->Write(0,"© Copyright Ionian Weddings Ltd. ".date("Y")." – 10 Crane Mews, 32 Gould Road, Twickenham, England, TW2 6RS");
+$this->Write(0,"Â© Copyright Ionian Weddings Ltd. ".date("Y")." â€“ 10 Crane Mews, 32 Gould Road, Twickenham, England, TW2 6RS");
 $this->Ln(3.5); 
 $this->Write(0,"(t) / (f) +44 208 894 1991 - (e) weddings@ionianweddings.co.uk - (w) www.ionianweddings.co.uk");
 $this->Ln(3.5); 
@@ -147,10 +147,10 @@ $date = date("d-m-Y",$record[4]);
 
 $pdf->Cell(20,4,$date,'LR',0,'L',true);
 $pdf->Cell(20,4,$record[0],'LR',0,'L',true);
-$pdf->Cell(15,4,utf8_decode("£")." ".number_format($cost,2),'LR',0,'C',true);
-$pdf->Cell(15,4,utf8_decode("£")." ".number_format($iwcost,2),'LR',0,'C',true);
-$pdf->Cell(15,4,utf8_decode("£")." ".number_format($vat,2),'LR',0,'C',true);
-$pdf->Cell(15,4,utf8_decode("£")." ".number_format($profit,2),'LR',0,'C',true);
+$pdf->Cell(15,4,utf8_decode("Â£")." ".number_format($cost,2),'LR',0,'C',true);
+$pdf->Cell(15,4,utf8_decode("Â£")." ".number_format($iwcost,2),'LR',0,'C',true);
+$pdf->Cell(15,4,utf8_decode("Â£")." ".number_format($vat,2),'LR',0,'C',true);
+$pdf->Cell(15,4,utf8_decode("Â£")." ".number_format($profit,2),'LR',0,'C',true);
 $pdf->Ln(3.6); 
 }
 $pdf->Ln(0.5); 

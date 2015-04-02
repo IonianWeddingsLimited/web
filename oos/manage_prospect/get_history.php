@@ -6,7 +6,7 @@
 		$get_template->bottomHTML();
 		$sql_command->close();
 	}
-	$c_symbol = "£";
+	$c_symbol = "Â£";
 	
 	/*$result = $sql_command->select("$database_supplier_invoices_main,
 									$database_supplier_details,
@@ -92,7 +92,7 @@
 								   ORDER BY quotation_proformas.timestamp DESC");
 	$row = $sql_command->results($result);
 	
-	$c_symbol = "£";
+	$c_symbol = "Â£";
 	foreach($row as $record) {
 	$currency_name = "";
 	$oldsymbol = $c_symbol;

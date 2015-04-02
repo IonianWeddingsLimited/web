@@ -53,12 +53,12 @@ echo "Co-operative Bank PLC";
 echo "A/C No 70913224";
 echo "Sort Code 08-92-50";
 echo "Swift (BIC) - CPBK GB 22";
-echo "IBAN – GB21 CPBK 08925070913224";
+echo "IBAN â€“ GB21 CPBK 08925070913224";
 echo "Balance payments are not refundable; cheques are no longer accepted due to the abolition of the Cheque Guarantee Scheme. We also accept debit cards and credit cards (there is a";
-echo "2% transaction fee for credit cards and 3% for international credit cards) – please ask for a form for card payments. If you prefer to pay in Euros, please let us know.";
+echo "2% transaction fee for credit cards and 3% for international credit cards) â€“ please ask for a form for card payments. If you prefer to pay in Euros, please let us know.";
 echo "THANK YOU FOR YOUR BUSINESS.";
 echo "images/invoice_abta.jpg";
-echo "© Copyright Ionian Weddings Ltd. ".date("Y")." – 10 Crane Mews, 32 Gould Road, Twickenham, England, TW2 6RS";
+echo "Â© Copyright Ionian Weddings Ltd. ".date("Y")." â€“ 10 Crane Mews, 32 Gould Road, Twickenham, England, TW2 6RS";
 echo "(t) / (f) +44 208 894 1991 - (e) weddings@ionianweddings.co.uk - (w) www.ionianweddings.co.uk";
 echo "Registered in England and Wales No. 06137035 | VAT Registration Number: 103185747";
 
@@ -256,8 +256,8 @@ $line_iw_euro = $total_iw_cost_before;
 $line_iw_euro = $total_iw_cost; 	
 }
 if($total_iw_cost != 0) {
-$display_cost = '€ '.number_format($line_iw_euro,2);
-$display_cost = eregi_replace("€ -","- € ",$display_cost);
+$display_cost = 'â‚¬ '.number_format($line_iw_euro,2);
+$display_cost = eregi_replace("â‚¬ -","- â‚¬ ",$display_cost);
 echo $paragraph;
 echo $invoice_record[1];
 echo $display_cost;
@@ -383,8 +383,8 @@ $line_iw_euro = $total_iw_cost_before;
 $line_iw_euro = $total_iw_cost; 	
 }
 if($total_iw_cost != 0) {
-$display_cost = '£ '.number_format($line_iw_euro,2);
-$display_cost = eregi_replace("£ -","- £ ",$display_cost);
+$display_cost = 'Â£ '.number_format($line_iw_euro,2);
+$display_cost = eregi_replace("Â£ -","- Â£ ",$display_cost);
 
 echo $paragraph;
 echo $invoice_record[1];
@@ -513,8 +513,8 @@ $line_iw_euro = $total_iw_cost_before;
 $line_iw_euro = $total_iw_cost; 	
 }
 if($total_iw_cost != 0) {
-$display_cost = '€ '.number_format($line_iw_euro,2);
-$display_cost = eregi_replace("€ -","- € ",$display_cost);
+$display_cost = 'â‚¬ '.number_format($line_iw_euro,2);
+$display_cost = eregi_replace("â‚¬ -","- â‚¬ ",$display_cost);
 echo $paragraph;
 echo $invoice_record[1];
 echo $display_cost;
@@ -527,10 +527,10 @@ $outstanding_euros = $total_payment_euro;
 $outstanding_euros_before = $total_payment_euro_before;
 $euro_discount = $outstanding_euros_before - $outstanding_euros;
 echo "Amount in Euros";
-echo "€ ".number_format($outstanding_euros_before,2);
+echo "â‚¬ ".number_format($outstanding_euros_before,2);
 if($euro_discount != 0) {
 echo "Discount in Euros";
-echo "€ ".number_format($euro_discount,2);
+echo "â‚¬ ".number_format($euro_discount,2);
 }
 $minum_deposit = 0;
 $minum_deposit2 = 0;
@@ -546,7 +546,7 @@ $invoice_record = $sql_command->result($invoice_result);
 if($invoice_record[0]) {
 $total_deposit_paid = eregi_replace(",","",number_format($invoice_record[3] / $invoice_record[6],2));
 echo "Deposit Paid";
-echo "- € ".number_format($invoice_record[3],2);
+echo "- â‚¬ ".number_format($invoice_record[3],2);
 $minum_deposit = $total_deposit_paid;
 $minum_deposit2 = $invoice_record[3];
 }
@@ -555,7 +555,7 @@ $minum_deposit2 = $invoice_record[3];
 
 if($minum_deposit2 > 0 or $euro_discount != 0) {
 echo "Total in Euros";
-echo "€ ".number_format($outstanding_euros_before - $minum_deposit2 - $euro_discount,2);
+echo "â‚¬ ".number_format($outstanding_euros_before - $minum_deposit2 - $euro_discount,2);
 }
 $outstanding_pounds = $outstanding_euros  / $record[22];
 $outstanding_pounds_before = $outstanding_euros_before / $record[22];
@@ -581,7 +581,7 @@ $show_additional = "Yes";
 $checktotal = $outstanding_pounds - $minum_deposit;
 if($checktotal > 0) {
 echo "Amount Outstanding in GBP";
-echo "£ ".number_format($outstanding_pounds - $minum_deposit,2);
+echo "Â£ ".number_format($outstanding_pounds - $minum_deposit,2);
 }
 $show_additional = "No";
 $total_payment = 0;
@@ -685,8 +685,8 @@ $line_iw_euro = $total_iw_cost;
 
 $total_additional += $line_iw_euro;
 if($total_iw_cost != 0) {
-$display_cost = '£ '.number_format($line_iw_euro,2);
-$display_cost = eregi_replace("£ -","- £ ",$display_cost);
+$display_cost = 'Â£ '.number_format($line_iw_euro,2);
+$display_cost = eregi_replace("Â£ -","- Â£ ",$display_cost);
 echo $paragraph;
 echo $invoice_record[1];
 echo $display_cost;
@@ -695,7 +695,7 @@ echo $display_cost;
 }
 if($checktotal > 0 and $total_additional > 0) {
 echo "Additional Amount in GBP";
-echo "£ ".number_format($total_additional,2);
+echo "Â£ ".number_format($total_additional,2);
 }
 
 if($package_exists == "Yes") {
@@ -710,7 +710,7 @@ $invoice_record = $sql_command->result($invoice_result);
 if($invoice_record[0]) {
 $total_deposit_paid = eregi_replace(",","",$invoice_record[3]);
 echo "Deposit Paid";
-echo "- £ ".number_format($total_deposit_paid,2);
+echo "- Â£ ".number_format($total_deposit_paid,2);
 $minum_deposit = $total_deposit_paid;
 }
 }
@@ -719,9 +719,9 @@ $discount_amount_calc = ($outstanding_pounds_before - $outstanding_pounds) + ($t
 if($amount_discount != 0) {
 $total_gbp = $outstanding_pounds_before + $total_payment_pound_before - $minum_deposit;
 echo "TOTAL in GBP";
-echo "£ ".number_format($total_gbp,2);
+echo "Â£ ".number_format($total_gbp,2);
 echo "Discount in GBP";
-echo "£ ".number_format($amount_discount,2);
+echo "Â£ ".number_format($amount_discount,2);
 } else {
 $discount_amount_calc = 0;
 }
@@ -729,7 +729,7 @@ $discount_amount_calc = 0;
 
 $total_gbp = $outstanding_pounds + $total_payment_pound - $minum_deposit ;
 echo "TOTAL Payable in GBP";
-echo "£ ".number_format($total_gbp,2);
+echo "Â£ ".number_format($total_gbp,2);
 echo "invoice-".$_GET["invoice"].".pdf";
 $sql_command->close();
 ?>

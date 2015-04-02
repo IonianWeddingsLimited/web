@@ -153,9 +153,9 @@ $record[1] = ltrim($record[1]);
 $record[1] = trim($record[1]);
 
 if($record[7] == "Euro") {
-$type = "€ ";
+$type = "â‚¬ ";
 } elseif($record[7] == "Pound") {
-$type = "£ ";
+$type = "Â£ ";
 } else { 
 $type = "";
 }

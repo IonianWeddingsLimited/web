@@ -190,11 +190,11 @@ foreach($row as $record) {
 	$purchase_order = $record[0];
 	include("./purchase-order_calc.php");
 
-	$filterva = array(" ",",","€","£","$","-");
+	$filterva = array(" ",",","â‚¬","Â£","$","-");
 
 $payment_total = ($payment_total==0) ? 0 : $payment_total;
 	$new_total_gbp = number_format($payment_total,2);
-	$filterva = array(" ",",","€","£","$","-");
+	$filterva = array(" ",",","â‚¬","Â£","$","-");
 	$totalin = str_replace($filterva,"",number_format($payment_total,2));
 
 	$list .= "
@@ -449,10 +449,10 @@ foreach($row as $record) {
 	$purchase_order = $record[0];
 	include("./purchase-order_calc.php");
 
-	$filterva = array(" ",",","€","£","$","-");
+	$filterva = array(" ",",","â‚¬","Â£","$","-");
 $payment_total = ($payment_total==0) ? 0 : $payment_total;
 	$new_total_gbp = str_replace("-","",number_format($payment_total,2));
-	$filterva = array(" ",",","€","£","$","-");
+	$filterva = array(" ",",","â‚¬","Â£","$","-");
 	$totalin = str_replace($filterva,"",number_format($payment_total,2));
 
 	$result2 = $sql_command->select("supplier_payments","p_id,p_amount","WHERE pay_no=".$_GET['pid']." AND order_id=".$record[1]);

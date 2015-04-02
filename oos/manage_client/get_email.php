@@ -114,7 +114,7 @@ if ($_POST['etarget']=="emailconfirm" || $_GET['a']=="emailconfirm") {
 		
 			$respr = $sql_command->result($resp);
 			$totalpp = $record[1] - $respr[0];
-			$new_total_gbp = "£ ".number_format($totalpp,2);
+			$new_total_gbp = "Â£ ".number_format($totalpp,2);
 			$totalin = $totalpp;
 			$DepositAmount = "<strong>".$new_total_gbp."</strong>";
 		} else {
@@ -132,7 +132,7 @@ if ($_POST['etarget']=="emailconfirm" || $_GET['a']=="emailconfirm") {
 			$new_total_gbp	=	$total_gbp - $total_prev;
 			$new_total_gbp	=	$new_total_gbp - $respr[0];
 			$totalin		=	$new_total_gbp;
-			$new_total_gbp	=	"£ ".number_format($new_total_gbp,2);
+			$new_total_gbp	=	"Â£ ".number_format($new_total_gbp,2);
 		}
 		$list .= "<tr>";
 		
@@ -191,7 +191,7 @@ if ($_POST['etarget']=="emailconfirm" || $_GET['a']=="emailconfirm") {
 	$message .="<ul>";
 	$message .="<li style=\"color: #595959; font-family:Arial, Helvetica, sans-serif; font-size: 11px; margin: 0px 0px 0px 0px; padding: 0px 0px 0px 0px;\">4 months before your wedding - we need to finalise your package so at this point you should advise us of final guest numbers, menu choices, flower colours, cake flavour etc so we can confirm your wedding package and reception arrangements and final price.  Please also let us know if you'd like us to carry out the paperwork for you so we can include this in the invoice</li>";
 	$message .="<li style=\"color: #595959; font-family:Arial, Helvetica, sans-serif; font-size: 11px; margin: 0px 0px 0px 0px; padding: 0px 0px 0px 0px;\">3 months before your wedding - we need to receive your final balance</li>";
-	$message .="<li style=\"color: #595959; font-family:Arial, Helvetica, sans-serif; font-size: 11px; margin: 0px 0px 0px 0px; padding: 0px 0px 0px 0px;\">2 months before your wedding – if we are doing your paperwork, please send it to us as soon as you have the certificates of non-impediment (approx 2.5 months before your wedding and not less than 2 months before your wedding)</li>";
+	$message .="<li style=\"color: #595959; font-family:Arial, Helvetica, sans-serif; font-size: 11px; margin: 0px 0px 0px 0px; padding: 0px 0px 0px 0px;\">2 months before your wedding â€“ if we are doing your paperwork, please send it to us as soon as you have the certificates of non-impediment (approx 2.5 months before your wedding and not less than 2 months before your wedding)</li>";
 	$message .="<li style=\"color: #595959; font-family:Arial, Helvetica, sans-serif; font-size: 11px; margin: 0px 0px 0px 0px; padding: 0px 0px 0px 0px;\">1 month before your wedding - you should send us your table / seating plans, and we'll confirm details of your pre-wedding meeting with your wedding co-ordinator which will take place when you arrive in Cyprus.  Please also send us:</li>";
 	$message .="<li style=\"color: #595959; font-family:Arial, Helvetica, sans-serif; font-size: 11px; margin: 0px 0px 0px 0px; padding: 0px 0px 0px 0px;\">Flight details outgoing (date, time, flight number)</li>";
 	$message .="<li style=\"color: #595959; font-family:Arial, Helvetica, sans-serif; font-size: 11px; margin: 0px 0px 0px 0px; padding: 0px 0px 0px 0px;\">Flight details return (date, time, flight number)</li>";
@@ -200,7 +200,7 @@ if ($_POST['etarget']=="emailconfirm" || $_GET['a']=="emailconfirm") {
 	$message .="</ul>";
 	$message .="<p style=\"color: #595959; font-family:Arial, Helvetica, sans-serif; font-size: 11px; margin: 0px 0px 0px 0px; padding: 0px 0px 15px 0px;\">We don't want to bombard you with emails so once initial arrangements are made we'll usually only contact you to arrange the above, however part of our service is to help you in the months and weeks leading up to your wedding.</p>";
 	$message .="<br />";
-	$message .="<p style=\"color: #595959; font-family:Arial, Helvetica, sans-serif; font-size: 11px; margin: 0px 0px 0px 0px; padding: 0px 0px 15px 0px;\">Please note: we always try to reply to emails within 24 – 48 hours but sometimes, especially during peak season and Christmas, we get delays from our suppliers in Greece so it may take longer.</p>";
+	$message .="<p style=\"color: #595959; font-family:Arial, Helvetica, sans-serif; font-size: 11px; margin: 0px 0px 0px 0px; padding: 0px 0px 15px 0px;\">Please note: we always try to reply to emails within 24 â€“ 48 hours but sometimes, especially during peak season and Christmas, we get delays from our suppliers in Greece so it may take longer.</p>";
 	$message .="<br />";
 	$message .="<p style=\"color: #595959; font-family:Arial, Helvetica, sans-serif; font-size: 11px; margin: 0px 0px 0px 0px; padding: 0px 0px 15px 0px;\">In the meantime if you have any questions at all, please feel free to give us a call on 0208 894 1991 or email us.</p>";
 	$message .="<br />";
@@ -267,7 +267,7 @@ if ($_POST['etarget']=="emailinv" || $_GET['a']=="emailinv") {
 		
 			$respr = $sql_command->result($resp);
 			$totalpp = $record[1] - $respr[0];
-			$new_total_gbp = "£ ".number_format($totalpp,2);
+			$new_total_gbp = "Â£ ".number_format($totalpp,2);
 			$totalin = $totalpp;
 		} else {
 			$invoiceno = $record[0];
@@ -284,7 +284,7 @@ if ($_POST['etarget']=="emailinv" || $_GET['a']=="emailinv") {
 			$new_total_gbp	=	$total_gbp - $total_prev;
 			$new_total_gbp	=	$new_total_gbp - $respr[0];
 			$totalin		=	$new_total_gbp;
-			$new_total_gbp	=	"£ ".number_format($new_total_gbp,2);
+			$new_total_gbp	=	"Â£ ".number_format($new_total_gbp,2);
 		}
 		$list .= "<tr>";
 		

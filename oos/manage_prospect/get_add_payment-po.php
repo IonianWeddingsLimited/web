@@ -45,7 +45,7 @@ if ($posttype == "add") {
 		$allocate = $_POST[$p.'-alloc'];	
 		$totals = $totals + $allocate;	
 		$itotals = $_POST[$p.'-total'];
-		$filterv = array("£",",","€"," ");
+		$filterv = array("Â£",",","â‚¬"," ");
 		$allocate = str_replace($filterv,"",$allocate);
 		if ($allocate<0) { $error .= "Cannot allocate a negative amount."; }
 		if ($allocate>$itotals) { $error .= "Total allocated for Order ".$p." exceeds invoice amount.<br />"; }
@@ -87,7 +87,7 @@ if ($posttype == "add") {
 		$invid = $_POST[$p.'-invid'];
 		$mainid = $_POST[$p.'-mainid'];
 		
-		$filterv = array("£",",","€"," ");
+		$filterv = array("Â£",",","â‚¬"," ");
 		$allocate = str_replace($filterv,"",$allocate);
 		
 		$cols = "pay_no,invoice_id,order_id,p_amount,status";
@@ -162,7 +162,7 @@ else {
 
 	foreach ($payinv as $p) {
 		$allocate = $_POST[$p.'-alloc'];
-		$filterv = array("£",",","€"," ");
+		$filterv = array("Â£",",","â‚¬"," ");
 		$allocate = str_replace($filterv,"",$allocate);
 		$current = $_POST[$p.'-current'];
 		$itotals = $_POST[$p.'-total'];
@@ -202,7 +202,7 @@ else {
 		$pid = $_POST[$p.'-pid'];
 		$mainid = $_POST[$p.'-mainid'];
 		
-		$filterv = array("£",",","€"," ");
+		$filterv = array("Â£",",","â‚¬"," ");
 		$allocate = str_replace($filterv,"",$allocate);
 		
 		

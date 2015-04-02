@@ -111,7 +111,7 @@ if ($record[4]=="Deposit") {
 
 	$respr = $sql_command->result($resp);
 	$totalpp = $record[1] - $respr[0];
-	$new_total_gbp = "£ ".number_format($totalpp,2);
+	$new_total_gbp = "Â£ ".number_format($totalpp,2);
 	$totalin = $totalpp;
 }
 else {
@@ -129,7 +129,7 @@ else {
 	$new_total_gbp	=	$total_gbp - $total_prev;
 	$new_total_gbp	=	$new_total_gbp - $respr[0];
 	$totalin		=	$new_total_gbp;
-	$new_total_gbp	=	"£ ".number_format($new_total_gbp,2);
+	$new_total_gbp	=	"Â£ ".number_format($new_total_gbp,2);
 }
 $list .= "<tr>";
 
