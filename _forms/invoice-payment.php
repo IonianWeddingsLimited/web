@@ -2,7 +2,7 @@
 $(function() {
 var payinvcheck = 0;
 var submitenabled = false;
-var payLimit = <?php echo $payLimit; ?>;
+var payLimit = <? echo $payLimit; ?>;
 var thisChk = 0;
 var thisChkA = 0;
 var totalA = 0;
@@ -19,7 +19,7 @@ var myForm = $("input[name='payinv[]']");
 				$("#cart-total").val(totalA); 
 			$("input[name='payinv[]']").eq(i).attr("checked","checked");
 				if (totalA>=payLimit) {
-					alert("There is a �"+payLimit+" payment limit, exceeding this limit will cause a part payment to be allocated to the bottom invoice. \n\n\nIf you have selected multiple invoices, please feel free to make multiple payments."); 
+					alert("There is a £"+payLimit+" payment limit, exceeding this limit will cause a part payment to be allocated to the bottom invoice. \n\n\nIf you have selected multiple invoices, please feel free to make multiple payments."); 
 					$("input[name='payinv[]']:not(:checked)").attr("disabled","disabled"); 
 				}
 		}
@@ -47,7 +47,7 @@ var myForm = $("input[name='payinv[]']");
 		if (payinvcheck>currentchk) {
 			totalA = parseFloat(totalA,12) + parseFloat(thisChkA,12);
 			if (totalA>=payLimit) { 
-				alert("There is a �"+payLimit+" payment limit, exceeding this limit will cause a part payment to be allocated to the bottom invoice. \n\n\nIf you have selected multiple invoices, please feel free to make multiple payments."); 
+				alert("There is a £"+payLimit+" payment limit, exceeding this limit will cause a part payment to be allocated to the bottom invoice. \n\n\nIf you have selected multiple invoices, please feel free to make multiple payments."); 
 				$("input[name='payinv[]']:not(:checked)").attr("disabled","disabled"); 
 			}
 		}
@@ -154,7 +154,7 @@ if (isset($_SESSION['iwcid'])) {
 ?>
 <div class="pageform">
 				<div class='formheader'>
-					<h1>Hello <?php echo $cname; ?> <span class="notme">(<a href="/invoice-payment/unset/" title="exit" nofollow>Not you? click here</a>)</span></h1>
+					<h1>Hello <? echo $cname; ?> <span class="notme">(<a href="/invoice-payment/unset/" title="exit" nofollow>Not you? click here</a>)</span></h1>
 					<p>You are able to view and pay all your invoices marked as outstanding, if you have a query or an invoice is listed or is not listed below <a href="/contact-us/" title="Contact Us" target="_blank">please contact us.</a></p>
 				</div>
 				<div class="formheader">
@@ -162,50 +162,50 @@ if (isset($_SESSION['iwcid'])) {
 				</div>
 					<div class="formrow">
 						<div class="formlabel">Name:</div>
-						<div class="formelement"><?php echo $fname; ?></div>
+						<div class="formelement"><? echo $fname; ?></div>
 						<div class="clear"></div>
 					</div>
 					<div class="formrow">
 						<div class="formlabel">Address:</div>
 						<div class="formelement">
-							<?php echo $add1; if($add1) echo "<br />"; ?>
-							<?php echo $add2; if($add2) echo "<br />"; ?>
-							<?php echo $add3; if($add3) echo "<br />"; ?>
-              <?php echo $town; if($town) echo "<br />"; ?>
+							<? echo $add1; if($add1) echo "<br />"; ?>
+							<? echo $add2; if($add2) echo "<br />"; ?>
+							<? echo $add3; if($add3) echo "<br />"; ?>
+              <? echo $town; if($town) echo "<br />"; ?>
 						</div>
 						<div class="clear"></div>
 					</div>
 					<div class="formrow">
 						<div class="formlabel">Post code:</div>
-						<div class="formelement"><?php echo $pcode; ?></div>
+						<div class="formelement"><? echo $pcode; ?></div>
 						<div class="clear"></div>
 					</div>
 					<div class="formrow">
 						<div class="formlabel">Wedding Date:</div>
-						<div class="formelement"><?php echo $wdates; ?></div>
+						<div class="formelement"><? echo $wdates; ?></div>
 						<div class="clear"></div>
 					</div>
 					<div class="formrow">
 						<div class="formlabel">Telephone:</div>
-						<div class="formelement"><?php echo $contactno; ?></div>
+						<div class="formelement"><? echo $contactno; ?></div>
 						<div class="clear"></div>
 					</div>
 					<div class="formrow">
 						<div class="formlabel">Mobile:</div>
-						<div class="formelement"><?php echo $mobno; ?></div>
+						<div class="formelement"><? echo $mobno; ?></div>
 						<div class="clear"></div>
 					</div>
 					<div class="formrow">
 						<div class="formlabel">Email:</div>
-						<div class="formelement"><a href="mailto:<?php echo $emaila; ?>" title="<?php echo $emaila; ?>"><?php echo $emaila; ?></a></div>
+						<div class="formelement"><a href="mailto:<? echo $emaila; ?>" title="<? echo $emaila; ?>"><? echo $emaila; ?></a></div>
 						<div class="clear"></div>
 					</div>
- <?php 
+ <? 
 if(isset($_POST['payinvoices']) || isset($_POST['payinvoice'])) {
 
 	$desc=""; 
 	if(isset($_POST['payinvoice'])) {
-		$filterva = array(",","�","$","�"," ","-");
+		$filterva = array(",","£","$","€"," ","-");
 		$p = $_POST['payinvoice'];
 		$link = "client_invoice";
 		$totaltopay=array();
@@ -213,7 +213,7 @@ if(isset($_POST['payinvoices']) || isset($_POST['payinvoice'])) {
 		$dateline = $_POST[$p.'-date'];
 		$itype = $_POST[$p.'-type'];
 		$itotal = str_replace($filterva,"",$itotal);
-		$itotal = "� ".number_format($_POST[$p.'-total'],2);
+		$itotal = "£ ".number_format($_POST[$p.'-total'],2);
 		$itotals = $_POST[$p.'-total'];
 		$iorderid = $_POST[$p.'-orderid'];
 
@@ -242,7 +242,7 @@ if(isset($_POST['payinvoices']) || isset($_POST['payinvoice'])) {
 		$i=0;
 		$newarray = implode(",", $payinv);
 		
-		$filterva = array(",","�","$","�"," ","-");
+		$filterva = array(",","£","$","€"," ","-");
 		foreach ($payinv as $p_amount) {
 			$pay_a[$p_amount] = number_format($_POST[$p_amount.'-total'],2);
 		}
@@ -255,7 +255,7 @@ if(isset($_POST['payinvoices']) || isset($_POST['payinvoice'])) {
 			$itype = $_POST[$p.'-type'];
 			
 
-			$itotal = "� ".number_format($_POST[$p.'-total'],2);
+			$itotal = "£ ".number_format($_POST[$p.'-total'],2);
 			$itotals = str_replace($filterva,"",$itotal);
 			$iorderid = $_POST[$p.'-orderid'];
 
@@ -281,12 +281,12 @@ if(isset($_POST['payinvoices']) || isset($_POST['payinvoice'])) {
 								<div class=\"formlisttd\">".$itype."</div>
 								<div class=\"formlisttd\">".$dateline."</div>
 								<div class=\"formlisttd\">n/a</div>
-								<div class=\"formlisttd\">� 0.00</div>
+								<div class=\"formlisttd\">£ 0.00</div>
 							</div>
 							";
 			}
 			else{
-				$filterva = array(",","�","$","�"," ","-");
+				$filterva = array(",","£","$","€"," ","-");
 				$curr_total = str_replace($filterva,"",number_format(array_sum($totaltopay),2));
 				$totaltopay[$p] = str_replace($filterva,"",number_format($itotals,2));
 				
@@ -308,7 +308,7 @@ if(isset($_POST['payinvoices']) || isset($_POST['payinvoice'])) {
 								<div class=\"formlisttd\">
 									<a href=\"$site_url/".$link.".php?invoice=".$p."\" target=\"_blank\">Click here</a>
 								</div>";				
-					$list .= "<div id=\"".$payID."\" data-desc=\"".$p.":".$iorderid.":".str_replace($filterva,"",number_format($itotals,2))."\" data-amount=\"".str_replace($filterva,"",number_format($itotals,2))."\" class=\"formlisttd\">� ".number_format($itotals,2)."</div></div>";
+					$list .= "<div id=\"".$payID."\" data-desc=\"".$p.":".$iorderid.":".str_replace($filterva,"",number_format($itotals,2))."\" data-amount=\"".str_replace($filterva,"",number_format($itotals,2))."\" class=\"formlisttd\">£ ".number_format($itotals,2)."</div></div>";
 					$totaltopay[$p] = str_replace($filterva,"",number_format($itotals,2));
 				}
 				else {
@@ -334,13 +334,13 @@ if(isset($_POST['payinvoices']) || isset($_POST['payinvoice'])) {
 						<div class="formlistth">View PDF</div>
 						<div class="formlistth">Amount</div>
 					</div>
-					<?php echo $list; ?>
+					<?	echo $list; ?>
 					<div id="ccload" class="formlisttr">
 						<div class="formlisttd">&nbsp;</div>
 						<div class="formlisttd">&nbsp;</div>
 						<div class="formlisttd">&nbsp;</div>
 						<div class="formlisttd">Total:</div>
-						<div id="stotal" class="formlisttd"><strong><?php echo "� ".number_format(array_sum($totaltopay),2); ?></strong></div>
+						<div id="stotal" class="formlisttd"><strong><? echo "£ ".number_format(array_sum($totaltopay),2); ?></strong></div>
 					</div>
 				</div>
 				<div class="formlisttable">
@@ -359,7 +359,7 @@ else {
  <div class='formheader'>
   <h1>Invoices, Quotations and Deposits</h1>
  </div>
- <?php echo "<form class=\"pageform\" name=\"payin\" action=\"$site_url/invoice-payment/\" method=\"post\">"; ?>
+ <?	echo "<form class=\"pageform\" name=\"payin\" action=\"$site_url/invoice-payment/\" method=\"post\">"; ?>
 <div class="formlist">
 	<div class="formlisttable">
 		<div class="formlisttr desktopcart">
@@ -372,7 +372,7 @@ else {
 			<div class="formlistth">Select</div>
 			<div class="formlistth">Pay</div>
 		</div>
- <?php 
+ <? 
  $result = $sql_command->select("$database_customer_invoices,$database_order_details","$database_customer_invoices.id,
 							$database_customer_invoices.iw_cost,
 							$database_customer_invoices.status,
@@ -427,16 +427,16 @@ if ($record[4]=="Deposit") {
 
 	$respr = $sql_command->result($resp);
 	$totalpp = $record[1] - $respr[0];
-	$new_total_gbp = "� ".number_format($totalpp,2);
+	$new_total_gbp = "£ ".number_format($totalpp,2);
 	$totalin = number_format($totalpp,2);
 }
 else {
 	$invoiceno = $record[0];
 	include("_includes/fn_invoice-payment-v3.php");
 	$totalin		=	number_format($total_gbp,2);
-	$new_total_gbp	=	"� ".number_format($total_gbp,2);
+	$new_total_gbp	=	"£ ".number_format($total_gbp,2);
 }
-$filterva = array(",","�","$","�"," ","-");
+$filterva = array(",","£","$","€"," ","-");
 $totalin = str_replace($filterva,"",$totalin);
 $list .= "
 <div class=\"formlisttr mobilecart\">
@@ -487,7 +487,7 @@ $list .= "
 }
 
 echo $list; ?></div></div>
- <?php if($list) { ?>
+ <? if($list) { ?>
 		<div class="formlist">
 			<div class="formlisttable">
 				<div class="formlisttr">
@@ -500,7 +500,7 @@ echo $list; ?></div></div>
 	</form>
   </div>
 
-<?php 
+<? 
 }
 else {
 ?>
@@ -514,7 +514,7 @@ else {
 		</div>
 	</form>
   </div>
-<?php
+<?	
 }
 }
 }
@@ -525,7 +525,7 @@ else {
 		$( "#wedding-d" ).datepicker({ dateFormat: 'dd/mm/yy' });
 	});
 	</script>
-<form action="<?php echo $site_url; ?>/invoice-payment/" class="pageform" id="invoices" method="post" name="invoices">
+<form action="<? echo $site_url; ?>/invoice-payment/" class="pageform" id="invoices" method="post" name="invoices">
  <input type="hidden" name="page" value="invoice">
  <div class="formheader">
   <h1>Pay an Invoice</h1>
@@ -534,14 +534,14 @@ else {
  <div class="formrow">
   <label class="formlabel" for="customer-id">Ionian Weddings ID:</label>
   <div class="formelement">
-   <input class="formtextfieldlong" id="customer-id" name="customer-id" type="text" value="<?php echo $cuid; ?>" />
+   <input class="formtextfieldlong" id="customer-id" name="customer-id" type="text" value="<? echo $cuid; ?>" />
   </div>
   <div class="clear"></div>
  </div>
  <div class="formrow">
   <label class="formlabel" for="wedding-d">Date of Wedding:</label>
   <div class="formelement">
-   <input class="formtextfieldlong forminput" id="wedding-d" name="wedding-d" type="text" value="<?php echo $wdate; ?>" title="DD/MM/YYYY" />
+   <input class="formtextfieldlong forminput" id="wedding-d" name="wedding-d" type="text" value="<? echo $wdate; ?>" title="DD/MM/YYYY" />
   </div>
   <div class="clear"></div>
  </div>
@@ -562,13 +562,13 @@ else {
  <div class="formrow">
  <label class="formlabel" for="viewinvoice">&nbsp;</label>
  <div class="formelement">
-  <p><?php echo $errori ; ?></p>
-  <p><?php echo $errord ; ?></p>
+  <p><? echo $errori ; ?></p>
+  <p><? echo $errord ; ?></p>
  </div>
  <div class="clear"></div>
  </div>
 </form>
-<?php } ?>
+<? } ?>
 <div class="cardlogorow">
  <!-- Payment Methods Displayed -->
  <!--
@@ -578,13 +578,13 @@ else {
  <ul>
 	<!-- Powered by WorldPay logo-->
 	<li class="cardlogoitem floatleft"><a href="http://www.worldpay.com/" target="_blank" title="Payment Processing - WorldPay - Opens in new browser window"><img src="http://www.worldpay.com/images/poweredByWorldPay.gif" border="0" alt="WorldPay Payments Processing"></a></li>
-	<li class="cardlogoitem floatright"><?php echo $displayVISD; ?></li>
-	<li class="cardlogoitem floatright"><?php echo $displayVISE; ?></li>
-	<li class="cardlogoitem floatright"><?php echo $displayMaestro; ?></li>
-	<li class="cardlogoitem floatright"><?php echo $displayVisa; ?></li>
-	<li class="cardlogoitem floatright"><?php echo $displayMastercard; ?></li>
-	<li class="cardlogoitem floatright"><?php echo $displayJCB; ?></li>
-	<li class="cardlogoitem floatright"><?php echo $displayELV; ?></li>
+	<li class="cardlogoitem floatright"><? echo $displayVISD; ?></li>
+	<li class="cardlogoitem floatright"><? echo $displayVISE; ?></li>
+	<li class="cardlogoitem floatright"><? echo $displayMaestro; ?></li>
+	<li class="cardlogoitem floatright"><? echo $displayVisa; ?></li>
+	<li class="cardlogoitem floatright"><? echo $displayMastercard; ?></li>
+	<li class="cardlogoitem floatright"><? echo $displayJCB; ?></li>
+	<li class="cardlogoitem floatright"><? echo $displayELV; ?></li>
 	<li class="clear"></li>
  </ul>
 </div>

@@ -142,7 +142,7 @@ $island_html
 		$get_template->topHTML();
 		?>
 <h1>Form - Search Submissions</h1>
-<p><b>Submitted on:</b> <?php echo $dateline; ?> at <?php echo $dateline2; ?></p>
+<p><b>Submitted on:</b> <? echo $dateline; ?> at <? echo $dateline2; ?></p>
 <script language="javascript" type="text/javascript">
 function deletechecked()
 {
@@ -154,8 +154,8 @@ function deletechecked()
 }  
 </script>
 <div>
-<form action="<?php echo $site_url; ?>/oos/search-submissions.php" method="POST" class="pageform">
-<input type="hidden" name="id" value="wedding_t_<?php echo stripslashes($record[0]); ?>" />
+<form action="<? echo $site_url; ?>/oos/search-submissions.php" method="POST" class="pageform">
+<input type="hidden" name="id" value="wedding_t_<? echo stripslashes($record[0]); ?>" />
 <div class="formheader">
 		<h1>Personal Details</h1>
 		<h2>Bride</h2>
@@ -163,42 +163,42 @@ function deletechecked()
 	<div class="formrow">
 		<label class="formlabel" for="weddingquestionnaire_bride_firstname">First name</label>
 		<div class="formelement">
-			<?php echo stripslashes($record[1]); ?>
+			<? echo stripslashes($record[1]); ?>
 		</div>
 		<div class="clear"></div>
 	</div>
 	<div class="formrow">
 		<label class="formlabel" for="weddingquestionnaire_bride_lastname">Last name</label>
 		<div class="formelement">
-			<?php echo stripslashes($record[2]); ?>
+			<? echo stripslashes($record[2]); ?>
 		</div>
 		<div class="clear"></div>
 	</div>
 	<div class="formrow">
 		<label class="formlabel" for="weddingquestionnaire_bride_email">Email</label>
 		<div class="formelement">
-			<?php echo stripslashes($record[3]); ?>
+			<? echo stripslashes($record[3]); ?>
 		</div>
 		<div class="clear"></div>
 	</div>
 	<div class="formrow">
 		<label class="formlabel" for="weddingquestionnaire_bride_tel">Telephone</label>
 		<div class="formelement">
-			<?php echo stripslashes($record[4]); ?>
+			<? echo stripslashes($record[4]); ?>
 		</div>
 		<div class="clear"></div>
 	</div>
 	<div class="formrow">
 		<label class="formlabel" for="weddingquestionnaire_bride_nationality">Nationality</label>
 		<div class="formelement">
-<?php echo stripslashes($record[5]); ?>
+<? echo stripslashes($record[5]); ?>
 		</div>
 		<div class="clear"></div>
 	</div>
 	<div class="formrow">
 		<label class="formlabel" for="weddingquestionnaire_bride_countryofresidenceID">Country of residence (current)</label>
 		<div class="formelement">
-<?php echo stripslashes($record[6]); ?>
+<? echo stripslashes($record[6]); ?>
 		</div>
 		<div class="clear"></div>
 	</div>
@@ -208,42 +208,42 @@ function deletechecked()
 	<div class="formrow">
 		<label class="formlabel" for="weddingquestionnaire_groom_firstname">First name</label>
 		<div class="formelement">
-			<?php echo stripslashes($record[7]); ?>
+			<? echo stripslashes($record[7]); ?>
 		</div>
 		<div class="clear"></div>
 	</div>
 	<div class="formrow">
 		<label class="formlabel" for="weddingquestionnaire_groom_lastname">Last name</label>
 		<div class="formelement">
-			<?php echo stripslashes($record[8]); ?>
+			<? echo stripslashes($record[8]); ?>
 		</div>
 		<div class="clear"></div>
 	</div>
 	<div class="formrow">
 		<label class="formlabel" for="weddingquestionnaire_groom_tel">Telephone</label>
 		<div class="formelement">
-			<?php echo stripslashes($record[9]); ?>
+			<? echo stripslashes($record[9]); ?>
 		</div>
 		<div class="clear"></div>
 	</div>
 	<div class="formrow">
 		<label class="formlabel" for="weddingquestionnaire_groom_email">Email</label>
 		<div class="formelement">
-<?php echo stripslashes($record[10]); ?>
+<? echo stripslashes($record[10]); ?>
 		</div>
 		<div class="clear"></div>
 	</div>
 	<div class="formrow">
 		<label class="formlabel" for="weddingquestionnaire_groom_nationality">Nationality</label>
 		<div class="formelement">
-		<?php echo stripslashes($record[11]); ?>
+		<? echo stripslashes($record[11]); ?>
 		</div>
 		<div class="clear"></div>
 	</div>
 	<div class="formrow">
 		<label class="formlabel" for="weddingquestionnaire_groom_countryofresidenceID">Country of residence (current)</label>
 		<div class="formelement">
-			<?php echo stripslashes($record[12]); ?>
+			<? echo stripslashes($record[12]); ?>
 		</div>
 		<div class="clear"></div>
 	</div>
@@ -253,49 +253,49 @@ function deletechecked()
 	<div class="formrow">
 		<label class="formlabel" for="weddingquestionnaire_address_1">Address Line 1</label>
 		<div class="formelement">
-		<?php echo stripslashes($record[13]); ?>
+		<? echo stripslashes($record[13]); ?>
 		</div>
 		<div class="clear"></div>
 	</div>
 	<div class="formrow">
 		<label class="formlabel" for="weddingquestionnaire_address_2">Address Line 2</label>
 		<div class="formelement">
-<?php echo stripslashes($record[14]); ?>
+<? echo stripslashes($record[14]); ?>
 		</div>
 		<div class="clear"></div>
 	</div>
 	<div class="formrow">
 		<label class="formlabel" for="weddingquestionnaire_address_3">Address Line 3</label>
 		<div class="formelement">
-		<?php echo stripslashes($record[15]); ?>
+		<? echo stripslashes($record[15]); ?>
 		</div>
 		<div class="clear"></div>
 	</div>
 	<div class="formrow">
 		<label class="formlabel" for="weddingquestionnaire_town">Town/City</label>
 		<div class="formelement">
-<?php echo stripslashes($record[16]); ?>
+<? echo stripslashes($record[16]); ?>
 		</div>
 		<div class="clear"></div>
 	</div>
 	    	<div class="formrow">
 		<label class="formlabel" for="weddingquestionnaire_countryID">County</label>
 		<div class="formelement">
-		<?php echo stripslashes($record[36]); ?>
+		<? echo stripslashes($record[36]); ?>
 		</div>
 		<div class="clear"></div>
 	</div>
 	<div class="formrow">
 		<label class="formlabel" for="weddingquestionnaire_countryID">Country</label>
 		<div class="formelement">
-		<?php echo stripslashes($record[17]); ?>
+		<? echo stripslashes($record[17]); ?>
 		</div>
 		<div class="clear"></div>
 	</div>
 	<div class="formrow">
 		<label class="formlabel" for="weddingquestionnaire_postcode">Post code</label>
 		<div class="formelement">
-		<?php echo stripslashes($record[18]); ?>
+		<? echo stripslashes($record[18]); ?>
 		</div>
 		<div class="clear"></div>
 	</div>
@@ -304,9 +304,9 @@ function deletechecked()
 	</div>
 	<div class="formrow">
 		<div class="dest_form" style="margin-left:20px;">
-		<?php echo $html; ?>
+		<? echo $html; ?>
         <div style="clear:left;"></div>
-        <p style="margin-left:20px; color:#ccc;"><strong>Comments/Others:</strong><br /> <?php echo stripslashes($record[35]); ?></p>
+        <p style="margin-left:20px; color:#ccc;"><strong>Comments/Others:</strong><br /> <? echo stripslashes($record[35]); ?></p>
         </div>
 	</div>
 	<div class="formheader">
@@ -315,14 +315,14 @@ function deletechecked()
 	<div class="formrow">
 		<label class="formlabel" for="weddingquestionnaire_date">Estimated date of wedding</label>
 		<div class="formelement">
-<?php echo stripslashes($record[19]); ?>
+<? echo stripslashes($record[19]); ?>
 		</div>
 		<div class="clear"></div>
 	</div>
 	<div class="formrow">
 		<label class="formlabel" for="weddingquestionnaire_guestcount">Anticipated number of guests</label>
 		<div class="formelement">
-<?php echo stripslashes($record[20]); ?>
+<? echo stripslashes($record[20]); ?>
 		</div>
 		<div class="clear"></div>
 	</div>
@@ -332,7 +332,7 @@ function deletechecked()
 	<div class="formrow">
 		<label class="formlabel" for="weddingquestionnaire_typeofceremonyID">Type of ceremony</label>
 		<div class="formelement">
-			<?php echo stripslashes($record[21]); ?>
+			<? echo stripslashes($record[21]); ?>
 		</div>
 		<div class="clear"></div>
 	</div>
@@ -342,7 +342,7 @@ function deletechecked()
 	<div class="formrow">
 		<label class="formlabel" for="weddingquestionnaire_ceremony">Prefered ceremony setting</label>
 		<div class="formelement">
-<?php echo stripslashes($record[22]); ?>
+<? echo stripslashes($record[22]); ?>
 		</div>
 		<div class="clear"></div>
 	</div>
@@ -352,7 +352,7 @@ function deletechecked()
 	<div class="formrow">
 		<label class="formlabel" for="weddingquestionnaire_reception">Prefered reception setting</label>
 		<div class="formelement">
-			<?php echo stripslashes($record[23]); ?>
+			<? echo stripslashes($record[23]); ?>
 		</div>
 		<div class="clear"></div>
 	</div>
@@ -362,7 +362,7 @@ function deletechecked()
 	<div class="formrow">
 		<label class="formlabel" for="weddingquestionnaire_budget">What is your estimated budget for your wedding day (excluding flights and accomodation)</label>
 		<div class="formelement">
-			<?php echo stripslashes($record[24]); ?>
+			<? echo stripslashes($record[24]); ?>
 		</div>
 		<div class="clear"></div>
 	</div>
@@ -370,7 +370,7 @@ function deletechecked()
 		<h1>Comments</h1>
 	</div>
 	<div class="formrow">
-		<label class="formlabel" for="weddingquestionnaire_comments"><?php echo stripslashes($record[25]); ?></label>		
+		<label class="formlabel" for="weddingquestionnaire_comments"><? echo stripslashes($record[25]); ?></label>		
 		<div class="clear"></div>
 	</div>
 	<div class="formheader">
@@ -379,7 +379,7 @@ function deletechecked()
 	<div class="formrow">
 		<label class="formlabel" for="weddingquestionnaire_marketingID">How did you hear about Ionian Weddings?</label>
 		<div class="formelement">
-			<?php echo stripslashes($record[26]); ?>
+			<? echo stripslashes($record[26]); ?>
 		</div>
 		<div class="clear"></div>
 	</div>
@@ -389,7 +389,7 @@ function deletechecked()
 	<div class="formrow">
 		<label class="formlabel" for="weddingquestionnaire_recommendation">Who recommended us / where did you read about us?</label>
 		<div class="formelement">
-			<?php echo stripslashes($record[27]); ?>
+			<? echo stripslashes($record[27]); ?>
 		</div>
 		<div class="clear"></div>
 	</div>
@@ -399,21 +399,21 @@ function deletechecked()
 	<div class="formrow">
 		<label class="formlabel" for="weddingquestionnaire_callback">Yes. Please call me</label>
 		<div class="formelement">
-		<?php echo stripslashes($record[28]); ?>
+		<? echo stripslashes($record[28]); ?>
 		</div>
 		<div class="clear"></div>
 	</div>
 	<div class="formrow">
 		<label class="formlabel" for="weddingquestionnaire_callbackdate">Preferred days or dates</label>
 		<div class="formelement">
-			<?php echo stripslashes($record[29]); ?>
+			<? echo stripslashes($record[29]); ?>
 		</div>
 		<div class="clear"></div>
 	</div>
 	<div class="formrow">
 		<label class="formlabel" for="weddingquestionnaire_callbacktimeID">Preferred times</label>
 		<div class="formelement">
-			<?php echo stripslashes($record[30]); ?>
+			<? echo stripslashes($record[30]); ?>
 		</div>
 		<div class="clear"></div>
 	</div>
@@ -423,7 +423,7 @@ function deletechecked()
 	<div class="formrow">
 		<label class="formlabel" for="weddingquestionnaire_bookingtimeID">When do you plan to book?</label>
 		<div class="formelement">
-<?php echo stripslashes($record[31]); ?>
+<? echo stripslashes($record[31]); ?>
 		</div>
 		<div class="clear"></div>
 	</div>
@@ -433,7 +433,7 @@ function deletechecked()
 	<div class="formrow">
 		<label class="formcheckboxlabel" for="contactus_callback">Receive latest offers, discounts, products and services.</label>
 		<div class="formelement">
-			<?php echo stripslashes($record[33]); ?>
+			<? echo stripslashes($record[33]); ?>
 		</div>
 		<div class="clear"></div>
 	</div>
@@ -442,27 +442,27 @@ function deletechecked()
 
 
 
-<?php 
+<? 
 
 if($_POST["action_type"] == "view_archive") { ?>
 <div style="float: left;  margin-left:20px; width:570px;"><input type="submit" name="action" value="Remove From Archive">
 </div></form>
 <div style="float: left; ">
-<form action="<?php echo $site_url; ?>/oos/search-submissions.php" method="POST">
-<input type="hidden" name="id" value="wedding_t_<?php echo stripslashes($record[0]); ?>" />
+<form action="<? echo $site_url; ?>/oos/search-submissions.php" method="POST">
+<input type="hidden" name="id" value="wedding_t_<? echo stripslashes($record[0]); ?>" />
 <input type="submit" name="action" value="Create Client"></div>
 <div style="clear:left;"></div>
 </form>
-<?php } else { ?>
+<? } else { ?>
 <div style="float: left;  margin-left:20px; width:570px;"><input type="submit" name="action" value="Archive">
 </form></div>
 <div style="float: left; ">
-<form action="<?php echo $site_url; ?>/oos/search-submissions.php" method="POST">
-<input type="hidden" name="id" value="wedding_t_<?php echo stripslashes($record[0]); ?>" />
+<form action="<? echo $site_url; ?>/oos/search-submissions.php" method="POST">
+<input type="hidden" name="id" value="wedding_t_<? echo stripslashes($record[0]); ?>" />
 <input type="submit" name="action" value="Create Client"></div>
 <div style="clear:left;"></div>
 </form>
-<?php } ?>
+<? } ?>
 <?
 		$get_template->bottomHTML();
 		$sql_command->close();
@@ -577,7 +577,7 @@ $dateline2 = date("g:i a",$record[13]);
 $get_template->topHTML();
 ?>
 <h1>Form - Book a Callback</h1>
-<p><b>Submitted on:</b> <?php echo $dateline; ?> at <?php echo $dateline2; ?></p>
+<p><b>Submitted on:</b> <? echo $dateline; ?> at <? echo $dateline2; ?></p>
 <script language="javascript" type="text/javascript">
 
 function deletechecked()
@@ -592,8 +592,8 @@ function deletechecked()
 
 </script>
 <div>
-<form action="<?php echo $site_url; ?>/oos/book-a-callback.php" method="POST" class="pageform">
-<input type="hidden" name="id" value="callback_t_<?php echo stripslashes($record[0]); ?>" />
+<form action="<? echo $site_url; ?>/oos/book-a-callback.php" method="POST" class="pageform">
+<input type="hidden" name="id" value="callback_t_<? echo stripslashes($record[0]); ?>" />
 <div class="formheader">
 		<h1>Personal Details</h1>
 	</div>
@@ -601,7 +601,7 @@ function deletechecked()
 
 		<label class="formlabel" for="contactus_firstname">First name</label>
 		<div class="formelement">
-			<?php echo stripslashes($record[1]); ?>
+			<? echo stripslashes($record[1]); ?>
 
 		</div>
 		<div class="clear"></div>
@@ -610,7 +610,7 @@ function deletechecked()
 
 		<label class="formlabel" for="contactus_lastname">Last name</label>
 		<div class="formelement">
-			<?php echo stripslashes($record[2]); ?>
+			<? echo stripslashes($record[2]); ?>
 		</div>
 
 		<div class="clear"></div>
@@ -619,7 +619,7 @@ function deletechecked()
 
 		<label class="formlabel" for="contactus_email">Email</label>
 		<div class="formelement">
-			<?php echo stripslashes($record[3]); ?>
+			<? echo stripslashes($record[3]); ?>
 		</div>
 		<div class="clear"></div>
 
@@ -628,7 +628,7 @@ function deletechecked()
 
 		<label class="formlabel" for="contactus_tel">Telephone</label>
 		<div class="formelement">
-			<?php echo stripslashes($record[4]); ?>
+			<? echo stripslashes($record[4]); ?>
 		</div>
 		<div class="clear"></div>
 	</div>
@@ -637,7 +637,7 @@ function deletechecked()
 
 		<label class="formlabel" for="contactus_address_1">Address Line 1</label>
 		<div class="formelement">
-			<?php echo stripslashes($record[5]); ?>
+			<? echo stripslashes($record[5]); ?>
 		</div>
 		<div class="clear"></div>
 	</div>
@@ -645,7 +645,7 @@ function deletechecked()
 
 		<label class="formlabel" for="contactus_address_2">Address Line 2</label>
 		<div class="formelement">
-			<?php echo stripslashes($record[6]); ?>
+			<? echo stripslashes($record[6]); ?>
 		</div>
 		<div class="clear"></div>
 	</div>
@@ -653,7 +653,7 @@ function deletechecked()
 		<label class="formlabel" for="contactus_address_3">Address Line 3</label>
 
 		<div class="formelement">
-			<?php echo stripslashes($record[7]); ?>
+			<? echo stripslashes($record[7]); ?>
 		</div>
 		<div class="clear"></div>
 	</div>
@@ -662,14 +662,14 @@ function deletechecked()
 
 		<div class="formelement">
 
-			<?php echo stripslashes($record[8]); ?>
+			<? echo stripslashes($record[8]); ?>
 		</div>
 		<div class="clear"></div>
 	</div>
             	<div class="formrow">
 		<label class="formlabel" for="weddingquestionnaire_countryID">County</label>
 		<div class="formelement">
-		<?php echo stripslashes($record[17]); ?>
+		<? echo stripslashes($record[17]); ?>
 
 		</div>
 		<div class="clear"></div>
@@ -678,7 +678,7 @@ function deletechecked()
 		<label class="formlabel" for="contactus_countryID">Country</label>
 
 		<div class="formelement">
-		<?php echo stripslashes($record[9]); ?>
+		<? echo stripslashes($record[9]); ?>
 
 		</div>
 		<div class="clear"></div>
@@ -687,7 +687,7 @@ function deletechecked()
 		<label class="formlabel" for="contactus_postcode">Post code</label>
 
 		<div class="formelement">
-			<?php echo stripslashes($record[10]); ?>
+			<? echo stripslashes($record[10]); ?>
 
 		</div>
 		<div class="clear"></div>
@@ -698,7 +698,7 @@ function deletechecked()
 	</div>
 
 	<div class="formrow">
-		<label class="formlabel" for="contactus_comments"><?php echo stripslashes($record[11]); ?></label>
+		<label class="formlabel" for="contactus_comments"><? echo stripslashes($record[11]); ?></label>
 		<div class="clear"></div>
 	</div>
 
@@ -712,7 +712,7 @@ function deletechecked()
 
 		<div class="formelement">
 
-			<?php echo stripslashes($record[15]); ?>
+			<? echo stripslashes($record[15]); ?>
 		</div>
 		<div class="clear"></div>
 	</div>
@@ -721,7 +721,7 @@ function deletechecked()
 
 		<div class="formelement">
 
-			<?php echo stripslashes($record[16]); ?>
+			<? echo stripslashes($record[16]); ?>
 		</div>
 		<div class="clear"></div>
 	</div>
@@ -735,35 +735,35 @@ function deletechecked()
 
 		<div class="formelement">
 
-			<?php echo stripslashes($record[14]); ?>
+			<? echo stripslashes($record[14]); ?>
 		</div>
 		<div class="clear"></div>
 	</div>
 </div>
 
-<?php if($_POST["action_type"] == "view_archive") { ?>
+<? if($_POST["action_type"] == "view_archive") { ?>
 <div style="float: left;  margin-left:20px; width:570px;"><input type="submit" name="action" value="Remove From Archive">
 </form></div>
 
 
 <div style="float: left; ">
-<form action="<?php echo $site_url; ?>/oos/book-a-callback.php" method="POST">
-<input type="hidden" name="id" value="callback_t_<?php echo stripslashes($record[0]); ?>" />
+<form action="<? echo $site_url; ?>/oos/book-a-callback.php" method="POST">
+<input type="hidden" name="id" value="callback_t_<? echo stripslashes($record[0]); ?>" />
 <input type="submit" name="action" value="Create Client"></div>
 <div style="clear:left;"></div>
 </form>
-<?php } else { ?>
+<? } else { ?>
 <div style="float: left;  margin-left:20px; width:570px;"><input type="submit" name="action" value="Archive">
 </form></div>
 
 
 <div style="float: left;">
-<form action="<?php echo $site_url; ?>/oos/book-a-callback.php" method="POST">
-<input type="hidden" name="id" value="callback_t_<?php echo stripslashes($record[0]); ?>" />
+<form action="<? echo $site_url; ?>/oos/book-a-callback.php" method="POST">
+<input type="hidden" name="id" value="callback_t_<? echo stripslashes($record[0]); ?>" />
 <input type="submit" name="action" value="Create Client"></div>
 <div style="clear:left;"></div>
 </form>
-<?php } ?>
+<? } ?>
 <?
 $get_template->bottomHTML();
 $sql_command->close();
@@ -871,7 +871,7 @@ $dateline2 = date("g:i a",$record[13]);
 $get_template->topHTML();
 ?>
 <h1>Form - Contact Us</h1>
-<p><b>Submitted on:</b> <?php echo $dateline; ?> at <?php echo $dateline2; ?></p>
+<p><b>Submitted on:</b> <? echo $dateline; ?> at <? echo $dateline2; ?></p>
 <script language="javascript" type="text/javascript">
 
 function deletechecked()
@@ -886,8 +886,8 @@ function deletechecked()
 
 </script>
 <div>
-<form action="<?php echo $site_url; ?>/oos/contact-us.php" method="POST" class="pageform">
-<input type="hidden" name="id" value="contact_t_<?php echo stripslashes($record[0]); ?>" />
+<form action="<? echo $site_url; ?>/oos/contact-us.php" method="POST" class="pageform">
+<input type="hidden" name="id" value="contact_t_<? echo stripslashes($record[0]); ?>" />
 <div class="formheader">
 		<h1>Personal Details</h1>
 	</div>
@@ -895,7 +895,7 @@ function deletechecked()
 
 		<label class="formlabel" for="contactus_firstname">First name</label>
 		<div class="formelement">
-			<?php echo stripslashes($record[1]); ?>
+			<? echo stripslashes($record[1]); ?>
 
 		</div>
 		<div class="clear"></div>
@@ -904,7 +904,7 @@ function deletechecked()
 
 		<label class="formlabel" for="contactus_lastname">Last name</label>
 		<div class="formelement">
-			<?php echo stripslashes($record[2]); ?>
+			<? echo stripslashes($record[2]); ?>
 		</div>
 
 		<div class="clear"></div>
@@ -913,7 +913,7 @@ function deletechecked()
 
 		<label class="formlabel" for="contactus_email">Email</label>
 		<div class="formelement">
-			<?php echo stripslashes($record[3]); ?>
+			<? echo stripslashes($record[3]); ?>
 		</div>
 		<div class="clear"></div>
 
@@ -922,7 +922,7 @@ function deletechecked()
 
 		<label class="formlabel" for="contactus_tel">Telephone</label>
 		<div class="formelement">
-			<?php echo stripslashes($record[4]); ?>
+			<? echo stripslashes($record[4]); ?>
 		</div>
 		<div class="clear"></div>
 	</div>
@@ -931,7 +931,7 @@ function deletechecked()
 
 		<label class="formlabel" for="contactus_address_1">Address Line 1</label>
 		<div class="formelement">
-			<?php echo stripslashes($record[5]); ?>
+			<? echo stripslashes($record[5]); ?>
 		</div>
 		<div class="clear"></div>
 	</div>
@@ -939,7 +939,7 @@ function deletechecked()
 
 		<label class="formlabel" for="contactus_address_2">Address Line 2</label>
 		<div class="formelement">
-			<?php echo stripslashes($record[6]); ?>
+			<? echo stripslashes($record[6]); ?>
 		</div>
 		<div class="clear"></div>
 	</div>
@@ -947,7 +947,7 @@ function deletechecked()
 		<label class="formlabel" for="contactus_address_3">Address Line 3</label>
 
 		<div class="formelement">
-			<?php echo stripslashes($record[7]); ?>
+			<? echo stripslashes($record[7]); ?>
 		</div>
 		<div class="clear"></div>
 	</div>
@@ -956,14 +956,14 @@ function deletechecked()
 
 		<div class="formelement">
 
-			<?php echo stripslashes($record[8]); ?>
+			<? echo stripslashes($record[8]); ?>
 		</div>
 		<div class="clear"></div>
 	</div>
             	<div class="formrow">
 		<label class="formlabel" for="weddingquestionnaire_countryID">County</label>
 		<div class="formelement">
-		<?php echo stripslashes($record[16]); ?>
+		<? echo stripslashes($record[16]); ?>
 
 		</div>
 		<div class="clear"></div>
@@ -972,7 +972,7 @@ function deletechecked()
 		<label class="formlabel" for="contactus_countryID">Country</label>
 
 		<div class="formelement">
-		<?php echo stripslashes($record[9]); ?>
+		<? echo stripslashes($record[9]); ?>
 
 		</div>
 		<div class="clear"></div>
@@ -981,7 +981,7 @@ function deletechecked()
 		<label class="formlabel" for="contactus_postcode">Post code</label>
 
 		<div class="formelement">
-			<?php echo stripslashes($record[10]); ?>
+			<? echo stripslashes($record[10]); ?>
 
 		</div>
 		<div class="clear"></div>
@@ -992,7 +992,7 @@ function deletechecked()
 	</div>
 
 	<div class="formrow">
-		<label class="formlabel" for="contactus_comments"><?php echo stripslashes($record[11]); ?></label>
+		<label class="formlabel" for="contactus_comments"><? echo stripslashes($record[11]); ?></label>
 		<div class="clear"></div>
 	</div>
 
@@ -1006,35 +1006,35 @@ function deletechecked()
 
 		<div class="formelement">
 
-			<?php echo stripslashes($record[14]); ?>
+			<? echo stripslashes($record[14]); ?>
 		</div>
 		<div class="clear"></div>
 	</div>
 </div>
 
-<?php if($_POST["action_type"] == "view_archive") { ?>
+<? if($_POST["action_type"] == "view_archive") { ?>
 <div style="float: left;  margin-left:20px; width:570px;"><input type="submit" name="action" value="Remove From Archive">
 </form></div>
 
 
 <div style="float: left; ">
-<form action="<?php echo $site_url; ?>/oos/contact-us.php" method="POST">
-<input type="hidden" name="id" value="contact_t_<?php echo stripslashes($record[0]); ?>" />
+<form action="<? echo $site_url; ?>/oos/contact-us.php" method="POST">
+<input type="hidden" name="id" value="contact_t_<? echo stripslashes($record[0]); ?>" />
 <input type="submit" name="action" value="Create Client"></div>
 <div style="clear:left;"></div>
 </form>
-<?php } else { ?>
+<? } else { ?>
 <div style="float: left;  margin-left:20px;  width:570px;"><input type="submit" name="action" value="Archive">
 </form></div>
 
 
 <div style="float: left;">
-<form action="<?php echo $site_url; ?>/oos/contact-us.php" method="POST">
-<input type="hidden" name="id" value="contact_t_<?php echo stripslashes($record[0]); ?>" />
+<form action="<? echo $site_url; ?>/oos/contact-us.php" method="POST">
+<input type="hidden" name="id" value="contact_t_<? echo stripslashes($record[0]); ?>" />
 <input type="submit" name="action" value="Create Client"></div>
 <div style="clear:left;"></div>
 </form>
-<?php } ?>
+<? } ?>
 <?
 $get_template->bottomHTML();
 $sql_command->close();
@@ -1146,7 +1146,7 @@ $dateline2 = date("g:i a",$record[13]);
 $get_template->topHTML();
 ?>
 <h1>Form - Personal Consultations</h1>
-<p><b>Submitted on:</b> <?php echo $dateline; ?> at <?php echo $dateline2; ?></p>
+<p><b>Submitted on:</b> <? echo $dateline; ?> at <? echo $dateline2; ?></p>
 
 <script language="javascript" type="text/javascript">
 
@@ -1162,8 +1162,8 @@ function deletechecked()
 
 </script>
 <div>
-<form action="<?php echo $site_url; ?>/oos/personal-consultations.php" method="POST" class="pageform">
-<input type="hidden" name="id" value="personal_t_<?php echo stripslashes($record[0]); ?>" />
+<form action="<? echo $site_url; ?>/oos/personal-consultations.php" method="POST" class="pageform">
+<input type="hidden" name="id" value="personal_t_<? echo stripslashes($record[0]); ?>" />
 <div class="formheader">
 		<h1>Personal Details</h1>
 	</div>
@@ -1171,7 +1171,7 @@ function deletechecked()
 
 		<label class="formlabel" for="contactus_firstname">First name</label>
 		<div class="formelement">
-			<?php echo stripslashes($record[1]); ?>
+			<? echo stripslashes($record[1]); ?>
 
 		</div>
 		<div class="clear"></div>
@@ -1180,7 +1180,7 @@ function deletechecked()
 
 		<label class="formlabel" for="contactus_lastname">Last name</label>
 		<div class="formelement">
-			<?php echo stripslashes($record[2]); ?>
+			<? echo stripslashes($record[2]); ?>
 		</div>
 
 		<div class="clear"></div>
@@ -1189,7 +1189,7 @@ function deletechecked()
 
 		<label class="formlabel" for="contactus_email">Email</label>
 		<div class="formelement">
-			<?php echo stripslashes($record[3]); ?>
+			<? echo stripslashes($record[3]); ?>
 		</div>
 		<div class="clear"></div>
 
@@ -1198,7 +1198,7 @@ function deletechecked()
 
 		<label class="formlabel" for="contactus_tel">Telephone</label>
 		<div class="formelement">
-			<?php echo stripslashes($record[4]); ?>
+			<? echo stripslashes($record[4]); ?>
 		</div>
 		<div class="clear"></div>
 	</div>
@@ -1207,7 +1207,7 @@ function deletechecked()
 
 		<label class="formlabel" for="contactus_address_1">Address Line 1</label>
 		<div class="formelement">
-			<?php echo stripslashes($record[5]); ?>
+			<? echo stripslashes($record[5]); ?>
 		</div>
 		<div class="clear"></div>
 	</div>
@@ -1215,7 +1215,7 @@ function deletechecked()
 
 		<label class="formlabel" for="contactus_address_2">Address Line 2</label>
 		<div class="formelement">
-			<?php echo stripslashes($record[6]); ?>
+			<? echo stripslashes($record[6]); ?>
 		</div>
 		<div class="clear"></div>
 	</div>
@@ -1223,7 +1223,7 @@ function deletechecked()
 		<label class="formlabel" for="contactus_address_3">Address Line 3</label>
 
 		<div class="formelement">
-			<?php echo stripslashes($record[7]); ?>
+			<? echo stripslashes($record[7]); ?>
 		</div>
 		<div class="clear"></div>
 	</div>
@@ -1232,14 +1232,14 @@ function deletechecked()
 
 		<div class="formelement">
 
-			<?php echo stripslashes($record[8]); ?>
+			<? echo stripslashes($record[8]); ?>
 		</div>
 		<div class="clear"></div>
 	</div>
             	<div class="formrow">
 		<label class="formlabel" for="weddingquestionnaire_countryID">County</label>
 		<div class="formelement">
-		<?php echo stripslashes($record[18]); ?>
+		<? echo stripslashes($record[18]); ?>
 
 		</div>
 		<div class="clear"></div>
@@ -1248,7 +1248,7 @@ function deletechecked()
 		<label class="formlabel" for="contactus_countryID">Country</label>
 
 		<div class="formelement">
-		<?php echo stripslashes($record[9]); ?>
+		<? echo stripslashes($record[9]); ?>
 
 		</div>
 		<div class="clear"></div>
@@ -1257,7 +1257,7 @@ function deletechecked()
 		<label class="formlabel" for="contactus_postcode">Post code</label>
 
 		<div class="formelement">
-			<?php echo stripslashes($record[10]); ?>
+			<? echo stripslashes($record[10]); ?>
 
 		</div>
 		<div class="clear"></div>
@@ -1268,7 +1268,7 @@ function deletechecked()
 	</div>
 
 	<div class="formrow">
-		<label class="formlabel" for="contactus_comments"><?php echo stripslashes($record[11]); ?></label>
+		<label class="formlabel" for="contactus_comments"><? echo stripslashes($record[11]); ?></label>
 		<div class="clear"></div>
 	</div>
 
@@ -1282,7 +1282,7 @@ function deletechecked()
 
 		<div class="formelement">
 
-			<?php echo stripslashes($record[17]); ?>
+			<? echo stripslashes($record[17]); ?>
 		</div>
 		<div class="clear"></div>
 	</div>
@@ -1291,7 +1291,7 @@ function deletechecked()
 
 		<div class="formelement">
 
-			<?php echo stripslashes($record[15]); ?>
+			<? echo stripslashes($record[15]); ?>
 		</div>
 		<div class="clear"></div>
 	</div>
@@ -1300,7 +1300,7 @@ function deletechecked()
 
 		<div class="formelement">
 
-			<?php echo stripslashes($record[16]); ?>
+			<? echo stripslashes($record[16]); ?>
 		</div>
 		<div class="clear"></div>
 	</div>
@@ -1314,35 +1314,35 @@ function deletechecked()
 
 		<div class="formelement">
 
-			<?php echo stripslashes($record[14]); ?>
+			<? echo stripslashes($record[14]); ?>
 		</div>
 		<div class="clear"></div>
 	</div>
 </div>
 
-<?php if($_POST["action_type"] == "view_archive") { ?>
+<? if($_POST["action_type"] == "view_archive") { ?>
 <div style="float: left;  margin-left:20px; width:570px;"><input type="submit" name="action" value="Remove From Archive">
 </form></div>
 
 
 <div style="float: left; ">
-<form action="<?php echo $site_url; ?>/oos/personal-consultations.php" method="POST">
-<input type="hidden" name="id" value="personal_t_<?php echo stripslashes($record[0]); ?>" />
+<form action="<? echo $site_url; ?>/oos/personal-consultations.php" method="POST">
+<input type="hidden" name="id" value="personal_t_<? echo stripslashes($record[0]); ?>" />
 <input type="submit" name="action" value="Create Client"></div>
 <div style="clear:left;"></div>
 </form>
-<?php } else { ?>
+<? } else { ?>
 <div style="float: left;  margin-left:20px; width:570px;"><input type="submit" name="action" value="Archive">
 </form></div>
 
 
 <div style="float: left;">
-<form action="<?php echo $site_url; ?>/oos/personal-consultations.php" method="POST">
-<input type="hidden" name="id" value="personal_t_<?php echo stripslashes($record[0]); ?>" />
+<form action="<? echo $site_url; ?>/oos/personal-consultations.php" method="POST">
+<input type="hidden" name="id" value="personal_t_<? echo stripslashes($record[0]); ?>" />
 <input type="submit" name="action" value="Create Client"></div>
 <div style="clear:left;"></div>
 </form>
-<?php } ?>
+<? } ?>
 <?
 $get_template->bottomHTML();
 $sql_command->close();
@@ -1489,22 +1489,22 @@ else {
 		if ($_GET["amounts"]!=0) {
 			switch ($_GET["amounts"]){
 				case "1":
-					$amtext = "�0 to �5k";
+					$amtext = "£0 to £5k";
 					$amfrom = 0;
 					$amto = 5000;
 					break;
 				case "2":
-					$amtext = "�5 to �10k";
+					$amtext = "£5 to £10k";
 					$amfrom = 5000;
 					$amto = 10000;
 					break;
 				case "3":
-					$amtext = "�10 to �15k";
+					$amtext = "£10 to £15k";
 					$amfrom = 10000;
 					$amto = 15000;
 					break;
 				case "4":
-					$amtext = "�15k+";
+					$amtext = "£15k+";
 					$amfrom = 15000;
 					$amto = 5000000;
 					break;
@@ -1782,39 +1782,29 @@ if($_GET["b_client"]==3) { $s2 = "selected=\"yes\""; }
 ?>	
 
 	<h1>Form - Search Submissions </h1>
-    <?php if($search_c!="") { echo "<h4>".$search_c."</h4><a href=\"search-submissions.php\">Clear Search Criteria</a>"; }  ?>
-    <form name="searchdata" action="<?php  echo $site_url; ?>/oos/search-submissions.php" method="get">
+    <? if($search_c!="") { echo "<h4>".$search_c."</h4><a href=\"search-submissions.php\">Clear Search Criteria</a>"; }  ?>
+    <form name="searchdata" action="<?  echo $site_url; ?>/oos/search-submissions.php" method="get">
     <p><strong>Search</strong>
-		<input type="text" name="s" value="<?php echo $_GET["s"]; ?>" />
-        <select name="stype"><option value="name" <?php echo $names ?>>Names</option><option value="email" <?php echo $emails ?>>Email Address</option></select>
+		<input type="text" name="s" value="<? echo $_GET["s"]; ?>" />
+        <select name="stype"><option value="name" <? echo $names ?>>Names</option><option value="email" <? echo $emails ?>>Email Address</option></select>
 		<input type="submit" name="submit" value="Search">
 	  </p>
     <div id="extra_nav" class="tran2">
-    <?php if ($search_c) { $display_a = "style=\"display:none !important;\""; $display_b = "style=\"display:inline !important;\""; $display_c = "style=\"display:block; opacity:1; height:auto;\"";  } ?>
-    <a href="#" class="extra_show" <?php echo $display_a; ?>>[+ Options]</a> 
-    <a href="#" class="extra_hide" <?php echo $display_b; ?>>[- Options]</a>
+    <? if ($search_c) { $display_a = "style=\"display:none !important;\""; $display_b = "style=\"display:inline !important;\""; $display_c = "style=\"display:block; opacity:1; height:auto;\"";  } ?>
+    <a href="#" class="extra_show" <? echo $display_a; ?>>[+ Options]</a> 
+    <a href="#" class="extra_hide" <? echo $display_b; ?>>[- Options]</a>
 
-    <div id="extra_menu" class="tran15" <?php echo $display_c; ?>>
-
-    <?php
-    $select_l .= "<option value=\"1\">Select All</option>";
+    <div id="extra_menu" class="tran15" <? echo $display_c; ?>>
+<?	$select_l .= "<option value=\"1\">Select All</option>";
 	$select_l .= "<option value=\"2\" $s1>Clients Only</option>";
 	$select_l .= "<option value=\"3\" $s2>Prospects Only</option>";
-	echo "
+	echo "<div style=\"float:left; width:140px; margin:5px;\"><b>Search Filter</b></div><div style=\"float:left; margin:5px;\"><select name=\"b_client\" style=\"width:150px;\">$select_l</select> * Filter out clients or prospects.</div><div style=\"clear:left;\"></div>";
 
-          <div style=\"float:left; width:140px; margin:5px;\">
-             <b>Search Filter</b>
-          </div>
-          <div style=\"float:left; margin:5px;\">
-             <select name=\"b_client\" style=\"width:150px;\">$select_l</select> * Filter out clients or prospects.
-          </div>
-          <div style=\"clear:left;\"></div>
-    ";
-    ?>
+?>
 
 	  <div style="float:left; width:140px; margin:5px;"><b>Date From</b></div>
 	  <div style="float:left; margin:5px;">
-		<input type="text" name="date_from" value="<?php echo $_GET["date_from"]; ?>" />
+		<input type="text" name="date_from" value="<? echo $_GET["date_from"]; ?>" />
 		<script language="JavaScript">
 		new tcal ({
 			
@@ -1827,7 +1817,7 @@ if($_GET["b_client"]==3) { $s2 = "selected=\"yes\""; }
 	  <div style="clear:left;"></div>
 	  <div style="float:left; width:140px; margin:5px;"><b>Date To</b></div>
 	  <div style="float:left; margin:5px;">
-		<input type="text" name="date_to" value="<?php echo $_GET["date_to"]; ?>" />
+		<input type="text" name="date_to" value="<? echo $_GET["date_to"]; ?>" />
 		<script language="JavaScript">
 		new tcal ({
 			
@@ -1842,8 +1832,8 @@ if($_GET["b_client"]==3) { $s2 = "selected=\"yes\""; }
       <div style="float:left; width:140px; margin:5px;"><b>Amount</b></div>
 	  <div style="float:left; margin:5px;">
 		<select name="amounts" style="width:150px;">
-        	<?php 
-			$am_txt = array("Any Amount","�0 to �5k","�5k to �10k","�10k to �15k","�15k+");
+        	<? 
+			$am_txt = array("Any Amount","£0 to £5k","£5k to £10k","£10k to £15k","£15k+");
 			for ($i=0; $i<5; $i++) { 
 				$a_sel = ($i == $_GET["amounts"]) ? "selected=\"selected\"" : "";
 				echo "<option value=\"".$i."\" $a_sel>".$am_txt[$i]."</option>"; 
@@ -1855,14 +1845,14 @@ if($_GET["b_client"]==3) { $s2 = "selected=\"yes\""; }
        
       <div style="float:left; width:140px; margin:5px;"><b>County</b></div>
 	  <div style="float:left; margin:5px;">
-		<input type="text" name="location" value="<?php echo $_GET["location"]; ?>" />
+		<input type="text" name="location" value="<? echo $_GET["location"]; ?>" />
 	  </div>
 	  <div style="clear:left;"></div>
 	 <div style="float:left; width:140px; margin:5px;"><strong>Destination</strong></div>
 	  <div style="float:left;  margin:5px;">
 		<select name="destination" size="10" style="width:500px;">
 		  <option value="0" style="font-size:11px;" selected="selected">All Destinations</option>
-		  <?php  echo $nav_list; ?>
+		  <?  echo $nav_list; ?>
 		</select>
 	  </div>
 	  <div style="clear:left;"></div>
@@ -1871,18 +1861,18 @@ if($_GET["b_client"]==3) { $s2 = "selected=\"yes\""; }
 	<hr />
    	</form>
 	<p><b>Contacts</b></p>
-	<form action="<?php  echo $site_url; ?>/oos/search-submissions.php" method="get">
+	<form action="<?  echo $site_url; ?>/oos/search-submissions.php" method="get">
 	  <input type="hidden" name="action" value="Continue" />
 	  <select name="id" class="inputbox_town" size="20" style="width:700px;" onclick="this.form.submit();">
-		<?php  echo $active_list; ?>
+		<?  echo $active_list; ?>
 	  </select>
 	  <p style="float:left; margin-top:10px;">
 		<input type="submit" name="action" value="Continue">
 	  </p>
 	</form>
     <div style="float:right;margin-top:10px;">
-    <form method="post" action="<?php echo $site_url; ?>/oos/search-submissions.php" name="getcsvdata">
-    	<input type="hidden" name="query" value="<?php echo "type=csv&s=".$_GET["s"]."&stype=".$_GET["stype"]."&from=".$_GET["date_from"]."&to=".$_GET["date_to"]."&destination=".$_GET["destination_id"]."&b_client=".$_GET["bclient"]."&location=".$_GET["location"]."&amounts=".$_GET["amounts"]; ?>" />
+    <form method="post" action="<? echo $site_url; ?>/oos/search-submissions.php" name="getcsvdata">
+    	<input type="hidden" name="query" value="<? echo "type=csv&s=".$_GET["s"]."&stype=".$_GET["stype"]."&from=".$_GET["date_from"]."&to=".$_GET["date_to"]."&destination=".$_GET["destination_id"]."&b_client=".$_GET["bclient"]."&location=".$_GET["location"]."&amounts=".$_GET["amounts"]; ?>" />
 		<input type="submit" name="action" value="Download CSV" />
     </form>
 </div>
@@ -1891,11 +1881,11 @@ if($_GET["b_client"]==3) { $s2 = "selected=\"yes\""; }
 	<hr />
 	</p>
 	<!--<p><b>Archived Contact</b></p>
-	<form action="<?php  echo $site_url; ?>/oos/search-submissions.php" method="get">
+	<form action="<?  echo $site_url; ?>/oos/search-submissions.php" method="get">
 	  <input type="hidden" name="action" value="Continue" />
 	  <input type="hidden" name="action_type" value="view_archive" />
 	  <select name="id" class="inputbox_town" size="20" style="width:700px;" onclick="this.form.submit();">
-		<?php  echo $archive_list; ?>
+		<?  echo $archive_list; ?>
 	  </select>
 	  <p style="margin-top:10px;">
 		<input type="submit" name="action" value="Continue">
@@ -1904,7 +1894,7 @@ if($_GET["b_client"]==3) { $s2 = "selected=\"yes\""; }
     -->
 	</div>
 	<div style="clear:left;"></div>
-	<?
+	<?	
 /*
 echo $query_cl."<br/>";
 echo $query_p."<br/>";

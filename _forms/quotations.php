@@ -291,7 +291,7 @@ if (isset($_POST["run"])){
 $(function() {
 var payinvcheck = 0;
 var submitenabled = false;
-var payLimit = <?php echo $payLimit; ?>;
+var payLimit = <? echo $payLimit; ?>;
 var thisChk = 0;
 var thisChkA = 0;
 var totalA = 0;
@@ -308,7 +308,7 @@ var myForm = $("input[name='payinv[]']");
 				$("#cart-total").val(totalA); 
 			$("input[name='payinv[]']").eq(i).attr("checked","checked");
 				if (totalA>=payLimit) {
-					alert("There is a �"+payLimit+" payment limit, exceeding this limit will cause a part payment to be allocated to the bottom invoice. \n\n\nIf you have selected multiple invoices, please feel free to make multiple payments."); 
+					alert("There is a £"+payLimit+" payment limit, exceeding this limit will cause a part payment to be allocated to the bottom invoice. \n\n\nIf you have selected multiple invoices, please feel free to make multiple payments."); 
 					$("input[name='payinv[]']:not(:checked)").attr("disabled","disabled"); 
 				}
 		}
@@ -336,7 +336,7 @@ var myForm = $("input[name='payinv[]']");
 		if (payinvcheck>currentchk) {
 			totalA = parseFloat(totalA,12) + parseFloat(thisChkA,12);
 			if (totalA>=payLimit) { 
-				alert("There is a �"+payLimit+" payment limit, exceeding this limit will cause a part payment to be allocated to the bottom invoice. \n\n\nIf you have selected multiple invoices, please feel free to make multiple payments."); 
+				alert("There is a £"+payLimit+" payment limit, exceeding this limit will cause a part payment to be allocated to the bottom invoice. \n\n\nIf you have selected multiple invoices, please feel free to make multiple payments."); 
 				$("input[name='payinv[]']:not(:checked)").attr("disabled","disabled"); 
 			}
 		}
@@ -518,10 +518,10 @@ foreach($typeofceremony_row as $typeofceremony_record) {
 
 <div class="pageform">
 	<div class='formheader'>
-		<h1>Hello <?php echo $cname; ?> <span class="notme">(<a href="/quotations/unset/" title="exit" nofollow>Not you? click here</a>)</span></h1>
+		<h1>Hello <? echo $cname; ?> <span class="notme">(<a href="/quotations/unset/" title="exit" nofollow>Not you? click here</a>)</span></h1>
 		<p>You are able to view your quotations below, if you have a query or a quotation is listed or is not listed below <a href="/contact-us/" title="Contact Us" target="_blank">please contact us.</a></p>
 	</div>
-	<?php if(isset($_POST['payinvoices']) || isset($_POST['payinvoice'])) {
+	<? if(isset($_POST['payinvoices']) || isset($_POST['payinvoice'])) {
 		} else {
 			if ($tandc == "Yes") {
 	?>
@@ -529,9 +529,9 @@ foreach($typeofceremony_row as $typeofceremony_record) {
 	<?
 			} else {
 	?>
-	<form action="<?php echo $site_url; ?>/quotations/" id="client" method="post" name="client">
+	<form action="<? echo $site_url; ?>/quotations/" id="client" method="post" name="client">
 		<input type="hidden" name="run" value="true">
-		<input type="hidden" name="client_id" value="<?php echo $iwcustomer[0];?>">
+		<input type="hidden" name="client_id" value="<? echo $iwcustomer[0];?>">
 		<div class="formheader">
 			<h1>Booking Questionnaire</h1>
 			<?
@@ -552,18 +552,18 @@ foreach($typeofceremony_row as $typeofceremony_record) {
 			<label class="formlabel" for="title">Title</label>
 			<div class="formcolumn1">
 				<select class="formselectshort" name="title">
-					<option value="Mr" <?php if($iwcustomer[1] == "Mr") { echo "selected=\"selected\""; } ?>>Mr</option>
-					<option value="Miss" <?php if($iwcustomer[1] == "Miss") { echo "selected=\"selected\""; } ?>>Miss</option>
-					<option value="Ms" <?php if($iwcustomer[1] == "Ms") { echo "selected=\"selected\""; } ?>>Ms</option>
-					<option value="Dr" <?php if($iwcustomer[1] == "Dr") { echo "selected=\"selected\""; } ?>>Dr</option>
+					<option value="Mr" <? if($iwcustomer[1] == "Mr") { echo "selected=\"selected\""; } ?>>Mr</option>
+					<option value="Miss" <? if($iwcustomer[1] == "Miss") { echo "selected=\"selected\""; } ?>>Miss</option>
+					<option value="Ms" <? if($iwcustomer[1] == "Ms") { echo "selected=\"selected\""; } ?>>Ms</option>
+					<option value="Dr" <? if($iwcustomer[1] == "Dr") { echo "selected=\"selected\""; } ?>>Dr</option>
 				</select>
 			</div>
 			<div class="formcolumn2">
 				<select class="formselectshort" name="groom_title">
-					<option value="Mr" <?php if($iwcustomer[21] == "Mr") { echo "selected=\"selected\""; } ?>>Mr</option>
-					<option value="Miss" <?php if($iwcustomer[21] == "Miss") { echo "selected=\"selected\""; } ?>>Miss</option>
-					<option value="Ms" <?php if($iwcustomer[21] == "Ms") { echo "selected=\"selected\""; } ?>>Ms</option>
-					<option value="Dr" <?php if($iwcustomer[21] == "Dr") { echo "selected=\"selected\""; } ?>>Dr</option>
+					<option value="Mr" <? if($iwcustomer[21] == "Mr") { echo "selected=\"selected\""; } ?>>Mr</option>
+					<option value="Miss" <? if($iwcustomer[21] == "Miss") { echo "selected=\"selected\""; } ?>>Miss</option>
+					<option value="Ms" <? if($iwcustomer[21] == "Ms") { echo "selected=\"selected\""; } ?>>Ms</option>
+					<option value="Dr" <? if($iwcustomer[21] == "Dr") { echo "selected=\"selected\""; } ?>>Dr</option>
 				</select>
 			</div>
 			<div class="clear"></div>
@@ -571,27 +571,27 @@ foreach($typeofceremony_row as $typeofceremony_record) {
 		<div class="formrow">
 			<label class="formlabel" for="firstname">First Name</label>
 			<div class="formcolumn1">
-				<input class="formtextfieldshort" type="text" name="firstname" value="<?php echo stripslashes($iwcustomer[2]); ?>"/>
+				<input class="formtextfieldshort" type="text" name="firstname" value="<? echo stripslashes($iwcustomer[2]); ?>"/>
 				* </div>
 			<div class="formcolumn2">
-				<input class="formtextfieldshort" type="text" name="groom_firstname" value="<?php echo stripslashes($iwcustomer[22]); ?>"/>
+				<input class="formtextfieldshort" type="text" name="groom_firstname" value="<? echo stripslashes($iwcustomer[22]); ?>"/>
 				* </div>
 			<div class="clear"></div>
 		</div>
 		<div class="formrow">
 			<label class="formlabel" for="lastname">Last Name</label>
 			<div class="formcolumn1">
-				<input class="formtextfieldshort" type="text" name="lastname" value="<?php echo stripslashes($iwcustomer[3]); ?>"/>
+				<input class="formtextfieldshort" type="text" name="lastname" value="<? echo stripslashes($iwcustomer[3]); ?>"/>
 				* </div>
 			<div class="formcolumn2">
-				<input class="formtextfieldshort" type="text" name="groom_surname" value="<?php echo stripslashes($iwcustomer[23]); ?>"/>
+				<input class="formtextfieldshort" type="text" name="groom_surname" value="<? echo stripslashes($iwcustomer[23]); ?>"/>
 				* </div>
 			<div class="clear"></div>
 		</div>
 		<div class="formrow">
 			<label class="formlabel" for="dob">Date of Birth (Format DD-MM-YYYY)</label>
 			<div class="formcolumn1">
-				<input class="formtextfieldcalendar" type="text" name="dob" id="dob"  value="<?php echo $dob; ?>"/>
+				<input class="formtextfieldcalendar" type="text" name="dob" id="dob"  value="<? echo $dob; ?>"/>
 				<script language="JavaScript">
 					new tcal ({
 						// form name
@@ -602,7 +602,7 @@ foreach($typeofceremony_row as $typeofceremony_record) {
 				</script> 
 			</div>
 			<div class="formcolumn2">
-				<input class="formtextfieldcalendar" type="text" name="groom_dob" id="groom_dob"  value="<?php echo $dob2; ?>"/>
+				<input class="formtextfieldcalendar" type="text" name="groom_dob" id="groom_dob"  value="<? echo $dob2; ?>"/>
 				<script language="JavaScript">
 					new tcal ({
 						// form name
@@ -618,12 +618,12 @@ foreach($typeofceremony_row as $typeofceremony_record) {
 			<label class="formlabel" for="bride_country">Nationality</label>
 			<div class="formcolumn1">
 				<select class="formselectshort" id="bride_country" name="bride_country">
-					<?php echo $bride_country_list; ?>
+					<? echo $bride_country_list; ?>
 				</select>
 			</div>
 			<div class="formcolumn2">
 				<select class="formselectshort" id="groom_country" name="groom_country">
-					<?php echo $groom_country_list; ?>
+					<? echo $groom_country_list; ?>
 				</select>
 			</div>
 			<div class="clear"></div>
@@ -634,30 +634,30 @@ foreach($typeofceremony_row as $typeofceremony_record) {
 		<div class="formrow">
 			<label class="formlabel" for="email">Email Address</label>
 			<div class="formcolumn1">
-				<input class="formtextfieldshort" type="text" name="email" value="<?php echo stripslashes($iwcustomer[11]); ?>"/>
+				<input class="formtextfieldshort" type="text" name="email" value="<? echo stripslashes($iwcustomer[11]); ?>"/>
 				* </div>
 			<div class="formcolumn2">
-				<input class="formtextfieldshort" type="text" name="groom_email" value="<?php echo stripslashes($iwcustomer[26]); ?>"/>
+				<input class="formtextfieldshort" type="text" name="groom_email" value="<? echo stripslashes($iwcustomer[26]); ?>"/>
 				* </div>
 			<div class="clear"></div>
 		</div>
 		<div class="formrow">
 			<label class="formlabel" for="tel">Telephone</label>
 			<div class="formcolumn1">
-				<input class="formtextfieldshort" type="text" name="tel" value="<?php echo stripslashes($iwcustomer[12]); ?>"/>
+				<input class="formtextfieldshort" type="text" name="tel" value="<? echo stripslashes($iwcustomer[12]); ?>"/>
 				* </div>
 			<div class="formcolumn2">
-				<input class="formtextfieldshort" type="text" name="groom_tel" value="<?php echo stripslashes($iwcustomer[27]); ?>"/>
+				<input class="formtextfieldshort" type="text" name="groom_tel" value="<? echo stripslashes($iwcustomer[27]); ?>"/>
 				* </div>
 			<div class="clear"></div>
 		</div>
 		<div class="formrow">
 			<label class="formlabel" for="mob">Mobile</label>
 			<div class="formcolumn1">
-				<input class="formtextfieldshort" type="text" name="mob" value="<?php echo stripslashes($iwcustomer[13]); ?>"/>
+				<input class="formtextfieldshort" type="text" name="mob" value="<? echo stripslashes($iwcustomer[13]); ?>"/>
 			</div>
 			<div class="formcolumn2">
-				<input class="formtextfieldshort" type="text" name="groom_mob" value="<?php echo stripslashes($iwcustomer[28]); ?>"/>
+				<input class="formtextfieldshort" type="text" name="groom_mob" value="<? echo stripslashes($iwcustomer[28]); ?>"/>
 			</div>
 			<div class="clear"></div>
 		</div>
@@ -667,35 +667,35 @@ foreach($typeofceremony_row as $typeofceremony_record) {
 		<div class="formrow">
 			<label class="formlabel" for="address">Address 1</label>
 			<div class="formelement">
-				<input class="formtextfieldshort" type="text" name="address" value="<?php echo stripslashes($iwcustomer[4]); ?>"/>
+				<input class="formtextfieldshort" type="text" name="address" value="<? echo stripslashes($iwcustomer[4]); ?>"/>
 				* </div>
 			<div class="clear"></div>
 		</div>
 		<div class="formrow">
 			<label class="formlabel" for="address2">Address 2</label>
 			<div class="formelement">
-				<input class="formtextfieldshort" type="text" name="address2" value="<?php echo stripslashes($iwcustomer[5]); ?>"/>
+				<input class="formtextfieldshort" type="text" name="address2" value="<? echo stripslashes($iwcustomer[5]); ?>"/>
 			</div>
 			<div class="clear"></div>
 		</div>
 		<div class="formrow">
 			<label class="formlabel" for="address3">Address 3</label>
 			<div class="formelement">
-				<input class="formtextfieldshort" type="text" name="address3" value="<?php echo stripslashes($iwcustomer[6]); ?>"/>
+				<input class="formtextfieldshort" type="text" name="address3" value="<? echo stripslashes($iwcustomer[6]); ?>"/>
 			</div>
 			<div class="clear"></div>
 		</div>
 		<div class="formrow">
 			<label class="formlabel" for="town">Town</label>
 			<div class="formelement">
-				<input class="formtextfieldshort" type="text" name="town" value="<?php echo stripslashes($iwcustomer[7]); ?>"/>
+				<input class="formtextfieldshort" type="text" name="town" value="<? echo stripslashes($iwcustomer[7]); ?>"/>
 				* </div>
 			<div class="clear"></div>
 		</div>
 		<div class="formrow">
 			<label class="formlabel" for="county">County</label>
 			<div class="formelement">
-				<input class="formtextfieldshort" type="text" name="county" value="<?php echo stripslashes($iwcustomer[8]); ?>"/>
+				<input class="formtextfieldshort" type="text" name="county" value="<? echo stripslashes($iwcustomer[8]); ?>"/>
 				* </div>
 			<div class="clear"></div>
 		</div>
@@ -703,7 +703,7 @@ foreach($typeofceremony_row as $typeofceremony_record) {
 			<label class="formlabel" for="country">Country</label>
 			<div class="formelement">
 				<select class="formselectshort" id="country" name="country">
-					<?php echo $country_list; ?>
+					<? echo $country_list; ?>
 				</select>
 			</div>
 			<div class="clear"></div>
@@ -711,7 +711,7 @@ foreach($typeofceremony_row as $typeofceremony_record) {
 		<div class="formrow">
 			<label class="formlabel" for="postcode">Postcode</label>
 			<div class="formelement">
-				<input class="formtextfieldshort" type="text" name="postcode" value="<?php echo stripslashes($iwcustomer[10]); ?>"/>
+				<input class="formtextfieldshort" type="text" name="postcode" value="<? echo stripslashes($iwcustomer[10]); ?>"/>
 				*</div>
 			<div class="clear"></div>
 		</div>
@@ -721,7 +721,7 @@ foreach($typeofceremony_row as $typeofceremony_record) {
 		<div class="formrow">
 			<label class="formlabel" for="wedding_date">Wedding Date &amp; Time</label>
 			<div class="formcolumn1">
-				<input class="formtextfieldcalendar" type="text" name="wedding_date" id="wedding_date" value="<?php echo stripslashes($wd); ?>"/>
+				<input class="formtextfieldcalendar" type="text" name="wedding_date" id="wedding_date" value="<? echo stripslashes($wd); ?>"/>
 				<script language="JavaScript">
 					new tcal ({
 						// form name
@@ -732,7 +732,7 @@ foreach($typeofceremony_row as $typeofceremony_record) {
 				</script> 
 			</div>
 			<div class="formcolumn2">
-				<input class="formtextfieldshort" type="text" name="wedding_time" value="<?php echo stripslashes($iwcustomer[25]); ?>"/>
+				<input class="formtextfieldshort" type="text" name="wedding_time" value="<? echo stripslashes($iwcustomer[25]); ?>"/>
 			</div>
 			<div class="clear"></div>
 		</div>
@@ -761,42 +761,42 @@ foreach($typeofceremony_row as $typeofceremony_record) {
 		<div class="formrow">
 			<label class="formlabel" for="bride_passport">Do you have a valid 10 year passport not due to expire within 6 months at the time of travel?</label>
 			<div class="formcolumn1">
-				<input name="bride_passport" type="radio" <?php if($iwcustomer[36] == "Yes") { echo "checked"; } ?> value="Yes" />
+				<input name="bride_passport" type="radio" <? if($iwcustomer[36] == "Yes") { echo "checked"; } ?> value="Yes" />
 				Yes
-				<input name="bride_passport" type="radio" <?php if($iwcustomer[36] == "No") { echo "checked"; } ?> value="No" />
+				<input name="bride_passport" type="radio" <? if($iwcustomer[36] == "No") { echo "checked"; } ?> value="No" />
 				No </div>
 			<div class="formcolumn2">
-				<input name="groom_passport" type="radio" <?php if($iwcustomer[37] == "Yes") { echo "checked"; } ?> value="Yes" />
+				<input name="groom_passport" type="radio" <? if($iwcustomer[37] == "Yes") { echo "checked"; } ?> value="Yes" />
 				Yes
-				<input name="groom_passport" type="radio" <?php if($iwcustomer[37] == "No") { echo "checked"; } ?> value="No" />
+				<input name="groom_passport" type="radio" <? if($iwcustomer[37] == "No") { echo "checked"; } ?> value="No" />
 				No </div>
 			<div class="clear"></div>
 		</div>
 		<div class="formrow">
 			<label class="formlabel" for="bride_birth_certificate">Do you have a full Birth Certificate (with names of both parents)?</label>
 			<div class="formcolumn1">
-				<input name="bride_birth_certificate" type="radio" <?php if($iwcustomer[38] == "Yes") { echo "checked"; } ?> value="Yes" />
+				<input name="bride_birth_certificate" type="radio" <? if($iwcustomer[38] == "Yes") { echo "checked"; } ?> value="Yes" />
 				Yes
-				<input name="bride_birth_certificate" type="radio" <?php if($iwcustomer[38] == "No") { echo "checked"; } ?> value="No" />
+				<input name="bride_birth_certificate" type="radio" <? if($iwcustomer[38] == "No") { echo "checked"; } ?> value="No" />
 				No </div>
 			<div class="formcolumn2">
-				<input name="groom_birth_certificate" type="radio" <?php if($iwcustomer[39] == "Yes") { echo "checked"; } ?> value="Yes" />
+				<input name="groom_birth_certificate" type="radio" <? if($iwcustomer[39] == "Yes") { echo "checked"; } ?> value="Yes" />
 				Yes
-				<input name="groom_birth_certificate" type="radio" <?php if($iwcustomer[39] == "No") { echo "checked"; } ?> value="No" />
+				<input name="groom_birth_certificate" type="radio" <? if($iwcustomer[39] == "No") { echo "checked"; } ?> value="No" />
 				No </div>
 			<div class="clear"></div>
 		</div>
 		<div class="formrow">
 			<label class="formlabel" for="bride_divorced">Are you divorced?</label>
 			<div class="formcolumn1">
-				<input name="bride_divorced" type="radio" <?php if($iwcustomer[40] == "Yes") { echo "checked"; } ?> value="Yes" />
+				<input name="bride_divorced" type="radio" <? if($iwcustomer[40] == "Yes") { echo "checked"; } ?> value="Yes" />
 				Yes
-				<input name="bride_divorced" type="radio" <?php if($iwcustomer[40] == "No") { echo "checked"; } ?> value="No" />
+				<input name="bride_divorced" type="radio" <? if($iwcustomer[40] == "No") { echo "checked"; } ?> value="No" />
 				No </div>
 			<div class="formcolumn2">
-				<input name="groom_divorced" type="radio" <?php if($iwcustomer[41] == "Yes") { echo "checked"; } ?> value="Yes" />
+				<input name="groom_divorced" type="radio" <? if($iwcustomer[41] == "Yes") { echo "checked"; } ?> value="Yes" />
 				Yes
-				<input name="groom_divorced" type="radio" <?php if($iwcustomer[41] == "No") { echo "checked"; } ?> value="No" />
+				<input name="groom_divorced" type="radio" <? if($iwcustomer[41] == "No") { echo "checked"; } ?> value="No" />
 				No </div>
 			<div class="clear"></div>
 		</div>
@@ -804,70 +804,70 @@ foreach($typeofceremony_row as $typeofceremony_record) {
 			<div class="clear"></div>
 			<label class="formlabel" for="bride_adopted">Are you adopted?</label>
 			<div class="formcolumn1">
-				<input name="bride_adopted" type="radio" <?php if($iwcustomer[42] == "Yes") { echo "checked"; } ?> value="Yes" />
+				<input name="bride_adopted" type="radio" <? if($iwcustomer[42] == "Yes") { echo "checked"; } ?> value="Yes" />
 				Yes
-				<input name="bride_adopted" type="radio" <?php if($iwcustomer[42] == "No") { echo "checked"; } ?> value="No" />
+				<input name="bride_adopted" type="radio" <? if($iwcustomer[42] == "No") { echo "checked"; } ?> value="No" />
 				No </div>
 			<div class="formcolumn2">
-				<input name="groom_adopted" type="radio" <?php if($iwcustomer[43] == "Yes") { echo "checked"; } ?> value="Yes" />
+				<input name="groom_adopted" type="radio" <? if($iwcustomer[43] == "Yes") { echo "checked"; } ?> value="Yes" />
 				Yes
-				<input name="groom_adopted" type="radio" <?php if($iwcustomer[43] == "No") { echo "checked"; } ?> value="No" />
+				<input name="groom_adopted" type="radio" <? if($iwcustomer[43] == "No") { echo "checked"; } ?> value="No" />
 				No </div>
 			<div class="clear"></div>
 		</div>
 		<div class="formrow">
 			<label class="formlabel" for="bride_widowed">Have you been widowed?</label>
 			<div class="formcolumn1">
-				<input name="bride_widowed" type="radio" <?php if($iwcustomer[44] == "Yes") { echo "checked"; } ?> value="Yes" />
+				<input name="bride_widowed" type="radio" <? if($iwcustomer[44] == "Yes") { echo "checked"; } ?> value="Yes" />
 				Yes
-				<input name="bride_widowed" type="radio" <?php if($iwcustomer[44] == "No") { echo "checked"; } ?> value="No" />
+				<input name="bride_widowed" type="radio" <? if($iwcustomer[44] == "No") { echo "checked"; } ?> value="No" />
 				No </div>
 			<div class="formcolumn2">
-				<input name="groom_widowed" type="radio" <?php if($iwcustomer[45] == "Yes") { echo "checked"; } ?> value="Yes" />
+				<input name="groom_widowed" type="radio" <? if($iwcustomer[45] == "Yes") { echo "checked"; } ?> value="Yes" />
 				Yes
-				<input name="groom_widowed" type="radio" <?php if($iwcustomer[45] == "No") { echo "checked"; } ?> value="No" />
+				<input name="groom_widowed" type="radio" <? if($iwcustomer[45] == "No") { echo "checked"; } ?> value="No" />
 				No </div>
 			<div class="clear"></div>
 		</div>
 		<div class="formrow">
 			<label class="formlabel" for="bride_deed_poll">Have you changed your name by Deed Poll?</label>
 			<div class="formcolumn1">
-				<input name="bride_deed_poll" type="radio" <?php if($iwcustomer[46] == "Yes") { echo "checked"; } ?> value="Yes" />
+				<input name="bride_deed_poll" type="radio" <? if($iwcustomer[46] == "Yes") { echo "checked"; } ?> value="Yes" />
 				Yes
-				<input name="bride_deed_poll" type="radio" <?php if($iwcustomer[46] == "No") { echo "checked"; } ?> value="No" />
+				<input name="bride_deed_poll" type="radio" <? if($iwcustomer[46] == "No") { echo "checked"; } ?> value="No" />
 				No </div>
 			<div class="formcolumn2">
-				<input name="groom_deed_poll" type="radio" <?php if($iwcustomer[47] == "Yes") { echo "checked"; } ?> value="Yes" />
+				<input name="groom_deed_poll" type="radio" <? if($iwcustomer[47] == "Yes") { echo "checked"; } ?> value="Yes" />
 				Yes
-				<input name="groom_deed_poll" type="radio" <?php if($iwcustomer[47] == "No") { echo "checked"; } ?> value="No" />
+				<input name="groom_deed_poll" type="radio" <? if($iwcustomer[47] == "No") { echo "checked"; } ?> value="No" />
 				No </div>
 			<div class="clear"></div>
 		</div>
 		<div class="formrow">
 			<label class="formlabel" for="bride_baptised">Have you been baptised? (For religious ceremonies Only)</label>
 			<div class="formcolumn1">
-				<input name="bride_baptised" type="radio" <?php if($iwcustomer[48] == "Yes") { echo "checked"; } ?> value="Yes" />
+				<input name="bride_baptised" type="radio" <? if($iwcustomer[48] == "Yes") { echo "checked"; } ?> value="Yes" />
 				Yes
-				<input name="bride_baptised" type="radio" <?php if($iwcustomer[48] == "No") { echo "checked"; } ?> value="No" />
+				<input name="bride_baptised" type="radio" <? if($iwcustomer[48] == "No") { echo "checked"; } ?> value="No" />
 				No </div>
 			<div class="formcolumn2">
-				<input name="groom_baptised" type="radio" <?php if($iwcustomer[49] == "Yes") { echo "checked"; } ?> value="Yes" />
+				<input name="groom_baptised" type="radio" <? if($iwcustomer[49] == "Yes") { echo "checked"; } ?> value="Yes" />
 				Yes
-				<input name="groom_baptised" type="radio" <?php if($iwcustomer[49] == "No") { echo "checked"; } ?> value="No" />
+				<input name="groom_baptised" type="radio" <? if($iwcustomer[49] == "No") { echo "checked"; } ?> value="No" />
 				No </div>
 			<div class="clear"></div>
 		</div>
 		<div class="formrow">
 			<label class="formlabel" for="bride_baptised_certificate">Do you have your baptism certificate?</label>
 			<div class="formcolumn1">
-				<input name="bride_baptised_certificate" type="radio" <?php if($iwcustomer[50] == "Yes") { echo "checked"; } ?> value="Yes" />
+				<input name="bride_baptised_certificate" type="radio" <? if($iwcustomer[50] == "Yes") { echo "checked"; } ?> value="Yes" />
 				Yes
-				<input name="bride_baptised_certificate" type="radio" <?php if($iwcustomer[50] == "No") { echo "checked"; } ?> value="No" />
+				<input name="bride_baptised_certificate" type="radio" <? if($iwcustomer[50] == "No") { echo "checked"; } ?> value="No" />
 				No </div>
 			<div class="formcolumn2">
-				<input name="groom_baptised_certificate" type="radio" <?php if($iwcustomer[51] == "Yes") { echo "checked"; } ?> value="Yes" />
+				<input name="groom_baptised_certificate" type="radio" <? if($iwcustomer[51] == "Yes") { echo "checked"; } ?> value="Yes" />
 				Yes
-				<input name="groom_baptised_certificate" type="radio" <?php if($iwcustomer[51] == "No") { echo "checked"; } ?> value="No" />
+				<input name="groom_baptised_certificate" type="radio" <? if($iwcustomer[51] == "No") { echo "checked"; } ?> value="No" />
 				No </div>
 			<div class="clear"></div>
 		</div>
@@ -877,14 +877,14 @@ foreach($typeofceremony_row as $typeofceremony_record) {
 		<div class="formrow">
 			<label class="formlabel" for="tandc">I have read, understood and agree to be bound by Ionian Weddings' Terms and Conditions</label>
 			<div class="formcolumn1">
-				<input name="tandc" type="checkbox" <?php if($iwcustomer[52] == "Yes") { echo "checked"; } ?> value="Yes" style="vertical-align: middle;" />
+				<input name="tandc" type="checkbox" <? if($iwcustomer[52] == "Yes") { echo "checked"; } ?> value="Yes" style="vertical-align: middle;" />
 				You can read them by clicking <a href="http://www.ionianweddings.co.uk/terms-and-conditions/" target="_blank" style="color:#c08827;">here</a> </div>
 			<div class="clear"></div>
 		</div>
 		<div class="formrow">
 			<label class="formlabel" for="over18">I confirm that I am over 18 years of age</label>
 			<div class="formcolumn1">
-				<input name="over18" type="checkbox" <?php if($iwcustomer[53] == "Yes") { echo "checked"; } ?> value="Yes" style="vertical-align: middle;" />
+				<input name="over18" type="checkbox" <? if($iwcustomer[53] == "Yes") { echo "checked"; } ?> value="Yes" style="vertical-align: middle;" />
 			</div>
 			<div class="clear"></div>
 		</div>
@@ -905,7 +905,7 @@ if(isset($_POST['payinvoices']) || isset($_POST['payinvoice'])) {
 
 	$desc=""; 
 	if(isset($_POST['payinvoice'])) {
-		$filterva = array(",","�","$","�"," ","-");
+		$filterva = array(",","£","$","€"," ","-");
 		$p = $_POST['payinvoice'];
 		$link = "pdf_quotation";
 		$totaltopay=array();
@@ -913,7 +913,7 @@ if(isset($_POST['payinvoices']) || isset($_POST['payinvoice'])) {
 		$dateline = $_POST[$p.'-date'];
 		$itype = $_POST[$p.'-type'];
 		$itotal = str_replace($filterva,"",$itotal);
-		$itotal = "� ".number_format($_POST[$p.'-total'],2);
+		$itotal = "£ ".number_format($_POST[$p.'-total'],2);
 		$itotals = $_POST[$p.'-total'];
 		$iorderid = $_POST[$p.'-orderid'];
 
@@ -941,7 +941,7 @@ if(isset($_POST['payinvoices']) || isset($_POST['payinvoice'])) {
 		$i=0;
 		$newarray = implode(",", $payinv);
 		
-		$filterva = array(",","�","$","�"," ","-");
+		$filterva = array(",","£","$","€"," ","-");
 		foreach ($payinv as $p_amount) {
 			$pay_a[$p_amount] = number_format($_POST[$p_amount.'-total'],2);
 		}
@@ -954,7 +954,7 @@ if(isset($_POST['payinvoices']) || isset($_POST['payinvoice'])) {
 			$itype = $_POST[$p.'-type'];
 			
 
-			$itotal = "� ".number_format($_POST[$p.'-total'],2);
+			$itotal = "£ ".number_format($_POST[$p.'-total'],2);
 			$itotals = str_replace($filterva,"",$itotal);
 			$iorderid = $_POST[$p.'-orderid'];
 
@@ -980,12 +980,12 @@ if(isset($_POST['payinvoices']) || isset($_POST['payinvoice'])) {
 								<div class=\"formlisttd\">".$itype."</div>
 								<div class=\"formlisttd\">".$dateline."</div>
 								<div class=\"formlisttd\">n/a</div>
-								<div class=\"formlisttd\">� 0.00</div>
+								<div class=\"formlisttd\">£ 0.00</div>
 							</div>
 							";
 			}
 			else{
-				$filterva = array(",","�","$","�"," ","-");
+				$filterva = array(",","£","$","€"," ","-");
 				$curr_total = str_replace($filterva,"",number_format(array_sum($totaltopay),2));
 				$totaltopay[$p] = str_replace($filterva,"",number_format($itotals,2));
 				
@@ -1006,7 +1006,7 @@ if(isset($_POST['payinvoices']) || isset($_POST['payinvoice'])) {
 								<div class=\"formlisttd\">
 									<a href=\"$site_url/".$link.".php?quote=".$p."\" target=\"_blank\">Click here</a>
 								</div>";				
-					$list .= "<div id=\"".$payID."\" data-desc=\"".$p.":".$iorderid.":".str_replace($filterva,"",number_format($itotals,2))."\" data-amount=\"".str_replace($filterva,"",number_format($itotals,2))."\" class=\"formlisttd\">� ".number_format($itotals,2)."</div></div>";
+					$list .= "<div id=\"".$payID."\" data-desc=\"".$p.":".$iorderid.":".str_replace($filterva,"",number_format($itotals,2))."\" data-amount=\"".str_replace($filterva,"",number_format($itotals,2))."\" class=\"formlisttd\">£ ".number_format($itotals,2)."</div></div>";
 					$totaltopay[$p] = str_replace($filterva,"",number_format($itotals,2));
 				}
 				else {
@@ -1031,12 +1031,12 @@ if(isset($_POST['payinvoices']) || isset($_POST['payinvoice'])) {
 						<div class="formlistth">View PDF</div>
 						<div class="formlistth">Amount</div>
 					</div>
-					<?php echo $list; ?>
+					<?	echo $list; ?>
 					<div id="ccload" class="formlisttr">
 						<div class="formlisttd">&nbsp;</div>
 						<div class="formlisttd">&nbsp;</div>
 						<div class="formlisttd">Total:</div>
-						<div id="stotal" class="formlisttd"><strong><?php echo "� ".number_format(array_sum($totaltopay),2); ?></strong></div>
+						<div id="stotal" class="formlisttd"><strong><? echo "£ ".number_format(array_sum($totaltopay),2); ?></strong></div>
 					</div>
 				</div>
 				<div class="formlisttable">
@@ -1059,7 +1059,7 @@ else {
 <div class='formheader'>
 	<h1>Quotations</h1>
 </div>
-<?php echo "<form class=\"pageform\" name=\"payin\" action=\"$site_url/quotations/\" method=\"post\">"; ?>
+<?	echo "<form class=\"pageform\" name=\"payin\" action=\"$site_url/quotations/\" method=\"post\">"; ?>
 <div class="formlist">
 	<div class="formlisttable">
 		<div class="formlisttr desktopcart">
@@ -1071,7 +1071,7 @@ else {
 			<!--<div class="formlistth">Select</div>
 			<div class="formlistth">Pay</div>-->
 		</div>
-		<?php 
+		<? 
 // $result = $sql_command->select("$database_quotation_proformas,$database_quotation_details","$database_quotation_proformas.id,
 //							$database_quotation_proformas.iw_cost,
 //							$database_quotation_proformas.status,
@@ -1137,16 +1137,16 @@ if ($record[4]=="Deposit") {
 
 	$respr = $sql_command->result($resp);
 	$totalpp = $record[1] - $respr[0];
-	$new_total_gbp = "� ".number_format($totalpp,2);
+	$new_total_gbp = "£ ".number_format($totalpp,2);
 	$totalin = number_format($totalpp,2);
 }
 else {
 	$invoiceno = $record[0];
 	include("_includes/fn_proforma-payment.php");
 	$totalin		=	number_format($total_gbp,2);
-	$new_total_gbp	=	"� ".number_format($total_gbp,2);
+	$new_total_gbp	=	"£ ".number_format($total_gbp,2);
 }
-$filterva = array(",","�","$","�"," ","-");
+$filterva = array(",","£","$","€"," ","-");
 $totalin = str_replace($filterva,"",$totalin);
 $list .= "
 <div class=\"formlisttr mobilecart\">
@@ -1198,7 +1198,7 @@ $list .= "
 echo $list; ?>
 	</div>
 </div>
-<?php if($list) { ?>
+<? if($list) { ?>
 <!--<div class="formlist">
 	<div class="formlisttable">
 		<div class="formlisttr">
@@ -1212,7 +1212,7 @@ echo $list; ?>
 <input type="hidden" id="cart-total" name="cart-total" value="0">-->
 </form>
 </div>
-<?php 
+<? 
 }
 else {
 ?>
@@ -1226,7 +1226,7 @@ else {
 </div>
 </form>
 </div>
-<?php
+<?	
 }
 }
 }
@@ -1237,7 +1237,7 @@ else {
 		$( "#wedding-d" ).datepicker({ dateFormat: 'dd/mm/yy' });
 	});
 	</script>
-<form action="<?php echo $site_url; ?>/quotations/" class="pageform" id="invoices" method="post" name="invoices">
+<form action="<? echo $site_url; ?>/quotations/" class="pageform" id="invoices" method="post" name="invoices">
 	<input type="hidden" name="page" value="invoice">
 	<div class="formheader">
 		<h1>View Quotations</h1>
@@ -1246,14 +1246,14 @@ else {
 	<!--<div class="formrow">
 		<label class="formlabel" for="customer-id">Ionian Weddings ID:</label>
 		<div class="formelement">
-			<input class="formtextfieldlong" id="customer-id" name="customer-id" type="text" value="<?php echo $cuid; ?>" />
+			<input class="formtextfieldlong" id="customer-id" name="customer-id" type="text" value="<? echo $cuid; ?>" />
 		</div>
 		<div class="clear"></div>
 	</div>-->
 	<div class="formrow">
 		<label class="formlabel" for="wedding-d">Date of Wedding:</label>
 		<div class="formelement">
-			<input class="formtextfieldlong forminput" id="wedding-d" name="wedding-d" type="text" value="<?php echo $wdate; ?>" title="DD/MM/YYYY" />
+			<input class="formtextfieldlong forminput" id="wedding-d" name="wedding-d" type="text" value="<? echo $wdate; ?>" title="DD/MM/YYYY" />
 		</div>
 		<div class="clear"></div>
 	</div>
@@ -1274,13 +1274,13 @@ else {
 	<div class="formrow">
 		<label class="formlabel" for="viewinvoice">&nbsp;</label>
 		<div class="formelement">
-			<p><?php echo $errori ; ?></p>
-			<p><?php echo $errord ; ?></p>
+			<p><? echo $errori ; ?></p>
+			<p><? echo $errord ; ?></p>
 		</div>
 		<div class="clear"></div>
 	</div>
 </form>
-<?php } ?>
+<? } ?>
 <div class="cardlogorow"> 
 	<!-- Payment Methods Displayed --> 
 	<!--
@@ -1290,13 +1290,13 @@ else {
 	<ul>
 		<!-- Powered by WorldPay logo-->
 		<li class="cardlogoitem floatleft"><a href="http://www.worldpay.com/" target="_blank" title="Payment Processing - WorldPay - Opens in new browser window"><img src="http://www.worldpay.com/images/poweredByWorldPay.gif" border="0" alt="WorldPay Payments Processing"></a></li>
-		<li class="cardlogoitem floatright"><?php echo $displayVISD; ?></li>
-		<li class="cardlogoitem floatright"><?php echo $displayVISE; ?></li>
-		<li class="cardlogoitem floatright"><?php echo $displayMaestro; ?></li>
-		<li class="cardlogoitem floatright"><?php echo $displayVisa; ?></li>
-		<li class="cardlogoitem floatright"><?php echo $displayMastercard; ?></li>
-		<li class="cardlogoitem floatright"><?php echo $displayJCB; ?></li>
-		<li class="cardlogoitem floatright"><?php echo $displayELV; ?></li>
+		<li class="cardlogoitem floatright"><? echo $displayVISD; ?></li>
+		<li class="cardlogoitem floatright"><? echo $displayVISE; ?></li>
+		<li class="cardlogoitem floatright"><? echo $displayMaestro; ?></li>
+		<li class="cardlogoitem floatright"><? echo $displayVisa; ?></li>
+		<li class="cardlogoitem floatright"><? echo $displayMastercard; ?></li>
+		<li class="cardlogoitem floatright"><? echo $displayJCB; ?></li>
+		<li class="cardlogoitem floatright"><? echo $displayELV; ?></li>
 		<li class="clear"></li>
 	</ul>
 </div>
