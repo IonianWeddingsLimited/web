@@ -109,11 +109,11 @@ foreach($row as $record) {
 
 $record[2] = str_replace("&","&amp;",$record[2]);
 $record[2] = str_replace("'","",$record[2]);
-$record[2] = str_replace("’","",$record[2]);
+$record[2] = str_replace("â€™","",$record[2]);
 
 $record[3] = str_replace("&","&amp;",$record[3]);
 $record[3] = str_replace("'","",$record[3]);
-$record[3] = str_replace("’","",$record[3]);
+$record[3] = str_replace("â€™","",$record[3]);
 
 if($record[4] != 0) {
 list($theyear,$theid) = explode("_",$record[4]);

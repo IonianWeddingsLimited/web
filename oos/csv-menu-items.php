@@ -141,9 +141,9 @@ $menu_option_record[3] = str_replace('"',"''",stripslashes($menu_option_record[3
 $menu_option_record[4] = str_replace('"',"''",stripslashes($menu_option_record[4]));
 
 if($menu_option_record[5] == "Euro") {
-$type = "€ ";
+$type = "â‚¬ ";
 } elseif($menu_option_record[5] == "Pound") {
-$type = "£ ";
+$type = "Â£ ";
 } else { 
 $type = "";
 }

@@ -358,7 +358,7 @@ if (empty($currency_name)) {
 		$drespr = $sql_command->result($dresp);
 		//		$payDates = $drespr[1];
 		$totalpp = $drespr[0];
-		//		$format_gbp = "£ ".number_format($totalpp,2);
+		//		$format_gbp = "Â£ ".number_format($totalpp,2);
 	}
 	else {
 		$resp = $sql_command->select("customer_payments,customer_transactions",
@@ -523,7 +523,7 @@ if (empty($currency_name)) {
 		$drespr = $sql_command->result($dresp);
 	
 		$totalpp = $drespr[0];
-	//	$format_gbp = "£ ".number_format($totalpp,2);
+	//	$format_gbp = "Â£ ".number_format($totalpp,2);
 	}
 	else {
 		$resp = $sql_command->select("customer_payments,customer_transactions",
@@ -535,7 +535,7 @@ if (empty($currency_name)) {
 							 AND customer_payments.invoice_id = '".addslashes($invoiceno)."'");
 		$respr = $sql_command->result($resp);
 		$totalpp = $respr[0];
-		//	$format_gbp = "£ ".number_format($totalpp,2);
+		//	$format_gbp = "Â£ ".number_format($totalpp,2);
 	}
 	// end payments
 	
@@ -549,11 +549,11 @@ if (empty($currency_name)) {
 	
 	//$totalpp = 0;
 	//$currency_i = ($currencydef=="Not Applicable") ?  "pound": (!$currencydef) ? "pound" : $currencydef;
-	//$c_symbol = ($currency_i=="pound") ?  "£":  $c_symbol;
+	//$c_symbol = ($currency_i=="pound") ?  "Â£":  $c_symbol;
 	
 	// testing
 	// $currency_i = "euro"; 
-	// $c_symbol = "€";
+	// $c_symbol = "â‚¬";
 	
 	//$total_gbp = ($currency_i=="pound") ?  $total_gbp :  $total_gbp * $invrecord[1];
 }
@@ -917,7 +917,7 @@ else {
 				$drespr = $sql_command->result($dresp);
 		//		$payDates = $drespr[1];
 				$totalpp = $drespr[0];
-		//		$format_gbp = "£ ".number_format($totalpp,2);
+		//		$format_gbp = "Â£ ".number_format($totalpp,2);
 		}
 		else {
 			$resp = $sql_command->select("customer_payments,customer_transactions",
@@ -1077,7 +1077,7 @@ else {
 			$drespr = $sql_command->result($dresp);
 		
 			$totalpp = $drespr[0];
-		//	$format_gbp = "£ ".number_format($totalpp,2);
+		//	$format_gbp = "Â£ ".number_format($totalpp,2);
 		}
 		else {
 			$resp = $sql_command->select("customer_payments,customer_transactions",
@@ -1089,7 +1089,7 @@ else {
 								 AND customer_payments.invoice_id = '".addslashes($invoiceno)."'");
 			$respr = $sql_command->result($resp);
 			$totalpp = $respr[0];
-		//	$format_gbp = "£ ".number_format($totalpp,2);
+		//	$format_gbp = "Â£ ".number_format($totalpp,2);
 		}
 	// end payments
 	}

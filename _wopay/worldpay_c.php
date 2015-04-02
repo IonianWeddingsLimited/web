@@ -62,7 +62,7 @@ else {
 	$statusa = str_replace("C","Cancelled",$statusa);
 	$statusa = (!$statusa) ? "Refused": $statusa;
 	
-	$arr_filter = array("£","€",","," ","$");
+	$arr_filter = array("Â£","â‚¬",","," ","$");
 	$desc = str_replace($arr_filter,"",$desc);
 	list($desca,$totala) = explode("Total",$desc);
 	$totals = str_replace($arr_filter,"",$totala);
@@ -186,8 +186,8 @@ else {
 
 	echo "<div class=\"formrow\"><div class=\"formlabel\">Cart ID:</div><div class=\"formelement\">".$cartid."</div><div class=\"clear\"></div></div>";
 $surcharge = number_format($amount-$totalt,2);
-$surcharge = ($surcharge>0) ? " - (Includes £ ".number_format($surcharge,2)." credit card fee).": "";
-	echo "<div class=\"formrow\"><div class=\"formlabel\">Transaction Amount:</div><div class=\"formelement\">£ ".number_format($amount,2).$surcharge."</div><div class=\"clear\"></div></div>";
+$surcharge = ($surcharge>0) ? " - (Includes Â£ ".number_format($surcharge,2)." credit card fee).": "";
+	echo "<div class=\"formrow\"><div class=\"formlabel\">Transaction Amount:</div><div class=\"formelement\">Â£ ".number_format($amount,2).$surcharge."</div><div class=\"clear\"></div></div>";
 
 
 

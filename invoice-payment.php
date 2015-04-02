@@ -234,8 +234,8 @@ $line_iw_euro = $total_iw_cost_before;
 $line_iw_euro = $total_iw_cost; 	
 }
 if($total_iw_cost != 0) {
-$display_cost = '£ '.number_format($line_iw_euro,2);
-$display_cost = eregi_replace("£ -","- £ ",$display_cost);
+$display_cost = 'Â£ '.number_format($line_iw_euro,2);
+$display_cost = eregi_replace("Â£ -","- Â£ ",$display_cost);
  
 }
 }
@@ -334,8 +334,8 @@ $line_iw_euro = $total_iw_cost_before;
 $line_iw_euro = $total_iw_cost; 	
 }
 if($total_iw_cost != 0) {
-$display_cost = '€ '.number_format($line_iw_euro,2);
-$display_cost = eregi_replace("€ -","- € ",$display_cost);
+$display_cost = 'â‚¬ '.number_format($line_iw_euro,2);
+$display_cost = eregi_replace("â‚¬ -","- â‚¬ ",$display_cost);
 }
 }
 
@@ -466,8 +466,8 @@ $line_iw_euro = $total_iw_cost;
 
 $total_additional += $line_iw_euro;
 if($total_iw_cost != 0) {
-$display_cost = '£ '.number_format($line_iw_euro,2);
-$display_cost = eregi_replace("£ -","- £ ",$display_cost);
+$display_cost = 'Â£ '.number_format($line_iw_euro,2);
+$display_cost = eregi_replace("Â£ -","- Â£ ",$display_cost);
  
 }
 }
@@ -496,7 +496,7 @@ $discount_amount_calc = 0;
 
 
 $total_gbp = $outstanding_pounds + $total_payment_pound - $minum_deposit ;
-$total_gbp = "£ ".number_format($total_gbp,2);
+$total_gbp = "Â£ ".number_format($total_gbp,2);
 
 return $total_gbp;
 

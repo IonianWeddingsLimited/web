@@ -154,8 +154,8 @@ foreach ($invoice_row as $invoice_record) {
 				$line_iw_euro = $total_iw_cost;
 		}
 		if ($total_iw_cost != 0) {
-				$display_cost = '£ ' . number_format($line_iw_euro, 2);
-				$display_cost = eregi_replace("£ -", "- £ ", $display_cost);
+				$display_cost = 'Â£ ' . number_format($line_iw_euro, 2);
+				$display_cost = eregi_replace("Â£ -", "- Â£ ", $display_cost);
 		}
 }
 
@@ -229,8 +229,8 @@ foreach ($invoice_row as $invoice_record) {
 				$line_iw_euro = $total_iw_cost;
 		}
 		if ($total_iw_cost != 0) {
-				$display_cost = '€ ' . number_format($line_iw_euro, 2);
-				$display_cost = eregi_replace("€ -", "- € ", $display_cost);
+				$display_cost = 'â‚¬ ' . number_format($line_iw_euro, 2);
+				$display_cost = eregi_replace("â‚¬ -", "- â‚¬ ", $display_cost);
 		}
 }
 
@@ -338,8 +338,8 @@ foreach ($invoice_row as $invoice_record) {
 		}
 		$total_additional += $line_iw_euro;
 		if ($total_iw_cost != 0) {
-				$display_cost = '£ ' . number_format($line_iw_euro, 2);
-				$display_cost = eregi_replace("£ -", "- £ ", $display_cost);
+				$display_cost = 'Â£ ' . number_format($line_iw_euro, 2);
+				$display_cost = eregi_replace("Â£ -", "- Â£ ", $display_cost);
 		}
 }
 

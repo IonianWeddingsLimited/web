@@ -238,10 +238,10 @@ $header_image = "../images/invoice_header.jpg";
 								$itemvalue = $record2[3];
 								$exrate=$pocheck[1];
 								if($record2[4] != "Euro") { 
-									$p_curreny = "£"; 
+									$p_curreny = "Â£"; 
 									$payment_total2 = $qties * ($itemvalue/$exrate);		
 								} else {
-									$p_curreny = "€";
+									$p_curreny = "â‚¬";
 									$payment_total2 = $qties * $itemvalue;
 								}
 								$payment_total += $payment_total2;
@@ -285,7 +285,7 @@ $header_image = "../images/invoice_header.jpg";
 								$pdf->Cell(160.05,4,"Part Payment IDs - ".$payids." (".$payd.")",'LR',0,'L',true);
 								$pdf->SetFont('','',8);
 								$pdf->Cell(9.95,5,"1",'LR',0,'C',true);
-								$pdf->Cell(19.95,4,€.' '.number_format($payam,2),'LR',0,'R',true);
+								$pdf->Cell(19.95,4,â‚¬.' '.number_format($payam,2),'LR',0,'R',true);
 								$pdf->Ln(4);
 							}
 						}
@@ -333,7 +333,7 @@ $header_image = "../images/invoice_header.jpg";
 							$p_filter= array("<strong>","</strong>","<u>","</u>","<i>","</i>","&nbsp;","<ul>","</ul>");
 							$p_note = str_replace($p_filter,"",$comments_r[0]);
 							$p_note = str_replace("<p> ","<p>",$p_note);
-							$p_note = str_replace("<li>","<p> • ",$p_note);
+							$p_note = str_replace("<li>","<p> â€¢ ",$p_note);
 							$p_note = str_replace("</li>","</p>",$p_note);
 							$p_note = preg_replace('~[\r\n]+~', '', $p_note);
 							$p_note = str_replace("&nbsp;", " ", $p_note);

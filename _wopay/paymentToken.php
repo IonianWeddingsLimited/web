@@ -81,7 +81,7 @@ function priceCheck() {
 	totalDUE = 0;
 	amountPAY = $('#damount').val();
 	
-	$(".totalDUE").text("£ " + totalDUE);
+	$(".totalDUE").text("Â£ " + totalDUE);
 	$.ajax({
 		url: "http://www.ionianweddings.co.uk/_includes/paymenttype.php",
 		type: "POST",
@@ -98,7 +98,7 @@ function priceCheck() {
 			var totalDUE = result.tamount;
 			
 			
-			$("#etotal").text("£ "+lasttotal);
+			$("#etotal").text("Â£ "+lasttotal);
 			
 			lasttotal = lasttotal.replace(",","");
 			
@@ -111,12 +111,12 @@ function priceCheck() {
 			$('#damount').val(samount);
 			$("#desc").val(changeDesc+" Total "+samount);
 			$("#amount").val(totalDUE);
-			$(".totalAmount").text("£ "+fstotal);
-			$("#stotal").html("<strong>£ "+fstotal+"</strong>");			
+			$(".totalAmount").text("Â£ "+fstotal);
+			$("#stotal").html("<strong>Â£ "+fstotal+"</strong>");			
 			
 			if (cardCharge) {
 				$(".cardC").remove();
-				$('<div class="formlisttr cardC"><div class="formlisttd cardC">&nbsp;</div><div class="formlisttd cardC">&nbsp;</div><div class="formlisttd cardC">&nbsp;</div><div class="formlisttd cardC">'+sCard+'% Card Transaction Surcharge</div><div class="formlisttd cardC"><strong>£ '+fcharge+'</strong></div></div><div class="formlisttr cardC"><div class="formlisttd cardC">&nbsp;</div><div class="formlisttd cardC">&nbsp;</div><div class="formlisttd cardC">&nbsp;</div><div class="formlisttd cardC">Grand Total</div><div class="formlisttd cardC"><strong>£ '+ftotal+'</strong></div></div>').insertAfter($('#ccload'));	
+				$('<div class="formlisttr cardC"><div class="formlisttd cardC">&nbsp;</div><div class="formlisttd cardC">&nbsp;</div><div class="formlisttd cardC">&nbsp;</div><div class="formlisttd cardC">'+sCard+'% Card Transaction Surcharge</div><div class="formlisttd cardC"><strong>Â£ '+fcharge+'</strong></div></div><div class="formlisttr cardC"><div class="formlisttd cardC">&nbsp;</div><div class="formlisttd cardC">&nbsp;</div><div class="formlisttd cardC">&nbsp;</div><div class="formlisttd cardC">Grand Total</div><div class="formlisttd cardC"><strong>Â£ '+ftotal+'</strong></div></div>').insertAfter($('#ccload'));	
 			}
 			
 		}  
@@ -183,7 +183,7 @@ function priceCheck() {
 			priceCheck();	
 			
 			//$(".formlist").append('<div class="formelement1 cardC">N\A</div><div class="formelement2 cardC">'+sCard+'% Card Surcharge</div><div class="formelement3 cardC">'+tDate+'</div><div class="formelement4 cardC">'+cardC+'</div><div class="formelement5 cardC">&nbsp;</div><div class=\"clearleft\"></div>');
-		//$(".formlist").append('<div class="formlisttr cardC"><div class="formlisttd cardC">'+ sCard+'% Card Surcharge</div><div class="formlisttd cardC">£ '+cardC+'</div></div>');
+		//$(".formlist").append('<div class="formlisttr cardC"><div class="formlisttd cardC">'+ sCard+'% Card Surcharge</div><div class="formlisttd cardC">Â£ '+cardC+'</div></div>');
 	
 	}
 	else { 
@@ -245,7 +245,7 @@ function priceCheck() {
   <?php 
     if (isset($_POST['payinvoice'])) { 
 		echo "<input type=\"radio\" name=\"amountch\" value=\"full\" checked/>";
-		echo "Pay in full (<span class=\"totalAmount\">£ ".number_format($amount,2)."</span>)<br />";
+		echo "Pay in full (<span class=\"totalAmount\">Â£ ".number_format($amount,2)."</span>)<br />";
 	    echo "<input type=\"radio\" name=\"amountch\" value=\"part\" />Part Pay <br /><br /></div><div class=\"clear\"></div></div>";
 		echo "<div class=\"formrow\" id=\"amountrow\" style=\"display:none;\"><label class=\"formlabel\" for=\"amount\">Please enter the amount you would like to pay:<span class=\"required\">*</span></label><div class=\"formelement\">";	
 		echo "<input type=\"text\" name=\"amount\" id=\"amount\" value=\"".round($itotals, 2)."\" style=\"display:none;\"/>";
@@ -255,7 +255,7 @@ function priceCheck() {
 	
 	}
 	else {
-		echo "Pay in full (<span class=\"totalAmount\">£ ".number_format($amount,2)."</span>)<br /></div><div class=\"clear\"></div></div>";
+		echo "Pay in full (<span class=\"totalAmount\">Â£ ".number_format($amount,2)."</span>)<br /></div><div class=\"clear\"></div></div>";
 		echo "<input type=\"text\" name=\"amount\" id=\"amount\" value=\"".round($itotals, 2)."\" style=\"display:none;\"/>";
 	}
   ?>
@@ -324,7 +324,7 @@ function priceCheck() {
 							<option value="IE">Ireland</option>
 							<option disabled="disabled" value="">----------------------------</option>					
                             <option value="AF" >Afghanistan</option>
-                            <option value="AX" >Åland Islands</option>
+                            <option value="AX" >Ã…land Islands</option>
                             <option value="AL" >Albania</option>
                             <option value="DZ" >Algeria</option>
                             <option value="AS" >American Samoa</option>
@@ -376,7 +376,7 @@ function priceCheck() {
                             <option value="CD" >Congo, The Democratic Republic Of The</option>
                             <option value="CK" >Cook Islands</option>
                             <option value="CR" >Costa Rica</option>
-                            <option value="CI" >Côte D'Ivoire</option>
+                            <option value="CI" >CÃ´te D'Ivoire</option>
                             <option value="HR" >Croatia</option>
                             <option value="CU" >Cuba</option>
                             <option value="CY" >Cyprus</option>
@@ -500,7 +500,7 @@ function priceCheck() {
                             <option value="PT" >Portugal</option>
                             <option value="PR" >Puerto Rico</option>
                             <option value="QA" >Qatar</option>
-                            <option value="RE" >Réunion</option>
+                            <option value="RE" >RÃ©union</option>
                             <option value="RO" >Romania</option>
                             <option value="RU" >Russian Federation</option>
                             <option value="RW" >Rwanda</option>

@@ -14,7 +14,7 @@ $cardT = isset($_POST['ptcard']) ? $_POST['ptcard'] : "";
 $lastam = isset($_POST['lastAmount']) ? $_POST['lastAmount'] : 0;
 $amountc = ($amm <= 0) ?  : ($amm>$def) ? $def : $amm;
 
-$filterv = array("£","$","€"," ",",","-");	
+$filterv = array("Â£","$","â‚¬"," ",",","-");	
 $chamount = str_replace($filterv,"",$chamount);
 $amountc = str_replace($filterv,"",$amountc);
 $cardCh = str_replace($filterv,"",$cardCh);

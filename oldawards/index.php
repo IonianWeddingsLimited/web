@@ -206,7 +206,7 @@
 			<h1>All who vote will automatically enter a prize draw to win either:</h1>
 			<ul>
 				<li>A seven night European cruise with Viking River Cruises</li>
-				<li>A £2,000 Thomson or First Choice holiday voucher</li>
+				<li>A Â£2,000 Thomson or First Choice holiday voucher</li>
 				<li>Seven days European car hire with Avis</li>
 			</ul>
 			<h2><a href="https://britishtravelawards.com/vote_form.php" target="_blank" title="Click to vote for us - British Travel Awards 2012 - www.britishtravelawards.com">Vote for us here</a></h2>

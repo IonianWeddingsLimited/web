@@ -59,11 +59,11 @@ $this->Write(0,"Sort Code 08-92-50");
 $this->Ln(3.2); 
 $this->Write(0,"Swift (BIC) - CPBK GB 22");
 $this->Ln(3.2); 
-$this->Write(0,"IBAN – GB21 CPBK 08925070913224");
+$this->Write(0,"IBAN â€“ GB21 CPBK 08925070913224");
 $this->Ln(5); 
 $this->Write(0,"Balance payments are not refundable; cheques are no longer accepted due to the abolition of the Cheque Guarantee Scheme. We also accept debit cards and credit cards (there is a 2% transaction fee for ");
 $this->Ln(3.2); 
-$this->Write(0,"credit cards and 3% for international credit cards) – please ask for a form for card payments. If you prefer to pay in Euros, please let us know.");
+$this->Write(0,"credit cards and 3% for international credit cards) â€“ please ask for a form for card payments. If you prefer to pay in Euros, please let us know.");
 $this->Ln(5); 
 $this->SetTextColor(152,72,5); 
 $this->Write(0,"THANK YOU FOR YOUR BUSINESS.");
@@ -74,7 +74,7 @@ $gety = $this->GetY();
 $this->Image("../images/invoice_abta.jpg", 185, $gety + 0.5, 16.93,6.77);
 
 $this->SetTextColor(151,151,151);  
-$this->Write(0,"© Copyright Ionian Weddings Ltd. ".date("Y")." – 10 Crane Mews, 32 Gould Road, Twickenham, England, TW2 6RS");
+$this->Write(0,"Â© Copyright Ionian Weddings Ltd. ".date("Y")." â€“ 10 Crane Mews, 32 Gould Road, Twickenham, England, TW2 6RS");
 $this->Ln(3.5); 
 $this->Write(0,"(t) / (f) +44 208 894 1991 - (e) weddings@ionianweddings.co.uk - (w) www.ionianweddings.co.uk");
 $this->Ln(3.5); 
@@ -280,7 +280,7 @@ $pdf->SetFont('','',5);
 $pdf->Cell(170,4,$paragraph,'LR',0,'L',true);
 $pdf->SetFont('','',7);
 $pdf->Cell(19.95,4,'','LR',0,'L',true);
-$pdf->Cell(19.95,4,'£ '.number_format($invoice_record[3],2),'LR',0,'R',true);
+$pdf->Cell(19.95,4,'Â£ '.number_format($invoice_record[3],2),'LR',0,'R',true);
 
 $pdf->Ln(3.6); 
 }
@@ -304,7 +304,7 @@ $pdf->SetLineWidth(0.1);
 
 $pdf->SetTextColor(0,0,0); 
 $pdf->Cell(170,5,"Amount Outstanding in GBP",'LR',0,'R',true);
-$pdf->Cell(19.95,5,"£ ".$total_payment_pound,'LR',0,'R',true);
+$pdf->Cell(19.95,5,"Â£ ".$total_payment_pound,'LR',0,'R',true);
 $pdf->Ln(5.1);
 $pdf->Cell(189.95,0,'','T'); 
 $pdf->Ln(0.1);

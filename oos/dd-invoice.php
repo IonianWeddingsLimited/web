@@ -92,11 +92,11 @@ $this->Write(0,"Sort Code 08-92-50");
 $this->Ln(3.2); 
 $this->Write(0,"Swift (BIC) - CPBK GB 22");
 $this->Ln(3.2); 
-$this->Write(0,"IBAN – GB21 CPBK 08925070913224");
+$this->Write(0,"IBAN â€“ GB21 CPBK 08925070913224");
 $this->Ln(5); 
 $this->Write(0,"Balance payments are not refundable; cheques are no longer accepted due to the abolition of the Cheque Guarantee Scheme. We also accept debit cards and credit cards (there is a 2% transaction fee for ");
 $this->Ln(3.2); 
-$this->Write(0,"credit cards and 3% for international credit cards) – please ask for a form for card payments. If you prefer to pay in Euros, please let us know.");
+$this->Write(0,"credit cards and 3% for international credit cards) â€“ please ask for a form for card payments. If you prefer to pay in Euros, please let us know.");
 $this->Ln(5); 
 $this->SetTextColor(152,72,5);
 $this->Write(0,"THANK YOU FOR YOUR BUSINESS.");
@@ -107,7 +107,7 @@ $gety = $this->GetY();
 $this->Image("../images/invoice_abta.jpg", 185, $gety + 0.5, 16.93,6.77);
 
 $this->SetTextColor(151,151,151);  
-$this->Write(0,"© Copyright Ionian Weddings Ltd. ".date("Y")." – 10 Crane Mews, 32 Gould Road, Twickenham, England, TW2 6RS");
+$this->Write(0,"Â© Copyright Ionian Weddings Ltd. ".date("Y")." â€“ 10 Crane Mews, 32 Gould Road, Twickenham, England, TW2 6RS");
 $this->Ln(3.5); 
 $this->Write(0,"(t) / (f) +44 208 894 1991 - (e) weddings@ionianweddings.co.uk - (w) www.ionianweddings.co.uk");
 $this->Ln(3.5); 
@@ -412,7 +412,7 @@ $pdf->SetFont('','',5);
 $pdf->Cell(160.05,4,$paragraph,'LR',0,'L',true);
 $pdf->SetFont('','',6);
 $pdf->Cell(9.95,5,$invoice_record[1],'LR',0,'C',true);
-$pdf->Cell(19.95,4,'€ '.number_format($total_iw_cost_before,2),'LR',0,'R',true);
+$pdf->Cell(19.95,4,'â‚¬ '.number_format($total_iw_cost_before,2),'LR',0,'R',true);
 
 $pdf->Ln(3.6); 
 }
@@ -525,7 +525,7 @@ $pdf->SetFont('','',5);
  
 $pdf->Cell(170,4,$paragraph ." x".$invoice_record[1],'LR',0,'L',true);
 $pdf->SetFont('','',6);
-$pdf->Cell(19.95,4,'£'.number_format($total_iw_cost_before,2),'LR',0,'R',true);
+$pdf->Cell(19.95,4,'Â£'.number_format($total_iw_cost_before,2),'LR',0,'R',true);
 
 $pdf->Ln(3.6); 
 }
@@ -672,7 +672,7 @@ $pdf->SetFont('','',5);
 $pdf->Cell(160.05,4,$paragraph,'LR',0,'L',true);
 $pdf->SetFont('','',6);
 $pdf->Cell(9.95,5,$invoice_record[1],'LR',0,'C',true);
-$pdf->Cell(19.95,4,'€ '.number_format($total_iw_cost_before,2),'LR',0,'R',true);
+$pdf->Cell(19.95,4,'â‚¬ '.number_format($total_iw_cost_before,2),'LR',0,'R',true);
 
 $pdf->Ln(3.6);
 }
@@ -691,7 +691,7 @@ $outstanding_euros_before = $total_payment_euro_before;
 
 $pdf->Cell(170,5,"Amount Outstanding in Euros",'LR',0,'L',true);
 $pdf->SetFont('','',6);
-$pdf->Cell(19.95,5,"€ ".number_format($outstanding_euros_before,2),'LR',0,'R',true);
+$pdf->Cell(19.95,5,"â‚¬ ".number_format($outstanding_euros_before,2),'LR',0,'R',true);
 $pdf->Ln(5.1);
 $pdf->Cell(189.95,0,'','T'); 
 $pdf->Ln(0.1);
@@ -703,7 +703,7 @@ $outstanding_pounds_before = $outstanding_euros_before / $record[22];
 
 $pdf->Cell(170,5,"Amount Outstanding in GBP",'LR',0,'L',true);
 $pdf->SetFont('','',6);
-$pdf->Cell(19.95,5,"£ ".number_format($outstanding_pounds_before,2),'LR',0,'R',true);
+$pdf->Cell(19.95,5,"Â£ ".number_format($outstanding_pounds_before,2),'LR',0,'R',true);
 $pdf->Ln(5.1);
 $pdf->Cell(189.95,0,'','T'); 
 $pdf->Ln(0.1);
@@ -827,7 +827,7 @@ $pdf->SetFont('','',5);
  
 $pdf->Cell(170,4,$paragraph ." x".$invoice_record[1],'LR',0,'L',true);
 $pdf->SetFont('','',6);
-$pdf->Cell(19.95,4,'£'.number_format($line_iw_euro,2),'LR',0,'R',true);
+$pdf->Cell(19.95,4,'Â£'.number_format($line_iw_euro,2),'LR',0,'R',true);
 
 $pdf->Ln(3.6); 
 }
@@ -839,7 +839,7 @@ $pdf->Ln(0.1);
 $pdf->SetFont('','B',6);
 $pdf->Cell(170,5,"Additional Amount in GBP",'LR',0,'L',true);
 $pdf->SetFont('','',6);
-$pdf->Cell(19.95,5,"£ ".number_format($line_iw_pound,2),'LR',0,'R',true);
+$pdf->Cell(19.95,5,"Â£ ".number_format($line_iw_pound,2),'LR',0,'R',true);
 $pdf->Ln(5.1);
 $pdf->Cell(189.95,0,'','T'); 
 $pdf->Ln(0.1);
@@ -869,7 +869,7 @@ $pdf->Ln(0.1);
 $pdf->SetFont('','B',6);
 $pdf->Cell(170,5,"Deposit Paid",'LR',0,'L',true);
 $pdf->SetFont('','',6);
-$pdf->Cell(19.95,5,"- £ ".number_format($total_deposit_paid,2),'LR',0,'R',true);
+$pdf->Cell(19.95,5,"- Â£ ".number_format($total_deposit_paid,2),'LR',0,'R',true);
 $pdf->Ln(5.1);
 $pdf->Cell(189.95,0,'','T'); 
 $pdf->Ln(0.1);
@@ -909,7 +909,7 @@ if (count($recorda)>0) {
 		$drespr = $sql_command->result($dresp);
 		$payDates = $drespr[1];
 		$totalpp = $drespr[0];
-		$format_gbp = "£ ".number_format($totalpp,2);
+		$format_gbp = "Â£ ".number_format($totalpp,2);
 	}
 	else {
 		$resp = $sql_command->select("customer_payments,customer_transactions",
@@ -921,7 +921,7 @@ if (count($recorda)>0) {
 		$respr = $sql_command->result($resp);
 		$payDates = $respr[1];
 		$totalpp = $respr[0];
-		$format_gbp = "£ ".number_format($totalpp,2);
+		$format_gbp = "Â£ ".number_format($totalpp,2);
 	}
 	if ($totalpp>0) {
 		$resp = $sql_command->select("customer_payments,customer_transactions",
@@ -941,7 +941,7 @@ if (count($recorda)>0) {
 			$pdf->SetFont('','B',6);
 			$pdf->Cell(170,5,"Part Payment ID - ".$payids." (".$payDate.")",'LR',0,'L',true);
 			$pdf->SetFont('','',6);
-			$pdf->Cell(19.95,5,"- £ ".number_format($pamount,2),'LR',0,'R',true);
+			$pdf->Cell(19.95,5,"- Â£ ".number_format($pamount,2),'LR',0,'R',true);
 			$pdf->Ln(5.1);
 			$pdf->Cell(189.95,0,'','T'); 
 			$pdf->Ln(0.1);
@@ -960,13 +960,13 @@ $total_gbp = $outstanding_pounds_before + $total_payment_pound_before - $minum_d
 
 $pdf->Ln(0.1);
 $pdf->Cell(170,5,"TOTAL in GBP",'LR',0,'L',true);
-$pdf->Cell(19.95,5,"£ ".number_format($total_gbp,2),'LR',0,'R',true);
+$pdf->Cell(19.95,5,"Â£ ".number_format($total_gbp,2),'LR',0,'R',true);
 $pdf->Ln(5.1);
 $pdf->Cell(189.95,0,'','T'); 
 $pdf->Ln(0.1);
 $pdf->Cell(170,5,"Discount in GBP",'LR',0,'L',true);
 $pdf->SetFont('','',6);
-$pdf->Cell(19.95,5,"£ ".number_format($discount_amount_calc,2),'LR',0,'R',true);
+$pdf->Cell(19.95,5,"Â£ ".number_format($discount_amount_calc,2),'LR',0,'R',true);
 $pdf->Ln(5.1);
 $pdf->Cell(189.95,0,'','T'); 
 $pdf->Ln(0.1);
@@ -985,7 +985,7 @@ $total_gbp = $outstanding_pounds + $total_payment_pound - $minum_deposit;
 
 $pdf->Ln(0.1);
 $pdf->Cell(170,5,"TOTAL Payable in GBP",'LR',0,'R',true);
-$pdf->Cell(19.95,5,"£ ".number_format($total_gbp,2),'LR',0,'R',true);
+$pdf->Cell(19.95,5,"Â£ ".number_format($total_gbp,2),'LR',0,'R',true);
 $pdf->Ln(5.1);
 $pdf->Cell(189.95,0,'','T'); 
 $pdf->Ln(0.1);
