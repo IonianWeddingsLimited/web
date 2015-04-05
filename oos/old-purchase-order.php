@@ -25,10 +25,6 @@ $result = $sql_command->select("$database_supplier_invoices,$database_supplier_d
 							   $database_supplier_invoices.id='".addslashes($_GET["purchase_order"])."'");
 $record = $sql_command->result($result);
 
-
-
-
-define('FPDF_FONTPATH','/home/ionianwe/public_html/oos/font/');
 require('fpdf.php');
 
 class PDF extends FPDF {

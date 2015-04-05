@@ -34,7 +34,6 @@ $result2 = $sql_command->select("$database_order_details,$database_packages,$dat
 $record2 = $sql_command->result($result2);
 
 
-define('FPDF_FONTPATH','/home/ionianwe/public_html/oos/font/');
 require('fpdf.php');
 
 class PDF extends FPDF {

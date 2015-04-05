@@ -25,10 +25,6 @@ $result = $sql_command->select("$database_customer_invoices,$database_order_deta
 							   $database_order_details.client_id=$database_clients.id");
 $record = $sql_command->result($result);
 
-
-
-
-define('FPDF_FONTPATH','/home/ionianwe/public_html/oos/font/');
 require('fpdf.php');
 
 class PDF extends FPDF {

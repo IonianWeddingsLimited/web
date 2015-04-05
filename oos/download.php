@@ -12,7 +12,6 @@ $get_template = new main_template();
 include("run_login.php");
 
 
-define('FPDF_FONTPATH','/home6/macwindn/public_html/regs/font/');
 require('fpdf.php');
 
 class PDF extends FPDF {

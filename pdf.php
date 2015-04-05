@@ -8,7 +8,6 @@ include ("_includes/function.database.php");
 $sql_command = new sql_db();
 $sql_command->connect($database_host,$database_name,$database_username,$database_password);
 
-define('FPDF_FONTPATH','/home/ionianwe/public_html/oos/font/');
 require('fpdf.php');
 
 // create pdf

@@ -15,9 +15,6 @@ $header_image = "../images/invoice_header.jpg";
 $ring_image = "../images/invoice_rings.jpg";
 $bar_image = "../images/invoice_line.jpg";
 
-
-
-define('FPDF_FONTPATH','/home/ionianwe/public_html/oos/font/');
 require('fpdf.php');
 
 class PDF extends FPDF {

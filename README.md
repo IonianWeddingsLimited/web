@@ -14,15 +14,19 @@ Listing here known issues with the source code
 
 ### Short Open Tags
 
-They are used everywhere in the code already it is not a recomended practice. Changed in a couple of places but not all places were updated.
+They are used everywhere in the code already it is not a recommended practice. Changed in a couple of places but not all places were updated.
 
 
 ### File encoding
 
-Files are encoded not UTF-8, this generates issues with current PHP configurations. Started to convert those files to UTF-8 using the following:
+Not all files are encoded as UTF-8!!! Currently identified at least two different encoding WINDOWS-1252 and UTF-8 as being
+in use.
+
+Run the following command for all the filess (see fixiconv.sh script):
 
     iconv -f WINDOWS-1252 -t utf-8 invoice.php > invoice.new.php
 
+
 ### PHP/MySQL driver
 
-The old mysql driver is used, rewrite is recomended so that the code is updated
+The old mysql driver is used, rewrite is recommended so that the code is updated

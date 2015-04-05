@@ -208,8 +208,6 @@ if($_GET["id"]) {
 		$sql_command->close();
 	}
 
-
-	define('FPDF_FONTPATH','/home/ionianwe/public_html/oos/font/');
 	require('fpdf.php');
 	require('html2pdf.php');
 

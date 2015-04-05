@@ -501,7 +501,7 @@
 	echo " <a href=\"$site_url/oos/manage-client.php?a=emailinv&id=".$_GET["id"]."\">Email payment link</a> |";
 	echo " <a href=\"$site_url/oos/manage-client.php?a=emailconfirm&id=".$_GET["id"]."\">Email payment confirmation</a> |";
 	echo " <a href=\"$site_url/oos/manage-client.php?a=emailpass&id=".$_GET["id"]."\">Email password</a> ]";
-	
+
 	$result2 = $sql_command->select("customer_transactions LEFT OUTER JOIN $db_currency_conversion 
 									on $db_currency_conversion.currency_name = customer_transactions.currency",
 									"customer_transactions.p_id,

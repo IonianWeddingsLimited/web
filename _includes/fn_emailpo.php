@@ -6,7 +6,7 @@ $header_image = "../images/invoice_header.jpg";
 			
 						$result = $sql_command->select("$database_supplier_invoices_main,
 													   $database_supplier_details",
-													   "$database_supplier_details.id,
+										 			   "$database_supplier_details.id,
 													   $database_supplier_details.contact_title,
 													   $database_supplier_details.contact_firstname,
 													   $database_supplier_details.contact_surname,
@@ -29,9 +29,6 @@ $header_image = "../images/invoice_header.jpg";
 													   "WHERE $database_supplier_details.id=$database_supplier_invoices_main.supplier_id 
 													   AND $database_supplier_invoices_main.id='".addslashes($po[0])."'");
 						$record = $sql_command->result($result);
-			
-			
-						define('FPDF_FONTPATH','/home/ionianwe/public_html/oos/font/');
 						
 						$pdf=new PDF();
 						$pdf->AddPage();
