@@ -16,6 +16,8 @@ if ($_SERVER['HTTP_HOST'] == 'happytimes.co.uk' || $_SERVER['HTTP_HOST'] == 'www
     $database_name = "live_ionian";
 
     $fpdf_fontpath = '/var/www/html/ionian/live/oos/font/';
+    $site_url = "http://www.happytimes.co.uk";
+    $site_url2 = "http://www.happytimes.co.uk";    
 }
 
 if ($_SERVER['HTTP_HOST'] == 'test.happytimes.co.uk' || $_SERVER['HTTP_HOST'] == 'www.test.happytimes.co.uk') {
@@ -24,10 +26,14 @@ if ($_SERVER['HTTP_HOST'] == 'test.happytimes.co.uk' || $_SERVER['HTTP_HOST'] ==
     $database_name = "test_ionian";
 
     $fpdf_fontpath = '/var/www/html/ionian/test/oos/font/';
+    $site_url = "http://www.test.happytimes.co.uk";
+    $site_url2 = "http://www.test.happytimes.co.uk";
 }
 
 if ($_SERVER['HTTP_HOST'] == 'ionian.localhost' || $_SERVER['HTTP_HOST'] == 'www.ionian.localhost') {
     $fpdf_fontpath = '/Users/gabi/workspace/onclouds/ionian/oos/font/';
+    $site_url = "http://www.ionian.localhost";
+    $site_url2 = "http://www.ionian.localhost";
 }
 
 define('FPDF_FONTPATH', $fpdf_fontpath);
@@ -92,8 +98,6 @@ $database_supplier_invoices_details = "supplier_invoice_details";
 $database_pdf_generator = "pdf_generator";
 $database_image_module = "image_module";
 $database_pdf_subfolders = "pdf_subfolders";
-
-$site_url2 = "http://www.ionianweddings.co.uk";
 
 $enquire_email = "graemegraeme@hotmail.com";
 
