@@ -17,7 +17,7 @@ $header_image = "../images/invoice_header.jpg";
 $ring_image   = "../images/invoice_rings.jpg";
 $bar_image    = "../images/invoice_line.jpg";
 
-require('fpdf.php');
+require('fpdf/class.fpdf.php');
 
 class PDF extends FPDF
 {
@@ -133,14 +133,14 @@ if (!$getall_rows[0][0]) {
 }
 
 
-
-
-
-
 $pdf = new PDF();
-
-
-
+$pdf->SetAutoPageBreak(true , 75);
+// $pdf->SetAutoPageBreak(true , 60);
+$pdf->AliasNbPages();
+$pdf->SetAuthor('Ionian Weddings');
+$pdf->tFPDF();
+$pdf->AddFont('Arial', '','', true);
+$pdf->AddFont('Arial', 'B','', true);
 
 
 foreach ($getall_rows as $getall_record) {
@@ -198,7 +198,7 @@ foreach ($getall_rows as $getall_record) {
     $pdf->AddPage();
     $pdf->SetAuthor('Ionian Weddings');
     $pdf->SetTitle('Invoice No ' . $getall_record[1]);
-    
+
     $pdf->SetY('5');
     $pdf->SetFont('Arial', '', '18');
     $pdf->SetTextColor(226, 179, 64);
