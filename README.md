@@ -6,7 +6,9 @@ This is the website for ionianweddings. It includes the PHP code required to get
 # Configuration
 
 The database configuration can be found in _includes/settings.php
-
+Make sure the following folders are writable:
+  
+  * chmod 777 oos/font/unifont
 
 # Issues
 

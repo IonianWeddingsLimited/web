@@ -9,7 +9,7 @@ $login_record = $sql_command->result($login_result);
 if(!$login_record[0]) { $error .= "Missing and/or Incorrect Login Details<br>"; $login_id = $login_record[1]; }
 else { $login_id = $login_record[1]; }
 
-if($error) {
+if(isset($error) && $error)  {
 $_SESSION["admin_area_password"] = "";
 $_SESSION["admin_area_username"] = "";
 $get_template->topHTML();
