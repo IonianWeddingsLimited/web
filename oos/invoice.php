@@ -4,7 +4,14 @@ require ("../_includes/function.templates.php");
 include ("../_includes/function.database.php");
 
 $getvat = "20.00";
-
+$total_payment_euro = 0;
+$total_payment_euro_before = 0;
+$total_payment_pound = 0;
+$total_payment_pound_before = 0;
+$minum_deposit = 0;
+$minum_deposit2 = 0;
+$total_additional = 0;
+$amount_discount = 0;
 
 // Connect to sql database
 $sql_command = new sql_db();
@@ -89,7 +96,7 @@ $result2 = $sql_command->select("$database_order_details,$database_packages,$dat
 							   $database_packages.island_id=$database_navigation.id");
 $record2 = $sql_command->result($result2);
 
-require('fpdf.php');
+require('fpdf/class.fpdf.php');
 
 class PDF extends FPDF {
 
@@ -233,9 +240,12 @@ class PDF extends FPDF {
 
 $breakheight = 221;
 
-$pdf=new PDF();
+$pdf = new PDF();
 $pdf->SetAutoPageBreak(true , 75);
 $pdf->AliasNbPages();
+$pdf->tFPDF();
+$pdf->AddFont('Arial', '','', true);
+$pdf->AddFont('Arial', 'B','', true);
 $pdf->AddPage();
 $pdf->SetAuthor('Ionian Weddings');
 $pdf->SetTitle('Invoice No '.$_GET["invoice"]);
