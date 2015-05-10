@@ -2,3 +2,4 @@
 oos/font/unifont/*.cw.dat
 oos/font/unifont/*.cw127.php
 oos/font/unifont/*.mtx.php
+cache/*
