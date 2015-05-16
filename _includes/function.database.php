@@ -11,7 +11,10 @@ class sql_db
         // Connect Database
         public function connect($host, $db_name, $username, $password)
         {
-            $mySqlResource = mysql_connect($host, $username, $password) or die(mysql_error());
+            $mySqlResource = mysql_connect($host, $username, $password);
+            if (false === $mySqlResource) {
+                die("Could not connect to mysql database: " . mysql_error());
+            }
             mysql_set_charset('utf8', $mySqlResource);
             mysql_select_db($db_name) or die('Unable to select database') or die(mysql_error());
         }
