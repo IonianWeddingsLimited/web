@@ -43,7 +43,7 @@ var $issetcolor;
 function PDF_HTML($orientation='P', $unit='mm', $format='A4')
 {
     //Call parent constructor
-    $this->FPDF($orientation,$unit,$format);
+    $this->tFPDF($orientation,$unit,$format);
     //Initialization
     $this->B=0;
     $this->I=0;

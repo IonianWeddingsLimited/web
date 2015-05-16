@@ -107,9 +107,7 @@ function getrow($row,$id1,$id2,$id3,$id4,$html) {
 			}
 		}
 
-
-
-	if($showimage_1 == "Yes") {
+	if(isset($showimage_1) && $showimage_1 == "Yes") {
 		list($width_1, $height_1, $type, $attr) = getimagesize("../images/imageuploads/".$image_1_record[3]."/".$image_1_record[4]);
 		
 		$show_width1 = ($width_1*$sum1)/$sum2;
@@ -118,7 +116,7 @@ function getrow($row,$id1,$id2,$id3,$id4,$html) {
 		$getx += ($show_width1+$gap);
 	}
 	
-	if($showimage_2 == "Yes") {
+	if(isset($showimage_2) && $showimage_2 == "Yes") {
 		list($width_2, $height_2, $type, $attr) = getimagesize("../images/imageuploads/".$image_2_record[3]."/".$image_2_record[4]);
 		
 		$show_width2 = ($width_2*$sum1)/$sum2;
@@ -127,7 +125,7 @@ function getrow($row,$id1,$id2,$id3,$id4,$html) {
 		$getx += ($show_width2+$gap);
 	}
 
-	if($showimage_3 == "Yes") {
+	if(isset($showimage_3) && $showimage_3 == "Yes") {
 		list($width_3, $height_3, $type, $attr) = getimagesize("../images/imageuploads/".$image_3_record[3]."/".$image_3_record[4]);
 		
 		$show_width3 = ($width_3*$sum1)/$sum2;
@@ -136,7 +134,7 @@ function getrow($row,$id1,$id2,$id3,$id4,$html) {
 		$getx += ($show_width3+$gap);
 	}
 
-	if($showimage_4 == "Yes") {
+	if(isset($showimage_4) && $showimage_4 == "Yes") {
 		list($width_4, $height_4, $type, $attr) = getimagesize("../images/imageuploads/".$image_4_record[3]."/".$image_4_record[4]);
 		
 		$show_width4 = ($width_4*$sum1)/$sum2;
@@ -146,7 +144,10 @@ function getrow($row,$id1,$id2,$id3,$id4,$html) {
 
 
 
-	if($showimage_1 == "Yes" or $showimage_2 == "Yes" or $showimage_3 == "Yes" or $showimage_4 == "Yes") {
+	if ( (isset($showimage_1) and $showimage_1 == "Yes") or 
+		 (isset($showimage_2) and $showimage_2 == "Yes") or 
+		 (isset($showimage_3) and $showimage_3 == "Yes") or 
+		 (isset($showimage_4) and $showimage_4 == "Yes") ) {
 		if($row == 1) {
 			$html = str_replace("<p>[insert_row_1]</p>","<P H=\"".$pdf_height."\">".$add_html."</p>",$html);
 		} elseif($row == 2) {
@@ -208,7 +209,7 @@ if($_GET["id"]) {
 		$sql_command->close();
 	}
 
-	require('fpdf.php');
+	require('fpdf/class.fpdf.php');
 	require('html2pdf.php');
 
 	class PDF extends PDF_HTML {
@@ -239,8 +240,13 @@ if($_GET["id"]) {
 		}
 	}
 
-	$pdf=new PDF();
+	$pdf = new PDF();
 	
+	$pdf->AliasNbPages();
+	$pdf->tFPDF();
+	$pdf->AddFont('Arial', '','', true);
+	$pdf->AddFont('Arial', 'B','', true);
+
 	$pdf->AddPage();
 	$pdf->SetAuthor('Ionian Weddings');
 	$pdf->SetTitle('');
