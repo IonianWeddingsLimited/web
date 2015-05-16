@@ -34,32 +34,29 @@ $result2 = $sql_command->select("$database_order_details,$database_packages,$dat
 $record2 = $sql_command->result($result2);
 
 
-require('fpdf.php');
+require('fpdf/class.fpdf.php');
 
 class PDF extends FPDF {
-function Footer() {
+	function Footer() {
 
-$this->SetXY(0,-15);
-$this->SetLeftMargin('10');
-$this->SetFont('Arial','','5'); 
-$this->SetTextColor(151,151,151); 
-$gety = $this->GetY(); 
+		$this->SetXY(0,-15);
+		$this->SetLeftMargin('10');
+		$this->SetFont('Arial','','5'); 
+		$this->SetTextColor(151,151,151); 
+		$gety = $this->GetY(); 
 
-$this->Image("../images/invoice_abta.jpg", 185, $gety + 0.5, 16.93,6.77);
+		$this->Image("../images/invoice_abta.jpg", 185, $gety + 0.5, 16.93,6.77);
 
-$this->SetTextColor(151,151,151);  
-$this->Write(0,"© Copyright Ionian Weddings Ltd. ".date("Y")." – 10 Crane Mews, 32 Gould Road, Twickenham, England, TW2 6RS");
-$this->Ln(3.5); 
-$this->Write(0,"(t) / (f) +44 208 894 1991 - (e) weddings@ionianweddings.co.uk - (w) www.ionianweddings.co.uk");
-$this->Ln(3.5); 
-$this->Write(0,"Registered in England and Wales No. 06137035 | VAT Registration Number: 103185747");
-}
+		$this->SetTextColor(151,151,151);  
+		$this->Write(0,"© Copyright Ionian Weddings Ltd. ".date("Y")." – 10 Crane Mews, 32 Gould Road, Twickenham, England, TW2 6RS");
+		$this->Ln(3.5); 
+		$this->Write(0,"(t) / (f) +44 208 894 1991 - (e) weddings@ionianweddings.co.uk - (w) www.ionianweddings.co.uk");
+		$this->Ln(3.5); 
+		$this->Write(0,"Registered in England and Wales No. 06137035 | VAT Registration Number: 103185747");
+	}
 }
 
 if(!$_GET["year"]) { $_GET["year"] = $end_year; }
-
-
-		
 
 $january_start = mktime(0, 0, 0, 1, 1, $_GET["year"]);
 $february_start = mktime(0, 0, 0, 2, 1, $_GET["year"]);
@@ -455,7 +452,11 @@ $december_vat += round((($newcost / 100) * $december_record[2]),2);
 $december_profit = $december_iwcost - $december_cost;
 
 
-$pdf=new PDF();
+$pdf = new PDF();
+$pdf->AliasNbPages();
+$pdf->tFPDF();
+$pdf->AddFont('Arial', '','', true);
+$pdf->AddFont('Arial', 'B','', true);
 $pdf->AddPage();
 $pdf->SetAuthor('Ionian Weddings');
 $pdf->SetTitle('Ionian Weddings');
@@ -510,111 +511,111 @@ $pdf->SetLineWidth(0.1);
 
 
 $pdf->Cell(100,4,'January '.$_GET["year"],'LR',0,'L',true);
-$pdf->Cell(15,4,utf8_decode("£")." ".number_format($january_cost,2),'LR',0,'C',true);
-$pdf->Cell(15,4,utf8_decode("£")." ".number_format($january_iwcost,2),'LR',0,'C',true);
-$pdf->Cell(15,4,utf8_decode("£")." ".number_format($jauary_vat,2),'LR',0,'C',true);
-$pdf->Cell(15,4,utf8_decode("£")." ".number_format($jauary_profit,2),'LR',0,'C',true);
+$pdf->Cell(15,4,"£ ".number_format($january_cost,2),'LR',0,'C',true);
+$pdf->Cell(15,4,"£ ".number_format($january_iwcost,2),'LR',0,'C',true);
+$pdf->Cell(15,4,"£ ".number_format($jauary_vat,2),'LR',0,'C',true);
+$pdf->Cell(15,4,"£ ".number_format($jauary_profit,2),'LR',0,'C',true);
 $pdf->Ln(3.6); 
 $pdf->Cell(100,4,'February '.$_GET["year"],'LR',0,'L',true);
-$pdf->Cell(15,4,utf8_decode("£")." ".number_format($february_cost,2),'LR',0,'C',true);
-$pdf->Cell(15,4,utf8_decode("£")." ".number_format($february_iwcost,2),'LR',0,'C',true);
-$pdf->Cell(15,4,utf8_decode("£")." ".number_format($february_vat,2),'LR',0,'C',true);
-$pdf->Cell(15,4,utf8_decode("£")." ".number_format($february_profit,2),'LR',0,'C',true);
+$pdf->Cell(15,4,"£ ".number_format($february_cost,2),'LR',0,'C',true);
+$pdf->Cell(15,4,"£ ".number_format($february_iwcost,2),'LR',0,'C',true);
+$pdf->Cell(15,4,"£ ".number_format($february_vat,2),'LR',0,'C',true);
+$pdf->Cell(15,4,"£ ".number_format($february_profit,2),'LR',0,'C',true);
 $pdf->Ln(3.6); 
 $pdf->Cell(100,4,'March '.$_GET["year"],'LR',0,'L',true);
-$pdf->Cell(15,4,utf8_decode("£")." ".number_format($march_cost,2),'LR',0,'C',true);
-$pdf->Cell(15,4,utf8_decode("£")." ".number_format($march_iwcost,2),'LR',0,'C',true);
-$pdf->Cell(15,4,utf8_decode("£")." ".number_format($march_vat,2),'LR',0,'C',true);
-$pdf->Cell(15,4,utf8_decode("£")." ".number_format($march_profit,2),'LR',0,'C',true);
+$pdf->Cell(15,4,"£ ".number_format($march_cost,2),'LR',0,'C',true);
+$pdf->Cell(15,4,"£ ".number_format($march_iwcost,2),'LR',0,'C',true);
+$pdf->Cell(15,4,"£ ".number_format($march_vat,2),'LR',0,'C',true);
+$pdf->Cell(15,4,"£ ".number_format($march_profit,2),'LR',0,'C',true);
 $pdf->Ln(3.6); 
 $pdf->Cell(100,4,'April '.$_GET["year"],'LR',0,'L',true);
-$pdf->Cell(15,4,utf8_decode("£")." ".number_format($april_cost,2),'LR',0,'C',true);
-$pdf->Cell(15,4,utf8_decode("£")." ".number_format($april_iwcost,2),'LR',0,'C',true);
-$pdf->Cell(15,4,utf8_decode("£")." ".number_format($april_vat,2),'LR',0,'C',true);
-$pdf->Cell(15,4,utf8_decode("£")." ".number_format($april_profit,2),'LR',0,'C',true);
+$pdf->Cell(15,4,"£ ".number_format($april_cost,2),'LR',0,'C',true);
+$pdf->Cell(15,4,"£ ".number_format($april_iwcost,2),'LR',0,'C',true);
+$pdf->Cell(15,4,"£ ".number_format($april_vat,2),'LR',0,'C',true);
+$pdf->Cell(15,4,"£ ".number_format($april_profit,2),'LR',0,'C',true);
 $pdf->Ln(3.6); 
 $pdf->Cell(100,4,'May '.$_GET["year"],'LR',0,'L',true);
-$pdf->Cell(15,4,utf8_decode("£")." ".number_format($may_cost,2),'LR',0,'C',true);
-$pdf->Cell(15,4,utf8_decode("£")." ".number_format($may_iwcost,2),'LR',0,'C',true);
-$pdf->Cell(15,4,utf8_decode("£")." ".number_format($may_vat,2),'LR',0,'C',true);
-$pdf->Cell(15,4,utf8_decode("£")." ".number_format($may_profit,2),'LR',0,'C',true);
+$pdf->Cell(15,4,"£ ".number_format($may_cost,2),'LR',0,'C',true);
+$pdf->Cell(15,4,"£ ".number_format($may_iwcost,2),'LR',0,'C',true);
+$pdf->Cell(15,4,"£ ".number_format($may_vat,2),'LR',0,'C',true);
+$pdf->Cell(15,4,"£ ".number_format($may_profit,2),'LR',0,'C',true);
 $pdf->Ln(3.6); 
 $pdf->Cell(100,4,'June '.$_GET["year"],'LR',0,'L',true);
-$pdf->Cell(15,4,utf8_decode("£")." ".number_format($june_cost,2),'LR',0,'C',true);
-$pdf->Cell(15,4,utf8_decode("£")." ".number_format($june_iwcost,2),'LR',0,'C',true);
-$pdf->Cell(15,4,utf8_decode("£")." ".number_format($june_vat,2),'LR',0,'C',true);
-$pdf->Cell(15,4,utf8_decode("£")." ".number_format($june_profit,2),'LR',0,'C',true);
+$pdf->Cell(15,4,"£ ".number_format($june_cost,2),'LR',0,'C',true);
+$pdf->Cell(15,4,"£ ".number_format($june_iwcost,2),'LR',0,'C',true);
+$pdf->Cell(15,4,"£ ".number_format($june_vat,2),'LR',0,'C',true);
+$pdf->Cell(15,4,"£ ".number_format($june_profit,2),'LR',0,'C',true);
 $pdf->Ln(3.6); 
 $pdf->Cell(100,4,'July '.$_GET["year"],'LR',0,'L',true);
-$pdf->Cell(15,4,utf8_decode("£")." ".number_format($july_cost,2),'LR',0,'C',true);
-$pdf->Cell(15,4,utf8_decode("£")." ".number_format($july_iwcost,2),'LR',0,'C',true);
-$pdf->Cell(15,4,utf8_decode("£")." ".number_format($july_vat,2),'LR',0,'C',true);
-$pdf->Cell(15,4,utf8_decode("£")." ".number_format($july_profit,2),'LR',0,'C',true);
+$pdf->Cell(15,4,"£ ".number_format($july_cost,2),'LR',0,'C',true);
+$pdf->Cell(15,4,"£ ".number_format($july_iwcost,2),'LR',0,'C',true);
+$pdf->Cell(15,4,"£ ".number_format($july_vat,2),'LR',0,'C',true);
+$pdf->Cell(15,4,"£ ".number_format($july_profit,2),'LR',0,'C',true);
 $pdf->Ln(3.6); 
 
 $pdf->Cell(100,4,'August '.$_GET["year"],'LR',0,'L',true);
-$pdf->Cell(15,4,utf8_decode("£")." ".number_format($august_cost,2),'LR',0,'C',true);
-$pdf->Cell(15,4,utf8_decode("£")." ".number_format($august_iwcost,2),'LR',0,'C',true);
-$pdf->Cell(15,4,utf8_decode("£")." ".number_format($august_vat,2),'LR',0,'C',true);
-$pdf->Cell(15,4,utf8_decode("£")." ".number_format($august_profit,2),'LR',0,'C',true);
+$pdf->Cell(15,4,"£ ".number_format($august_cost,2),'LR',0,'C',true);
+$pdf->Cell(15,4,"£ ".number_format($august_iwcost,2),'LR',0,'C',true);
+$pdf->Cell(15,4,"£ ".number_format($august_vat,2),'LR',0,'C',true);
+$pdf->Cell(15,4,"£ ".number_format($august_profit,2),'LR',0,'C',true);
 $pdf->Ln(3.6); 
 $pdf->Cell(100,4,'September '.$_GET["year"],'LR',0,'L',true);
-$pdf->Cell(15,4,utf8_decode("£")." ".number_format($september_cost,2),'LR',0,'C',true);
-$pdf->Cell(15,4,utf8_decode("£")." ".number_format($september_iwcost,2),'LR',0,'C',true);
-$pdf->Cell(15,4,utf8_decode("£")." ".number_format($september_vat,2),'LR',0,'C',true);
-$pdf->Cell(15,4,utf8_decode("£")." ".number_format($september_profit,2),'LR',0,'C',true);
+$pdf->Cell(15,4,"£ ".number_format($september_cost,2),'LR',0,'C',true);
+$pdf->Cell(15,4,"£ ".number_format($september_iwcost,2),'LR',0,'C',true);
+$pdf->Cell(15,4,"£ ".number_format($september_vat,2),'LR',0,'C',true);
+$pdf->Cell(15,4,"£ ".number_format($september_profit,2),'LR',0,'C',true);
 $pdf->Ln(3.6); 
 $pdf->Cell(100,4,'October '.$_GET["year"],'LR',0,'L',true);
-$pdf->Cell(15,5,utf8_decode("£")." ".number_format($october_cost,2),'LR',0,'C',true);
-$pdf->Cell(15,4,utf8_decode("£")." ".number_format($october_iwcost,2),'LR',0,'C',true);
-$pdf->Cell(15,4,utf8_decode("£")." ".number_format($october_vat,2),'LR',0,'C',true);
-$pdf->Cell(15,4,utf8_decode("£")." ".number_format($october_profit,2),'LR',0,'C',true);
+$pdf->Cell(15,5,"£ ".number_format($october_cost,2),'LR',0,'C',true);
+$pdf->Cell(15,4,"£ ".number_format($october_iwcost,2),'LR',0,'C',true);
+$pdf->Cell(15,4,"£ ".number_format($october_vat,2),'LR',0,'C',true);
+$pdf->Cell(15,4,"£ ".number_format($october_profit,2),'LR',0,'C',true);
 $pdf->Ln(3.6); 
 $pdf->Cell(100,4,'November '.$_GET["year"],'LR',0,'L',true);
-$pdf->Cell(15,4,utf8_decode("£")." ".number_format($november_cost,2),'LR',0,'C',true);
-$pdf->Cell(15,4,utf8_decode("£")." ".number_format($november_iwcost,2),'LR',0,'C',true);
-$pdf->Cell(15,4,utf8_decode("£")." ".number_format($november_vat,2),'LR',0,'C',true);
-$pdf->Cell(15,4,utf8_decode("£")." ".number_format($november_profit,2),'LR',0,'C',true);
+$pdf->Cell(15,4,"£ ".number_format($november_cost,2),'LR',0,'C',true);
+$pdf->Cell(15,4,"£ ".number_format($november_iwcost,2),'LR',0,'C',true);
+$pdf->Cell(15,4,"£ ".number_format($november_vat,2),'LR',0,'C',true);
+$pdf->Cell(15,4,"£ ".number_format($november_profit,2),'LR',0,'C',true);
 $pdf->Ln(3.6);
 $pdf->Cell(100,4,'December '.$_GET["year"],'LR',0,'L',true);
-$pdf->Cell(15,4,utf8_decode("£")." ".number_format($december_cost,2),'LR',0,'C',true);
-$pdf->Cell(15,4,utf8_decode("£")." ".number_format($december_iwcost,2),'LR',0,'C',true);
-$pdf->Cell(15,4,utf8_decode("£")." ".number_format($december_vat,2),'LR',0,'C',true);
-$pdf->Cell(15,4,utf8_decode("£")." ".number_format($december_profit,2),'LR',0,'C',true);
+$pdf->Cell(15,4,"£ ".number_format($december_cost,2),'LR',0,'C',true);
+$pdf->Cell(15,4,"£ ".number_format($december_iwcost,2),'LR',0,'C',true);
+$pdf->Cell(15,4,"£ ".number_format($december_vat,2),'LR',0,'C',true);
+$pdf->Cell(15,4,"£ ".number_format($december_profit,2),'LR',0,'C',true);
 $pdf->Ln(4.1); 
 $pdf->Cell(160,0,'','T'); 
 $pdf->Ln(0.1);
 $pdf->Cell(100,4,'First Quarter','LR',0,'L',true);
-$pdf->Cell(15,4,utf8_decode("£")." ".number_format($january_cost+$february_cost+$march_cost,2),'LR',0,'C',true);
-$pdf->Cell(15,4,utf8_decode("£")." ".number_format($january_iwcost+$february_iwcost+$march_iwcost,2),'LR',0,'C',true);
-$pdf->Cell(15,4,utf8_decode("£")." ".number_format($january_vat+$february_vat+$march_vat,2),'LR',0,'C',true);
-$pdf->Cell(15,4,utf8_decode("£")." ".number_format($january_profit+$february_profit+$march_profit,2),'LR',0,'C',true);
+$pdf->Cell(15,4,"£ ".number_format($january_cost+$february_cost+$march_cost,2),'LR',0,'C',true);
+$pdf->Cell(15,4,"£ ".number_format($january_iwcost+$february_iwcost+$march_iwcost,2),'LR',0,'C',true);
+$pdf->Cell(15,4,"£ ".number_format($january_vat+$february_vat+$march_vat,2),'LR',0,'C',true);
+$pdf->Cell(15,4,"£ ".number_format($january_profit+$february_profit+$march_profit,2),'LR',0,'C',true);
 $pdf->Ln(3.6); 
 $pdf->Cell(100,4,'Second Quarter','LR',0,'L',true);
-$pdf->Cell(15,4,utf8_decode("£")." ".number_format($april_cost+$may_cost+$june_cost,2),'LR',0,'C',true);
-$pdf->Cell(15,4,utf8_decode("£")." ".number_format($april_iwcost+$may_iwcost+$june_iwcost,2),'LR',0,'C',true);
-$pdf->Cell(15,4,utf8_decode("£")." ".number_format($april_vat+$may_vat+$june_vat,2),'LR',0,'C',true);
-$pdf->Cell(15,4,utf8_decode("£")." ".number_format($april_profit+$may_profit+$june_profit,2),'LR',0,'C',true);
+$pdf->Cell(15,4,"£ ".number_format($april_cost+$may_cost+$june_cost,2),'LR',0,'C',true);
+$pdf->Cell(15,4,"£ ".number_format($april_iwcost+$may_iwcost+$june_iwcost,2),'LR',0,'C',true);
+$pdf->Cell(15,4,"£ ".number_format($april_vat+$may_vat+$june_vat,2),'LR',0,'C',true);
+$pdf->Cell(15,4,"£ ".number_format($april_profit+$may_profit+$june_profit,2),'LR',0,'C',true);
 $pdf->Ln(3.6); 
 $pdf->Cell(100,4,'Third Quarter','LR',0,'L',true);
-$pdf->Cell(15,4,utf8_decode("£")." ".number_format($july_cost+$august_cost+$september_cost,2),'LR',0,'C',true);
-$pdf->Cell(15,4,utf8_decode("£")." ".number_format($july_iwcost+$august_iwcost+$september_iwcost,2),'LR',0,'C',true);
-$pdf->Cell(15,4,utf8_decode("£")." ".number_format($july_vat+$august_vat+$september_vat,2),'LR',0,'C',true);
-$pdf->Cell(15,4,utf8_decode("£")." ".number_format($july_profit+$august_profit+$september_profit,2),'LR',0,'C',true);
+$pdf->Cell(15,4,"£ ".number_format($july_cost+$august_cost+$september_cost,2),'LR',0,'C',true);
+$pdf->Cell(15,4,"£ ".number_format($july_iwcost+$august_iwcost+$september_iwcost,2),'LR',0,'C',true);
+$pdf->Cell(15,4,"£ ".number_format($july_vat+$august_vat+$september_vat,2),'LR',0,'C',true);
+$pdf->Cell(15,4,"£ ".number_format($july_profit+$august_profit+$september_profit,2),'LR',0,'C',true);
 $pdf->Ln(3.6); 
 $pdf->Cell(100,4,'Fourth Quarter','LR',0,'L',true);
-$pdf->Cell(15,4,utf8_decode("£")." ".number_format($october_cost+$november_cost+$december_cost,2),'LR',0,'C',true);
-$pdf->Cell(15,4,utf8_decode("£")." ".number_format($october_iwcost+$november_iwcost+$december_iwcost,2),'LR',0,'C',true);
-$pdf->Cell(15,4,utf8_decode("£")." ".number_format($october_vat+$november_vat+$december_vat,2),'LR',0,'C',true);
-$pdf->Cell(15,4,utf8_decode("£")." ".number_format($october_profit+$november_profit+$december_profit,2),'LR',0,'C',true);
+$pdf->Cell(15,4,"£ ".number_format($october_cost+$november_cost+$december_cost,2),'LR',0,'C',true);
+$pdf->Cell(15,4,"£ ".number_format($october_iwcost+$november_iwcost+$december_iwcost,2),'LR',0,'C',true);
+$pdf->Cell(15,4,"£ ".number_format($october_vat+$november_vat+$december_vat,2),'LR',0,'C',true);
+$pdf->Cell(15,4,"£ ".number_format($october_profit+$november_profit+$december_profit,2),'LR',0,'C',true);
 $pdf->Ln(4.1); 
 $pdf->Cell(160,0,'','T'); 
 $pdf->Ln(0.1);
 $pdf->Cell(100,4,'Total','LR',0,'L',true);
-$pdf->Cell(15,4,utf8_decode("£")." ".number_format($april_cost+$may_cost+$june_cost+$july_cost+$august_cost+$september_cost+$october_cost+$november_cost+$december_cost+$january_cost+$february_cost+$march_cost,2),'LR',0,'C',true);
-$pdf->Cell(15,4,utf8_decode("£")." ".number_format($april_iwcost+$may_iwcost+$june_iwcost+$july_iwcost+$august_iwcost+$september_iwcost+$october_iwcost+$november_iwcost+$december_iwcost+$january_iwcost+$february_iwcost+$march_iwcost,2),'LR',0,'C',true);
-$pdf->Cell(15,4,utf8_decode("£")." ".number_format($april_vat+$may_vat+$june_vat+$july_vat+$august_vat+$september_vat+$october_vat+$november_vat+$december_vat+$january_vat+$february_vat+$march_vat,2),'LR',0,'C',true);
-$pdf->Cell(15,4,utf8_decode("£")." ".number_format($april_profit+$may_profit+$june_profit+$july_profit+$august_profit+$september_profit+$october_profit+$november_profit+$december_profit+$january_profit+$february_profit+$march_profit,2),'LR',0,'C',true);
+$pdf->Cell(15,4,"£ ".number_format($april_cost+$may_cost+$june_cost+$july_cost+$august_cost+$september_cost+$october_cost+$november_cost+$december_cost+$january_cost+$february_cost+$march_cost,2),'LR',0,'C',true);
+$pdf->Cell(15,4,"£ ".number_format($april_iwcost+$may_iwcost+$june_iwcost+$july_iwcost+$august_iwcost+$september_iwcost+$october_iwcost+$november_iwcost+$december_iwcost+$january_iwcost+$february_iwcost+$march_iwcost,2),'LR',0,'C',true);
+$pdf->Cell(15,4,"£ ".number_format($april_vat+$may_vat+$june_vat+$july_vat+$august_vat+$september_vat+$october_vat+$november_vat+$december_vat+$january_vat+$february_vat+$march_vat,2),'LR',0,'C',true);
+$pdf->Cell(15,4,"£ ".number_format($april_profit+$may_profit+$june_profit+$july_profit+$august_profit+$september_profit+$october_profit+$november_profit+$december_profit+$january_profit+$february_profit+$march_profit,2),'LR',0,'C',true);
 $pdf->Ln(4.1); 
 $pdf->Cell(160,0,'','T'); 
 $pdf->Ln(0.1);
@@ -622,4 +623,3 @@ $pdf->Ln(0.1);
 $pdf->output("hmrc-report-".$_GET["year"].".pdf","D");
 
 $sql_command->close();
-?>
