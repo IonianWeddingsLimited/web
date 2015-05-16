@@ -39,7 +39,7 @@ $result = $sql_command->select("$database_supplier_invoices_main,
 							   AND $database_supplier_invoices_main.id='".addslashes($_GET["purchase_order"])."'");
 $record = $sql_command->result($result);
 
-require('fpdf.php');
+require('fpdf/class.fpdf.php');
 
 class PDF extends FPDF {
 	function Footer() {
@@ -59,7 +59,11 @@ class PDF extends FPDF {
 	}
 }
 
-$pdf=new PDF();
+$pdf = new PDF();
+$pdf->AliasNbPages();
+$pdf->tFPDF();
+$pdf->AddFont('Arial', '','', true);
+$pdf->AddFont('Arial', 'B','', true);
 $pdf->AddPage();
 $pdf->SetAuthor('Ionian Weddings');
 $pdf->SetTitle('Purchase Order '.$_GET["purchase_order"]);
@@ -91,7 +95,7 @@ $pdf->Image($header_image, 10, 0,60);
 $pdf->Image($bar_image, 10, 14, 190,0.1);
 
 $pdf->SetY('24');
-$pdf->SetLeftMargin('160');
+$pdf->SetLeftMargin('150');
 // date
 $date = date("jS  F Y",$record[19]);
 $pdf->SetFont('Arial','B',8);
