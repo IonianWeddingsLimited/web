@@ -149,10 +149,10 @@ $date = date("d-m-Y",$record[4]);
 
 $pdf->Cell(20,4,$date,'LR',0,'L',true);
 $pdf->Cell(20,4,$record[0],'LR',0,'L',true);
-$pdf->Cell(15,4,utf8_decode("Â£")." ".number_format($cost,2),'LR',0,'C',true);
-$pdf->Cell(15,4,utf8_decode("Â£")." ".number_format($iwcost,2),'LR',0,'C',true);
-$pdf->Cell(15,4,utf8_decode("Â£")." ".number_format($vat,2),'LR',0,'C',true);
-$pdf->Cell(15,4,utf8_decode("Â£")." ".number_format($profit,2),'LR',0,'C',true);
+$pdf->Cell(15,4,"£ ".number_format($cost,2),'LR',0,'C',true);
+$pdf->Cell(15,4,"£ ".number_format($iwcost,2),'LR',0,'C',true);
+$pdf->Cell(15,4,"£ ".number_format($vat,2),'LR',0,'C',true);
+$pdf->Cell(15,4,"£ ".number_format($profit,2),'LR',0,'C',true);
 $pdf->Ln(3.6); 
 }
 $pdf->Ln(0.5); 

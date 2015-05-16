@@ -1119,7 +1119,7 @@ a.buttonlink:hover {
 				<p>- <a href="<?php echo $site_url; ?>/oos/hmrc-report-1.php">HMRC Report by Month</a><br />
 					- <a href="<?php echo $site_url; ?>/oos/hmrc-report-2.php">HMRC Report by Date</a><br />
 					- <a href="<?php echo $site_url; ?>/oos/destination-report.php">Revenue by Destination</a><br />
-					<!--- <a href="<?php echo $site_url; ?>/oos/destination-report-2.php">Destination / Wedding Date</a><br />-->
+					<!-- <a href="<?php echo $site_url; ?>/oos/destination-report-2.php">Destination / Wedding Date</a><br /> -->
 					- <a href="<?php echo $site_url; ?>/oos/destination-report-3.php">Average Booking Value</a></p>
 				<?php } ?>
 				<?php if($login_record[0] == "Super Admin User" or $login_record[0] == "Admin User" or $login_record[0] == "OOS Admin User") { ?>
