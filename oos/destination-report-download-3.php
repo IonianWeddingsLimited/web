@@ -16,26 +16,25 @@ $header_image = "../images/invoice_header.jpg";
 $ring_image = "../images/invoice_rings.jpg";
 $bar_image = "../images/invoice_line.jpg";
 
-require('fpdf.php');
+require('fpdf/class.fpdf.php');
 
 class PDF extends FPDF {
-function Footer() {
+	function Footer() {
+		$this->SetXY(0,-15);
+		$this->SetLeftMargin('10');
+		$this->SetFont('Arial','','5'); 
+		$this->SetTextColor(151,151,151); 
+		$gety = $this->GetY(); 
 
-$this->SetXY(0,-15);
-$this->SetLeftMargin('10');
-$this->SetFont('Arial','','5'); 
-$this->SetTextColor(151,151,151); 
-$gety = $this->GetY(); 
+		$this->Image("../images/invoice_abta.jpg", 185, $gety + 0.5, 16.93,6.77);
 
-$this->Image("../images/invoice_abta.jpg", 185, $gety + 0.5, 16.93,6.77);
-
-$this->SetTextColor(151,151,151);  
-$this->Write(0,"© Copyright Ionian Weddings Ltd. ".date("Y")." – 10 Crane Mews, 32 Gould Road, Twickenham, England, TW2 6RS");
-$this->Ln(3.5); 
-$this->Write(0,"(t) / (f) +44 208 894 1991 - (e) weddings@ionianweddings.co.uk - (w) www.ionianweddings.co.uk");
-$this->Ln(3.5); 
-$this->Write(0,"Registered in England and Wales No. 06137035 | VAT Registration Number: 103185747");
-}
+		$this->SetTextColor(151,151,151);  
+		$this->Write(0,"© Copyright Ionian Weddings Ltd. ".date("Y")." – 10 Crane Mews, 32 Gould Road, Twickenham, England, TW2 6RS");
+		$this->Ln(3.5); 
+		$this->Write(0,"(t) / (f) +44 208 894 1991 - (e) weddings@ionianweddings.co.uk - (w) www.ionianweddings.co.uk");
+		$this->Ln(3.5); 
+		$this->Write(0,"Registered in England and Wales No. 06137035 | VAT Registration Number: 103185747");
+	}
 }
 
 if(!$_GET["year"]) { $_GET["year"] = $end_year; }
@@ -353,7 +352,11 @@ $level1_record = $sql_command->result($level1_result);
 	
 
 
-$pdf=new PDF();
+$pdf = new PDF();
+$pdf->AliasNbPages();
+$pdf->tFPDF();
+$pdf->AddFont('Arial', '','', true);
+$pdf->AddFont('Arial', 'B','', true);
 $pdf->AddPage();
 $pdf->SetAuthor('Ionian Weddings');
 $pdf->SetTitle('Ionian Weddings');
@@ -452,94 +455,94 @@ if($december_total_bookings > 0) { $december_iwcost_average = $december_iwcost /
 $pdf->Ln(3.6); 
 $pdf->Cell(100,4,'January '.$_GET["year"],'LR',0,'L',true);
 $pdf->Cell(15,4,$january_total_bookings,'LR',0,'C',true);
-$pdf->Cell(15,4,utf8_decode("£")." ".number_format($january_cost_average,2),'LR',0,'C',true);
-$pdf->Cell(15,4,utf8_decode("£")." ".number_format($january_iwcost_average,2),'LR',0,'C',true);
+$pdf->Cell(15,4,"£ ".number_format($january_cost_average,2),'LR',0,'C',true);
+$pdf->Cell(15,4,"£ ".number_format($january_iwcost_average,2),'LR',0,'C',true);
 $pdf->Ln(3.6); 
 $pdf->Cell(100,4,'February '.$_GET["year"],'LR',0,'L',true);
 $pdf->Cell(15,4,$february_total_bookings,'LR',0,'C',true);
-$pdf->Cell(15,4,utf8_decode("£")." ".number_format($february_cost_average,2),'LR',0,'C',true);
-$pdf->Cell(15,4,utf8_decode("£")." ".number_format($february_iwcost_average,2),'LR',0,'C',true);
+$pdf->Cell(15,4,"£ ".number_format($february_cost_average,2),'LR',0,'C',true);
+$pdf->Cell(15,4,"£ ".number_format($february_iwcost_average,2),'LR',0,'C',true);
 $pdf->Ln(3.6); 
 $pdf->Cell(100,4,'March '.$_GET["year"],'LR',0,'L',true);
 $pdf->Cell(15,4,$march_total_bookings,'LR',0,'C',true);
-$pdf->Cell(15,4,utf8_decode("£")." ".number_format($march_cost_average,2),'LR',0,'C',true);
-$pdf->Cell(15,4,utf8_decode("£")." ".number_format($march_iwcost_average,2),'LR',0,'C',true);
+$pdf->Cell(15,4,"£ ".number_format($march_cost_average,2),'LR',0,'C',true);
+$pdf->Cell(15,4,"£ ".number_format($march_iwcost_average,2),'LR',0,'C',true);
 $pdf->Ln(3.6); 
 $pdf->Cell(100,4,'April '.$_GET["year"],'LR',0,'L',true);
 $pdf->Cell(15,4,$april_total_bookings,'LR',0,'C',true);
-$pdf->Cell(15,4,utf8_decode("£")." ".number_format($april_cost_average,2),'LR',0,'C',true);
-$pdf->Cell(15,4,utf8_decode("£")." ".number_format($april_iwcost_average,2),'LR',0,'C',true);
+$pdf->Cell(15,4,"£ ".number_format($april_cost_average,2),'LR',0,'C',true);
+$pdf->Cell(15,4,"£ ".number_format($april_iwcost_average,2),'LR',0,'C',true);
 $pdf->Ln(3.6); 
 $pdf->Cell(100,4,'May '.$_GET["year"],'LR',0,'L',true);
 $pdf->Cell(15,4,$may_total_bookings,'LR',0,'C',true);
-$pdf->Cell(15,4,utf8_decode("£")." ".number_format($may_cost_average,2),'LR',0,'C',true);
-$pdf->Cell(15,4,utf8_decode("£")." ".number_format($may_iwcost_average,2),'LR',0,'C',true);
+$pdf->Cell(15,4,"£ ".number_format($may_cost_average,2),'LR',0,'C',true);
+$pdf->Cell(15,4,"£ ".number_format($may_iwcost_average,2),'LR',0,'C',true);
 $pdf->Ln(3.6); 
 $pdf->Cell(100,4,'June '.$_GET["year"],'LR',0,'L',true);
 $pdf->Cell(15,4,$june_total_bookings,'LR',0,'C',true);
-$pdf->Cell(15,4,utf8_decode("£")." ".number_format($june_cost_average,2),'LR',0,'C',true);
-$pdf->Cell(15,4,utf8_decode("£")." ".number_format($june_iwcost_average,2),'LR',0,'C',true);
+$pdf->Cell(15,4,"£ ".number_format($june_cost_average,2),'LR',0,'C',true);
+$pdf->Cell(15,4,"£ ".number_format($june_iwcost_average,2),'LR',0,'C',true);
 $pdf->Ln(3.6); 
 $pdf->Cell(100,4,'July '.$_GET["year"],'LR',0,'L',true);
 $pdf->Cell(15,4,$july_total_bookings,'LR',0,'C',true);
-$pdf->Cell(15,4,utf8_decode("£")." ".number_format($july_cost_average,2),'LR',0,'C',true);
-$pdf->Cell(15,4,utf8_decode("£")." ".number_format($july_iwcost_average,2),'LR',0,'C',true);
+$pdf->Cell(15,4,"£ ".number_format($july_cost_average,2),'LR',0,'C',true);
+$pdf->Cell(15,4,"£ ".number_format($july_iwcost_average,2),'LR',0,'C',true);
 $pdf->Ln(3.6); 
 
 $pdf->Cell(100,4,'August '.$_GET["year"],'LR',0,'L',true);
 $pdf->Cell(15,4,$august_total_bookings,'LR',0,'C',true);
-$pdf->Cell(15,4,utf8_decode("£")." ".number_format($august_cost_average,2),'LR',0,'C',true);
-$pdf->Cell(15,4,utf8_decode("£")." ".number_format($august_iwcost_average,2),'LR',0,'C',true);
+$pdf->Cell(15,4,"£ ".number_format($august_cost_average,2),'LR',0,'C',true);
+$pdf->Cell(15,4,"£ ".number_format($august_iwcost_average,2),'LR',0,'C',true);
 $pdf->Ln(3.6); 
 $pdf->Cell(100,4,'September '.$_GET["year"],'LR',0,'L',true);
 $pdf->Cell(15,4,$september_total_bookings,'LR',0,'C',true);
-$pdf->Cell(15,4,utf8_decode("£")." ".number_format($september_cost_average,2),'LR',0,'C',true);
-$pdf->Cell(15,4,utf8_decode("£")." ".number_format($september_iwcost_average,2),'LR',0,'C',true);
+$pdf->Cell(15,4,"£ ".number_format($september_cost_average,2),'LR',0,'C',true);
+$pdf->Cell(15,4,"£ ".number_format($september_iwcost_average,2),'LR',0,'C',true);
 $pdf->Ln(3.6); 
 $pdf->Cell(100,4,'October '.$_GET["year"],'LR',0,'L',true);
 $pdf->Cell(15,4,$october_total_bookings,'LR',0,'C',true);
-$pdf->Cell(15,5,utf8_decode("£")." ".number_format($october_cost_average,2),'LR',0,'C',true);
-$pdf->Cell(15,4,utf8_decode("£")." ".number_format($october_iwcost_average,2),'LR',0,'C',true);
+$pdf->Cell(15,5,"£ ".number_format($october_cost_average,2),'LR',0,'C',true);
+$pdf->Cell(15,4,"£ ".number_format($october_iwcost_average,2),'LR',0,'C',true);
 $pdf->Ln(3.6); 
 $pdf->Cell(100,4,'November '.$_GET["year"],'LR',0,'L',true);
 $pdf->Cell(15,4,$november_total_bookings,'LR',0,'C',true);
-$pdf->Cell(15,4,utf8_decode("£")." ".number_format($november_cost_average,2),'LR',0,'C',true);
-$pdf->Cell(15,4,utf8_decode("£")." ".number_format($november_iwcost_average,2),'LR',0,'C',true);
+$pdf->Cell(15,4,"£ ".number_format($november_cost_average,2),'LR',0,'C',true);
+$pdf->Cell(15,4,"£ ".number_format($november_iwcost_average,2),'LR',0,'C',true);
 $pdf->Ln(3.6); 
 
 $pdf->Cell(100,4,'December '.$_GET["year"],'LR',0,'L',true);
 $pdf->Cell(15,4,$december_total_bookings,'LR',0,'C',true);
-$pdf->Cell(15,4,utf8_decode("£")." ".number_format($december_cost_average,2),'LR',0,'C',true);
-$pdf->Cell(15,4,utf8_decode("£")." ".number_format($december_iwcost_average,2),'LR',0,'C',true);
+$pdf->Cell(15,4,"£ ".number_format($december_cost_average,2),'LR',0,'C',true);
+$pdf->Cell(15,4,"£ ".number_format($december_iwcost_average,2),'LR',0,'C',true);
 $pdf->Ln(4.1); 
 $pdf->Cell(145,0,'','T'); 
 $pdf->Ln(0.1);
 $pdf->Cell(100,4,'First Quarter','LR',0,'L',true);
 $pdf->Cell(15,4,$janaury_total_bookings+$february_total_bookings+$march_total_bookings,'LR',0,'C',true);
-$pdf->Cell(15,4,utf8_decode("£")." ".number_format($january_cost_average+$february_cost_average+$march_cost_average,2),'LR',0,'C',true);
-$pdf->Cell(15,4,utf8_decode("£")." ".number_format($january_iwcost_average+$february_iwcost_average+$march_iwcost_average,2),'LR',0,'C',true);
+$pdf->Cell(15,4,"£ ".number_format($january_cost_average+$february_cost_average+$march_cost_average,2),'LR',0,'C',true);
+$pdf->Cell(15,4,"£ ".number_format($january_iwcost_average+$february_iwcost_average+$march_iwcost_average,2),'LR',0,'C',true);
 $pdf->Ln(3.6);
 $pdf->Cell(100,4,'Second Quarter','LR',0,'L',true);
 $pdf->Cell(15,4,$april_total_bookings+$may_total_bookings+$june_total_bookings,'LR',0,'C',true);
-$pdf->Cell(15,4,utf8_decode("£")." ".number_format($april_cost_average+$may_cost_average+$june_cost_average,2),'LR',0,'C',true);
-$pdf->Cell(15,4,utf8_decode("£")." ".number_format($april_iwcost_average+$may_iwcost_average+$june_iwcost_average,2),'LR',0,'C',true);
+$pdf->Cell(15,4,"£ ".number_format($april_cost_average+$may_cost_average+$june_cost_average,2),'LR',0,'C',true);
+$pdf->Cell(15,4,"£ ".number_format($april_iwcost_average+$may_iwcost_average+$june_iwcost_average,2),'LR',0,'C',true);
 $pdf->Ln(3.6); 
 $pdf->Cell(100,4,'Third Quarter','LR',0,'L',true);
 $pdf->Cell(15,4,$july_total_bookings+$august_total_bookings+$september_total_bookings,'LR',0,'C',true);
-$pdf->Cell(15,4,utf8_decode("£")." ".number_format($july_cost_average+$august_cost_average+$september_cost_average,2),'LR',0,'C',true);
-$pdf->Cell(15,4,utf8_decode("£")." ".number_format($july_iwcost_average+$august_iwcost_average+$september_iwcost_average,2),'LR',0,'C',true);
+$pdf->Cell(15,4,"£ ".number_format($july_cost_average+$august_cost_average+$september_cost_average,2),'LR',0,'C',true);
+$pdf->Cell(15,4,"£ ".number_format($july_iwcost_average+$august_iwcost_average+$september_iwcost_average,2),'LR',0,'C',true);
 $pdf->Ln(3.6); 
 $pdf->Cell(100,4,'Fourth Quarter','LR',0,'L',true);
 $pdf->Cell(15,4,$october_total_bookings+$november_total_bookings+$december_total_bookings,'LR',0,'C',true);
-$pdf->Cell(15,4,utf8_decode("£")." ".number_format($october_cost_average+$november_cost_average+$december_cost_average,2),'LR',0,'C',true);
-$pdf->Cell(15,4,utf8_decode("£")." ".number_format($october_iwcost_average+$november_iwcost_average+$december_iwcost_average,2),'LR',0,'C',true);
+$pdf->Cell(15,4,"£ ".number_format($october_cost_average+$november_cost_average+$december_cost_average,2),'LR',0,'C',true);
+$pdf->Cell(15,4,"£ ".number_format($october_iwcost_average+$november_iwcost_average+$december_iwcost_average,2),'LR',0,'C',true);
 $pdf->Ln(4.1); 
 $pdf->Cell(145,0,'','T'); 
 $pdf->Ln(0.1);
 $pdf->Cell(100,4,'Total','LR',0,'L',true);
 $pdf->Cell(15,4,$janaury_total_bookings+$february_total_bookings+$march_total_bookings+$april_total_bookings+$may_total_bookings+$june_total_bookings+$july_total_bookings+$august_total_bookings+$september_total_bookings+$october_total_bookings+$november_total_bookings+$december_total_bookings,'LR',0,'C',true);
-$pdf->Cell(15,4,utf8_decode("£")." ".number_format($january_cost_average+$february_cost_average+$march_cost_average+$april_cost_average+$may_cost_average+$june_cost_average+$july_cost_average+$august_cost_average+$september_cost_average+$october_cost_average+$november_cost_average+$december_cost_average,2),'LR',0,'C',true);
-$pdf->Cell(15,4,utf8_decode("£")." ".number_format($january_iwcost_average+$february_iwcost_average+$march_iwcost_average+$april_iwcost_average+$may_iwcost_average+$june_iwcost_average+$july_iwcost_average+$august_iwcost_average+$september_iwcost_average+$october_iwcost_average+$november_iwcost_average+$december_iwcost_average,2),'LR',0,'C',true);
+$pdf->Cell(15,4,"£ ".number_format($january_cost_average+$february_cost_average+$march_cost_average+$april_cost_average+$may_cost_average+$june_cost_average+$july_cost_average+$august_cost_average+$september_cost_average+$october_cost_average+$november_cost_average+$december_cost_average,2),'LR',0,'C',true);
+$pdf->Cell(15,4,"£ ".number_format($january_iwcost_average+$february_iwcost_average+$march_iwcost_average+$april_iwcost_average+$may_iwcost_average+$june_iwcost_average+$july_iwcost_average+$august_iwcost_average+$september_iwcost_average+$october_iwcost_average+$november_iwcost_average+$december_iwcost_average,2),'LR',0,'C',true);
 $pdf->Ln(4.1); 
 $pdf->Cell(145,0,'','T'); 
 $pdf->Ln(0.1);
@@ -547,4 +550,3 @@ $pdf->Ln(0.1);
 $pdf->output("average-booking-value-".$_GET["year"].".pdf","D");
 
 $sql_command->close();
-?>
