@@ -15,32 +15,36 @@ $header_image = "../images/invoice_header.jpg";
 $ring_image = "../images/invoice_rings.jpg";
 $bar_image = "../images/invoice_line.jpg";
 
-require('fpdf.php');
+require('fpdf/class.fpdf.php');
 
 class PDF extends FPDF {
-function Footer() {
-global $ring_image;
+	function Footer() {
+		global $ring_image;
 
-$this->SetXY(0,-15);
-$this->SetLeftMargin('10');
-$this->SetFont('Arial','',8); 
-$this->SetTextColor(151,151,151);  
-$gety = $this->GetY(); 
+		$this->SetXY(0,-15);
+		$this->SetLeftMargin('10');
+		$this->SetFont('Arial','',8); 
+		$this->SetTextColor(151,151,151);  
+		$gety = $this->GetY(); 
 
-$this->Image("../images/invoice_abta.jpg", 185, $gety + 0.5, 16.93,6.77);
+		$this->Image("../images/invoice_abta.jpg", 185, $gety + 0.5, 16.93,6.77);
 
-$this->SetTextColor(151,151,151);  
-$this->Write(0,"© Copyright Ionian Weddings Ltd. ".date("Y")." – 10 Crane Mews, 32 Gould Road, Twickenham, England, TW2 6RS");
-$this->Ln(3.5); 
-$this->Write(0,"(t) / (f) +44 208 894 1991 - (e) weddings@ionianweddings.co.uk - (w) www.ionianweddings.co.uk");
-$this->Ln(3.5); 
-$this->Write(0,"Registered in England and Wales No. 06137035 | VAT Registration Number: 103185747");
+		$this->SetTextColor(151,151,151);  
+		$this->Write(0,"© Copyright Ionian Weddings Ltd. ".date("Y")." – 10 Crane Mews, 32 Gould Road, Twickenham, England, TW2 6RS");
+		$this->Ln(3.5); 
+		$this->Write(0,"(t) / (f) +44 208 894 1991 - (e) weddings@ionianweddings.co.uk - (w) www.ionianweddings.co.uk");
+		$this->Ln(3.5); 
+		$this->Write(0,"Registered in England and Wales No. 06137035 | VAT Registration Number: 103185747");
+	}
 }
-}
 
+$pdf = new PDF();
+$pdf->tFPDF();
+$pdf->AddFont('Arial', '','', true);
+$pdf->AddFont('Arial', 'B','', true);
+$pdf->SetAutoPageBreak(true , 75);
+$pdf->AliasNbPages();
 
-
-$pdf=new PDF();
 $found_one = "No";
 //$getclient_result = $sql_command->select("$database_supplier_invoices_main,$database_order_details,$database_clients","$database_supplier_invoices_main.id,
 //							   $database_clients.id","WHERE 
@@ -386,4 +390,3 @@ $get_template->bottomHTML();
 $pdf->output("purchase-orders.pdf","D");
 }
 $sql_command->close();
-?>
