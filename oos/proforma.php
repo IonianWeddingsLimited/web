@@ -80,7 +80,7 @@ $result2 = $sql_command->select("quotation_details,$database_packages,$database_
 							   $database_packages.island_id=$database_navigation.id");
 $record2 = $sql_command->result($result2);
 
-require('fpdf.php');
+require('fpdf/class.fpdf.php');
 
 class PDF extends FPDF {
 	function Footer() {
@@ -183,7 +183,10 @@ class PDF extends FPDF {
 
 $breakheight = 221;
 
-$pdf=new PDF();
+$pdf = new PDF();
+$pdf->tFPDF();
+$pdf->AddFont('Arial', '','', true);
+$pdf->AddFont('Arial', 'B','', true);
 $pdf->SetAutoPageBreak(true , 75);
 $pdf->AliasNbPages();
 $pdf->AddPage();
