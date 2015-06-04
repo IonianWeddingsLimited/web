@@ -133,6 +133,8 @@ $global_from = "<{$emailadd}> \"{$emailname}\"";
 $mail = new smtp_email;
 $mail->Username = $smtp_email;
 $mail->Password = $smtp_password;
+$mail->Server =  $smpt_server;
+$mail->Port =  $smpt_port;
 $mail->SetFrom($smtp_email,"Ionian Weddings - IMAGE-INE");	// Name is optional
 $mail->AddTo($emailadd,"Ionian Weddings Ltd");	// Name is optional
 //$mail->AddTo("apexofthecurve@hotmail.com","Ionian Weddings Ltd");	// Name is optional

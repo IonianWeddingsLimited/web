@@ -103,8 +103,12 @@ $enquire_email = "graemegraeme@hotmail.com";
 
 $base_directory = "/home/ionianwe/public_html";
 
-$smtp_email = "ionianweddings@digitav.com";
-$smtp_password = "#T?^nqL6C?Na";
+/* SMTP access configuration */
+$smtp_email = "purchase.order@ionianweddings.co.uk";
+$smtp_password = "7746ABCg";
+$smpt_server = "smtp.fasthosts.co.uk";
+$smpt_port = 587;
+
 
 
 $time= time();

@@ -1,5 +1,6 @@
 <?php
 require_once 'PHPMailer-master/class.phpmailer.php';
+require_once 'settings.php';
 $mail = new PHPMailer();
 // Now you only need to add the necessary stuff
  
@@ -13,8 +14,11 @@ $body .= "phpmailer test message ";
 $body .= "</div>" ;
  
 // And the absolute required configurations for sending HTML with attachement
+$mail->Username = $smtp_email;
+$mail->Password = $smtp_password;
+$mail->Server =  $smpt_server;
+$mail->Port =  $smpt_port;
 $mail->IsSMTP();
-$mail->Host				=	"localhost";
 $mail->From				=	"payments@ionianweddings.co.uk";
 $mail->FromName			=	"Ionain Weddings Ltd";
 $mail->AddReplyTo('payments@ionianweddings.co.uk', 'Ionain Weddings Ltd');

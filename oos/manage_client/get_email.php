@@ -372,6 +372,8 @@ if ($_POST['action']=="Send Email") {
 	$mail = new smtp_email;
 	$mail->Username = $smtp_email;
 	$mail->Password = $smtp_password;
+	$mail->Server =  $smpt_server;
+	$mail->Port =  $smpt_port;
 	$mail->SetFrom($smtp_email,$tagline);	// Name is optional
 	$mail->AddTo($femail,$name);	// Name is optional
 	

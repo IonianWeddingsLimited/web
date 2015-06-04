@@ -273,6 +273,10 @@ if (isset($_POST["run"])){
 		$mail = new smtp_email;
 		$mail->Username = $smtp_email;
 		$mail->Password = $smtp_password;
+		$mail->Server =  $smpt_server;
+		$mail->Port =  $smpt_port;
+		
+		
 		$mail->SetFrom($smtp_email,$tagline);	// Name is optional
 		$mail->AddTo($emailadd,$emailname);	// Name is optional
 		

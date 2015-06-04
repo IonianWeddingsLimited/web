@@ -127,6 +127,8 @@ $global_from = "weddings@ionianweddings.co.uk";
 $mail = new smtp_email;
 $mail->Username = $smtp_email;
 $mail->Password = $smtp_password;
+$mail->Server =  $smpt_server;
+$mail->Port =  $smpt_port;
 
 $mail->SetFrom($smtp_email,"IW -Feedback Form");		// Name is optional
 $mail->AddTo($send_contact_form);	// Name is optional
@@ -340,6 +342,8 @@ $subject = "Enquiry";
 $mail = new smtp_email;
 $mail->Username = $smtp_email;
 $mail->Password = $smtp_password;
+$mail->Server =  $smpt_server;
+$mail->Port =  $smpt_port;
 
 $mail->SetFrom($smtp_email,"IW - Contact Form");		// Name is optional
 $mail->AddTo($_POST["contactus_email"]);	// Name is optional
@@ -354,6 +358,8 @@ $success = $mail->Send();
 $mail = new smtp_email;
 $mail->Username = $smtp_email;
 $mail->Password = $smtp_password;
+$mail->Server =  $smpt_server;
+$mail->Port =  $smpt_port;
 
 $mail->SetFrom($smtp_email,"IW - Contact Form");		// Name is optional
 $mail->AddTo($send_contact_form);	// Name is optional
@@ -484,6 +490,8 @@ $global_from = $_POST["contactus_email"];
 $mail = new smtp_email;
 $mail->Username = $smtp_email;
 $mail->Password = $smtp_password;
+$mail->Server =  $smpt_server;
+$mail->Port =  $smpt_port;
 
 $mail->SetFrom($smtp_email,"IW - Book a Call Back");		// Name is optional
 $mail->AddTo($_POST["contactus_email"]);	// Name is optional
@@ -498,6 +506,8 @@ $success = $mail->Send();
 $mail = new smtp_email;
 $mail->Username = $smtp_email;
 $mail->Password = $smtp_password;
+$mail->Server =  $smpt_server;
+$mail->Port =  $smpt_port;
 
 $mail->SetFrom($smtp_email,"IW - Book a Call Back");		// Name is optional
 $mail->AddTo($send_contact_form);	// Name is optional
@@ -635,6 +645,8 @@ $global_from = $_POST["contactus_email"];
 $mail = new smtp_email;
 $mail->Username = $smtp_email;
 $mail->Password = $smtp_password;
+$mail->Server =  $smpt_server;
+$mail->Port =  $smpt_port;
 
 $mail->SetFrom($smtp_email,"IW - Personal Consultations");		// Name is optional
 $mail->AddTo($_POST["contactus_email"]);	// Name is optional
@@ -649,6 +661,8 @@ $success = $mail->Send();
 $mail = new smtp_email;
 $mail->Username = $smtp_email;
 $mail->Password = $smtp_password;
+$mail->Server =  $smpt_server;
+$mail->Port =  $smpt_port;
 
 $mail->SetFrom($smtp_email,"IW - Personal Consultations");		// Name is optional
 $mail->AddTo($send_contact_form);	// Name is optional
@@ -898,6 +912,8 @@ $global_from = $_POST["weddingquestionnaire_bride_email"];
 $mail = new smtp_email;
 $mail->Username = $smtp_email;
 $mail->Password = $smtp_password;
+$mail->Server =  $smpt_server;
+$mail->Port =  $smpt_port;
 
 $mail->SetFrom($smtp_email,"IW - Wedding Questionnaire");		// Name is optional
 $mail->AddTo($_POST["weddingquestionnaire_bride_email"]);	// Name is optional
@@ -912,6 +928,8 @@ $success = $mail->Send();
 $mail = new smtp_email;
 $mail->Username = $smtp_email;
 $mail->Password = $smtp_password;
+$mail->Server =  $smpt_server;
+$mail->Port =  $smpt_port;
 
 $mail->SetFrom($smtp_email,"IW - Wedding Questionnaire");		// Name is optional
 $mail->AddTo($send_contact_form);	// Name is optional
