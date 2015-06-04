@@ -1,5 +1,5 @@
 <?php
-
+require ("PHPMailer-master/class.phpmailer.php");
 class smtp_email {
   const newline = "\r\n";
 
@@ -14,8 +14,13 @@ class smtp_email {
 
   function __construct()
   {
-    $this->Server = "127.0.0.1";
-    $this->Port = 25;
+  	$objMailer = new PHPMailer();
+//    $this->Server = "127.0.0.1";
+	$this->Server = $objMailer->Host;
+    $this->Port = $objMailer->Port;
+	$this->Password = $objMailer->Password;
+	$this->Username = $objMailer->Username;
+	
     $this->Localhost = "localhost";
     $this->ConnectTimeout = 30;
     $this->ResponseTimeout = 8;
