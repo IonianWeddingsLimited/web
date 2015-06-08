@@ -69,7 +69,7 @@ $header_image = "../images/invoice_header.jpg";
 						$pdf->Image($bar_image, 10, 14, 190,0.1);
 			
 						$pdf->SetY('24');
-						$pdf->SetLeftMargin('160');
+						$pdf->SetLeftMargin('150');
 						// date
 						$date = date("jS  F Y",$record[19]);
 						$pdf->SetFont('Arial','B',8);
