@@ -30,11 +30,17 @@ $header_image = "../images/invoice_header.jpg";
 													   AND $database_supplier_invoices_main.id='".addslashes($po[0])."'");
 						$record = $sql_command->result($result);
 						
-						$pdf=new PDF();
+						$pdf = new PDF();
+
+						$pdf->AliasNbPages();
+						$pdf->tFPDF();
 						$pdf->AddPage();
+						$pdf->AddFont('Arial', '','', true);
+ 						$pdf->AddFont('Arial', 'B','', true);
+
 						$pdf->SetAuthor('Ionian Weddings');
 						$pdf->SetTitle('Purchase Order '.$id);
-						
+
 						$pdf->SetY('5');
 						$pdf->SetFont('Arial','','18');  
 						$pdf->SetTextColor(226,179,64);
