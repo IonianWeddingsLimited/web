@@ -31,10 +31,12 @@
 	$FullClientName = $c_info[1]." ".$c_info[2]." ".$c_info[3]." &amp; ".$c_info[4]." ".$c_info[5]." ".$c_info[6];
 
 	$cols = "reference_id, reference_type, user_id, email, addressee, message, filename";
-	$display = "<div id=\"email-wrap\"><form method=\"post\" action=\"".$site_url."\"/oos/manage-client.php\" name=\"emailPDF\" id=\"emailPDF\"><input type=\"hidden\" name=\"clientid\" value=\"".$clientid."\">";
+	$display = "<div id=\"email-wrap\"><form method=\"post\" action=\"".
+	           "$site_url/oos/manage-client.php\" name=\"emailPDF\" id=\"emailPDF\">".
+	           "<input type=\"hidden\" name=\"clientid\" value=\"".$clientid."\">";
 
 	if ($_POST["action"]=="Email Selected Suppliers") {
-	
+
 		foreach ($ids as $id) {			
 			
 			$e_oid = "email_oid_".$id;
@@ -74,10 +76,11 @@
 			$idlist = "";
 			$extra_po = "";
 			foreach ($poresult as $po) {
+
 				if (in_array($po[0],$ids)) {
 				$idlist .= "#".$po[0].", ";
 				$e_file = "/".$e_supplierid."/".$po[0]."-".$timest.".pdf";
-				$e_filelist .= "<a href=\"http://www.ionianweddings.co.uk/oos/purchase-order.php?purchase_order=".$po[0]."\" style=\"color: #c08827;\">http://www.ionianweddings.co.uk/_po".$e_file."</a><br />";
+				$e_filelist .= "<a href=\"$site_url/oos/purchase-order.php?purchase_order=".$po[0]."\" style=\"color: #c08827;\">$site_url/_po".$e_file."</a><br />";
 				$vals = "
 					'".addslashes($po[0])."',
 					'Supplier',
@@ -89,14 +92,13 @@
 					'".addslashes($e_date)."'		";
 				$e_insert = $sql_command->insert("emails","$cols,created",$vals);
 				}
-
 			}
 
 			$message ="<table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"625\" style=\"margin:0 auto;\">";
 			$message .="<tr>";
 			$message .="<td width=\"217\" style=\"padding: 20px 0px 20px 0px;\">";
-			$message .="<img src=\"http://www.ionianweddings.co.uk/images/interface/i_logo_ionian_weddings.gif\" alt=\"Ionian Weddings - Exclusively Mediterranean Weddings\" border=\"0\" title=\"Ionian Weddings - Exclusively Mediterranean Weddings\" style=\"display: block; margin: 0px 0px 5px 0px;\" />";
-			$message .="<img src=\"http://www.ionianweddings.co.uk/images/interface/i_exclusively_mediterranean_weddings.gif\" border=\"0\" title=\"Exclusively Mediterranean Weddings\" alt=\"Exclusively Mediterranean Weddings\" style=\"display: block;\" />";
+			$message .="<img src=\"$site_url/images/interface/i_logo_ionian_weddings.gif\" alt=\"Ionian Weddings - Exclusively Mediterranean Weddings\" border=\"0\" title=\"Ionian Weddings - Exclusively Mediterranean Weddings\" style=\"display: block; margin: 0px 0px 5px 0px;\" />";
+			$message .="<img src=\"$site_url/images/interface/i_exclusively_mediterranean_weddings.gif\" border=\"0\" title=\"Exclusively Mediterranean Weddings\" alt=\"Exclusively Mediterranean Weddings\" style=\"display: block;\" />";
 			$message .="</td>";
 			$message .="<td style=\"padding: 0px 0px 0px 0px; text-align: right;\">";
 			$message .="<p style=\"color: #8b6934; font-family: Arial, Helvetica, sans-serif; font-size: 14px; font-weight: bold; line-height: 1.2em; margin: 0px 0px 0px 0px; padding: 0px 0px 10px 0px;\">Call us today on 020 8894 1991 / 020 8898 9917</p>";
@@ -115,9 +117,9 @@
 			$message .="<p><textarea name=\"email_message_".$id."\" style=\"width:80%;\"></textarea></p>";
 			$message .= "<br />";
 			$message .= "<p style=\"color: #595959; font-family:Arial, Helvetica, sans-serif; font-size: 11px; margin: 0px 0px 0px 0px; padding: 0px 0px 15px 0px;\">To view your purchase orders ".$idlist."please refer to the following link: <br />".$e_filelist."</p>";
-			$message .= "<p style=\"color: #595959; font-family:Arial, Helvetica, sans-serif; font-size: 11px; margin: 0px 0px 0px 0px; padding: 0px 0px 15px 0px;\">If you have any issues or queries relating to this email and its contents, please feel free to contact us using our contact form <a href=\"http://Ionianweddings.co.uk/contact-us/\" target=\"_blank\" title=\"link\" style=\"color: #c08827;\">CONTACT US</a>.</p>";
+			$message .= "<p style=\"color: #595959; font-family:Arial, Helvetica, sans-serif; font-size: 11px; margin: 0px 0px 0px 0px; padding: 0px 0px 15px 0px;\">If you have any issues or queries relating to this email and its contents, please feel free to contact us using our contact form <a href=\"$site_url/contact-us/\" target=\"_blank\" title=\"link\" style=\"color: #c08827;\">CONTACT US</a>.</p>";
 			$message .="<br />";
-			$message .= "</td></tr><tr><td colspan=\"2\" style=\"background-color: #faf1df; padding: 20px 10px 20px 0px; text-align: right;\"><p style=\"color: #c08827; font-family: Arial, Helvetica, sans-serif; font-size: 10px; line-height: 1.2em; margin: 0px 0px 0px 0px; padding: 0px 0px 10px 0px;\">This email is brought to you by <a href=\"http://www.ionianweddings.co.uk/\" target=\"_blank\" title=\"Ionian Weddings Limited\" style=\"color: #c08827;\">Ionian Weddings Limited</a>.<br />The only site you need to make your wedding dreams come true.</p><p style=\"color: #878787; font-family: Arial, Helvetica, sans-serif; font-size: 9px; line-height: 1.2em; margin: 0px 0px 0px 0px; padding: 0px 0px 0px 0px;\">Copyright &copy; 2014. All rights reserved</p></td></tr></table><p></p>";
+			$message .= "</td></tr><tr><td colspan=\"2\" style=\"background-color: #faf1df; padding: 20px 10px 20px 0px; text-align: right;\"><p style=\"color: #c08827; font-family: Arial, Helvetica, sans-serif; font-size: 10px; line-height: 1.2em; margin: 0px 0px 0px 0px; padding: 0px 0px 10px 0px;\">This email is brought to you by <a href=\"$site_url/\" target=\"_blank\" title=\"Ionian Weddings Limited\" style=\"color: #c08827;\">Ionian Weddings Limited</a>.<br />The only site you need to make your wedding dreams come true.</p><p style=\"color: #878787; font-family: Arial, Helvetica, sans-serif; font-size: 9px; line-height: 1.2em; margin: 0px 0px 0px 0px; padding: 0px 0px 0px 0px;\">Copyright &copy; 2014. All rights reserved</p></td></tr></table><p></p>";
 /*			$vals = "
 			'".addslashes($e_supplierid)."',
 			'Supplier',
@@ -151,10 +153,10 @@
 			else { $display .= "<input type=\"hidden\" name=\"e_ids[]\" value=\"".$id."\">"; }
 			$checkpo[] = $e_supplierid;
 		}
-		$display .= "<center><button type=\"submit\" name=\"back\" value=\"Back\" onClick=\"window.location.href='http://www.ionianweddings.co.uk/oos/manage-client.php?a=history&id=".$clientid."'\">Back</button><input type=\"submit\" name=\"action\" value=\"Email PO to Suppliers\"></center></form></div>";
+		$display .= "<center><button type=\"submit\" name=\"back\" value=\"Back\" onClick=\"window.location.href='$site_url/oos/manage-client.php?a=history&id=".$clientid."'\">Back</button><input type=\"submit\" name=\"action\" value=\"Email PO to Suppliers\"></center></form></div>";
 	
 	}	elseif ($_POST["action"]=="Email PO to Suppliers")	{
-		require('fpdf.php');
+		require('fpdf/class.fpdf.php');
 		$emailadd = "payments@ionianweddings.co.uk"; 
 		$emailname = "Ionian Weddings Ltd";
 	
@@ -247,13 +249,12 @@
 				$idlist = "";
 				foreach ($poresult as $po) {
 					
-					
 				
 					$qties = $itemvalue = $payment_total2 = $payment_total = $paidam = 0;
 					if (in_array($po[0],$ids)||in_array($po[0],$e_ids)) {
 						$idlist .= "#".$po[0].", ";
 						$e_file = "/".$e_supplierid."/".$po[0]."-".$e_timestamp.".pdf";
-						$e_filelist .= "<a href=\"http://www.ionianweddings.co.uk/_po".$e_file."\" style=\"color: #c08827;\">http://www.ionianweddings.co.uk/_po".$e_file."</a><br />";
+						$e_filelist .= "<a href=\"$site_url/_po".$e_file."\" style=\"color: #c08827;\">$site_url/_po".$e_file."</a><br />";
 						
 						$sql_command->update("emails","message='".addslashes($custom_message)."',sent='".addslashes($e_date)."'","reference_id='".addslashes($po[0])."' and filename='".$e_file."'");	
 						
@@ -267,8 +268,8 @@
 				$EmailMessage ="<table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"625\" style=\"margin:0 auto;\">";
 				$EmailMessage .="<tr>";
 				$EmailMessage .="<td width=\"217\" style=\"padding: 20px 0px 20px 0px;\">";
-				$EmailMessage .="<img src=\"http://www.ionianweddings.co.uk/images/interface/i_logo_ionian_weddings.gif\" alt=\"Ionian Weddings - Exclusively Mediterranean Weddings\" border=\"0\" title=\"Ionian Weddings - Exclusively Mediterranean Weddings\" style=\"display: block; margin: 0px 0px 5px 0px;\" />";
-				$EmailMessage .="<img src=\"http://www.ionianweddings.co.uk/images/interface/i_exclusively_mediterranean_weddings.gif\" border=\"0\" title=\"Exclusively Mediterranean Weddings\" alt=\"Exclusively Mediterranean Weddings\" style=\"display: block;\" />";
+				$EmailMessage .="<img src=\"$site_url/images/interface/i_logo_ionian_weddings.gif\" alt=\"Ionian Weddings - Exclusively Mediterranean Weddings\" border=\"0\" title=\"Ionian Weddings - Exclusively Mediterranean Weddings\" style=\"display: block; margin: 0px 0px 5px 0px;\" />";
+				$EmailMessage .="<img src=\"$site_url/images/interface/i_exclusively_mediterranean_weddings.gif\" border=\"0\" title=\"Exclusively Mediterranean Weddings\" alt=\"Exclusively Mediterranean Weddings\" style=\"display: block;\" />";
 				$EmailMessage .="</td>";
 				$EmailMessage .="<td style=\"padding: 0px 0px 0px 0px; text-align: right;\">";
 				$EmailMessage .="<p style=\"color: #8b6934; font-family: Arial, Helvetica, sans-serif; font-size: 14px; font-weight: bold; line-height: 1.2em; margin: 0px 0px 0px 0px; padding: 0px 0px 10px 0px;\">Call us today on 020 8894 1991 / 020 8898 9917</p>";
@@ -287,9 +288,9 @@
 				$EmailMessage .="<div style=\"color: #595959; font-family:Arial, Helvetica, sans-serif; font-size: 11px; margin: 0px 0px 0px 0px; padding: 0px 0px 7px 0px;\">".$custom_message."</div>";
 				$EmailMessage .= "<br />";
 				$EmailMessage .= "<p style=\"color: #595959; font-family:Arial, Helvetica, sans-serif; font-size: 11px; margin: 0px 0px 0px 0px; padding: 0px 0px 15px 0px;\">To view your purchase order ".$idlist.", please refer to the following link: <br />".$e_filelist."</p><br />";
-				$EmailMessage .= "<p style=\"color: #595959; font-family:Arial, Helvetica, sans-serif; font-size: 11px; margin: 0px 0px 0px 0px; padding: 0px 0px 15px 0px;\">If you have any issues or queries relating to this email and its contents, please feel free to contact us using our contact form <a href=\"http://Ionianweddings.co.uk/contact-us/\" target=\"_blank\" title=\"link\" style=\"color: #c08827;\">CONTACT US</a>.</p>";
+				$EmailMessage .= "<p style=\"color: #595959; font-family:Arial, Helvetica, sans-serif; font-size: 11px; margin: 0px 0px 0px 0px; padding: 0px 0px 15px 0px;\">If you have any issues or queries relating to this email and its contents, please feel free to contact us using our contact form <a href=\"$site_url/contact-us/\" target=\"_blank\" title=\"link\" style=\"color: #c08827;\">CONTACT US</a>.</p>";
 				$EmailMessage .="<br />";
-				$EmailMessage .= "</td></tr><tr><td colspan=\"2\" style=\"background-color: #faf1df; padding: 20px 10px 20px 0px; text-align: right;\"><p style=\"color: #c08827; font-family: Arial, Helvetica, sans-serif; font-size: 10px; line-height: 1.2em; margin: 0px 0px 0px 0px; padding: 0px 0px 10px 0px;\">This email is brought to you by <a href=\"http://www.ionianweddings.co.uk/\" target=\"_blank\" title=\"Ionian Weddings Limited\" style=\"color: #c08827;\">Ionian Weddings Limited</a>.<br />The only site you need to make your wedding dreams come true.</p><p style=\"color: #878787; font-family: Arial, Helvetica, sans-serif; font-size: 9px; line-height: 1.2em; margin: 0px 0px 0px 0px; padding: 0px 0px 0px 0px;\">Copyright &copy; 2014. All rights reserved</p></td></tr></table><p></p>";
+				$EmailMessage .= "</td></tr><tr><td colspan=\"2\" style=\"background-color: #faf1df; padding: 20px 10px 20px 0px; text-align: right;\"><p style=\"color: #c08827; font-family: Arial, Helvetica, sans-serif; font-size: 10px; line-height: 1.2em; margin: 0px 0px 0px 0px; padding: 0px 0px 10px 0px;\">This email is brought to you by <a href=\"$site_url/\" target=\"_blank\" title=\"Ionian Weddings Limited\" style=\"color: #c08827;\">Ionian Weddings Limited</a>.<br />The only site you need to make your wedding dreams come true.</p><p style=\"color: #878787; font-family: Arial, Helvetica, sans-serif; font-size: 9px; line-height: 1.2em; margin: 0px 0px 0px 0px; padding: 0px 0px 0px 0px;\">Copyright &copy; 2014. All rights reserved</p></td></tr></table><p></p>";
 	
 	
 				$mail->Subject	=	"Ionian Weddings purchase order ".$idlist;
@@ -302,7 +303,7 @@
 					exit;
 				}
 				
-				$display = "Emails Sent, <a href=\"http://www.ionianweddings.co.uk/oos/manage-client.php?a=history&id=".$clientid."\">return to client page</a>.";
+				$display = "Emails Sent, <a href=\"$site_url/oos/manage-client.php?a=history&id=".$clientid."\">return to client page</a>.";
 				$checkpo[] = $e_supplierid;
 			}
 		}
