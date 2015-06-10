@@ -300,6 +300,7 @@
 				
 				if(!$mail->Send()) {
 					$display =	"There was an error sending the message";
+					throw new Exception($mail->ErrorInfo);
 					exit;
 				}
 				
