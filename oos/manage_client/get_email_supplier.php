@@ -166,8 +166,10 @@
 
 		$mail->Username = $smtp_email;
 		$mail->Password = $smtp_password;
-		$mail->Server =  $smpt_server;
+		$mail->Host =  $smpt_server;
 		$mail->Port =  $smpt_port;
+		$mail->IsSMTP();
+		$mail->SMTPAuth = true; 
 		$mail->SetFrom($smtp_email,$tagline);	// Name is optional
 		
 		class PDF extends FPDF {

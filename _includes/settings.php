@@ -108,7 +108,7 @@ $enquire_email = "graemegraeme@hotmail.com";
 $smtp_email = "purchase.order@ionianweddings.co.uk";
 $smtp_password = "7746ABCg";
 $smpt_server = "smtp.fasthosts.co.uk";
-$smpt_port = 25;
+$smpt_port = 587 ;
 
 
 
