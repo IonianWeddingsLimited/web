@@ -8,8 +8,10 @@ This is the website for ionianweddings. It includes the PHP code required to get
 The database configuration can be found in _includes/settings.php
 Make sure the following folders are writable, the web server process can write into the following folders (to create new files):
   
-  * chmod 777 oos/font/unifont
-  * chmod -R 777 _po/_
+    oos/font/unifont
+    _po
+    images/imageuploads
+    ckeditor/ckfinder/userfiles
 
 # Issues
 

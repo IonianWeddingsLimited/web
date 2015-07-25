@@ -426,22 +426,7 @@
   <priority>0.90</priority>
 </url>
 <url>
-  <loc>http://www.ionianweddings.co.uk/packages/greek-aegean-island-wedding-packages/rhodes-medieval-old-town-wedding-and-reception/</loc>
-  <changefreq>weekly</changefreq>
-  <priority>0.90</priority>
-</url>
-<url>
-  <loc>http://www.ionianweddings.co.uk/packages/greek-aegean-island-wedding-packages/rhodes-luxury-chapel-wedding-and-reception-/</loc>
-  <changefreq>weekly</changefreq>
-  <priority>0.90</priority>
-</url>
-<url>
-  <loc>http://www.ionianweddings.co.uk/packages/greek-aegean-island-wedding-packages/rhodes-kallithea-spa-wedding-and-sea-view-reception/</loc>
-  <changefreq>weekly</changefreq>
-  <priority>0.90</priority>
-</url>
-<url>
-  <loc>http://www.ionianweddings.co.uk/packages/greek-aegean-island-wedding-packages/rhodes-sunset-wedding-and-reception-/</loc>
+  <loc>http://www.ionianweddings.co.uk/packages/greek-aegean-island-wedding-packages/santorini-gem-wedding/</loc>
   <changefreq>weekly</changefreq>
   <priority>0.90</priority>
 </url>
@@ -451,7 +436,22 @@
   <priority>0.90</priority>
 </url>
 <url>
-  <loc>http://www.ionianweddings.co.uk/packages/greek-aegean-island-wedding-packages/santorini-gem-wedding/</loc>
+  <loc>http://www.ionianweddings.co.uk/packages/greek-aegean-island-wedding-packages/rhodes-sunset-wedding-and-reception-/</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.90</priority>
+</url>
+<url>
+  <loc>http://www.ionianweddings.co.uk/packages/greek-aegean-island-wedding-packages/rhodes-kallithea-spa-wedding-and-sea-view-reception/</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.90</priority>
+</url>
+<url>
+  <loc>http://www.ionianweddings.co.uk/packages/greek-aegean-island-wedding-packages/rhodes-luxury-chapel-wedding-and-reception-/</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.90</priority>
+</url>
+<url>
+  <loc>http://www.ionianweddings.co.uk/packages/greek-aegean-island-wedding-packages/rhodes-medieval-old-town-wedding-and-reception/</loc>
   <changefreq>weekly</changefreq>
   <priority>0.90</priority>
 </url>
@@ -481,17 +481,17 @@
   <priority>0.90</priority>
 </url>
 <url>
-  <loc>http://www.ionianweddings.co.uk/packages/greek-aegean-island-wedding-packages/skopelos-mamma-mia-chapel-wedding-and-luxury-reception/</loc>
-  <changefreq>weekly</changefreq>
-  <priority>0.90</priority>
-</url>
-<url>
   <loc>http://www.ionianweddings.co.uk/packages/greek-aegean-island-wedding-packages/rhodes-lindian-village-wedding/</loc>
   <changefreq>weekly</changefreq>
   <priority>0.90</priority>
 </url>
 <url>
   <loc>http://www.ionianweddings.co.uk/packages/greek-aegean-island-wedding-packages/rhodes-kolymbia-sands-wedding-/</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.90</priority>
+</url>
+<url>
+  <loc>http://www.ionianweddings.co.uk/packages/greek-aegean-island-wedding-packages/skopelos-mamma-mia-chapel-wedding-and-luxury-reception/</loc>
   <changefreq>weekly</changefreq>
   <priority>0.90</priority>
 </url>
