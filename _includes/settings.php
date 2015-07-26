@@ -11,31 +11,63 @@ $database_name = "ionianwe_couk";
 
 $base_directory = "/home/ionianwe/public_html";
 
-if ($_SERVER['HTTP_HOST'] == 'happytimes.co.uk' || $_SERVER['HTTP_HOST'] == 'www.happytimes.co.uk') {
-    $database_username = "live_ionian";
-    $database_password = "vK3hU6p5uVTDGm7a";
-    $database_name = "live_ionian";
+if ($_SERVER['HTTP_HOST'] == 'happytimes.co.uk' || 
+	$_SERVER['HTTP_HOST'] == 'www.happytimes.co.uk') {
 
-    $base_directory = "/var/www/html/ionian/live";
-    $site_url = "http://www.happytimes.co.uk";
-    $site_url2 = "http://www.happytimes.co.uk";
+	    $database_username = "live_ionian";
+	    $database_password = "vK3hU6p5uVTDGm7a";
+	    $database_name = "live_ionian";
+
+	    $base_directory = "/var/www/html/ionian/live";
+	    $site_url = "http://www.happytimes.co.uk";
+	    $site_url2 = "http://www.happytimes.co.uk";
 }
 
-if ($_SERVER['HTTP_HOST'] == 'test.happytimes.co.uk' || $_SERVER['HTTP_HOST'] == 'www.test.happytimes.co.uk') {
-    $database_username = "test_ionian";
-    $database_password = "huL9y43Cb9SG5JaU";
-    $database_name = "test_ionian";
+if ($_SERVER['HTTP_HOST'] == 'ionianweddings.co.uk' ||
+	$_SERVER['HTTP_HOST'] == 'www.ionianweddings.co.uk') {
 
-    $base_directory = "/var/www/html/ionian/test";
-    $site_url = "http://www.test.happytimes.co.uk";
-    $site_url2 = "http://www.test.happytimes.co.uk";
+	    $database_username = "live_ionian";
+	    $database_password = "vK3hU6p5uVTDGm7a";
+	    $database_name = "live_ionian";
+
+	    $base_directory = "/var/www/html/ionian/live";
+	    $site_url = "http://www.ionianweddings.co.uk";
+	    $site_url2 = "http://www.ionianweddings.co.uk";
 }
 
-if ($_SERVER['HTTP_HOST'] == 'ionian.localhost' || $_SERVER['HTTP_HOST'] == 'www.ionian.localhost') {
-    $base_directory = "/Users/gabi/workspace/onclouds/ionian/";
 
-    $site_url = "http://www.ionian.localhost";
-    $site_url2 = "http://www.ionian.localhost";
+if ($_SERVER['HTTP_HOST'] == 'test.happytimes.co.uk' || 
+	$_SERVER['HTTP_HOST'] == 'www.test.happytimes.co.uk') {
+
+	    $database_username = "test_ionian";
+	    $database_password = "huL9y43Cb9SG5JaU";
+	    $database_name = "test_ionian";
+
+	    $base_directory = "/var/www/html/ionian/test";
+	    $site_url = "http://www.test.happytimes.co.uk";
+	    $site_url2 = "http://www.test.happytimes.co.uk";
+}
+
+if ($_SERVER['HTTP_HOST'] == 'test.ionianweddings.co.uk' || 
+	$_SERVER['HTTP_HOST'] == 'www.test.ionianweddings.co.uk') {
+
+	    $database_username = "test_ionian";
+	    $database_password = "huL9y43Cb9SG5JaU";
+	    $database_name = "test_ionian";
+
+	    $base_directory = "/var/www/html/ionian/test";
+	    $site_url = "http://www.test.ionianweddings.co.uk";
+	    $site_url2 = "http://www.test.ionianweddings.co.uk";
+}
+
+
+if ($_SERVER['HTTP_HOST'] == 'ionian.localhost' || 
+	$_SERVER['HTTP_HOST'] == 'www.ionian.localhost') {
+
+	    $base_directory = "/Users/gabi/workspace/onclouds/ionian/";
+
+	    $site_url = "http://www.ionian.localhost";
+	    $site_url2 = "http://www.ionian.localhost";
 }
 
 $fpdf_fontpath = "$base_directory/oos/font/";
