@@ -132,116 +132,14 @@ class PDF extends FPDF {
 //		$this->Ln(0);
 //	}
 	function Footer() {
-		global $InvoiceCurrency;
-		
-		$this->SetXY(0,-70);
-		$this->SetLeftMargin('10');
-		$this->SetFont('Arial','','8'); 
-		$this->SetTextColor(151,151,151); 
-	
-		if($InvoiceCurrency == 'Euro') {
-			$this->Write(0,"Please pay by international bank transfer into our Euro account. Our bank details in Greece are below. ");
-		}
-		else {
-			$this->Write(0,"The easiest was to pay your deposits is by wire / bank transfer (BAC). Our bank details are below. ");
-		}
-		$this->Ln(3.2); 
-		$this->Write(0,"For more information about how we calculate the exchange rates click or copy this link http://www.ionianweddings.co.uk/terms-and-conditions/#prices");
-		$this->Ln(3.2); 
-		$this->Write(0,"Please quote your surname and IW booking reference on your transaction");
-	
-		if($InvoiceCurrency == 'Euro') {
-		
-//			$col1.="For Euro (€) Payments:\n";
-//			$col1.="Account Holder Name - Andreas Palikiras\n";
-//			$col1.="Bank – National Bank of Greece\n";
-//			$col1.="Branch Code - 749\n";
-//			$col1.="Address – Corfu City Centre, 6 Samara Street, Kerkyra 49100, Greece\n";
-//			$col1.="Swift Code (BIC) - ETHNGRAA\n";
-//			$col1.="A/C No. - 279/603592-25\n";
-//			$col1.="IBAN – GR4201102790000027960359225\n";
-			
-			$this->Ln(5); 
-			$this->SetFont('Arial','','8'); 
-			$this->Write(0,"For Euro (€) Payments:");
-			$this->Ln(3.2); 
-			$this->Write(0,"Account Holder Name - Andreas Palikiras");
-			$this->Ln(3.2); 
-			$this->Write(0,"Bank – National Bank of Greece");
-			$this->Ln(3.2); 
-			$this->Write(0,"Branch Code - 749");
-			$this->Ln(3.2); 
-			$this->Write(0,"Address – Corfu City Centre, 6 Samara Street, Kerkyra 49100, Greece");
-			$this->Ln(3.2); 
-			$this->Write(0,"Swift Code (BIC) - ETHNGRAA");
-			$this->Ln(3.2); 
-			$this->Write(0,"A/C No. - 279/603592-25");
-			$this->Ln(3.2); 
-			$this->Write(0,"IBAN – GR4201102790000027960359225");
-			$this->Ln(5);
-		} else {
-			$this->Ln(5); 
-			$this->SetFont('Arial','','8'); 
-			$this->Write(0,"For Electronic Payments:");
-			$this->Ln(3.2); 
-			$this->Write(0,"Account Holder - Ionian Weddings Ltd");
-			$this->Ln(3.2); 
-			$this->Write(0,"Bank - Co-operative Bank PLC");
-			$this->Ln(3.2); 
-			$this->Write(0,"A/C No. - 70913224");
-			$this->Ln(3.2); 
-			$this->Write(0,"Sort Code - 08-92-50");
-			$this->Ln(3.2); 
-			$this->Write(0,"Swift (BIC) - CPBK GB 22");
-			$this->Ln(3.2); 
-			$this->Write(0,"IBAN – GB21 CPBK 08925070913224");
-			$this->Ln(5);
-		}
-		if($InvoiceCurrency == 'Euro') {
-			$this->Ln(3.2); 
-			$this->Write(0,"Balance payments are not refundable; if you wish to pay in Euros, you can only pay by international transfer into the account above. ");
-			$this->Ln(3.2); 
-			$this->Write(0,"Please ask us if you prefer to pay in Pounds.");
-		}
-		else {
-			$this->Ln(3.2); 
-			$this->Write(0,"Balance payments are not refundable; cheques are no longer accepted due to the abolition of the Cheque Guarantee Scheme.");
-			$this->Ln(3.2);
-			$this->Write(0,"We also accept debit cards and credit cards (there is a 2% transaction fee for credit cards and 3% for international credit cards)");
-			$this->Ln(3.2);
-			$this->Write(0,"Please ask for a form for card payments. If you prefer to pay in Euros, please let us know.");
-		}
-	
-	
-		/*$this->Write(0,"Balance payments are not refundable; cheques are no longer accepted due to the abolition of the Cheque Guarantee Scheme. We also accept debit cards and credit cards (there is a");
-		$this->Ln(3.2); 
-		$this->Write(0,"2% transaction fee for credit cards and 3% for international credit cards) – please ask for a form for card payments. If you prefer to pay in Euros, please let us know.");
-		*/
-		$this->Ln(5); 
-		$this->SetTextColor(152,72,6.6);
-		$this->Write(0,"THANK YOU FOR CHOOSING IONIAN WEDDINGS.");
-		$this->Ln(5); 
-	
-		$gety = $this->GetY(); 
-		
-		$this->Image("../images/invoice_abta.jpg", 185, $gety + 0.5, 16.93,6.77);
-		$this->SetFont('Arial','','8'); 
-		$this->SetTextColor(151,151,151);  
-		$this->Write(0,"© Copyright Ionian Weddings Ltd. ".date("Y")." – 10 Crane Mews, 32 Gould Road, Twickenham, England, TW2 6RS");
-		$this->Ln(3.5); 
-		$this->Write(0,"(t) / (f) +44 208 894 1991 - (e) weddings@ionianweddings.co.uk - (w) www.ionianweddings.co.uk");
-		$this->Ln(3.5); 
-		$this->Write(0,"Registered in England and Wales No. 06137035 | VAT Registration Number: 103185747");
-		$this->Ln(3.5);
-		$this->Write(0,'Page '.$this->PageNo().'/{nb}',0,0,'C');
-		$this->Ln(3.5);
+
 	}
 }
 
-$breakheight = 221;
+$breakheight = 30000;
 
 $pdf = new PDF();
-$pdf->SetAutoPageBreak(true , 75);
+$pdf->SetAutoPageBreak(false , 75);
 $pdf->AliasNbPages();
 $pdf->tFPDF();
 $pdf->AddFont('Arial', '','', true);
@@ -331,7 +229,8 @@ $pdf->SetLeftMargin('10');
 $date2 = date("d/m/Y",$record[17]);
 
 $pdf->SetFont('Arial','',8);
-$pdf->SetTextColor(0,0,0); 
+$pdf->SetTextColor(0,0,0);
+$pdf->SetTextColor(88,88,111); 
 $pdf->Write(0,'Ionian Weddings Ltd.');
 $pdf->Ln(3.6);	 
 $pdf->Write(0,'10 Crane Mews, 32 Gould Road, Twickenham, TW2 6RS');
@@ -590,38 +489,38 @@ if (empty($currency_name)) {
 		$include_results = $sql_command->results($include_check);
 		
 		// Display Individual AI items
-		
 		foreach ($include_results as $ir) {
-			$displayitem = $sql_command->count_nrow("notes","notes_id","note_primary_reference = '".addslashes($invoice_record[15])."' AND note_secondary_reference = '".addslashes($ir[3])."' AND note_type = 'Hide' AND extra = 'Yes'");
-			if ($displayitem==0) {
-				if(eregi("<p>",$ir[0])) {
-				$start = strpos($ir[0], '<p>');
-				$end = strpos($ir[0], '</p>', $start);
-				$paragraph = substr($ir[0], $start, $end-$start+4);
-				$paragraph = str_replace("<p>", "", $paragraph);
-				$paragraph = str_replace("</p>", "", $paragraph);
-				} else {
-				$paragraph = stripslashes($ir[0]);
-				}
-				
-				$paragraph = str_replace("&nbsp;", " ", $paragraph);
-				$paragraph = str_replace("&amp;", "&", $paragraph);
-				$paragraph = trim(preg_replace('/\s\s+/', ' ', $paragraph));
-				$pdf->SetLeftMargin('10');
-				$pdf->SetFont('','',8);;
-				
-				$display_cost = 'Included';
-				//if ($displayInc === true) {
 
-				$pdf->Cell(160.05,4,"  - ".$paragraph,'LR',0,'L',true);
-				$pdf->SetFont('','',8);;
-				$pdf->Cell(9.95,4,$ir[1],'LR',0,'C',true);
-				$pdf->Cell(19.95,4,$display_cost,'LR',0,'R',true);
-				
-				$pdf->Ln(3.6); 
-				//}
-			}
-		}
+				$displayitem = $sql_command->count_nrow("notes","notes_id","note_primary_reference = '".addslashes($invoice_record[15])."' AND note_secondary_reference = '".addslashes($ir[3])."' AND note_type = 'Hide' AND extra = 'Yes'");
+				if ($displayitem==0) {
+					if(eregi("<p>",$ir[0])) {
+					$start = strpos($ir[0], '<p>');
+					$end = strpos($ir[0], '</p>', $start);
+					$paragraph = substr($ir[0], $start, $end-$start+4);
+					$paragraph = str_replace("<p>", "", $paragraph);
+					$paragraph = str_replace("</p>", "", $paragraph);
+					} else {
+					$paragraph = stripslashes($ir[0]);
+					}
+					
+					$paragraph = str_replace("&nbsp;", " ", $paragraph);
+					$paragraph = str_replace("&amp;", "&", $paragraph);
+					$paragraph = trim(preg_replace('/\s\s+/', ' ', $paragraph));
+					$pdf->SetLeftMargin('10');
+					$pdf->SetFont('','',8);;
+					
+					$display_cost = 'Included';
+					//if ($displayInc === true) {
+	
+					$pdf->Cell(160.05,4,"  - ".$paragraph,'LR',0,'L',true);
+					$pdf->SetFont('','',8);;
+					$pdf->Cell(9.95,4,$ir[1],'LR',0,'C',true);
+					$pdf->Cell(19.95,4,$display_cost,'LR',0,'R',true);
+					
+					$pdf->Ln(3.6); 
+				}
+		}	
+		
 	}
 }
 
@@ -979,7 +878,7 @@ if (empty($currency_name)) {
 		// Package Extra / Bespoke Extra
 	
 		$displayitem = $sql_command->count_nrow("notes","notes_id","note_primary_reference = '".addslashes($invoice_record[15])."' AND note_secondary_reference = '".addslashes($invoice_record[16])."' AND note_type = 'Hide' AND extra = 'Yes'");
-	
+
 //		if ($the_username =="u2") { 
 			if($displayitem==0) {
 				
@@ -1011,6 +910,7 @@ if (empty($currency_name)) {
 				$pdf->MultiCell(19.95,$CellHeight,$display_cost, 'LR', 'R', true);
 				$pdf->Ln($LineHeight);
 			}
+
 //		} else {
 //			if($total_iw_cost != 0 && $displayitem==0) {
 //				
@@ -1079,7 +979,7 @@ if (empty($currency_name)) {
 	$pdf->Cell(189.95,0,'','T'); 
 	$pdf->Ln(0.1);
 	//}
-	
+
 	$minum_deposit = 0;
 	$minum_deposit2 = 0;
 	
@@ -1111,7 +1011,7 @@ if (empty($currency_name)) {
 		}
 	}		
 }
-		// start payments
+		// start payments		
 
 if ($minum_deposit>0) {
 		$invoice_result = $sql_command->select($database_invoice_history,
@@ -2979,7 +2879,109 @@ if ($totalpp>0) {
 	}
 	
 }
-
+		global $InvoiceCurrency;
+		
+		
+		$pdf->SetLeftMargin('10');
+		$pdf->SetFont('Arial','','8'); 
+		$pdf->SetTextColor(151,151,151); 
+	
+		if($InvoiceCurrency == 'Euro') {
+			$pdf->Write(0,"Please pay by international bank transfer into our Euro account. Our bank details in Greece are below. ");
+		}
+		else {
+			$pdf->Write(0,"The easiest was to pay your deposits is by wire / bank transfer (BAC). Our bank details are below. ");
+		}
+		$pdf->Ln(3.2); 
+		$pdf->Write(0,"For more information about how we calculate the exchange rates click or copy this link http://www.ionianweddings.co.uk/terms-and-conditions/#prices");
+		$pdf->Ln(3.2); 
+		$pdf->Write(0,"Please quote your surname and IW booking reference on your transaction");
+	
+		if($InvoiceCurrency == 'Euro') {
+		
+//			$col1.="For Euro (€) Payments:\n";
+//			$col1.="Account Holder Name - Andreas Palikiras\n";
+//			$col1.="Bank – National Bank of Greece\n";
+//			$col1.="Branch Code - 749\n";
+//			$col1.="Address – Corfu City Centre, 6 Samara Street, Kerkyra 49100, Greece\n";
+//			$col1.="Swift Code (BIC) - ETHNGRAA\n";
+//			$col1.="A/C No. - 279/603592-25\n";
+//			$col1.="IBAN – GR4201102790000027960359225\n";
+			
+			$pdf->Ln(5); 
+			$pdf->SetFont('Arial','','8'); 
+			$pdf->Write(0,"For Euro (€) Payments:");
+			$pdf->Ln(3.2); 
+			$pdf->Write(0,"Account Holder Name - Andreas Palikiras");
+			$pdf->Ln(3.2); 
+			$pdf->Write(0,"Bank – National Bank of Greece");
+			$pdf->Ln(3.2); 
+			$pdf->Write(0,"Branch Code - 749");
+			$pdf->Ln(3.2); 
+			$pdf->Write(0,"Address – Corfu City Centre, 6 Samara Street, Kerkyra 49100, Greece");
+			$pdf->Ln(3.2); 
+			$pdf->Write(0,"Swift Code (BIC) - ETHNGRAA");
+			$pdf->Ln(3.2); 
+			$pdf->Write(0,"A/C No. - 279/603592-25");
+			$pdf->Ln(3.2); 
+			$pdf->Write(0,"IBAN – GR4201102790000027960359225");
+			$pdf->Ln(5);
+		} else {
+			$pdf->Ln(5); 
+			$pdf->SetFont('Arial','','8'); 
+			$pdf->Write(0,"For Electronic Payments:");
+			$pdf->Ln(3.2); 
+			$pdf->Write(0,"Account Holder - Ionian Weddings Ltd");
+			$pdf->Ln(3.2); 
+			$pdf->Write(0,"Bank - Co-operative Bank PLC");
+			$pdf->Ln(3.2); 
+			$pdf->Write(0,"A/C No. - 70913224");
+			$pdf->Ln(3.2); 
+			$pdf->Write(0,"Sort Code - 08-92-50");
+			$pdf->Ln(3.2); 
+			$pdf->Write(0,"Swift (BIC) - CPBK GB 22");
+			$pdf->Ln(3.2); 
+			$pdf->Write(0,"IBAN – GB21 CPBK 08925070913224");
+			$pdf->Ln(5);
+		}
+		if($InvoiceCurrency == 'Euro') {
+			$pdf->Ln(3.2); 
+			$pdf->Write(0,"Balance payments are not refundable; if you wish to pay in Euros, you can only pay by international transfer into the account above. ");
+			$pdf->Ln(3.2); 
+			$pdf->Write(0,"Please ask us if you prefer to pay in Pounds.");
+		}
+		else {
+			$pdf->Ln(3.2); 
+			$pdf->Write(0,"Balance payments are not refundable; cheques are no longer accepted due to the abolition of the Cheque Guarantee Scheme.");
+			$pdf->Ln(3.2);
+			$pdf->Write(0,"We also accept debit cards and credit cards (there is a 2% transaction fee for credit cards and 3% for international credit cards)");
+			$pdf->Ln(3.2);
+			$pdf->Write(0,"Please ask for a form for card payments. If you prefer to pay in Euros, please let us know.");
+		}
+	
+	
+		/*$pdf->Write(0,"Balance payments are not refundable; cheques are no longer accepted due to the abolition of the Cheque Guarantee Scheme. We also accept debit cards and credit cards (there is a");
+		$pdf->Ln(3.2); 
+		$pdf->Write(0,"2% transaction fee for credit cards and 3% for international credit cards) – please ask for a form for card payments. If you prefer to pay in Euros, please let us know.");
+		*/
+		$pdf->Ln(5); 
+		$pdf->SetTextColor(152,72,6.6);
+		$pdf->Write(0,"THANK YOU FOR CHOOSING IONIAN WEDDINGS.");
+		$pdf->Ln(5); 
+	
+		$gety = $pdf->GetY(); 
+		
+		$pdf->Image("../images/invoice_abta.jpg", 185, $gety + 0.5, 16.93,6.77);
+		$pdf->SetFont('Arial','','8'); 
+		$pdf->SetTextColor(151,151,151);  
+		$pdf->Write(0,"© Copyright Ionian Weddings Ltd. ".date("Y")." – 10 Crane Mews, 32 Gould Road, Twickenham, England, TW2 6RS");
+		$pdf->Ln(3.5); 
+		$pdf->Write(0,"(t) / (f) +44 208 894 1991 - (e) weddings@ionianweddings.co.uk - (w) www.ionianweddings.co.uk");
+		$pdf->Ln(3.5); 
+		$pdf->Write(0,"Registered in England and Wales No. 06137035 | VAT Registration Number: 103185747");
+		$pdf->Ln(3.5);
+		$pdf->Write(0,'Page '.$pdf->PageNo().'/{nb}',0,0,'C');
+		$pdf->Ln(3.5);
 $pdf->output("invoice-".$_GET["invoice"].".pdf","D");
 
 $sql_command->close();
